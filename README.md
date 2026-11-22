@@ -260,28 +260,6 @@ erDiagram
 
 ---
 
-## 🐛 Canonical Bugs Diagnosed & Permanently Fixed
-
-| Canonical Bug | User Query Example | Old Flawed Behavior | Root Cause | Engineering Solution |
-| :--- | :--- | :--- | :--- | :--- |
-| **Bug A: Adobe Stats False Negative** | `"adobe placements stasts"` | *"We don't have records for Adobe"* | Greedy regex tokenization matched the typo `"stasts"` into a phantom branch entity `"ADOBE PLACEMENTS STASTS"`, yielding 0 rows. | Strict entity token segregation. Company extraction is isolated from branch extraction; branches must strictly match the 33-branch registry. |
-| **Bug B: 25' Batch Visited Companies** | `"list me the companies that visited for ECE for 25' batch"` | Returned clarification prompt asking which batch was meant. | Regex failed to parse trailing apostrophe (`25'`), and the SQL builder lacked a dedicated `list_companies` handler. | Added 68 regex-based cohort aliases mapping shorthands (`25'`, `'25`) to `2021-25`, plus a dedicated `list_companies` SQL template over `v_offers_flat`. |
-
----
-
-## 🎯 Evaluation & Benchmark Results
-
-The system is tested against an extensive test suite across 12 analytical and conversational categories:
-
-| Evaluation Suite | Total Queries | Passed | Failed | Accuracy | Focus Areas |
-| :--- | :---: | :---: | :---: | :---: | :--- |
-| **Development Benchmark** | 145 | 145 | 0 | **100.0%** | Package lookups, branch ratios, median comparisons, multi-condition |
-| **Held-Out Test Suite** | 30 | 30 | 0 | **100.0%** | Unseen query structures, edge-case cohorts, ambiguous wording |
-| **Adversarial Stress Test** | 99 | 99 | 0 | **100.0%** | PII extraction, SQL injection, Hinglish slang, out-of-scope topics |
-| **Total Verified Test Cases** | **274** | **274** | **0** | **100.0%** | **Flawless Zero-Hallucination Execution** |
-
----
-
 ## 🚀 Quickstart Guide
 
 ### Prerequisites
