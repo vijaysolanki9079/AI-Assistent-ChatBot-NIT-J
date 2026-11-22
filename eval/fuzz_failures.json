@@ -1,0 +1,4377 @@
+[
+  {
+    "id": "LOOKUP_01_TYPO",
+    "strategy": "typos",
+    "type": "Lookup",
+    "question": "What is the CTC of Microsfot for CSE?",
+    "rule": "Swapped adjacent letters in 'Microsoft'",
+    "gold": [
+      52.0
+    ],
+    "candidate": "CLARIFICATION_REQUIRED",
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "LOOKUP_01_HINGLISH",
+    "strategy": "hinglish",
+    "type": "Lookup",
+    "question": "yaar ctc kitna hai Microsoft for CSE? bhai",
+    "rule": "Hinglish compensation syntax",
+    "gold": [
+      52.0
+    ],
+    "candidate": [
+      10
+    ],
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code JOIN companies AS c ON o.company_id = c.company_id WHERE c.canonical_name = 'Microsoft' AND b.short_name = 'CSE' AND s.batch_id IN ('2020-2024', '2021-2025', '2022-2026') AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "LOOKUP_10_HINGLISH",
+    "strategy": "hinglish",
+    "type": "Lookup",
+    "question": "yaar ctc kitna hai Goldman Sachs? batao na",
+    "rule": "Hinglish compensation syntax",
+    "gold": [
+      24.0,
+      30.0
+    ],
+    "candidate": [
+      3
+    ],
+    "sql": "SELECT COUNT(o.offer_id) FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN companies AS c ON o.company_id = c.company_id WHERE c.canonical_name = 'Goldman Sachs' AND s.batch_id IN ('2020-2024', '2021-2025', '2022-2026');",
+    "error": null
+  },
+  {
+    "id": "COUNT_03_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Count by condition",
+    "question": "received offers above 20 LPA 2020-2024 batch",
+    "rule": "Dropped 4 stop words (Telegraphic)",
+    "gold": 48,
+    "candidate": "CLARIFICATION_REQUIRED",
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "COUNT_06_TYPO",
+    "strategy": "typos",
+    "type": "Count by condition",
+    "question": "How many total offeers were given to Mechanical Engineering students?",
+    "rule": "Duplicated letter in 'offers'",
+    "gold": 246,
+    "candidate": 208,
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE b.short_name = 'ME' AND s.batch_id IN ('2020-2024', '2021-2025', '2022-2026') AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "COUNT_07_TYPO",
+    "strategy": "typos",
+    "type": "Count by condition",
+    "question": "How many students got placed ofcampuss?",
+    "rule": "Dropped letter in 'offcampus'",
+    "gold": 85,
+    "candidate": "CLARIFICATION_REQUIRED",
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "COUNT_09_ABBREV",
+    "strategy": "abbreviations",
+    "type": "Count by condition",
+    "question": "How many students from CHE were placed in RIL?",
+    "rule": "Company -> RIL, Branch -> CHE",
+    "gold": 14,
+    "candidate": 5,
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code JOIN companies AS c ON o.company_id = c.company_id WHERE c.canonical_name = 'Reliance' AND b.short_name = 'CHE' AND s.batch_id IN ('2020-2024', '2021-2025', '2022-2026') AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "COUNT_10_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Count by condition",
+    "question": "have double job offers 2020-2024 batch",
+    "rule": "Dropped 4 stop words (Telegraphic)",
+    "gold": 154,
+    "candidate": "CLARIFICATION_REQUIRED",
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "BREAKDOWN_01_TYPO",
+    "strategy": "typos",
+    "type": "Branch-wise / year-wise breakdowns",
+    "question": "Companyisee offers for ECE in 2020-2024 batch",
+    "rule": "Dropped letter in 'Companywise'",
+    "gold": [
+      [
+        "Genpact next Gen",
+        20
+      ],
+      [
+        "Accenture",
+        4
+      ],
+      [
+        "Airtel Bharti",
+        4
+      ],
+      [
+        "Intel",
+        4
+      ],
+      [
+        "Neev Flipkart",
+        4
+      ],
+      [
+        "Betalectic",
+        3
+      ],
+      [
+        "TCS",
+        3
+      ],
+      [
+        "Trianz Digital",
+        3
+      ],
+      [
+        "CLOUDSUFI",
+        2
+      ],
+      [
+        "Cdot",
+        2
+      ],
+      [
+        "Future First",
+        2
+      ],
+      [
+        "Incedo",
+        2
+      ],
+      [
+        "Infosys",
+        2
+      ],
+      [
+        "Mphasis",
+        2
+      ],
+      [
+        "Shorthills AI",
+        2
+      ],
+      [
+        "Cubastion Consulting",
+        1
+      ],
+      [
+        "Decathlon",
+        1
+      ],
+      [
+        "EXL Services",
+        1
+      ],
+      [
+        "Fastenal India Sourcing, IT & Procurement",
+        1
+      ],
+      [
+        "GoDigit",
+        1
+      ],
+      [
+        "HCLTech",
+        1
+      ],
+      [
+        "Hexaware Technologies",
+        1
+      ],
+      [
+        "IBM",
+        1
+      ],
+      [
+        "Minimalist",
+        1
+      ],
+      [
+        "Moody's",
+        1
+      ],
+      [
+        "Nvidia",
+        1
+      ],
+      [
+        "RoundGlass",
+        1
+      ],
+      [
+        "Sagacious Research IP",
+        1
+      ],
+      [
+        "Samsung Research Noida",
+        1
+      ],
+      [
+        "Spyne Ai",
+        1
+      ],
+      [
+        "Teachnook",
+        1
+      ],
+      [
+        "Tech Mahindra",
+        1
+      ],
+      [
+        "Xeno",
+        1
+      ],
+      [
+        "Xenonstack",
+        1
+      ],
+      [
+        "Zscaler",
+        1
+      ]
+    ],
+    "candidate": [
+      [
+        79
+      ]
+    ],
+    "sql": "SELECT COUNT(o.offer_id) FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE b.short_name = 'ECE' AND s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "BREAKDOWN_08_TYPO",
+    "strategy": "typos",
+    "type": "Branch-wise / year-wise breakdowns",
+    "question": "Gendewisee placement count in 2020-2024 batch",
+    "rule": "Dropped letter in 'Genderwise'",
+    "gold": [
+      [
+        "M",
+        536
+      ],
+      [
+        "F",
+        180
+      ]
+    ],
+    "candidate": "CLARIFICATION_REQUIRED",
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "RANKING_01_TYPO",
+    "strategy": "typos",
+    "type": "Ranking / top-N",
+    "question": "Top 5 compaies by highest package",
+    "rule": "Dropped letter in 'companies'",
+    "gold": [
+      [
+        "Flow Trades Hong Kong Services",
+        116.0
+      ],
+      [
+        "Google",
+        62.0
+      ],
+      [
+        "Uber",
+        59.0
+      ],
+      [
+        "Microsoft",
+        52.0
+      ],
+      [
+        "Cred",
+        52.0
+      ]
+    ],
+    "candidate": [
+      [
+        "2020-2024",
+        62.0
+      ],
+      [
+        "2021-2025",
+        59.0
+      ],
+      [
+        "2022-2026",
+        116.0
+      ]
+    ],
+    "sql": "SELECT s.batch_id, MAX(o.ctc_lpa) AS max_ctc FROM offers AS o JOIN students AS s ON o.student_id = s.student_id WHERE NOT o.ctc_lpa IS NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') AND s.batch_id IN ('2020-2024', '2021-2025', '2022-2026') GROUP BY s.batch_id ORDER BY s.batch_id ASC;",
+    "error": null
+  },
+  {
+    "id": "RANKING_01_CASING",
+    "strategy": "casing",
+    "type": "Ranking / top-N",
+    "question": "Top 5 Companies By Highest Package",
+    "rule": "Title-Case",
+    "gold": [
+      [
+        "Flow Trades Hong Kong Services",
+        116.0
+      ],
+      [
+        "Google",
+        62.0
+      ],
+      [
+        "Uber",
+        59.0
+      ],
+      [
+        "Microsoft",
+        52.0
+      ],
+      [
+        "Cred",
+        52.0
+      ]
+    ],
+    "candidate": [
+      [
+        "2020-2024",
+        62.0
+      ],
+      [
+        "2021-2025",
+        59.0
+      ],
+      [
+        "2022-2026",
+        116.0
+      ]
+    ],
+    "sql": "SELECT s.batch_id, MAX(o.ctc_lpa) AS max_ctc FROM offers AS o JOIN students AS s ON o.student_id = s.student_id WHERE NOT o.ctc_lpa IS NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') AND s.batch_id IN ('2020-2024', '2021-2025', '2022-2026') GROUP BY s.batch_id ORDER BY s.batch_id ASC;",
+    "error": null
+  },
+  {
+    "id": "RANKING_01_HINGLISH",
+    "strategy": "hinglish",
+    "type": "Ranking / top-N",
+    "question": "sun bhai Top 5 companies by highest package bhai",
+    "rule": "Hinglish compensation syntax",
+    "gold": [
+      [
+        "Flow Trades Hong Kong Services",
+        116.0
+      ],
+      [
+        "Google",
+        62.0
+      ],
+      [
+        "Uber",
+        59.0
+      ],
+      [
+        "Microsoft",
+        52.0
+      ],
+      [
+        "Cred",
+        52.0
+      ]
+    ],
+    "candidate": [
+      [
+        "2020-2024",
+        62.0
+      ],
+      [
+        "2021-2025",
+        59.0
+      ],
+      [
+        "2022-2026",
+        116.0
+      ]
+    ],
+    "sql": "SELECT s.batch_id, MAX(o.ctc_lpa) AS max_ctc FROM offers AS o JOIN students AS s ON o.student_id = s.student_id WHERE NOT o.ctc_lpa IS NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') AND s.batch_id IN ('2020-2024', '2021-2025', '2022-2026') GROUP BY s.batch_id ORDER BY s.batch_id ASC;",
+    "error": null
+  },
+  {
+    "id": "RANKING_01_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Ranking / top-N",
+    "question": "Top 5 companies highest package",
+    "rule": "Dropped 1 stop words (Telegraphic)",
+    "gold": [
+      [
+        "Flow Trades Hong Kong Services",
+        116.0
+      ],
+      [
+        "Google",
+        62.0
+      ],
+      [
+        "Uber",
+        59.0
+      ],
+      [
+        "Microsoft",
+        52.0
+      ],
+      [
+        "Cred",
+        52.0
+      ]
+    ],
+    "candidate": [
+      [
+        "2020-2024",
+        62.0
+      ],
+      [
+        "2021-2025",
+        59.0
+      ],
+      [
+        "2022-2026",
+        116.0
+      ]
+    ],
+    "sql": "SELECT s.batch_id, MAX(o.ctc_lpa) AS max_ctc FROM offers AS o JOIN students AS s ON o.student_id = s.student_id WHERE NOT o.ctc_lpa IS NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') AND s.batch_id IN ('2020-2024', '2021-2025', '2022-2026') GROUP BY s.batch_id ORDER BY s.batch_id ASC;",
+    "error": null
+  },
+  {
+    "id": "RANKING_02_TYPO",
+    "strategy": "typos",
+    "type": "Ranking / top-N",
+    "question": "Which branch had the most offers above 20 LPA in 2020-2024 batcch?",
+    "rule": "Duplicated letter in 'batch'",
+    "gold": [
+      [
+        "CSE",
+        21
+      ]
+    ],
+    "candidate": [
+      [
+        "CSE",
+        21
+      ],
+      [
+        "IT",
+        19
+      ],
+      [
+        "EE",
+        3
+      ],
+      [
+        "ECE",
+        2
+      ],
+      [
+        "ICE",
+        2
+      ],
+      [
+        "ME",
+        1
+      ]
+    ],
+    "sql": "SELECT b.short_name, COUNT(o.offer_id) AS high_offers FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE o.ctc_lpa > 20.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') AND s.batch_id = '2020-2024' GROUP BY b.short_name ORDER BY high_offers DESC, b.short_name ASC;",
+    "error": null
+  },
+  {
+    "id": "RANKING_02_ABBREV",
+    "strategy": "abbreviations",
+    "type": "Ranking / top-N",
+    "question": "Which branch had the most offers above 20 LPA in 2020-24 batch?",
+    "rule": "Batch -> YY-YY",
+    "gold": [
+      [
+        "CSE",
+        21
+      ]
+    ],
+    "candidate": [
+      [
+        "CSE",
+        21
+      ],
+      [
+        "IT",
+        19
+      ],
+      [
+        "EE",
+        3
+      ],
+      [
+        "ECE",
+        2
+      ],
+      [
+        "ICE",
+        2
+      ],
+      [
+        "ME",
+        1
+      ]
+    ],
+    "sql": "SELECT b.short_name, COUNT(o.offer_id) AS high_offers FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE o.ctc_lpa > 20.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') AND s.batch_id = '2020-2024' GROUP BY b.short_name ORDER BY high_offers DESC, b.short_name ASC;",
+    "error": null
+  },
+  {
+    "id": "RANKING_02_CASING",
+    "strategy": "casing",
+    "type": "Ranking / top-N",
+    "question": "WHICH BRANCH HAD THE MOST OFFERS ABOVE 20 LPA IN 2020-2024 BATCH?",
+    "rule": "ALL-CAPS",
+    "gold": [
+      [
+        "CSE",
+        21
+      ]
+    ],
+    "candidate": [
+      [
+        "CSE",
+        21
+      ],
+      [
+        "IT",
+        19
+      ],
+      [
+        "EE",
+        3
+      ],
+      [
+        "ECE",
+        2
+      ],
+      [
+        "ICE",
+        2
+      ],
+      [
+        "ME",
+        1
+      ]
+    ],
+    "sql": "SELECT b.short_name, COUNT(o.offer_id) AS high_offers FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE o.ctc_lpa > 20.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') AND s.batch_id = '2020-2024' GROUP BY b.short_name ORDER BY high_offers DESC, b.short_name ASC;",
+    "error": null
+  },
+  {
+    "id": "RANKING_02_HINGLISH",
+    "strategy": "hinglish",
+    "type": "Ranking / top-N",
+    "question": "arre sun na Which branch had the most offers above 20 LPA in 2020-2024 batch? please",
+    "rule": "Colloquial Hinglish wrapper",
+    "gold": [
+      [
+        "CSE",
+        21
+      ]
+    ],
+    "candidate": [
+      [
+        "CSE",
+        21
+      ],
+      [
+        "IT",
+        19
+      ],
+      [
+        "EE",
+        3
+      ],
+      [
+        "ECE",
+        2
+      ],
+      [
+        "ICE",
+        2
+      ],
+      [
+        "ME",
+        1
+      ]
+    ],
+    "sql": "SELECT b.short_name, COUNT(o.offer_id) AS high_offers FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE o.ctc_lpa > 20.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') AND s.batch_id = '2020-2024' GROUP BY b.short_name ORDER BY high_offers DESC, b.short_name ASC;",
+    "error": null
+  },
+  {
+    "id": "RANKING_02_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Ranking / top-N",
+    "question": "branch had most offers above 20 LPA 2020-2024 batch",
+    "rule": "Dropped 3 stop words (Telegraphic)",
+    "gold": [
+      [
+        "CSE",
+        21
+      ]
+    ],
+    "candidate": [
+      [
+        "CSE",
+        21
+      ],
+      [
+        "IT",
+        19
+      ],
+      [
+        "EE",
+        3
+      ],
+      [
+        "ECE",
+        2
+      ],
+      [
+        "ICE",
+        2
+      ],
+      [
+        "ME",
+        1
+      ]
+    ],
+    "sql": "SELECT b.short_name, COUNT(o.offer_id) AS high_offers FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE o.ctc_lpa > 20.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') AND s.batch_id = '2020-2024' GROUP BY b.short_name ORDER BY high_offers DESC, b.short_name ASC;",
+    "error": null
+  },
+  {
+    "id": "RANKING_04_TYPO",
+    "strategy": "typos",
+    "type": "Ranking / top-N",
+    "question": "Top 5 branches by aevrage CTC in 2020-2024 batch",
+    "rule": "Swapped adjacent letters in 'average'",
+    "gold": [
+      [
+        "CSE",
+        14.44
+      ],
+      [
+        "IT",
+        13.03
+      ],
+      [
+        "EE",
+        12.28
+      ],
+      [
+        "ICE",
+        10.21
+      ],
+      [
+        "ECE",
+        9.87
+      ]
+    ],
+    "candidate": "CLARIFICATION_REQUIRED",
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "RANKING_04_ABBREV",
+    "strategy": "abbreviations",
+    "type": "Ranking / top-N",
+    "question": "Top 5 branches by average CTC in 2020-24 batch",
+    "rule": "Batch -> YY-YY",
+    "gold": [
+      [
+        "CSE",
+        14.44
+      ],
+      [
+        "IT",
+        13.03
+      ],
+      [
+        "EE",
+        12.28
+      ],
+      [
+        "ICE",
+        10.21
+      ],
+      [
+        "ECE",
+        9.87
+      ]
+    ],
+    "candidate": [
+      [
+        10.5
+      ]
+    ],
+    "sql": "SELECT ROUND(AVG(o.ctc_lpa), 2) AS overall_avg_ctc FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE s.batch_id = '2020-2024' AND b.degree = 'B.Tech' AND NOT o.ctc_lpa IS NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "RANKING_04_CASING",
+    "strategy": "casing",
+    "type": "Ranking / top-N",
+    "question": "top 5 branches by average ctc in 2020-2024 batch",
+    "rule": "all-lowercase",
+    "gold": [
+      [
+        "CSE",
+        14.44
+      ],
+      [
+        "IT",
+        13.03
+      ],
+      [
+        "EE",
+        12.28
+      ],
+      [
+        "ICE",
+        10.21
+      ],
+      [
+        "ECE",
+        9.87
+      ]
+    ],
+    "candidate": [
+      [
+        10.5
+      ]
+    ],
+    "sql": "SELECT ROUND(AVG(o.ctc_lpa), 2) AS overall_avg_ctc FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE s.batch_id = '2020-2024' AND b.degree = 'B.Tech' AND NOT o.ctc_lpa IS NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "RANKING_04_HINGLISH",
+    "strategy": "hinglish",
+    "type": "Ranking / top-N",
+    "question": "bhai Top 5 branches by average CTC in 2020-2024 batch tell me fast",
+    "rule": "Hinglish compensation syntax",
+    "gold": [
+      [
+        "CSE",
+        14.44
+      ],
+      [
+        "IT",
+        13.03
+      ],
+      [
+        "EE",
+        12.28
+      ],
+      [
+        "ICE",
+        10.21
+      ],
+      [
+        "ECE",
+        9.87
+      ]
+    ],
+    "candidate": [
+      [
+        10.5
+      ]
+    ],
+    "sql": "SELECT ROUND(AVG(o.ctc_lpa), 2) AS overall_avg_ctc FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE s.batch_id = '2020-2024' AND b.degree = 'B.Tech' AND NOT o.ctc_lpa IS NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "RANKING_04_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Ranking / top-N",
+    "question": "Top 5 branches average CTC 2020-2024 batch",
+    "rule": "Dropped 2 stop words (Telegraphic)",
+    "gold": [
+      [
+        "CSE",
+        14.44
+      ],
+      [
+        "IT",
+        13.03
+      ],
+      [
+        "EE",
+        12.28
+      ],
+      [
+        "ICE",
+        10.21
+      ],
+      [
+        "ECE",
+        9.87
+      ]
+    ],
+    "candidate": [
+      [
+        10.5
+      ]
+    ],
+    "sql": "SELECT ROUND(AVG(o.ctc_lpa), 2) AS overall_avg_ctc FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE s.batch_id = '2020-2024' AND b.degree = 'B.Tech' AND NOT o.ctc_lpa IS NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "RANKING_07_CASING",
+    "strategy": "casing",
+    "type": "Ranking / top-N",
+    "question": "Top 5 Companies By Number Of Ppo Offers",
+    "rule": "Title-Case",
+    "gold": [
+      [
+        "Intel",
+        30
+      ],
+      [
+        "Sunpharma",
+        14
+      ],
+      [
+        "Blackrock",
+        11
+      ],
+      [
+        "Amazon",
+        10
+      ],
+      [
+        "Reliance Industries",
+        8
+      ]
+    ],
+    "candidate": [
+      [
+        "L&T",
+        62
+      ],
+      [
+        "Infosys",
+        55
+      ],
+      [
+        "Optum",
+        53
+      ],
+      [
+        "Genpact next Gen",
+        52
+      ],
+      [
+        "Reliance Industries",
+        51
+      ]
+    ],
+    "sql": "SELECT c.canonical_name, COUNT(o.offer_id) AS offers_count FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN companies AS c ON o.company_id = c.company_id WHERE o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') AND s.batch_id IN ('2020-2024', '2021-2025', '2022-2026') GROUP BY c.canonical_name ORDER BY offers_count DESC, c.canonical_name ASC LIMIT 5;",
+    "error": null
+  },
+  {
+    "id": "RANKING_07_HINGLISH",
+    "strategy": "hinglish",
+    "type": "Ranking / top-N",
+    "question": "sun bhai Top 5 companies by number of PPO offers bhai",
+    "rule": "Colloquial Hinglish wrapper",
+    "gold": [
+      [
+        "Intel",
+        30
+      ],
+      [
+        "Sunpharma",
+        14
+      ],
+      [
+        "Blackrock",
+        11
+      ],
+      [
+        "Amazon",
+        10
+      ],
+      [
+        "Reliance Industries",
+        8
+      ]
+    ],
+    "candidate": [
+      [
+        "L&T",
+        62
+      ],
+      [
+        "Infosys",
+        55
+      ],
+      [
+        "Optum",
+        53
+      ],
+      [
+        "Genpact next Gen",
+        52
+      ],
+      [
+        "Reliance Industries",
+        51
+      ]
+    ],
+    "sql": "SELECT c.canonical_name, COUNT(o.offer_id) AS offers_count FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN companies AS c ON o.company_id = c.company_id WHERE o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') AND s.batch_id IN ('2020-2024', '2021-2025', '2022-2026') GROUP BY c.canonical_name ORDER BY offers_count DESC, c.canonical_name ASC LIMIT 5;",
+    "error": null
+  },
+  {
+    "id": "RANKING_07_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Ranking / top-N",
+    "question": "Top 5 companies number PPO offers",
+    "rule": "Dropped 2 stop words (Telegraphic)",
+    "gold": [
+      [
+        "Intel",
+        30
+      ],
+      [
+        "Sunpharma",
+        14
+      ],
+      [
+        "Blackrock",
+        11
+      ],
+      [
+        "Amazon",
+        10
+      ],
+      [
+        "Reliance Industries",
+        8
+      ]
+    ],
+    "candidate": [
+      [
+        "L&T",
+        62
+      ],
+      [
+        "Infosys",
+        55
+      ],
+      [
+        "Optum",
+        53
+      ],
+      [
+        "Genpact next Gen",
+        52
+      ],
+      [
+        "Reliance Industries",
+        51
+      ]
+    ],
+    "sql": "SELECT c.canonical_name, COUNT(o.offer_id) AS offers_count FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN companies AS c ON o.company_id = c.company_id WHERE o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') AND s.batch_id IN ('2020-2024', '2021-2025', '2022-2026') GROUP BY c.canonical_name ORDER BY offers_count DESC, c.canonical_name ASC LIMIT 5;",
+    "error": null
+  },
+  {
+    "id": "RANKING_08_TYPO",
+    "strategy": "typos",
+    "type": "Ranking / top-N",
+    "question": "Bottom 3 branches by placement percentage in 202020424 batch",
+    "rule": "Swapped adjacent letters in '20202024'",
+    "gold": [
+      [
+        "BT",
+        28.57
+      ],
+      [
+        "TT",
+        46.34
+      ],
+      [
+        "ECE",
+        54.62
+      ]
+    ],
+    "candidate": [
+      [
+        "2020-2024",
+        88.78,
+        811,
+        720
+      ],
+      [
+        "2021-2025",
+        92.82,
+        864,
+        802
+      ],
+      [
+        "2022-2026",
+        47.74,
+        798,
+        381
+      ]
+    ],
+    "sql": "SELECT batch_id, placement_pct, eligible_students, placed_students FROM batch_branch_stats WHERE branch_code = 'TOTAL' AND degree = 'B.Tech' ORDER BY batch_id ASC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "RANKING_08_ABBREV",
+    "strategy": "abbreviations",
+    "type": "Ranking / top-N",
+    "question": "Bottom 3 branches by placement percentage in 2020-24 batch",
+    "rule": "Batch -> YY-YY",
+    "gold": [
+      [
+        "BT",
+        28.57
+      ],
+      [
+        "TT",
+        46.34
+      ],
+      [
+        "ECE",
+        54.62
+      ]
+    ],
+    "candidate": [
+      [
+        88.78,
+        811,
+        720
+      ]
+    ],
+    "sql": "SELECT placement_pct, eligible_students, placed_students FROM batch_branch_stats WHERE branch_code = 'TOTAL' AND batch_id = '2020-2024' AND degree = 'B.Tech' LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "RANKING_08_CASING",
+    "strategy": "casing",
+    "type": "Ranking / top-N",
+    "question": "Bottom 3 Branches By Placement Percentage In 2020-2024 Batch",
+    "rule": "Title-Case",
+    "gold": [
+      [
+        "BT",
+        28.57
+      ],
+      [
+        "TT",
+        46.34
+      ],
+      [
+        "ECE",
+        54.62
+      ]
+    ],
+    "candidate": [
+      [
+        88.78,
+        811,
+        720
+      ]
+    ],
+    "sql": "SELECT placement_pct, eligible_students, placed_students FROM batch_branch_stats WHERE branch_code = 'TOTAL' AND batch_id = '2020-2024' AND degree = 'B.Tech' LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "RANKING_08_HINGLISH",
+    "strategy": "hinglish",
+    "type": "Ranking / top-N",
+    "question": "sun bhai Bottom 3 branches by placement percentage in 2020-2024 batch bhai",
+    "rule": "Colloquial Hinglish wrapper",
+    "gold": [
+      [
+        "BT",
+        28.57
+      ],
+      [
+        "TT",
+        46.34
+      ],
+      [
+        "ECE",
+        54.62
+      ]
+    ],
+    "candidate": [
+      [
+        88.78,
+        811,
+        720
+      ]
+    ],
+    "sql": "SELECT placement_pct, eligible_students, placed_students FROM batch_branch_stats WHERE branch_code = 'TOTAL' AND batch_id = '2020-2024' AND degree = 'B.Tech' LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "RANKING_08_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Ranking / top-N",
+    "question": "Bottom 3 branches placement percentage 2020-2024 batch",
+    "rule": "Dropped 2 stop words (Telegraphic)",
+    "gold": [
+      [
+        "BT",
+        28.57
+      ],
+      [
+        "TT",
+        46.34
+      ],
+      [
+        "ECE",
+        54.62
+      ]
+    ],
+    "candidate": [
+      [
+        88.78,
+        811,
+        720
+      ]
+    ],
+    "sql": "SELECT placement_pct, eligible_students, placed_students FROM batch_branch_stats WHERE branch_code = 'TOTAL' AND batch_id = '2020-2024' AND degree = 'B.Tech' LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "AGG_03_TYPO",
+    "strategy": "typos",
+    "type": "Aggregates with filters",
+    "question": "Average package of feale students in 2020-2024 batch",
+    "rule": "Dropped letter in 'female'",
+    "gold": 12.01,
+    "candidate": 10.5,
+    "sql": "SELECT ROUND(AVG(o.ctc_lpa), 2) AS overall_avg_ctc FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE s.batch_id = '2020-2024' AND b.degree = 'B.Tech' AND NOT o.ctc_lpa IS NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "AGG_04_TYPO",
+    "strategy": "typos",
+    "type": "Aggregates with filters",
+    "question": "Averaeg CTC of circuit branches in 2020-2024 batch",
+    "rule": "Swapped adjacent letters in 'Average'",
+    "gold": 12.37,
+    "candidate": "CLARIFICATION_REQUIRED",
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "AGG_05_TYPO",
+    "strategy": "typos",
+    "type": "Aggregates with filters",
+    "question": "Overall averge package of NIT Jalandhar in 2020-2024 batch",
+    "rule": "Dropped letter in 'average'",
+    "gold": 10.5,
+    "candidate": "CLARIFICATION_REQUIRED",
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "AGG_06_TYPO",
+    "strategy": "typos",
+    "type": "Aggregates with filters",
+    "question": "Avergae package offered by Amazon across all students",
+    "rule": "Swapped adjacent letters in 'Average'",
+    "gold": 30.6,
+    "candidate": 52.0,
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN companies AS c ON o.company_id = c.company_id WHERE c.canonical_name = 'Amazon' AND s.batch_id IN ('2020-2024', '2021-2025', '2022-2026') AND NOT o.ctc_lpa IS NULL ORDER BY o.ctc_lpa DESC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "AGG_07_TYPO",
+    "strategy": "typos",
+    "type": "Aggregates with filters",
+    "question": "Average monthly stiped for summer internships in 2023-2027 batch",
+    "rule": "Dropped letter in 'stipend'",
+    "gold": 69219.0,
+    "candidate": null,
+    "sql": "SELECT ROUND(AVG(o.ctc_lpa), 2) AS overall_avg_ctc FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE s.batch_id = '2023-2027' AND b.degree = 'B.Tech' AND NOT o.ctc_lpa IS NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "AGG_09_TYPO",
+    "strategy": "typos",
+    "type": "Aggregates with filters",
+    "question": "Averaeg CTC of off-campus placements in 2021-2025 batch",
+    "rule": "Swapped adjacent letters in 'Average'",
+    "gold": 15.08,
+    "candidate": "CLARIFICATION_REQUIRED",
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "PERCENT_01_TYPO",
+    "strategy": "typos",
+    "type": "Percentages / ratios",
+    "question": "What percentage of CSE students got placed in 202022044 batch?",
+    "rule": "Swapped adjacent letters in '20202024'",
+    "gold": 74.7,
+    "candidate": "2020-2024",
+    "sql": "SELECT batch_id, placement_pct, eligible_students, placed_students FROM batch_branch_stats WHERE branch_code = '103' ORDER BY batch_id ASC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "PERCENT_02_TYPO",
+    "strategy": "typos",
+    "type": "Percentages / ratios",
+    "question": "What percenage of IT students got placed in 2020-2024 batch?",
+    "rule": "Dropped letter in 'percentage'",
+    "gold": 81.2,
+    "candidate": 95,
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE b.short_name = 'IT' AND s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "PERCENT_05_TYPO",
+    "strategy": "typos",
+    "type": "Percentages / ratios",
+    "question": "Placement percentage of Mechanical Engineering in 202022044 batch",
+    "rule": "Swapped adjacent letters in '20202024'",
+    "gold": 73.28,
+    "candidate": "2020-2024",
+    "sql": "SELECT batch_id, placement_pct, eligible_students, placed_students FROM batch_branch_stats WHERE branch_code = '109' ORDER BY batch_id ASC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "PERCENT_06_TYPO",
+    "strategy": "typos",
+    "type": "Percentages / ratios",
+    "question": "What percenatge of female students got placed in CSE in 2020-2024?",
+    "rule": "Swapped adjacent letters in 'percentage'",
+    "gold": 82.86,
+    "candidate": 180,
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers AS o JOIN students AS s ON o.student_id = s.student_id WHERE s.batch_id = '2020-2024' AND s.gender = 'F' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "PERCENT_09_TYPO",
+    "strategy": "typos",
+    "type": "Percentages / ratios",
+    "question": "What perccentage of placed students hold double offers in 2020-2024 batch?",
+    "rule": "Duplicated letter in 'percentage'",
+    "gold": 21.51,
+    "candidate": 154,
+    "sql": "SELECT COUNT(*) FROM (SELECT s.student_id FROM offers AS o JOIN students AS s ON o.student_id = s.student_id WHERE s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY s.student_id HAVING COUNT(o.offer_id) >= 2);",
+    "error": null
+  },
+  {
+    "id": "TREND_04_TYPO",
+    "strategy": "typos",
+    "type": "Trends / comparisons",
+    "question": "Commpare placement percentage between 2020-2024 and 2021-2025 batches",
+    "rule": "Duplicated letter in 'Compare'",
+    "gold": [
+      [
+        "2020-2024",
+        1094,
+        716,
+        65.45
+      ],
+      [
+        "2021-2025",
+        1114,
+        783,
+        70.29
+      ]
+    ],
+    "candidate": [
+      [
+        "2020-2024",
+        88.78,
+        811,
+        720
+      ],
+      [
+        "2021-2025",
+        92.82,
+        864,
+        802
+      ],
+      [
+        "2022-2026",
+        47.74,
+        798,
+        381
+      ]
+    ],
+    "sql": "SELECT batch_id, placement_pct, eligible_students, placed_students FROM batch_branch_stats WHERE branch_code = 'TOTAL' AND degree = 'B.Tech' ORDER BY batch_id ASC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "TREND_04_ABBREV",
+    "strategy": "abbreviations",
+    "type": "Trends / comparisons",
+    "question": "Compare placement percentage between 2020-24 and 2021-25 batches",
+    "rule": "Batch -> YY-YY",
+    "gold": [
+      [
+        "2020-2024",
+        1094,
+        716,
+        65.45
+      ],
+      [
+        "2021-2025",
+        1114,
+        783,
+        70.29
+      ]
+    ],
+    "candidate": [
+      [
+        "2020-2024",
+        88.78,
+        811,
+        720
+      ],
+      [
+        "2021-2025",
+        92.82,
+        864,
+        802
+      ],
+      [
+        "2022-2026",
+        47.74,
+        798,
+        381
+      ]
+    ],
+    "sql": "SELECT batch_id, placement_pct, eligible_students, placed_students FROM batch_branch_stats WHERE branch_code = 'TOTAL' AND degree = 'B.Tech' ORDER BY batch_id ASC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "TREND_04_CASING",
+    "strategy": "casing",
+    "type": "Trends / comparisons",
+    "question": "Compare Placement Percentage Between 2020-2024 And 2021-2025 Batches",
+    "rule": "Title-Case",
+    "gold": [
+      [
+        "2020-2024",
+        1094,
+        716,
+        65.45
+      ],
+      [
+        "2021-2025",
+        1114,
+        783,
+        70.29
+      ]
+    ],
+    "candidate": [
+      [
+        "2020-2024",
+        88.78,
+        811,
+        720
+      ],
+      [
+        "2021-2025",
+        92.82,
+        864,
+        802
+      ],
+      [
+        "2022-2026",
+        47.74,
+        798,
+        381
+      ]
+    ],
+    "sql": "SELECT batch_id, placement_pct, eligible_students, placed_students FROM batch_branch_stats WHERE branch_code = 'TOTAL' AND degree = 'B.Tech' ORDER BY batch_id ASC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "TREND_04_HINGLISH",
+    "strategy": "hinglish",
+    "type": "Trends / comparisons",
+    "question": "bhai Compare placement percentage between 2020-2024 and 2021-2025 batches batao na",
+    "rule": "Colloquial Hinglish wrapper",
+    "gold": [
+      [
+        "2020-2024",
+        1094,
+        716,
+        65.45
+      ],
+      [
+        "2021-2025",
+        1114,
+        783,
+        70.29
+      ]
+    ],
+    "candidate": [
+      [
+        "2020-2024",
+        88.78,
+        811,
+        720
+      ],
+      [
+        "2021-2025",
+        92.82,
+        864,
+        802
+      ],
+      [
+        "2022-2026",
+        47.74,
+        798,
+        381
+      ]
+    ],
+    "sql": "SELECT batch_id, placement_pct, eligible_students, placed_students FROM batch_branch_stats WHERE branch_code = 'TOTAL' AND degree = 'B.Tech' ORDER BY batch_id ASC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "TREND_04_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Trends / comparisons",
+    "question": "Compare placement percentage between 2020-2024 2021-2025 batches",
+    "rule": "Dropped 1 stop words (Telegraphic)",
+    "gold": [
+      [
+        "2020-2024",
+        1094,
+        716,
+        65.45
+      ],
+      [
+        "2021-2025",
+        1114,
+        783,
+        70.29
+      ]
+    ],
+    "candidate": [
+      [
+        "2020-2024",
+        88.78,
+        811,
+        720
+      ],
+      [
+        "2021-2025",
+        92.82,
+        864,
+        802
+      ],
+      [
+        "2022-2026",
+        47.74,
+        798,
+        381
+      ]
+    ],
+    "sql": "SELECT batch_id, placement_pct, eligible_students, placed_students FROM batch_branch_stats WHERE branch_code = 'TOTAL' AND degree = 'B.Tech' ORDER BY batch_id ASC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "TREND_08_TYPO",
+    "strategy": "typos",
+    "type": "Trends / comparisons",
+    "question": "Compare Inofsys and TCS hiring across all batches",
+    "rule": "Swapped adjacent letters in 'Infosys'",
+    "gold": [
+      [
+        "Infosys",
+        54,
+        55,
+        5.53
+      ],
+      [
+        "TCS",
+        5,
+        5,
+        9.0
+      ]
+    ],
+    "candidate": [
+      [
+        "2020-2024",
+        5,
+        0
+      ]
+    ],
+    "sql": "SELECT s.batch_id, COUNT(DISTINCT CASE WHEN o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') THEN s.student_id END) AS full_time_hires, COUNT(CASE WHEN o.offer_type IN ('Intern', 'Long Intern', 'Summer Intern') OR (NOT o.stipend_monthly_inr IS NULL AND o.ctc_lpa IS NULL) THEN o.offer_id END) AS intern_offers FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN companies AS c ON o.company_id = c.company_id WHERE c.canonical_name = 'TCS' GROUP BY s.batch_id ORDER BY s.batch_id ASC;",
+    "error": null
+  },
+  {
+    "id": "MULTI_07_TYPO",
+    "strategy": "typos",
+    "type": "Multi-condition",
+    "question": "Which companies hred through PPO with package > 30 LPA?",
+    "rule": "Dropped letter in 'hired'",
+    "gold": [
+      [
+        "Cred",
+        52.0
+      ],
+      [
+        "Amazon",
+        52.0
+      ],
+      [
+        "School Hack FZ-LLC",
+        44.0
+      ],
+      [
+        "School Hack FZLLC",
+        38.0
+      ],
+      [
+        "PayPal",
+        34.4
+      ]
+    ],
+    "candidate": [],
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "MULTI_07_CASING",
+    "strategy": "casing",
+    "type": "Multi-condition",
+    "question": "Which Companies Hired Through Ppo With Package > 30 Lpa?",
+    "rule": "Title-Case",
+    "gold": [
+      [
+        "Cred",
+        52.0
+      ],
+      [
+        "Amazon",
+        52.0
+      ],
+      [
+        "School Hack FZ-LLC",
+        44.0
+      ],
+      [
+        "School Hack FZLLC",
+        38.0
+      ],
+      [
+        "PayPal",
+        34.4
+      ]
+    ],
+    "candidate": [],
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "MULTI_07_HINGLISH",
+    "strategy": "hinglish",
+    "type": "Multi-condition",
+    "question": "sun bhai Which companies hired through PPO with package > 30 LPA? yaar",
+    "rule": "Hinglish compensation syntax",
+    "gold": [
+      [
+        "Cred",
+        52.0
+      ],
+      [
+        "Amazon",
+        52.0
+      ],
+      [
+        "School Hack FZ-LLC",
+        44.0
+      ],
+      [
+        "School Hack FZLLC",
+        38.0
+      ],
+      [
+        "PayPal",
+        34.4
+      ]
+    ],
+    "candidate": [],
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "MULTI_07_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Multi-condition",
+    "question": "companies hired through PPO package > 30 LPA",
+    "rule": "Dropped 2 stop words (Telegraphic)",
+    "gold": [
+      [
+        "Cred",
+        52.0
+      ],
+      [
+        "Amazon",
+        52.0
+      ],
+      [
+        "School Hack FZ-LLC",
+        44.0
+      ],
+      [
+        "School Hack FZLLC",
+        38.0
+      ],
+      [
+        "PayPal",
+        34.4
+      ]
+    ],
+    "candidate": [],
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "MULTI_07_FOLLOWUP",
+    "strategy": "followup",
+    "type": "Multi-condition",
+    "question": "And which companies hired through ppo with package > 30 lpa?",
+    "rule": "Conversational follow-up prefix",
+    "gold": [
+      [
+        "Cred",
+        52.0
+      ],
+      [
+        "Amazon",
+        52.0
+      ],
+      [
+        "School Hack FZ-LLC",
+        44.0
+      ],
+      [
+        "School Hack FZLLC",
+        38.0
+      ],
+      [
+        "PayPal",
+        34.4
+      ]
+    ],
+    "candidate": [],
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "MULTI_09_TYPO",
+    "strategy": "typos",
+    "type": "Multi-condition",
+    "question": "Companies that hired in 2021-2025 batch with package >= 15 LPA and made at leat 3 offers",
+    "rule": "Dropped letter in 'least'",
+    "gold": [
+      [
+        "Bharat Petroleum Corporation",
+        29
+      ],
+      [
+        "Optum",
+        19
+      ],
+      [
+        "Cvent",
+        14
+      ],
+      [
+        "Microsoft",
+        12
+      ],
+      [
+        "Juspay",
+        10
+      ],
+      [
+        "Amazon",
+        9
+      ],
+      [
+        "Oracle",
+        8
+      ],
+      [
+        "Trident",
+        7
+      ],
+      [
+        "Google",
+        6
+      ],
+      [
+        "Pocketfm",
+        5
+      ],
+      [
+        "Increff",
+        5
+      ],
+      [
+        "Flipkart",
+        5
+      ],
+      [
+        "Citi Bank",
+        5
+      ],
+      [
+        "Fastenal",
+        4
+      ],
+      [
+        "Cisco",
+        4
+      ],
+      [
+        "Samsung",
+        3
+      ],
+      [
+        "Infineon",
+        3
+      ],
+      [
+        "HPCL",
+        3
+      ],
+      [
+        "Clear",
+        3
+      ]
+    ],
+    "candidate": [
+      [
+        57
+      ]
+    ],
+    "sql": "SELECT COUNT(o.offer_id) FROM offers AS o JOIN students AS s ON o.student_id = s.student_id WHERE o.ctc_lpa > 20.0 AND s.batch_id = '2021-2025' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "MULTI_09_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Multi-condition",
+    "question": "Companies that hired 2021-2025 batch package >= 15 LPA made least 3 offers",
+    "rule": "Dropped 4 stop words (Telegraphic)",
+    "gold": [
+      [
+        "Bharat Petroleum Corporation",
+        29
+      ],
+      [
+        "Optum",
+        19
+      ],
+      [
+        "Cvent",
+        14
+      ],
+      [
+        "Microsoft",
+        12
+      ],
+      [
+        "Juspay",
+        10
+      ],
+      [
+        "Amazon",
+        9
+      ],
+      [
+        "Oracle",
+        8
+      ],
+      [
+        "Trident",
+        7
+      ],
+      [
+        "Google",
+        6
+      ],
+      [
+        "Pocketfm",
+        5
+      ],
+      [
+        "Increff",
+        5
+      ],
+      [
+        "Flipkart",
+        5
+      ],
+      [
+        "Citi Bank",
+        5
+      ],
+      [
+        "Fastenal",
+        4
+      ],
+      [
+        "Cisco",
+        4
+      ],
+      [
+        "Samsung",
+        3
+      ],
+      [
+        "Infineon",
+        3
+      ],
+      [
+        "HPCL",
+        3
+      ],
+      [
+        "Clear",
+        3
+      ]
+    ],
+    "candidate": [
+      [
+        "Flow Trades Hong Kong Services",
+        116.0
+      ],
+      [
+        "Google",
+        62.0
+      ],
+      [
+        "Uber",
+        59.0
+      ],
+      [
+        "Microsoft",
+        52.0
+      ],
+      [
+        "Cred",
+        52.0
+      ]
+    ],
+    "sql": "SELECT c.canonical_name, MAX(o.ctc_lpa) AS max_ctc FROM offers AS o JOIN companies AS c ON o.company_id = c.company_id WHERE NOT o.ctc_lpa IS NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY c.canonical_name ORDER BY max_ctc DESC LIMIT 5;",
+    "error": null
+  },
+  {
+    "id": "MULTI_10_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Multi-condition",
+    "question": "companies hired both BTech MTech",
+    "rule": "Dropped 3 stop words (Telegraphic)",
+    "gold": [
+      "Academor",
+      "BEL",
+      "HCLTech",
+      "Hindustan Petroleum Corporation",
+      "IBM Software",
+      "Infineon",
+      "Intel",
+      "Juniper Energy",
+      "Kuantum Paper",
+      "L&T",
+      "Microsoft",
+      "NXP Semiconductor",
+      "Proxima Steel Forge",
+      "Sagacious Reserch",
+      "Tata Consulting Engineers",
+      "Teachnook",
+      "Trutzschler"
+    ],
+    "candidate": "CLARIFICATION_REQUIRED",
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "NEGATIVE_03_TYPO",
+    "strategy": "typos",
+    "type": "Negative / existence",
+    "question": "Which B.Tech branches had zero femael placements in 2020-2024 batch?",
+    "rule": "Swapped adjacent letters in 'female'",
+    "gold": [
+      "DSE",
+      "VLSI"
+    ],
+    "candidate": "CLARIFICATION_REQUIRED",
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "NEGATIVE_06_TYPO",
+    "strategy": "typos",
+    "type": "Negative / existence",
+    "question": "Which core branches had no offeers above 15 LPA in 2020-2024 batch?",
+    "rule": "Duplicated letter in 'offers'",
+    "gold": [],
+    "candidate": [
+      15
+    ],
+    "sql": "SELECT COUNT(DISTINCT s.student_id) AS core_super_students FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE b.division = 'Core' AND s.batch_id = '2020-2024' AND o.ctc_lpa >= 15.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "NEGATIVE_08_TYPO",
+    "strategy": "typos",
+    "type": "Negative / existence",
+    "question": "Which companies hired zero students from Inforrmation Technology?",
+    "rule": "Duplicated letter in 'Information'",
+    "gold": [
+      "ACME Generics",
+      "ACME Group",
+      "AMD",
+      "Aakash Educational Services",
+      "Aarti Industries",
+      "Abhi fire Safety Services",
+      "Adani Group",
+      "Aditya birla",
+      "Adobe",
+      "AdvaRisk"
+    ],
+    "candidate": [
+      "ACME Generics",
+      "ACME Group",
+      "AMD",
+      "Aakash Educational Services",
+      "Aarti Industries",
+      "Abhi fire Safety Services",
+      "Adani Group",
+      "Aditya birla",
+      "Adobe",
+      "AdvaRisk",
+      "Afcons",
+      "Afcons Infrastructure",
+      "Affordable Oraganic Store",
+      "Air liquide",
+      "Airliquide",
+      "Algoquant",
+      "Allen Career Institute",
+      "Allenoverseas",
+      "Alstom",
+      "American Express",
+      "Anatech consulting",
+      "Aphonso",
+      "Apple",
+      "Arvind",
+      "Asahi India Glass",
+      "Ashirvad by Aliaxis",
+      "Ashok Leyland",
+      "Ashriwad Pipes",
+      "Astrotalk",
+      "Axis Bank",
+      "Ayudo",
+      "BNP Paribas",
+      "BPCL",
+      "Bajaj Finance",
+      "Bajaj Finserv",
+      "Bakliwal Tutorials",
+      "Balarpur Industries (BGPPL)",
+      "Barco Electronics",
+      "Berger Paints",
+      "Betalectic",
+      "Bharat Electronics",
+      "Bharat Petroleum Corporation",
+      "Bit Mapper Integration Technologies",
+      "Bit TO Byte Robotics",
+      "Bit to Byte robotics",
+      "Blinkit",
+      "Blinkt",
+      "Block Next Labs",
+      "Bluno Technologies",
+      "Bosch",
+      "Bosch Global Software",
+      "Brance",
+      "Browserstack",
+      "Bullseyes",
+      "Bureau of Indian Standards",
+      "Bureau of Indian standards",
+      "CDac Mohali",
+      "CISCO",
+      "CISCO Systems",
+      "Cabalt Breakout Platforms",
+      "Cadence",
+      "Cairn Oil",
+      "Capgemini Solutions",
+      "Cdot",
+      "Centrient Pharaceuticals",
+      "Chainscore Finance",
+      "Chambal Fertilizers",
+      "CiSCO",
+      "Cisco",
+      "Cisco System(India)",
+      "Clear",
+      "Clearwater",
+      "Cloudprism Solution",
+      "Cloudwick",
+      "Codebugged Ai",
+      "CoinSwitch",
+      "Colgate",
+      "Comile IT as a Credential Platform",
+      "Concast",
+      "Coperion",
+      "Copperpod IP",
+      "Corizo",
+      "Cred",
+      "Crescendo Group",
+      "Crompton",
+      "Cubastion Consulting",
+      "Cubik",
+      "Cure.fit",
+      "DCM Shriram",
+      "Dayananda Sagar University",
+      "Decathlon",
+      "Delhivery",
+      "Delihivery",
+      "Dell Technologies",
+      "Denso International",
+      "Development Environergy Services",
+      "Directioneducare",
+      "E2open",
+      "ENTNT",
+      "Engineer"
+    ],
+    "sql": "SELECT c.canonical_name FROM companies AS c WHERE NOT c.company_id IN (SELECT DISTINCT o.company_id FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE b.short_name = 'IT' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')) ORDER BY c.canonical_name ASC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "NEGATIVE_08_ABBREV",
+    "strategy": "abbreviations",
+    "type": "Negative / existence",
+    "question": "Which companies hired zero students from IT?",
+    "rule": "Branch -> IT",
+    "gold": [
+      "ACME Generics",
+      "ACME Group",
+      "AMD",
+      "Aakash Educational Services",
+      "Aarti Industries",
+      "Abhi fire Safety Services",
+      "Adani Group",
+      "Aditya birla",
+      "Adobe",
+      "AdvaRisk"
+    ],
+    "candidate": [
+      "ACME Generics",
+      "ACME Group",
+      "AMD",
+      "Aakash Educational Services",
+      "Aarti Industries",
+      "Abhi fire Safety Services",
+      "Adani Group",
+      "Aditya birla",
+      "Adobe",
+      "AdvaRisk",
+      "Afcons",
+      "Afcons Infrastructure",
+      "Affordable Oraganic Store",
+      "Air liquide",
+      "Airliquide",
+      "Algoquant",
+      "Allen Career Institute",
+      "Allenoverseas",
+      "Alstom",
+      "American Express",
+      "Anatech consulting",
+      "Aphonso",
+      "Apple",
+      "Arvind",
+      "Asahi India Glass",
+      "Ashirvad by Aliaxis",
+      "Ashok Leyland",
+      "Ashriwad Pipes",
+      "Astrotalk",
+      "Axis Bank",
+      "Ayudo",
+      "BNP Paribas",
+      "BPCL",
+      "Bajaj Finance",
+      "Bajaj Finserv",
+      "Bakliwal Tutorials",
+      "Balarpur Industries (BGPPL)",
+      "Barco Electronics",
+      "Berger Paints",
+      "Betalectic",
+      "Bharat Electronics",
+      "Bharat Petroleum Corporation",
+      "Bit Mapper Integration Technologies",
+      "Bit TO Byte Robotics",
+      "Bit to Byte robotics",
+      "Blinkit",
+      "Blinkt",
+      "Block Next Labs",
+      "Bluno Technologies",
+      "Bosch",
+      "Bosch Global Software",
+      "Brance",
+      "Browserstack",
+      "Bullseyes",
+      "Bureau of Indian Standards",
+      "Bureau of Indian standards",
+      "CDac Mohali",
+      "CISCO",
+      "CISCO Systems",
+      "Cabalt Breakout Platforms",
+      "Cadence",
+      "Cairn Oil",
+      "Capgemini Solutions",
+      "Cdot",
+      "Centrient Pharaceuticals",
+      "Chainscore Finance",
+      "Chambal Fertilizers",
+      "CiSCO",
+      "Cisco",
+      "Cisco System(India)",
+      "Clear",
+      "Clearwater",
+      "Cloudprism Solution",
+      "Cloudwick",
+      "Codebugged Ai",
+      "CoinSwitch",
+      "Colgate",
+      "Comile IT as a Credential Platform",
+      "Concast",
+      "Coperion",
+      "Copperpod IP",
+      "Corizo",
+      "Cred",
+      "Crescendo Group",
+      "Crompton",
+      "Cubastion Consulting",
+      "Cubik",
+      "Cure.fit",
+      "DCM Shriram",
+      "Dayananda Sagar University",
+      "Decathlon",
+      "Delhivery",
+      "Delihivery",
+      "Dell Technologies",
+      "Denso International",
+      "Development Environergy Services",
+      "Directioneducare",
+      "E2open",
+      "ENTNT",
+      "Engineer"
+    ],
+    "sql": "SELECT c.canonical_name FROM companies AS c WHERE NOT c.company_id IN (SELECT DISTINCT o.company_id FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE b.short_name = 'IT' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')) ORDER BY c.canonical_name ASC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "NEGATIVE_08_CASING",
+    "strategy": "casing",
+    "type": "Negative / existence",
+    "question": "Which Companies Hired Zero Students From Information Technology?",
+    "rule": "Title-Case",
+    "gold": [
+      "ACME Generics",
+      "ACME Group",
+      "AMD",
+      "Aakash Educational Services",
+      "Aarti Industries",
+      "Abhi fire Safety Services",
+      "Adani Group",
+      "Aditya birla",
+      "Adobe",
+      "AdvaRisk"
+    ],
+    "candidate": [
+      "ACME Generics",
+      "ACME Group",
+      "AMD",
+      "Aakash Educational Services",
+      "Aarti Industries",
+      "Abhi fire Safety Services",
+      "Adani Group",
+      "Aditya birla",
+      "Adobe",
+      "AdvaRisk",
+      "Afcons",
+      "Afcons Infrastructure",
+      "Affordable Oraganic Store",
+      "Air liquide",
+      "Airliquide",
+      "Algoquant",
+      "Allen Career Institute",
+      "Allenoverseas",
+      "Alstom",
+      "American Express",
+      "Anatech consulting",
+      "Aphonso",
+      "Apple",
+      "Arvind",
+      "Asahi India Glass",
+      "Ashirvad by Aliaxis",
+      "Ashok Leyland",
+      "Ashriwad Pipes",
+      "Astrotalk",
+      "Axis Bank",
+      "Ayudo",
+      "BNP Paribas",
+      "BPCL",
+      "Bajaj Finance",
+      "Bajaj Finserv",
+      "Bakliwal Tutorials",
+      "Balarpur Industries (BGPPL)",
+      "Barco Electronics",
+      "Berger Paints",
+      "Betalectic",
+      "Bharat Electronics",
+      "Bharat Petroleum Corporation",
+      "Bit Mapper Integration Technologies",
+      "Bit TO Byte Robotics",
+      "Bit to Byte robotics",
+      "Blinkit",
+      "Blinkt",
+      "Block Next Labs",
+      "Bluno Technologies",
+      "Bosch",
+      "Bosch Global Software",
+      "Brance",
+      "Browserstack",
+      "Bullseyes",
+      "Bureau of Indian Standards",
+      "Bureau of Indian standards",
+      "CDac Mohali",
+      "CISCO",
+      "CISCO Systems",
+      "Cabalt Breakout Platforms",
+      "Cadence",
+      "Cairn Oil",
+      "Capgemini Solutions",
+      "Cdot",
+      "Centrient Pharaceuticals",
+      "Chainscore Finance",
+      "Chambal Fertilizers",
+      "CiSCO",
+      "Cisco",
+      "Cisco System(India)",
+      "Clear",
+      "Clearwater",
+      "Cloudprism Solution",
+      "Cloudwick",
+      "Codebugged Ai",
+      "CoinSwitch",
+      "Colgate",
+      "Comile IT as a Credential Platform",
+      "Concast",
+      "Coperion",
+      "Copperpod IP",
+      "Corizo",
+      "Cred",
+      "Crescendo Group",
+      "Crompton",
+      "Cubastion Consulting",
+      "Cubik",
+      "Cure.fit",
+      "DCM Shriram",
+      "Dayananda Sagar University",
+      "Decathlon",
+      "Delhivery",
+      "Delihivery",
+      "Dell Technologies",
+      "Denso International",
+      "Development Environergy Services",
+      "Directioneducare",
+      "E2open",
+      "ENTNT",
+      "Engineer"
+    ],
+    "sql": "SELECT c.canonical_name FROM companies AS c WHERE NOT c.company_id IN (SELECT DISTINCT o.company_id FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE b.short_name = 'IT' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')) ORDER BY c.canonical_name ASC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "NEGATIVE_08_HINGLISH",
+    "strategy": "hinglish",
+    "type": "Negative / existence",
+    "question": "sun bhai Which companies hired zero students from Information Technology? please",
+    "rule": "Colloquial Hinglish wrapper",
+    "gold": [
+      "ACME Generics",
+      "ACME Group",
+      "AMD",
+      "Aakash Educational Services",
+      "Aarti Industries",
+      "Abhi fire Safety Services",
+      "Adani Group",
+      "Aditya birla",
+      "Adobe",
+      "AdvaRisk"
+    ],
+    "candidate": [
+      "ACME Generics",
+      "ACME Group",
+      "AMD",
+      "Aakash Educational Services",
+      "Aarti Industries",
+      "Abhi fire Safety Services",
+      "Adani Group",
+      "Aditya birla",
+      "Adobe",
+      "AdvaRisk",
+      "Afcons",
+      "Afcons Infrastructure",
+      "Affordable Oraganic Store",
+      "Air liquide",
+      "Airliquide",
+      "Algoquant",
+      "Allen Career Institute",
+      "Allenoverseas",
+      "Alstom",
+      "American Express",
+      "Anatech consulting",
+      "Aphonso",
+      "Apple",
+      "Arvind",
+      "Asahi India Glass",
+      "Ashirvad by Aliaxis",
+      "Ashok Leyland",
+      "Ashriwad Pipes",
+      "Astrotalk",
+      "Axis Bank",
+      "Ayudo",
+      "BNP Paribas",
+      "BPCL",
+      "Bajaj Finance",
+      "Bajaj Finserv",
+      "Bakliwal Tutorials",
+      "Balarpur Industries (BGPPL)",
+      "Barco Electronics",
+      "Berger Paints",
+      "Betalectic",
+      "Bharat Electronics",
+      "Bharat Petroleum Corporation",
+      "Bit Mapper Integration Technologies",
+      "Bit TO Byte Robotics",
+      "Bit to Byte robotics",
+      "Blinkit",
+      "Blinkt",
+      "Block Next Labs",
+      "Bluno Technologies",
+      "Bosch",
+      "Bosch Global Software",
+      "Brance",
+      "Browserstack",
+      "Bullseyes",
+      "Bureau of Indian Standards",
+      "Bureau of Indian standards",
+      "CDac Mohali",
+      "CISCO",
+      "CISCO Systems",
+      "Cabalt Breakout Platforms",
+      "Cadence",
+      "Cairn Oil",
+      "Capgemini Solutions",
+      "Cdot",
+      "Centrient Pharaceuticals",
+      "Chainscore Finance",
+      "Chambal Fertilizers",
+      "CiSCO",
+      "Cisco",
+      "Cisco System(India)",
+      "Clear",
+      "Clearwater",
+      "Cloudprism Solution",
+      "Cloudwick",
+      "Codebugged Ai",
+      "CoinSwitch",
+      "Colgate",
+      "Comile IT as a Credential Platform",
+      "Concast",
+      "Coperion",
+      "Copperpod IP",
+      "Corizo",
+      "Cred",
+      "Crescendo Group",
+      "Crompton",
+      "Cubastion Consulting",
+      "Cubik",
+      "Cure.fit",
+      "DCM Shriram",
+      "Dayananda Sagar University",
+      "Decathlon",
+      "Delhivery",
+      "Delihivery",
+      "Dell Technologies",
+      "Denso International",
+      "Development Environergy Services",
+      "Directioneducare",
+      "E2open",
+      "ENTNT",
+      "Engineer"
+    ],
+    "sql": "SELECT c.canonical_name FROM companies AS c WHERE NOT c.company_id IN (SELECT DISTINCT o.company_id FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE b.short_name = 'IT' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')) ORDER BY c.canonical_name ASC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "NEGATIVE_08_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Negative / existence",
+    "question": "companies hired zero Information Technology",
+    "rule": "Dropped 3 stop words (Telegraphic)",
+    "gold": [
+      "ACME Generics",
+      "ACME Group",
+      "AMD",
+      "Aakash Educational Services",
+      "Aarti Industries",
+      "Abhi fire Safety Services",
+      "Adani Group",
+      "Aditya birla",
+      "Adobe",
+      "AdvaRisk"
+    ],
+    "candidate": "CLARIFICATION_REQUIRED",
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "NEGATIVE_08_FOLLOWUP",
+    "strategy": "followup",
+    "type": "Negative / existence",
+    "question": "And which companies hired zero students from information technology?",
+    "rule": "Conversational follow-up prefix",
+    "gold": [
+      "ACME Generics",
+      "ACME Group",
+      "AMD",
+      "Aakash Educational Services",
+      "Aarti Industries",
+      "Abhi fire Safety Services",
+      "Adani Group",
+      "Aditya birla",
+      "Adobe",
+      "AdvaRisk"
+    ],
+    "candidate": [
+      "ACME Generics",
+      "ACME Group",
+      "AMD",
+      "Aakash Educational Services",
+      "Aarti Industries",
+      "Abhi fire Safety Services",
+      "Adani Group",
+      "Aditya birla",
+      "Adobe",
+      "AdvaRisk",
+      "Afcons",
+      "Afcons Infrastructure",
+      "Affordable Oraganic Store",
+      "Air liquide",
+      "Airliquide",
+      "Algoquant",
+      "Allen Career Institute",
+      "Allenoverseas",
+      "Alstom",
+      "American Express",
+      "Anatech consulting",
+      "Aphonso",
+      "Apple",
+      "Arvind",
+      "Asahi India Glass",
+      "Ashirvad by Aliaxis",
+      "Ashok Leyland",
+      "Ashriwad Pipes",
+      "Astrotalk",
+      "Axis Bank",
+      "Ayudo",
+      "BNP Paribas",
+      "BPCL",
+      "Bajaj Finance",
+      "Bajaj Finserv",
+      "Bakliwal Tutorials",
+      "Balarpur Industries (BGPPL)",
+      "Barco Electronics",
+      "Berger Paints",
+      "Betalectic",
+      "Bharat Electronics",
+      "Bharat Petroleum Corporation",
+      "Bit Mapper Integration Technologies",
+      "Bit TO Byte Robotics",
+      "Bit to Byte robotics",
+      "Blinkit",
+      "Blinkt",
+      "Block Next Labs",
+      "Bluno Technologies",
+      "Bosch",
+      "Bosch Global Software",
+      "Brance",
+      "Browserstack",
+      "Bullseyes",
+      "Bureau of Indian Standards",
+      "Bureau of Indian standards",
+      "CDac Mohali",
+      "CISCO",
+      "CISCO Systems",
+      "Cabalt Breakout Platforms",
+      "Cadence",
+      "Cairn Oil",
+      "Capgemini Solutions",
+      "Cdot",
+      "Centrient Pharaceuticals",
+      "Chainscore Finance",
+      "Chambal Fertilizers",
+      "CiSCO",
+      "Cisco",
+      "Cisco System(India)",
+      "Clear",
+      "Clearwater",
+      "Cloudprism Solution",
+      "Cloudwick",
+      "Codebugged Ai",
+      "CoinSwitch",
+      "Colgate",
+      "Comile IT as a Credential Platform",
+      "Concast",
+      "Coperion",
+      "Copperpod IP",
+      "Corizo",
+      "Cred",
+      "Crescendo Group",
+      "Crompton",
+      "Cubastion Consulting",
+      "Cubik",
+      "Cure.fit",
+      "DCM Shriram",
+      "Dayananda Sagar University",
+      "Decathlon",
+      "Delhivery",
+      "Delihivery",
+      "Dell Technologies",
+      "Denso International",
+      "Development Environergy Services",
+      "Directioneducare",
+      "E2open",
+      "ENTNT",
+      "Engineer"
+    ],
+    "sql": "SELECT c.canonical_name FROM companies AS c WHERE NOT c.company_id IN (SELECT DISTINCT o.company_id FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code WHERE b.short_name = 'IT' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')) ORDER BY c.canonical_name ASC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "NEGATIVE_10_TYPO",
+    "strategy": "typos",
+    "type": "Negative / existence",
+    "question": "Which companies never hired in 2020-2024 batch but hired in 201220255 batch?",
+    "rule": "Swapped adjacent letters in '20212025'",
+    "gold": [
+      "ACME Generics",
+      "Academor",
+      "Aditya birla",
+      "Afcons",
+      "Air liquide",
+      "Algoquant",
+      "Amantya Tech",
+      "Ashriwad Pipes",
+      "Astrotalk",
+      "Atlas Consolidated"
+    ],
+    "candidate": "CLARIFICATION_REQUIRED",
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "NEGATIVE_10_ABBREV",
+    "strategy": "abbreviations",
+    "type": "Negative / existence",
+    "question": "Which companies never hired in 2020-24 batch but hired in 2021-25 batch?",
+    "rule": "Batch -> YY-YY",
+    "gold": [
+      "ACME Generics",
+      "Academor",
+      "Aditya birla",
+      "Afcons",
+      "Air liquide",
+      "Algoquant",
+      "Amantya Tech",
+      "Ashriwad Pipes",
+      "Astrotalk",
+      "Atlas Consolidated"
+    ],
+    "candidate": [
+      "ACME Generics",
+      "Academor",
+      "Aditya birla",
+      "Afcons",
+      "Air liquide",
+      "Algoquant",
+      "Amantya Tech",
+      "Ashriwad Pipes",
+      "Astrotalk",
+      "Atlas Consolidated",
+      "BEL",
+      "BNP Paribas",
+      "Barco Electronics",
+      "Bharat Electronics",
+      "Bit TO Byte Robotics",
+      "Bit to Byte robotics",
+      "Blinkt",
+      "Browserstack",
+      "CDac Mohali",
+      "CISCO",
+      "Cabalt Breakout Platforms",
+      "Cabra Bags",
+      "Cadence",
+      "Centrient Pharaceuticals",
+      "Chainscore Finance",
+      "Chambal Fertilizers",
+      "CiSCO",
+      "Cimpress",
+      "Citi Bank",
+      "Clear",
+      "Clearwater",
+      "Cloudprism Solution",
+      "Cloudwick",
+      "Codebugged Ai",
+      "CoinSwitch",
+      "Comile IT as a Credential Platform",
+      "Concast",
+      "Coperion",
+      "Corizo",
+      "Cred",
+      "Crompton",
+      "Cure.fit",
+      "Dealermatrix",
+      "Delihivery",
+      "E2open",
+      "EY Global",
+      "Engineer",
+      "Enoylity",
+      "Fidelity International",
+      "Fiducia Accounting Services",
+      "FnZ",
+      "Fratelli Singh",
+      "FurtureFirst",
+      "Globallogic",
+      "Greenko",
+      "HP",
+      "HRRL",
+      "Hero Edu",
+      "Himatsinka",
+      "Honda Cars",
+      "Honeywell",
+      "Hummingbird Web Solution",
+      "ICICI",
+      "ICICI Bank",
+      "IEC Electric Power",
+      "IOLCP",
+      "India Glycols",
+      "IndiaMart",
+      "Infineon",
+      "Infinity Learn",
+      "Intellipaat",
+      "Ivypods",
+      "Jayaswal Neco Industries",
+      "Jubilant",
+      "Jungle Works",
+      "Jungleworks",
+      "Juspay",
+      "KISCO",
+      "KMBD Architects",
+      "Kashmiri Lal Tarun Khanna",
+      "Kfintech",
+      "Khosla Profil",
+      "Kirloskar Ferrous",
+      "Kisanwala Technology",
+      "Kuantum Paper",
+      "Kuantum Papers",
+      "Kushal Rubber Industries",
+      "Lifelong online",
+      "LikeMinds Or Collab Mates",
+      "Listenlights",
+      "M/s Mahavir Ugyog",
+      "Mahalaxmi Malt Productions",
+      "Manohar Filaments",
+      "Microsoft",
+      "Midas IT Solutions",
+      "Mondelez",
+      "Mondelez International",
+      "Movidu Technology",
+      "Mu Sigma",
+      "NAB Innovation Centre"
+    ],
+    "sql": "SELECT DISTINCT c.canonical_name FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN companies AS c ON o.company_id = c.company_id WHERE s.batch_id = '2021-2025' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') AND NOT c.company_id IN (SELECT DISTINCT o2.company_id FROM offers AS o2 JOIN students AS s2 ON o2.student_id = s2.student_id WHERE s2.batch_id = '2020-2024' AND o2.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')) ORDER BY c.canonical_name ASC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "NEGATIVE_10_CASING",
+    "strategy": "casing",
+    "type": "Negative / existence",
+    "question": "Which Companies Never Hired In 2020-2024 Batch But Hired In 2021-2025 Batch?",
+    "rule": "Title-Case",
+    "gold": [
+      "ACME Generics",
+      "Academor",
+      "Aditya birla",
+      "Afcons",
+      "Air liquide",
+      "Algoquant",
+      "Amantya Tech",
+      "Ashriwad Pipes",
+      "Astrotalk",
+      "Atlas Consolidated"
+    ],
+    "candidate": [
+      "ACME Generics",
+      "Academor",
+      "Aditya birla",
+      "Afcons",
+      "Air liquide",
+      "Algoquant",
+      "Amantya Tech",
+      "Ashriwad Pipes",
+      "Astrotalk",
+      "Atlas Consolidated",
+      "BEL",
+      "BNP Paribas",
+      "Barco Electronics",
+      "Bharat Electronics",
+      "Bit TO Byte Robotics",
+      "Bit to Byte robotics",
+      "Blinkt",
+      "Browserstack",
+      "CDac Mohali",
+      "CISCO",
+      "Cabalt Breakout Platforms",
+      "Cabra Bags",
+      "Cadence",
+      "Centrient Pharaceuticals",
+      "Chainscore Finance",
+      "Chambal Fertilizers",
+      "CiSCO",
+      "Cimpress",
+      "Citi Bank",
+      "Clear",
+      "Clearwater",
+      "Cloudprism Solution",
+      "Cloudwick",
+      "Codebugged Ai",
+      "CoinSwitch",
+      "Comile IT as a Credential Platform",
+      "Concast",
+      "Coperion",
+      "Corizo",
+      "Cred",
+      "Crompton",
+      "Cure.fit",
+      "Dealermatrix",
+      "Delihivery",
+      "E2open",
+      "EY Global",
+      "Engineer",
+      "Enoylity",
+      "Fidelity International",
+      "Fiducia Accounting Services",
+      "FnZ",
+      "Fratelli Singh",
+      "FurtureFirst",
+      "Globallogic",
+      "Greenko",
+      "HP",
+      "HRRL",
+      "Hero Edu",
+      "Himatsinka",
+      "Honda Cars",
+      "Honeywell",
+      "Hummingbird Web Solution",
+      "ICICI",
+      "ICICI Bank",
+      "IEC Electric Power",
+      "IOLCP",
+      "India Glycols",
+      "IndiaMart",
+      "Infineon",
+      "Infinity Learn",
+      "Intellipaat",
+      "Ivypods",
+      "Jayaswal Neco Industries",
+      "Jubilant",
+      "Jungle Works",
+      "Jungleworks",
+      "Juspay",
+      "KISCO",
+      "KMBD Architects",
+      "Kashmiri Lal Tarun Khanna",
+      "Kfintech",
+      "Khosla Profil",
+      "Kirloskar Ferrous",
+      "Kisanwala Technology",
+      "Kuantum Paper",
+      "Kuantum Papers",
+      "Kushal Rubber Industries",
+      "Lifelong online",
+      "LikeMinds Or Collab Mates",
+      "Listenlights",
+      "M/s Mahavir Ugyog",
+      "Mahalaxmi Malt Productions",
+      "Manohar Filaments",
+      "Microsoft",
+      "Midas IT Solutions",
+      "Mondelez",
+      "Mondelez International",
+      "Movidu Technology",
+      "Mu Sigma",
+      "NAB Innovation Centre"
+    ],
+    "sql": "SELECT DISTINCT c.canonical_name FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN companies AS c ON o.company_id = c.company_id WHERE s.batch_id = '2021-2025' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') AND NOT c.company_id IN (SELECT DISTINCT o2.company_id FROM offers AS o2 JOIN students AS s2 ON o2.student_id = s2.student_id WHERE s2.batch_id = '2020-2024' AND o2.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')) ORDER BY c.canonical_name ASC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "NEGATIVE_10_HINGLISH",
+    "strategy": "hinglish",
+    "type": "Negative / existence",
+    "question": "sun bhai Which companies never hired in 2020-2024 batch but hired in 2021-2025 batch? yaar",
+    "rule": "Colloquial Hinglish wrapper",
+    "gold": [
+      "ACME Generics",
+      "Academor",
+      "Aditya birla",
+      "Afcons",
+      "Air liquide",
+      "Algoquant",
+      "Amantya Tech",
+      "Ashriwad Pipes",
+      "Astrotalk",
+      "Atlas Consolidated"
+    ],
+    "candidate": [
+      "ACME Generics",
+      "Academor",
+      "Aditya birla",
+      "Afcons",
+      "Air liquide",
+      "Algoquant",
+      "Amantya Tech",
+      "Ashriwad Pipes",
+      "Astrotalk",
+      "Atlas Consolidated",
+      "BEL",
+      "BNP Paribas",
+      "Barco Electronics",
+      "Bharat Electronics",
+      "Bit TO Byte Robotics",
+      "Bit to Byte robotics",
+      "Blinkt",
+      "Browserstack",
+      "CDac Mohali",
+      "CISCO",
+      "Cabalt Breakout Platforms",
+      "Cabra Bags",
+      "Cadence",
+      "Centrient Pharaceuticals",
+      "Chainscore Finance",
+      "Chambal Fertilizers",
+      "CiSCO",
+      "Cimpress",
+      "Citi Bank",
+      "Clear",
+      "Clearwater",
+      "Cloudprism Solution",
+      "Cloudwick",
+      "Codebugged Ai",
+      "CoinSwitch",
+      "Comile IT as a Credential Platform",
+      "Concast",
+      "Coperion",
+      "Corizo",
+      "Cred",
+      "Crompton",
+      "Cure.fit",
+      "Dealermatrix",
+      "Delihivery",
+      "E2open",
+      "EY Global",
+      "Engineer",
+      "Enoylity",
+      "Fidelity International",
+      "Fiducia Accounting Services",
+      "FnZ",
+      "Fratelli Singh",
+      "FurtureFirst",
+      "Globallogic",
+      "Greenko",
+      "HP",
+      "HRRL",
+      "Hero Edu",
+      "Himatsinka",
+      "Honda Cars",
+      "Honeywell",
+      "Hummingbird Web Solution",
+      "ICICI",
+      "ICICI Bank",
+      "IEC Electric Power",
+      "IOLCP",
+      "India Glycols",
+      "IndiaMart",
+      "Infineon",
+      "Infinity Learn",
+      "Intellipaat",
+      "Ivypods",
+      "Jayaswal Neco Industries",
+      "Jubilant",
+      "Jungle Works",
+      "Jungleworks",
+      "Juspay",
+      "KISCO",
+      "KMBD Architects",
+      "Kashmiri Lal Tarun Khanna",
+      "Kfintech",
+      "Khosla Profil",
+      "Kirloskar Ferrous",
+      "Kisanwala Technology",
+      "Kuantum Paper",
+      "Kuantum Papers",
+      "Kushal Rubber Industries",
+      "Lifelong online",
+      "LikeMinds Or Collab Mates",
+      "Listenlights",
+      "M/s Mahavir Ugyog",
+      "Mahalaxmi Malt Productions",
+      "Manohar Filaments",
+      "Microsoft",
+      "Midas IT Solutions",
+      "Mondelez",
+      "Mondelez International",
+      "Movidu Technology",
+      "Mu Sigma",
+      "NAB Innovation Centre"
+    ],
+    "sql": "SELECT DISTINCT c.canonical_name FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN companies AS c ON o.company_id = c.company_id WHERE s.batch_id = '2021-2025' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') AND NOT c.company_id IN (SELECT DISTINCT o2.company_id FROM offers AS o2 JOIN students AS s2 ON o2.student_id = s2.student_id WHERE s2.batch_id = '2020-2024' AND o2.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')) ORDER BY c.canonical_name ASC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "NEGATIVE_10_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Negative / existence",
+    "question": "companies never hired 2020-2024 batch but hired 2021-2025 batch",
+    "rule": "Dropped 3 stop words (Telegraphic)",
+    "gold": [
+      "ACME Generics",
+      "Academor",
+      "Aditya birla",
+      "Afcons",
+      "Air liquide",
+      "Algoquant",
+      "Amantya Tech",
+      "Ashriwad Pipes",
+      "Astrotalk",
+      "Atlas Consolidated"
+    ],
+    "candidate": "CLARIFICATION_REQUIRED",
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "OFFERTYPE_01_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Offer-type aware",
+    "question": "PPOs Amazon",
+    "rule": "Dropped 5 stop words (Telegraphic)",
+    "gold": 10,
+    "candidate": 52.0,
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN companies AS c ON o.company_id = c.company_id WHERE c.canonical_name = 'Amazon' AND s.batch_id IN ('2020-2024', '2021-2025', '2022-2026') AND NOT o.ctc_lpa IS NULL ORDER BY o.ctc_lpa DESC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "OFFERTYPE_05_TYPO",
+    "strategy": "typos",
+    "type": "Offer-type aware",
+    "question": "How many long intern offers were conevrted with full-time confirmation?",
+    "rule": "Swapped adjacent letters in 'converted'",
+    "gold": 127,
+    "candidate": 253,
+    "sql": "SELECT COUNT(o.offer_id) AS intern_count FROM offers AS o JOIN students AS s ON o.student_id = s.student_id WHERE (o.offer_type IN ('Intern', 'Long Intern', 'Summer Intern') OR (NOT o.stipend_monthly_inr IS NULL AND o.ctc_lpa IS NULL)) AND s.batch_id IN ('2020-2024', '2021-2025', '2022-2026');",
+    "error": null
+  },
+  {
+    "id": "OFFERTYPE_09_ABBREV",
+    "strategy": "abbreviations",
+    "type": "Offer-type aware",
+    "question": "How many PPOs did Reliance give in CHE?",
+    "rule": "Company -> Reliance, Branch -> CHE",
+    "gold": 3,
+    "candidate": 0,
+    "sql": "SELECT COUNT(o.offer_id) AS reliance_che_ppos FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code JOIN companies AS c ON o.company_id = c.company_id WHERE c.canonical_name = 'Reliance' AND b.short_name = 'CHE' AND o.offer_type IN ('PPO', 'Intern+PPO');",
+    "error": null
+  },
+  {
+    "id": "OFFERTYPE_09_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Offer-type aware",
+    "question": "PPOs Reliance Industries give Chemical Engineering",
+    "rule": "Dropped 4 stop words (Telegraphic)",
+    "gold": 3,
+    "candidate": 7.5,
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers AS o JOIN students AS s ON o.student_id = s.student_id JOIN branches AS b ON s.branch_code = b.branch_code JOIN companies AS c ON o.company_id = c.company_id WHERE c.canonical_name = 'Reliance Industries' AND b.short_name = 'CHE' AND s.batch_id IN ('2020-2024', '2021-2025', '2022-2026') AND NOT o.ctc_lpa IS NULL ORDER BY o.ctc_lpa DESC LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "HYBRID_03_TYPO",
+    "strategy": "typos",
+    "type": "Hybrid",
+    "question": "Which companies hired CSE with CTC >= 20 LPA and what projects did students diiscuss?",
+    "rule": "Duplicated letter in 'discuss'",
+    "gold": [
+      [
+        "Amazon"
+      ],
+      [
+        "Bharat Petroleum Corporation"
+      ],
+      [
+        "CISCO Systems"
+      ],
+      [
+        "Cisco"
+      ],
+      [
+        "Ensuredit"
+      ],
+      [
+        "Expedia Group"
+      ],
+      [
+        "Goldman Sachs"
+      ],
+      [
+        "Google"
+      ],
+      [
+        "Increff"
+      ],
+      [
+        "Juspay"
+      ],
+      [
+        "MakeMyTrip"
+      ],
+      [
+        "Microsoft"
+      ],
+      [
+        "Nvidia"
+      ],
+      [
+        "Oracle"
+      ],
+      [
+        "PayPal"
+      ],
+      [
+        "Pocketfm"
+      ],
+      [
+        "Rapidfort"
+      ],
+      [
+        "ServiceNow"
+      ],
+      [
+        "UGK"
+      ],
+      [
+        "UKG"
+      ],
+      [
+        "Zscaler"
+      ]
+    ],
+    "candidate": [
+      [
+        48
+      ]
+    ],
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers AS o JOIN students AS s ON o.student_id = s.student_id WHERE o.ctc_lpa > 20.0 AND s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "HYBRID_03_CASING",
+    "strategy": "casing",
+    "type": "Hybrid",
+    "question": "WHICH COMPANIES HIRED CSE WITH CTC >= 20 LPA AND WHAT PROJECTS DID STUDENTS DISCUSS?",
+    "rule": "ALL-CAPS",
+    "gold": [
+      [
+        "Amazon"
+      ],
+      [
+        "Bharat Petroleum Corporation"
+      ],
+      [
+        "CISCO Systems"
+      ],
+      [
+        "Cisco"
+      ],
+      [
+        "Ensuredit"
+      ],
+      [
+        "Expedia Group"
+      ],
+      [
+        "Goldman Sachs"
+      ],
+      [
+        "Google"
+      ],
+      [
+        "Increff"
+      ],
+      [
+        "Juspay"
+      ],
+      [
+        "MakeMyTrip"
+      ],
+      [
+        "Microsoft"
+      ],
+      [
+        "Nvidia"
+      ],
+      [
+        "Oracle"
+      ],
+      [
+        "PayPal"
+      ],
+      [
+        "Pocketfm"
+      ],
+      [
+        "Rapidfort"
+      ],
+      [
+        "ServiceNow"
+      ],
+      [
+        "UGK"
+      ],
+      [
+        "UKG"
+      ],
+      [
+        "Zscaler"
+      ]
+    ],
+    "candidate": [
+      [
+        48
+      ]
+    ],
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers AS o JOIN students AS s ON o.student_id = s.student_id WHERE o.ctc_lpa > 20.0 AND s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "HYBRID_03_HINGLISH",
+    "strategy": "hinglish",
+    "type": "Hybrid",
+    "question": "sun bhai Which companies hired CSE with CTC >= 20 LPA and what projects did students discuss? bhai",
+    "rule": "Hinglish compensation syntax",
+    "gold": [
+      [
+        "Amazon"
+      ],
+      [
+        "Bharat Petroleum Corporation"
+      ],
+      [
+        "CISCO Systems"
+      ],
+      [
+        "Cisco"
+      ],
+      [
+        "Ensuredit"
+      ],
+      [
+        "Expedia Group"
+      ],
+      [
+        "Goldman Sachs"
+      ],
+      [
+        "Google"
+      ],
+      [
+        "Increff"
+      ],
+      [
+        "Juspay"
+      ],
+      [
+        "MakeMyTrip"
+      ],
+      [
+        "Microsoft"
+      ],
+      [
+        "Nvidia"
+      ],
+      [
+        "Oracle"
+      ],
+      [
+        "PayPal"
+      ],
+      [
+        "Pocketfm"
+      ],
+      [
+        "Rapidfort"
+      ],
+      [
+        "ServiceNow"
+      ],
+      [
+        "UGK"
+      ],
+      [
+        "UKG"
+      ],
+      [
+        "Zscaler"
+      ]
+    ],
+    "candidate": [
+      [
+        48
+      ]
+    ],
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers AS o JOIN students AS s ON o.student_id = s.student_id WHERE o.ctc_lpa > 20.0 AND s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "HYBRID_03_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Hybrid",
+    "question": "companies hired CSE CTC >= 20 LPA projects discuss",
+    "rule": "Dropped 6 stop words (Telegraphic)",
+    "gold": [
+      [
+        "Amazon"
+      ],
+      [
+        "Bharat Petroleum Corporation"
+      ],
+      [
+        "CISCO Systems"
+      ],
+      [
+        "Cisco"
+      ],
+      [
+        "Ensuredit"
+      ],
+      [
+        "Expedia Group"
+      ],
+      [
+        "Goldman Sachs"
+      ],
+      [
+        "Google"
+      ],
+      [
+        "Increff"
+      ],
+      [
+        "Juspay"
+      ],
+      [
+        "MakeMyTrip"
+      ],
+      [
+        "Microsoft"
+      ],
+      [
+        "Nvidia"
+      ],
+      [
+        "Oracle"
+      ],
+      [
+        "PayPal"
+      ],
+      [
+        "Pocketfm"
+      ],
+      [
+        "Rapidfort"
+      ],
+      [
+        "ServiceNow"
+      ],
+      [
+        "UGK"
+      ],
+      [
+        "UKG"
+      ],
+      [
+        "Zscaler"
+      ]
+    ],
+    "candidate": [
+      [
+        48
+      ]
+    ],
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers AS o JOIN students AS s ON o.student_id = s.student_id WHERE o.ctc_lpa > 20.0 AND s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "HYBRID_07_TYPO",
+    "strategy": "typos",
+    "type": "Hybrid",
+    "question": "What package did Gooldman Sachs offer and what questions were asked in HR round?",
+    "rule": "Duplicated letter in 'Goldman'",
+    "gold": [
+      [
+        24.0
+      ],
+      [
+        30.0
+      ]
+    ],
+    "candidate": [],
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "HYBRID_07_ABBREV",
+    "strategy": "abbreviations",
+    "type": "Hybrid",
+    "question": "What package did GS offer and what questions were asked in HR round?",
+    "rule": "Company -> GS",
+    "gold": [
+      [
+        24.0
+      ],
+      [
+        30.0
+      ]
+    ],
+    "candidate": [],
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "HYBRID_07_CASING",
+    "strategy": "casing",
+    "type": "Hybrid",
+    "question": "WHAT PACKAGE DID GOLDMAN SACHS OFFER AND WHAT QUESTIONS WERE ASKED IN HR ROUND?",
+    "rule": "ALL-CAPS",
+    "gold": [
+      [
+        24.0
+      ],
+      [
+        30.0
+      ]
+    ],
+    "candidate": [],
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "HYBRID_07_HINGLISH",
+    "strategy": "hinglish",
+    "type": "Hybrid",
+    "question": "yaar package kya tha Goldman Sachs offer and what questions were asked in HR round? bhai",
+    "rule": "Hinglish compensation syntax",
+    "gold": [
+      [
+        24.0
+      ],
+      [
+        30.0
+      ]
+    ],
+    "candidate": [],
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "HYBRID_07_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Hybrid",
+    "question": "package Goldman Sachs offer questions asked HR round",
+    "rule": "Dropped 6 stop words (Telegraphic)",
+    "gold": [
+      [
+        24.0
+      ],
+      [
+        30.0
+      ]
+    ],
+    "candidate": [],
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "HYBRID_08_TYPO",
+    "strategy": "typos",
+    "type": "Hybrid",
+    "question": "Which core commpanies hired with CTC > 10 LPA and what domain questions were asked?",
+    "rule": "Duplicated letter in 'companies'",
+    "gold": [
+      [
+        "Aakash Educational Services"
+      ],
+      [
+        "Accenture"
+      ],
+      [
+        "Accolite"
+      ],
+      [
+        "Amazon"
+      ],
+      [
+        "BEL"
+      ],
+      [
+        "Bajaj Finserv"
+      ],
+      [
+        "Bharat Petroleum Corporation"
+      ],
+      [
+        "CISCO Systmes"
+      ],
+      [
+        "Cadence"
+      ],
+      [
+        "Cairn Oil"
+      ],
+      [
+        "CiSCO"
+      ],
+      [
+        "Cisco"
+      ],
+      [
+        "Cred"
+      ],
+      [
+        "Engineer"
+      ],
+      [
+        "Engineering"
+      ],
+      [
+        "Engineers"
+      ],
+      [
+        "Flipkart"
+      ],
+      [
+        "Flow Trades Hong Kong Services"
+      ],
+      [
+        "FnZ"
+      ],
+      [
+        "FurtureFirst"
+      ],
+      [
+        "Future First"
+      ],
+      [
+        "Guangdong Academy Of Agricultural Sciences"
+      ],
+      [
+        "HPCL"
+      ],
+      [
+        "HRRL"
+      ],
+      [
+        "Hindustan Petroleum Corporation"
+      ],
+      [
+        "ICICI"
+      ],
+      [
+        "ICICI Bank"
+      ],
+      [
+        "Infineon"
+      ],
+      [
+        "Juspay"
+      ],
+      [
+        "Kfintech"
+      ],
+      [
+        "Mecon"
+      ],
+      [
+        "Meesho"
+      ],
+      [
+        "Microsoft"
+      ],
+      [
+        "Mondelez"
+      ],
+      [
+        "Mondelez International"
+      ],
+      [
+        "Moody's"
+      ],
+      [
+        "Neev Flipkart"
+      ],
+      [
+        "Optum"
+      ],
+      [
+        "Pocketfm"
+      ],
+      [
+        "School Hack FZLLC"
+      ],
+      [
+        "TRIDENT"
+      ],
+      [
+        "Taipei Medical University, Taiwan"
+      ],
+      [
+        "Terobots Enterprises"
+      ],
+      [
+        "Trident"
+      ],
+      [
+        "Trident Group"
+      ],
+      [
+        "UPL"
+      ],
+      [
+        "Uber"
+      ],
+      [
+        "ZS"
+      ],
+      [
+        "ZScaller"
+      ]
+    ],
+    "candidate": [
+      [
+        48
+      ]
+    ],
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers AS o JOIN students AS s ON o.student_id = s.student_id WHERE o.ctc_lpa > 20.0 AND s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "HYBRID_08_CASING",
+    "strategy": "casing",
+    "type": "Hybrid",
+    "question": "WHICH CORE COMPANIES HIRED WITH CTC > 10 LPA AND WHAT DOMAIN QUESTIONS WERE ASKED?",
+    "rule": "ALL-CAPS",
+    "gold": [
+      [
+        "Aakash Educational Services"
+      ],
+      [
+        "Accenture"
+      ],
+      [
+        "Accolite"
+      ],
+      [
+        "Amazon"
+      ],
+      [
+        "BEL"
+      ],
+      [
+        "Bajaj Finserv"
+      ],
+      [
+        "Bharat Petroleum Corporation"
+      ],
+      [
+        "CISCO Systmes"
+      ],
+      [
+        "Cadence"
+      ],
+      [
+        "Cairn Oil"
+      ],
+      [
+        "CiSCO"
+      ],
+      [
+        "Cisco"
+      ],
+      [
+        "Cred"
+      ],
+      [
+        "Engineer"
+      ],
+      [
+        "Engineering"
+      ],
+      [
+        "Engineers"
+      ],
+      [
+        "Flipkart"
+      ],
+      [
+        "Flow Trades Hong Kong Services"
+      ],
+      [
+        "FnZ"
+      ],
+      [
+        "FurtureFirst"
+      ],
+      [
+        "Future First"
+      ],
+      [
+        "Guangdong Academy Of Agricultural Sciences"
+      ],
+      [
+        "HPCL"
+      ],
+      [
+        "HRRL"
+      ],
+      [
+        "Hindustan Petroleum Corporation"
+      ],
+      [
+        "ICICI"
+      ],
+      [
+        "ICICI Bank"
+      ],
+      [
+        "Infineon"
+      ],
+      [
+        "Juspay"
+      ],
+      [
+        "Kfintech"
+      ],
+      [
+        "Mecon"
+      ],
+      [
+        "Meesho"
+      ],
+      [
+        "Microsoft"
+      ],
+      [
+        "Mondelez"
+      ],
+      [
+        "Mondelez International"
+      ],
+      [
+        "Moody's"
+      ],
+      [
+        "Neev Flipkart"
+      ],
+      [
+        "Optum"
+      ],
+      [
+        "Pocketfm"
+      ],
+      [
+        "School Hack FZLLC"
+      ],
+      [
+        "TRIDENT"
+      ],
+      [
+        "Taipei Medical University, Taiwan"
+      ],
+      [
+        "Terobots Enterprises"
+      ],
+      [
+        "Trident"
+      ],
+      [
+        "Trident Group"
+      ],
+      [
+        "UPL"
+      ],
+      [
+        "Uber"
+      ],
+      [
+        "ZS"
+      ],
+      [
+        "ZScaller"
+      ]
+    ],
+    "candidate": [
+      [
+        48
+      ]
+    ],
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers AS o JOIN students AS s ON o.student_id = s.student_id WHERE o.ctc_lpa > 20.0 AND s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "HYBRID_08_HINGLISH",
+    "strategy": "hinglish",
+    "type": "Hybrid",
+    "question": "yaar Which core companies hired with CTC > 10 LPA and what domain questions were asked? please",
+    "rule": "Hinglish compensation syntax",
+    "gold": [
+      [
+        "Aakash Educational Services"
+      ],
+      [
+        "Accenture"
+      ],
+      [
+        "Accolite"
+      ],
+      [
+        "Amazon"
+      ],
+      [
+        "BEL"
+      ],
+      [
+        "Bajaj Finserv"
+      ],
+      [
+        "Bharat Petroleum Corporation"
+      ],
+      [
+        "CISCO Systmes"
+      ],
+      [
+        "Cadence"
+      ],
+      [
+        "Cairn Oil"
+      ],
+      [
+        "CiSCO"
+      ],
+      [
+        "Cisco"
+      ],
+      [
+        "Cred"
+      ],
+      [
+        "Engineer"
+      ],
+      [
+        "Engineering"
+      ],
+      [
+        "Engineers"
+      ],
+      [
+        "Flipkart"
+      ],
+      [
+        "Flow Trades Hong Kong Services"
+      ],
+      [
+        "FnZ"
+      ],
+      [
+        "FurtureFirst"
+      ],
+      [
+        "Future First"
+      ],
+      [
+        "Guangdong Academy Of Agricultural Sciences"
+      ],
+      [
+        "HPCL"
+      ],
+      [
+        "HRRL"
+      ],
+      [
+        "Hindustan Petroleum Corporation"
+      ],
+      [
+        "ICICI"
+      ],
+      [
+        "ICICI Bank"
+      ],
+      [
+        "Infineon"
+      ],
+      [
+        "Juspay"
+      ],
+      [
+        "Kfintech"
+      ],
+      [
+        "Mecon"
+      ],
+      [
+        "Meesho"
+      ],
+      [
+        "Microsoft"
+      ],
+      [
+        "Mondelez"
+      ],
+      [
+        "Mondelez International"
+      ],
+      [
+        "Moody's"
+      ],
+      [
+        "Neev Flipkart"
+      ],
+      [
+        "Optum"
+      ],
+      [
+        "Pocketfm"
+      ],
+      [
+        "School Hack FZLLC"
+      ],
+      [
+        "TRIDENT"
+      ],
+      [
+        "Taipei Medical University, Taiwan"
+      ],
+      [
+        "Terobots Enterprises"
+      ],
+      [
+        "Trident"
+      ],
+      [
+        "Trident Group"
+      ],
+      [
+        "UPL"
+      ],
+      [
+        "Uber"
+      ],
+      [
+        "ZS"
+      ],
+      [
+        "ZScaller"
+      ]
+    ],
+    "candidate": [
+      [
+        48
+      ]
+    ],
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers AS o JOIN students AS s ON o.student_id = s.student_id WHERE o.ctc_lpa > 20.0 AND s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "HYBRID_08_KEYWORD",
+    "strategy": "missing_words",
+    "type": "Hybrid",
+    "question": "core companies hired CTC > 10 LPA domain questions asked",
+    "rule": "Dropped 5 stop words (Telegraphic)",
+    "gold": [
+      [
+        "Aakash Educational Services"
+      ],
+      [
+        "Accenture"
+      ],
+      [
+        "Accolite"
+      ],
+      [
+        "Amazon"
+      ],
+      [
+        "BEL"
+      ],
+      [
+        "Bajaj Finserv"
+      ],
+      [
+        "Bharat Petroleum Corporation"
+      ],
+      [
+        "CISCO Systmes"
+      ],
+      [
+        "Cadence"
+      ],
+      [
+        "Cairn Oil"
+      ],
+      [
+        "CiSCO"
+      ],
+      [
+        "Cisco"
+      ],
+      [
+        "Cred"
+      ],
+      [
+        "Engineer"
+      ],
+      [
+        "Engineering"
+      ],
+      [
+        "Engineers"
+      ],
+      [
+        "Flipkart"
+      ],
+      [
+        "Flow Trades Hong Kong Services"
+      ],
+      [
+        "FnZ"
+      ],
+      [
+        "FurtureFirst"
+      ],
+      [
+        "Future First"
+      ],
+      [
+        "Guangdong Academy Of Agricultural Sciences"
+      ],
+      [
+        "HPCL"
+      ],
+      [
+        "HRRL"
+      ],
+      [
+        "Hindustan Petroleum Corporation"
+      ],
+      [
+        "ICICI"
+      ],
+      [
+        "ICICI Bank"
+      ],
+      [
+        "Infineon"
+      ],
+      [
+        "Juspay"
+      ],
+      [
+        "Kfintech"
+      ],
+      [
+        "Mecon"
+      ],
+      [
+        "Meesho"
+      ],
+      [
+        "Microsoft"
+      ],
+      [
+        "Mondelez"
+      ],
+      [
+        "Mondelez International"
+      ],
+      [
+        "Moody's"
+      ],
+      [
+        "Neev Flipkart"
+      ],
+      [
+        "Optum"
+      ],
+      [
+        "Pocketfm"
+      ],
+      [
+        "School Hack FZLLC"
+      ],
+      [
+        "TRIDENT"
+      ],
+      [
+        "Taipei Medical University, Taiwan"
+      ],
+      [
+        "Terobots Enterprises"
+      ],
+      [
+        "Trident"
+      ],
+      [
+        "Trident Group"
+      ],
+      [
+        "UPL"
+      ],
+      [
+        "Uber"
+      ],
+      [
+        "ZS"
+      ],
+      [
+        "ZScaller"
+      ]
+    ],
+    "candidate": [
+      [
+        48
+      ]
+    ],
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers AS o JOIN students AS s ON o.student_id = s.student_id WHERE o.ctc_lpa > 20.0 AND s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "HYBRID_08_FOLLOWUP",
+    "strategy": "followup",
+    "type": "Hybrid",
+    "question": "And which core companies hired with ctc > 10 lpa and what domain questions were asked?",
+    "rule": "Conversational follow-up prefix",
+    "gold": [
+      [
+        "Aakash Educational Services"
+      ],
+      [
+        "Accenture"
+      ],
+      [
+        "Accolite"
+      ],
+      [
+        "Amazon"
+      ],
+      [
+        "BEL"
+      ],
+      [
+        "Bajaj Finserv"
+      ],
+      [
+        "Bharat Petroleum Corporation"
+      ],
+      [
+        "CISCO Systmes"
+      ],
+      [
+        "Cadence"
+      ],
+      [
+        "Cairn Oil"
+      ],
+      [
+        "CiSCO"
+      ],
+      [
+        "Cisco"
+      ],
+      [
+        "Cred"
+      ],
+      [
+        "Engineer"
+      ],
+      [
+        "Engineering"
+      ],
+      [
+        "Engineers"
+      ],
+      [
+        "Flipkart"
+      ],
+      [
+        "Flow Trades Hong Kong Services"
+      ],
+      [
+        "FnZ"
+      ],
+      [
+        "FurtureFirst"
+      ],
+      [
+        "Future First"
+      ],
+      [
+        "Guangdong Academy Of Agricultural Sciences"
+      ],
+      [
+        "HPCL"
+      ],
+      [
+        "HRRL"
+      ],
+      [
+        "Hindustan Petroleum Corporation"
+      ],
+      [
+        "ICICI"
+      ],
+      [
+        "ICICI Bank"
+      ],
+      [
+        "Infineon"
+      ],
+      [
+        "Juspay"
+      ],
+      [
+        "Kfintech"
+      ],
+      [
+        "Mecon"
+      ],
+      [
+        "Meesho"
+      ],
+      [
+        "Microsoft"
+      ],
+      [
+        "Mondelez"
+      ],
+      [
+        "Mondelez International"
+      ],
+      [
+        "Moody's"
+      ],
+      [
+        "Neev Flipkart"
+      ],
+      [
+        "Optum"
+      ],
+      [
+        "Pocketfm"
+      ],
+      [
+        "School Hack FZLLC"
+      ],
+      [
+        "TRIDENT"
+      ],
+      [
+        "Taipei Medical University, Taiwan"
+      ],
+      [
+        "Terobots Enterprises"
+      ],
+      [
+        "Trident"
+      ],
+      [
+        "Trident Group"
+      ],
+      [
+        "UPL"
+      ],
+      [
+        "Uber"
+      ],
+      [
+        "ZS"
+      ],
+      [
+        "ZScaller"
+      ]
+    ],
+    "candidate": [
+      [
+        48
+      ]
+    ],
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers AS o JOIN students AS s ON o.student_id = s.student_id WHERE o.ctc_lpa > 20.0 AND s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "error": null
+  },
+  {
+    "id": "HYBRID_10_TYPO",
+    "strategy": "typos",
+    "type": "Hybrid",
+    "question": "What was the package for Cadence VLSI itnern and how was the interview process?",
+    "rule": "Swapped adjacent letters in 'intern'",
+    "gold": [
+      [
+        45000.0
+      ]
+    ],
+    "candidate": [
+      [
+        17.0
+      ]
+    ],
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers AS o JOIN companies AS c ON o.company_id = c.company_id WHERE c.canonical_name = 'Cadence' AND NOT o.ctc_lpa IS NULL LIMIT 100;",
+    "error": null
+  },
+  {
+    "id": "UNANSWERABLE_01_TYPO",
+    "strategy": "typos",
+    "type": "Unanswerable / ambiguous",
+    "question": "What is the CTC of Appe?",
+    "rule": "Dropped letter in 'Apple'",
+    "gold": "NO_DATA",
+    "candidate": "CLARIFICATION_REQUIRED",
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "UNANSWERABLE_03_TYPO",
+    "strategy": "typos",
+    "type": "Unanswerable / ambiguous",
+    "question": "Which company visited yesterdy?",
+    "rule": "Dropped letter in 'yesterday'",
+    "gold": "OUT_OF_SCOPE",
+    "candidate": "CLARIFICATION_REQUIRED",
+    "sql": null,
+    "error": null
+  },
+  {
+    "id": "UNANSWERABLE_04_CASING",
+    "strategy": "casing",
+    "type": "Unanswerable / ambiguous",
+    "question": "Tell Me About Placements",
+    "rule": "Title-Case",
+    "gold": "CLARIFICATION_REQUIRED",
+    "candidate": [
+      [
+        "2020-2024",
+        811,
+        720,
+        88.78,
+        11.14,
+        62.0,
+        876
+      ],
+      [
+        "2021-2025",
+        864,
+        802,
+        92.82,
+        11.44,
+        59.0,
+        991
+      ],
+      [
+        "2022-2026",
+        798,
+        381,
+        47.74,
+        14.12,
+        116.0,
+        429
+      ]
+    ],
+    "sql": "MULTIPLE_PROFILE_QUERIES (batch_branch_stats + offers)",
+    "error": null
+  },
+  {
+    "id": "UNANSWERABLE_04_HINGLISH",
+    "strategy": "hinglish",
+    "type": "Unanswerable / ambiguous",
+    "question": "arre sun na Tell me about placements yaar",
+    "rule": "Colloquial Hinglish wrapper",
+    "gold": "CLARIFICATION_REQUIRED",
+    "candidate": [
+      [
+        "2020-2024",
+        811,
+        720,
+        88.78,
+        11.14,
+        62.0,
+        876
+      ],
+      [
+        "2021-2025",
+        864,
+        802,
+        92.82,
+        11.44,
+        59.0,
+        991
+      ],
+      [
+        "2022-2026",
+        798,
+        381,
+        47.74,
+        14.12,
+        116.0,
+        429
+      ]
+    ],
+    "sql": "MULTIPLE_PROFILE_QUERIES (batch_branch_stats + offers)",
+    "error": null
+  }
+]

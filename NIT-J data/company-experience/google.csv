@@ -1,0 +1,178 @@
+"company_name","title","author","date","body","entry_id","scraped_at"
+"google","Barco Placement Experience – SDE Role","ALOK KUMAR","19 Oct 2026","The Barco interview process consisted of an online assessment followed by technical, managerial, and HR rounds. Overall, the process focused on DSA, core CS fundamentals, problem-solving, and communication skills.
+
+Round 1: Online Assessment (OA)
+
+The first round was an online coding assessment that tested DSA and problem-solving skills. I don't remember the exact questions at this point, but the difficulty level was mostly easy to medium.
+
+Preparation tip: Practice basic arrays, strings, sorting, searching, hashing, and common DSA patterns.
+
+Round 2: Technical Interview
+
+This round focused mainly on core computer science fundamentals, along with a DSA problem.
+
+Topics discussed:
+
+Computer Architecture and memory organization
+
+Pointers and pointer-related concepts
+
+Memory allocation and management
+
+Other fundamental CS concepts
+
+One DSA problem, which I vaguely remember involved the sliding window technique, with a heap-based approach being relevant to the solution.
+
+The exact DSA question is not clear in my memory, so I would recommend preparing the underlying concepts rather than relying on a specific question.
+
+Preparation tip: Revise pointers, stack vs. heap memory, dynamic memory allocation, memory layout, and common DSA patterns.
+
+Round 3: Managerial Round
+
+This round included basic managerial and behavioral questions, along with a few conceptual questions.
+
+Some questions I remember:
+
+What are your strengths and weaknesses? Explain around five strengths and weaknesses.
+
+What happens when you type google.com into a browser?
+
+The second question tested the understanding of how the internet works, including DNS resolution, IP addresses, TCP/TLS connections, HTTP/HTTPS, and how a browser loads a webpage.
+
+There was also a light-hearted question to assess how I think and respond in an unexpected situation.
+
+Preparation tip: Prepare your strengths and weaknesses with examples, practice explaining your projects, and revise basic networking concepts and the complete flow of a website request.
+
+Round 4: HR Round
+
+The final round consisted of basic HR questions related to your background, motivation, and career goals.
+
+Prepare for questions such as:
+
+Tell me about yourself.
+
+Why do you want to join Barco?
+
+Explain your projects and internship experience.
+
+What are your strengths and weaknesses?
+
+Where do you see yourself in the next few years?
+
+Do you have any questions for us?
+
+Final Advice
+
+Focus on DSA (especially easy-to-medium problems), core CS subjects such as OS, computer architecture, memory management, and networking, and clear communication. Be comfortable explaining your approach and reasoning instead of just giving the final answer.
+
+This experience is based on my recollection, so some exact questions and details may be missing.","2da5085848c3f6b67607fdef3cfe46edbf0030b96529e6955cff2cb41c31fd13","2026-10-21T06:43:56+00:00"
+"google","BlackRock Interview Experience","TAHIRA MEHTA","16 Sept 2026","Round 1 — Technical
+
+The first round was completely technical and focused heavily on my resume, projects, and core development concepts.
+
+I was asked questions around frontend and backend development, including:
+How APIs work
+How frontend communicates with the backend
+Different ways to reduce API/application latency
+What happens when we enter https://www.google.com in a browser
+There was a deep dive into my projects, where I was asked to explain the architecture, technologies used, and the reasoning behind each implementation.
+The interviewer also justified almost every word written on my resume, so I had to be able to explain every technology, metric, and claim mentioned.
+I was asked about conflicts/challenges I faced while working on projects and how I approached and solved them.
+The discussion was more about understanding my concepts and whether I had actually worked on the projects rather than just memorizing definitions.
+Round 2 — HR + Technical
+
+The second round was a combination of HR and some technical questions.
+
+Some questions included:
+
+How do you handle conflicting opinions within a team?
+How would you deal with messy or unstructured data?
+If you were given a laptop and some data, what is the first thing you would build?
+I was also asked to explain one project I had built, particularly the problem it was solving and how my solution addressed it.
+Final Tips
+
+The biggest takeaway from my interview experience was:
+
+Go thoroughly through your resume.
+
+If you have written something on your resume, be prepared to explain what it means, why you used it, how you implemented it, and what challenges you faced.
+
+Also, communication is key. You don't always need extremely long answers. Try to be:
+
+Clear
+Crisp
+Structured
+Confident
+
+Even when you know the concept, make sure you can communicate your thought process clearly.","98b2a3c34c7a82cc28fa64b4d9be3c68444c737ac87d3e1ccd267e2ab0dacb1e","2026-10-21T07:12:56+00:00"
+"google","Sun Pharma","SURYA KIRAN","25 Nov 2025","SunPharma visited our college twice-first on 10/10/2025 and then on 18/11/2025-for the GET role on an Intern + FTE basis, offering a CTC of 10 LPA (8 LPA fixed). I was selected during their first visit. In that round, 6 students (5 males, 1 female) from ICE and 5 students from IPE were selected. During the second visit, 2 students (both females) were selected exclusively from ICE.
+
+Internship Experience (05/01/2026 - 30/06/2026)
+
+Even though SunPharma offered intern+FTE role on college placement portal, it changed to 6 month intern+PPO. During internship all the travel (By air) and first 15 days accomodation was company provided. Our internship began on 05-Jan-2026 at CTA (Central training academy) Vadodara where we stayed for 1 week and then everyone was sent to their respective alloted plants where we were assigned our individual internship projects.
+At CTA Vadodara we got to know that, for 2022-26 batch, SunPharma selected over 40 GET interns from different NITs and the PPO conversion rate was about 50%. During our stay at CTA Vadodara, we visited Halol and Panoli plants and one R&D centre in Vadodara only.
+At our alloted plants, we were assigned individual internship projects along with a mentor (manager).
+PPO assesment was as follows:
+Mid-review: Review on the project taken by manager and plant HR as an organiser (Last week of February)
+End-review: Review on the project and over internship work and plant understanding
+
+Round 1: Review on the project taken by manager, plant Head and plant HR (Admin HR) as an organiser (Last week of May).
+Round 2: Those who will clear R1 will ascend to R2 in which final review would be taken by Cluster head and Recruitment/ Talent acquisition Head HR from coorporate office from Mumbai (2nd week of June).
+
+Hiring Flow:
+
+Their hiring process was straightforward:
+
+CGPA Criteria (min. 6) → Online Assessment (30 min, from hostel) → Interview (2-day process)
+
+Online Assesment:
+
+The OA lasted 30 minutes and consisted of objective-type questions. The topics covered included:
+
+Biomedical Instrumentation
+
+Industrial Measurement Systems
+
+Sensors and Transducers
+
+Analog Electronics
+
+Digital Electronics
+
+For most core-sector companies, a substantial portion of the OA is focused on both analog and digital electronics.
+
+Interview Process:
+
+From ICE, 18 students were shortlisted after the OA for the interview round. The panel typically consisted of 2, and sometimes 3, interviewers. In my case, there were three members- a General HR, a Technical HR, and the Talent Acquisition Head.
+
+The interviews for all shortlisted students were conducted over two days. Sessions were taken in order, and my interview was scheduled toward the end. It lasted around 35-40 minutes, and I chose to give my interview in English.
+
+The interview was a mix of HR and technical questions, asked in a dynamic and unpredictable sequence. The panelists were attentive and kept shifting between technical and behavioral topics to maintain the flow.
+
+When I entered the room, the interviewers greeted me politely, introduced themselves, and briefly reviewed my resume. The General HR began with a few general questions about my background and family. Soon after, theTechnical HR stepped in and asked a series of questions based on core ICE concepts and my technical projects.The Talent Acquisition Head intervened occasionally-not as frequently as the other two-but whenever he did, his questions were unexpectedly deep and thought-provoking (not numerical or analytical, but designed to test critical thinking and perspective).
+
+Interview Experience and Questions:
+
+My interview began with the General HR, who opened with the question, “Tell me something that isn’t mentioned in your resume.” I responded by sharing my family background, since such details are not typically included in a resume.
+Because my father serves in the Indian Air Force, the Technical HR followed up with questions related to defense technologies-drones, aerospace applications, radars in defense platforms, and various sensors used in fighter aircraft for measuring speed, pressure, and flow. I answered these by applying my core knowledge of Instrumentation, Sensors & Transducers, and Control Systems. Although my answers were not perfect, they demonstrated my understanding and willingness to attempt every question.
+The Technical HR then reviewed my resume but filtered out topics that had already been discussed with other candidates throughout the day, such as my internship at RCF Kapurthala and my piezoelectric energy-harvesting project. Since I was the last candidate to be interviewed, these subjects were already familiar to the panel.
+Fortunately, I had included several unique projects in my resume, and the interview shifted toward those. I was asked to explain each project in detail-its objective, real-life applicability, limitations, and the underlying technical aspects. My projects spanned biomedical instrumentation, electric vehicles, drones (ISL online course), and robotics.
+Midway through this technical discussion, the General HR asked a question about drone warfare: “What differences did you observe between the drone strategies used by India and Pakistan during Operation Sindoor?” Even the Talent Acquisition Head joined in, asking me to differentiate them in technical terms.
+The Technical HR then moved to core instrumentation topics-PLC, DCS, and SCADA with particular focus on PLC hardware. I was asked about types of PLCs, programming languages, communication protocols (Modbus, Profibus- only the names), sinking/sourcing I/Os, and some basic electronics (logic gates and diodes). Additional questions covered temperature sensors, flow meters, and basic control system concepts.
+Unexpectedly, the Talent Acquisition Head shifted the interview toward AI, automation, and robotics. Pointing at a digital podium, he asked me to identify the ports on it, adding, “Google Lens can identify these from an image-why shouldn’t I hire AI instead of you?” The General HR built on this and asked, “List three skills a person can develop to stay ahead of AI in the job market.” I answered these questions by including a mix of general facts and technical terms and we had a productive discussion.
+The Technical HR then asked, “How is ICE a good fit for you, and how are you a good fit for Sun Pharma?” He also questioned me on the three pillars of ICE. The General HR followed up with “Why did you choose Sun Pharma?” I answered using my domain knowledge along with key facts, performance metrics, and growth indicators (including CAGR) that were discussed during the pre-placement talk.
+Toward the end, the Talent Acquisition Head posed a situational question: “If after completing a six-month internship at Sun Pharma, a top robotics company like Yaskawa offers you a much better CTC, which company would you choose?” I paused, sensing they might be evaluating honesty, especially as the General HR encouraged me to “be honest,” smiling. I replied truthfully: “Yes, I would accept the offer from the other company.”
+In a light-hearted moment near the end, they even asked if I had a girlfriend. The overall interview remained calm, conversational, and smooth throughout, with frequent overlaps between technical and HR questions.
+
+That was my overall experience. I hope it helps someone who is preparing for the same!. I tried to be as detailed as possible. For more information you contact me on given email/ linkedIn.
+
+Email: suryak.ic.22@nitj.ac.in, suryakirangaya@gmail.com
+
+LinkedIn: www.linkedin.com/in/surya-kiran-7a95b4281","69cb3cffd53d4b3dd5bc7f23ca5c5cd0f296c6368377f9d93329bffdad6d68f0","2026-10-21T07:15:26+00:00"
+"google","My Google Summer Internship to PPO Journey","ACHYUT GUPTA","21 Nov 2025","My journey with Google began last year when I got shortlisted for their Online Assessment. After clearing the OA, I moved forward to the technical interview rounds.
+
+I went through two rounds of technical interviews, each focused on data structures, algorithms, and core problem-solving skills. After performing well, I was selected for a Summer Internship at Google.
+
+During my internship, I worked with the RIMR team, which is focused on building a platform for managing legal cases, regulatory workflows, and compliance processes at scale. I got the opportunity to work on impactful engineering tasks, collaborate with talented mentors, and contribute to features used internally across Google.
+
+The internship was an incredible learning experience, and based on my performance, I was grateful to receive a Full-Time (PPO) offer from Google.","dfda9c398d35ade11b8f6306727eaca0d2b0cea204d1a37c4d915e9c08f4f99c","2026-10-21T07:18:23+00:00"

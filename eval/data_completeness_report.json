@@ -1,0 +1,341 @@
+{
+  "db_companies_count": 487,
+  "db_offers_count": 2929,
+  "db_students_count": 5470,
+  "total_excel_rows": 10472,
+  "excel_companies_count": 543,
+  "matched_count": 543,
+  "missing_count": 0,
+  "missing_companies": [],
+  "sheet_breakdown": [
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Biotechnology",
+      "rows": 55,
+      "comp_col": "Company",
+      "comps_found": 13
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Chemical Engg",
+      "rows": 94,
+      "comp_col": "Company",
+      "comps_found": 60
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Civil Engg",
+      "rows": 98,
+      "comp_col": "Company",
+      "comps_found": 57
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Computer Engg",
+      "rows": 204,
+      "comp_col": "Company",
+      "comps_found": 161
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Electrical Engg",
+      "rows": 74,
+      "comp_col": "Company",
+      "comps_found": 57
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Electronics Engg",
+      "rows": 137,
+      "comp_col": "Company",
+      "comps_found": 85
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Industrial Engg",
+      "rows": 98,
+      "comp_col": "Company",
+      "comps_found": 75
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Instrumentation Engg",
+      "rows": 140,
+      "comp_col": "Company",
+      "comps_found": 103
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Mechanical Engg",
+      "rows": 138,
+      "comp_col": "Company",
+      "comps_found": 104
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Information Technology",
+      "rows": 153,
+      "comp_col": "Company",
+      "comps_found": 131
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "rows": 81,
+      "comp_col": "Company",
+      "comps_found": 34
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "M.Sc",
+      "rows": 93,
+      "comp_col": "Company",
+      "comps_found": 7
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "MBA",
+      "rows": 30,
+      "comp_col": "Company",
+      "comps_found": 18
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Full Details",
+      "rows": 198,
+      "comp_col": "None",
+      "comps_found": 0
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Count Wise Details",
+      "rows": 38,
+      "comp_col": "None",
+      "comps_found": 0
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "rows": 1094,
+      "comp_col": "Company",
+      "comps_found": 106
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "M.Tech 22-24",
+      "rows": 159,
+      "comp_col": "Company",
+      "comps_found": 71
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "M.Tech 2023-25",
+      "rows": 240,
+      "comp_col": "Company",
+      "comps_found": 80
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Summer internship",
+      "rows": 1116,
+      "comp_col": "Company",
+      "comps_found": 34
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "M.Tech 23-25 Full Details",
+      "rows": 16,
+      "comp_col": "None",
+      "comps_found": 0
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "Biotechnology",
+      "rows": 54,
+      "comp_col": "Company",
+      "comps_found": 25
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "Chemical Engg",
+      "rows": 85,
+      "comp_col": "Company",
+      "comps_found": 69
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "Civil Engg",
+      "rows": 84,
+      "comp_col": "Company",
+      "comps_found": 52
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "Computer Engg",
+      "rows": 217,
+      "comp_col": "Company",
+      "comps_found": 184
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "Electrical Engg",
+      "rows": 71,
+      "comp_col": "Company",
+      "comps_found": 64
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "Electronics Engg",
+      "rows": 138,
+      "comp_col": "Company",
+      "comps_found": 124
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "Industrial Engg",
+      "rows": 100,
+      "comp_col": "Company",
+      "comps_found": 94
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "Instrumentation Engg",
+      "rows": 154,
+      "comp_col": "Company",
+      "comps_found": 136
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "Mechanical Engg",
+      "rows": 132,
+      "comp_col": "Company",
+      "comps_found": 108
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "Information Technology",
+      "rows": 139,
+      "comp_col": "Company",
+      "comps_found": 105
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "rows": 101,
+      "comp_col": "Company",
+      "comps_found": 80
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "M.Sc",
+      "rows": 103,
+      "comp_col": "Company",
+      "comps_found": 32
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "MBA",
+      "rows": 22,
+      "comp_col": "Company",
+      "comps_found": 6
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "Full Details",
+      "rows": 281,
+      "comp_col": "None",
+      "comps_found": 0
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "Copy of Full Details",
+      "rows": 263,
+      "comp_col": "None",
+      "comps_found": 0
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "Count Wise Details",
+      "rows": 35,
+      "comp_col": "None",
+      "comps_found": 0
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "M.Tech 2023-25",
+      "rows": 245,
+      "comp_col": "Company",
+      "comps_found": 134
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "2022-26-Summer internship",
+      "rows": 1045,
+      "comp_col": "Company",
+      "comps_found": 34
+    },
+    {
+      "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+      "sheet": "M.Tech 23-25 Full Details",
+      "rows": 16,
+      "comp_col": "None",
+      "comps_found": 0
+    },
+    {
+      "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+      "sheet": "Full Details",
+      "rows": 125,
+      "comp_col": "None",
+      "comps_found": 0
+    },
+    {
+      "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+      "sheet": "Count Wise Details",
+      "rows": 58,
+      "comp_col": "None",
+      "comps_found": 0
+    },
+    {
+      "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+      "sheet": "Count",
+      "rows": 57,
+      "comp_col": "None",
+      "comps_found": 0
+    },
+    {
+      "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+      "sheet": "M.Tech 2024-26",
+      "rows": 356,
+      "comp_col": "Company",
+      "comps_found": 104
+    },
+    {
+      "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+      "sheet": "Msc 2024-26",
+      "rows": 100,
+      "comp_col": "Company",
+      "comps_found": 0
+    },
+    {
+      "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+      "sheet": "MBA 2024-26",
+      "rows": 36,
+      "comp_col": "Company",
+      "comps_found": 0
+    },
+    {
+      "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+      "sheet": "B.Tech 2022-26",
+      "rows": 1096,
+      "comp_col": "Company",
+      "comps_found": 430
+    },
+    {
+      "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+      "sheet": "B.Tech 2023-27",
+      "rows": 1103,
+      "comp_col": "Company",
+      "comps_found": 32
+    }
+  ]
+}

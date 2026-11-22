@@ -1,0 +1,32 @@
+"company_name","title","author","date","body","entry_id","scraped_at"
+"paytm","Paytm Interview Experience (6 Months Intern + FTE)","ASHISH ROLAN","21 Nov 2025","I applied for the Data Engineer role (Paytm had two roles: Data Engineer and Cyber Security). I had prepared technologies like Apache Spark, Kafka, Flink, Python, Airflow, and other DE concepts, but interestingly both my rounds were heavily focused on Cyber Security and Network Security only.
+
+Round 1 (Technical):
+
+Started with my project discussion – alternatives, future scope, problems faced.
+
+Asked about Networking, CIA Triad, JWT complete workflow, firewall types and complete working.
+
+Questions on steganography (because one of my projects was on reversible data hiding).
+
+Some basic cyber forensics questions.
+
+Round 2 (Technical + HR, but mostly Technical):
+
+Discussion on my Cyber Security project and real-life use cases and how would you achieve these.
+
+Deep questions on security mechanisms used in backend systems and how they work.
+
+Working of DES and AES encryption and can you use these in your this project if yes then how.
+
+Complete flow of TLS/SSL.
+
+How I would enhance my project using both Data Engineering + Cyber Security concepts.
+
+Ended with HR-style discussion and my questions to the interviewer.
+
+Both interview rounds were around 30-35 min each.
+
+Overall, both rounds were smooth, mainly security-focused even though I opted for Data Engineering.
+
+Within a week I got the result and was selected for the Paytm internship + FTE offer.","ddea48b98fae3ef47684d0e7114f51de117062aa693a83086bb2fb4399ca33c0","2026-10-21T07:17:56+00:00"

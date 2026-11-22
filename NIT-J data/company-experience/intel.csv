@@ -1,0 +1,274 @@
+"company_name","title","author","date","body","entry_id","scraped_at"
+"intel","Intel Interview Experience","MAYANK VERMA","24 Sept 2026","Interview Process
+Mainly technical and resume-based.
+Started with:
+Self-introduction
+Academic background
+Technical interests
+My manager went through my resume and asked detailed questions about my projects.
+Questions were mainly from:
+Computer Organization & Architecture (COA)
+Digital Electronics
+VLSI fundamentals
+Verilog/RTL
+Projects mentioned in my resume
+Most questions had follow-up questions based on my answers.
+Technical Questions / Areas
+COA
+CPU, ALU, registers, and datapath
+Pipelining and hazards
+Cache and memory hierarchy
+Interrupts and DMA
+MMIO vs PMIO
+Digital Electronics
+Combinational vs sequential logic
+MUX, decoder, encoder, adders
+Flip-flops and counters
+Setup/hold time
+Metastability
+FSM
+Verilog
+wire vs reg
+Blocking vs non-blocking assignment
+Combinational/sequential logic
+FSM implementation
+Module instantiation
+Testbench and debugging
+Project-Based Questions
+Questions were asked directly from projects listed on my resume.
+For each project, be prepared for:
+What problem does it solve?
+Why did you choose this approach?
+Explain the architecture/block diagram.
+Explain your individual contribution.
+Why did you choose this particular design?
+What challenges did you face?
+How did you debug/verify it?
+What were the results?
+What are its limitations?
+How can you improve it?
+Preparation Strategy
+Prepare your resume line-by-line.
+Don't mention any technology/project unless you can explain it deeply.
+Focus on Digita, CO, Verilo, and your projects.
+For every concept, prepare:
+What? → Why? → How? → Implementation → Problems → Solutions
+Practice explaining projects on a whiteboard, including architecture and RTL.
+Focus on understanding concepts rather than memorizing interview questions.","48dbab8041664917f29228f380c66811d71f3c3cfabc3dfd24ec6b33929a3530","2026-10-21T06:58:32+00:00"
+"intel","Intel Interview Experience","MAYANK VERMA","24 Sept 2026","My interview process was primarily technical and resume-driven. The interviewer first asked me to introduce myself and explain my academic background and areas of interest. After that, my manager went through my resume and started asking questions about the projects and technical skills I had mentioned.
+
+The discussion covered Computer Organization and Architecture, Digital Electronics, VLSI fundamentals, Verilog, and project-specific concepts. The interviewer did not just ask direct theoretical questions; many were follow-ups to my answers.
+
+For example, if I mentioned a particular architecture, protocol, Verilog module, or VLSI project, the interviewer would ask why I chose that approach, how it works internally, what happens in corner cases, and how I would implement or debug it.
+
+Therefore, the most important part of my preparation was not memorizing questions but understanding every line of my resume and explaining the concepts behind my projects.","4ab801be75c633eea912b67e403dcc6e08d957873edb63c9db4208db2c0e3f53","2026-10-21T06:58:36+00:00"
+"intel","Intel interview","MAYANK VERMA","24 Sept 2026","My interview process was primarily technical and resume-driven. The interviewer first asked me to introduce myself and explain my academic background and areas of interest. After that, my manager went through my resume and started asking questions about the projects and technical skills I had mentioned.
+
+The discussion covered Computer Organization and Architecture, Digital Electronics, VLSI fundamentals, Verilog, and project-specific concepts. The interviewer did not just ask direct theoretical questions; many were follow-ups to my answers.
+
+For example, if I mentioned a particular architecture, protocol, Verilog module, or VLSI project, the interviewer would ask why I chose that approach, how it works internally, what happens in corner cases, and how I would implement or debug it.
+
+Therefore, the most important part of my preparation was not memorizing questions but understanding every line of my resume and explaining the concepts behind my projects.","f2c6a7aaa9a6930657e6d17d66e13b56fbee9b169b618dfef8535a30dd1e7c66","2026-10-21T06:58:40+00:00"
+"intel","Write Title Here... AI Software Graduate Intern","SAIKAT MANNA","22 Sept 2026","Start sharing your experience...
+
+Internship at Intel – Optimization and Scheduling
+
+Experience
+I am currently working as a Summer Intern at Intel, Bangalore, in the area of optimization and simulation. My work involves understanding manufacturing scheduling problems and developing optimization-based solutions using Python and IBM DOcplex CP Optimizer. I am working on Flexible Job Shop Scheduling with Sequence-Dependent Setup Times (FJSS-SDST), including data preprocessing, constraint programming, machine assignment, scheduling, and schedule evaluation. This internship has given me practical exposure to Operations Research, Constraint Programming, and real-world industrial scheduling problems. It has also helped me improve my problem-solving, programming, and analytical skills.","e5f62b50df009aa982f874611f1795adc5ce20baa78fffbade8aeecea7b0babf","2026-10-21T06:59:40+00:00"
+"intel","Intel Interview Experience","RISHIKA YATISHWAR GAUR","20 Sept 2026","How It Started
+
+Intel visited our campus as part of the campus recruitment process for an AI-related role. I was contacted by the HR team at Intel, and my resume was considered for the opportunity.
+
+Round 1 — Resume Shortlisting
+
+The first stage was the resume shortlisting round. My resume was shortlisted based on my academic background, projects, technical skills, and previous work experience relevant to the role.
+
+After the resume was selected, I received a call from the HR team to schedule the interview. The interview was then conducted virtually through a scheduled meeting.
+
+Interview Day Experience
+
+The interview started with a basic self-introduction. The interviewer also wanted to understand my career journey and asked questions such as:
+
+Why did you decide to leave your job and pursue an M.Tech?
+
+Why did you choose this particular branch/specialization?
+
+Tell me about yourself and your previous experience.
+
+After the introduction, the interview moved into technical discussions based on my resume and experience.
+
+1. Resume & Experience-Based Questions
+
+The interviewer went through my resume in detail and asked about the kinds of technical issues I had encountered in my previous work and projects.
+
+I was asked to explain specific problems I had faced, how I approached debugging them, and how I eventually resolved them.
+
+There were also system-design-oriented questions around:
+
+Microservices architecture
+
+System scalability
+
+Latency
+
+Number of requests/hits a system can handle
+
+Overall system architecture
+
+Handling performance-related issues
+
+2. Programming & DSA
+
+The interviewer asked about the programming languages I had worked with and my experience with DSA.
+
+I was asked what I had done in DSA and which concepts I was comfortable with. This was followed by a DSA problem to evaluate my problem-solving approach and coding fundamentals.
+
+3. Project Deep Dive
+
+A significant part of the interview focused on my projects and the technologies I had used.
+
+The interviewer asked questions such as:
+
+What technologies did you use?
+
+Which packages and libraries did you use?
+
+Why did you choose those technologies?
+
+How does the project work internally?
+
+What challenges did you face?
+
+How did you identify and resolve issues?
+
+Which Jira platform/tools did you use for project management?
+
+The discussion was not limited to the high-level architecture. The interviewer also went into implementation and development practices to understand how familiar I was with the technologies mentioned on my resume.
+
+4. MERN & Backend-Related Questions
+
+Since I had mentioned MERN and related technologies, I was asked questions around the development stack and some supporting technologies.
+
+The discussion included:
+
+React Hooks
+
+Lazy loading
+
+Validation schemas
+
+Regex
+
+WebSockets/sockets and their basic working
+
+Apache Kafka and its role in distributed systems
+
+Caching and why it is used
+
+Grafana and its use for monitoring/observability
+
+Backend and microservices architecture
+
+The interviewer also asked how some of these technologies could be used together in a real-world application and how they help with communication, performance, scalability, and monitoring.
+
+5. AI/ML & Technical Skills
+
+Since the role was AI-related, I was also asked questions around Machine Learning and Deep Learning.
+
+The discussion included:
+
+Transformers
+
+LLMs
+
+Tokenization
+
+How transformers work at a high level
+
+Fundamentals of AI/ML systems
+
+The interviewer was interested in understanding both my theoretical knowledge and how well I could explain these concepts practically.
+
+6. Core Computer Science Questions
+
+Towards the end, the interviewer also asked some fundamental Computer Science questions, including:
+
+What is a process?
+
+What is a thread?
+
+Process vs. thread
+
+What is multithreading?
+
+What is multitasking?
+
+How do processes and threads work during concurrent execution?
+
+Overall Experience
+
+Overall, the interview covered a broad range of topics, starting from my career journey and resume, followed by project discussions, DSA, system design, AI/ML, MERN, backend technologies, and core Computer Science fundamentals.
+
+One of my biggest takeaways from the interview was that anything mentioned on your resume can become a discussion point. It is therefore important to understand your projects and technologies beyond just their definitions — including why you used them, how they work internally, the problems they solve, and how they fit into the overall architecture.
+
+Tips
+
+Mention only the technologies and skills you are genuinely confident in, because anything on your resume can become a follow-up question.
+
+Focus on understanding concepts rather than memorising definitions, especially the “why” and “how.”
+
+Prepare thoroughly according to your resume and the job role, and answer questions confidently and clearly.
+
+For SDE/AI/Software roles, have a strong grasp of DSA, especially easy and medium-level problems.
+
+Don’t ignore core CS fundamentals like System Design & Architecture, DBMS, OS, Computer Networks, and OOP.","507e381f9a7a82572e0235b8dbf93d76053649103bd61ff039b35e30340dc53b","2026-10-21T07:01:15+00:00"
+"intel","My Intel Interview Experience","MUSHFIQUE AZAM","23 Nov 2025","How It Started
+
+I received a call from one of the business units at Intel regarding an opportunity. They first asked whether I was comfortable with C and C++, to which I agreed. Soon after, they scheduled my interview for the following week.
+
+Preparation Strategy
+
+Once the interview was fixed, I reached out to several people working in the semiconductor domain to understand what areas I should focus on. Based on their guidance, I prepared the following topics:
+
+C/C++ fundamentals
+OOP concepts
+Bit manipulation
+Memory management
+Operating Systems basics
+A quick revision of electronics fundamentals
+Interview Day Experience
+
+The interview began with a simple self-introduction.
+
+1. Coding Questions (C/C++)
+
+The interviewer started with hands-on coding questions.
+
+I was asked to demonstrate call by value and call by reference with simple C/C++ code.
+
+Then I got 2 to 3 bit manipulation questions luckily, the same type I had revised earlier.
+
+2. Operating System Concepts
+
+Next came some OS basics:
+
+Concepts around multithreading
+
+I was asked to write a sample multithreading code to show my understanding.
+
+The interviewer seemed satisfied with my explanations and code.
+
+3. Managerial Round Questions
+
+Finally, they asked around 5 to 6 behavioral/managerial questions, such as:
+
+How do you prioritize tasks?
+
+How do you define project deadlines?
+
+How do you handle conflicting priorities?
+
+Resources: Youtube Lectures video, GFG, InterviewBit
+
+LinkedIn
+Feel free to connect!","c67fddb3b0fd75a3857968e4958a10cf666e4d6c10334e6c7ce24321b1aa9198","2026-10-21T07:16:50+00:00"

@@ -1,0 +1,507 @@
+# NIT Jalandhar Training & Placement Intelligent Assistant
+# Canonical Semantic Layer Specification
+# Version: 1.0.0
+# Description: Defines entities, strict metric definitions, SQL logic, branch/company aliases, and privacy rules.
+
+version: "1.0.0"
+dialect: "sqlite"  # Also fully compatible with PostgreSQL / DuckDB
+
+database:
+  tables:
+    batches:
+      description: "Batch/cohort metadata identified by admission and graduation years"
+      primary_key: "batch_id"
+      columns:
+        batch_id: { type: "TEXT", description: "Format: YYYY-YYYY e.g. 2020-2024" }
+        admission_year: { type: "INTEGER", description: "Year of admission e.g. 2020" }
+        passout_year: { type: "INTEGER", description: "Year of graduation e.g. 2024" }
+        degree: { type: "TEXT", description: "B.Tech, M.Tech, M.Sc, MBA" }
+
+    branches:
+      description: "Academic departments and degree programs"
+      primary_key: "branch_code"
+      columns:
+        branch_code: { type: "TEXT", description: "3-digit roll number code e.g. 103 for CSE" }
+        canonical_name: { type: "TEXT", description: "Full formal department name" }
+        short_name: { type: "TEXT", description: "Acronym e.g. CSE, IT, ECE, ME" }
+        degree: { type: "TEXT", description: "B.Tech, M.Tech, M.Sc, MBA" }
+        division: { type: "TEXT", description: "Circuit, Core, Sciences, Management" }
+
+    companies:
+      description: "Recruiting organizations normalized to canonical names"
+      primary_key: "company_id"
+      columns:
+        company_id: { type: "INTEGER", description: "Unique auto-increment ID" }
+        canonical_name: { type: "TEXT", description: "Normalized organization name e.g. Microsoft, Amazon" }
+        sector: { type: "TEXT", description: "IT, Core, Finance, Consulting, EdTech, Other" }
+
+    students:
+      description: "Individual student academic enrollment records (anonymized in UI answers)"
+      primary_key: "student_id"
+      columns:
+        student_id: { type: "TEXT", description: "Permanent roll number (Confidential; aggregates only)" }
+        batch_id: { type: "TEXT", foreign_key: "batches.batch_id" }
+        branch_code: { type: "TEXT", foreign_key: "branches.branch_code" }
+        gender: { type: "TEXT", description: "M, F, or NULL" }
+        category: { type: "TEXT", description: "General, OBC-NCL, SC, ST, GEN-EWS" }
+        source_branch_raw: { type: "TEXT", description: "Raw branch string in source sheet" }
+        is_branch_conflict: { type: "INTEGER", description: "1 if source cell conflicted with roll code, else 0" }
+
+    offers:
+      description: "Placement and internship offers made to students"
+      primary_key: "offer_id"
+      columns:
+        offer_id: { type: "INTEGER", description: "Unique offer ID" }
+        student_id: { type: "TEXT", foreign_key: "students.student_id" }
+        company_id: { type: "INTEGER", foreign_key: "companies.company_id" }
+        offer_type: { type: "TEXT", description: "FTE, PPO, Intern, Intern+PPO, Intern+FTE, Long Intern" }
+        ctc_lpa: { type: "REAL", description: "Annual CTC in LPA. NULL for pure stipend or unpaid" }
+        stipend_monthly_inr: { type: "REAL", description: "Monthly stipend in INR (e.g. 45000, 125000)" }
+        package_raw: { type: "TEXT", description: "Original unparsed package string from spreadsheet" }
+        package_reason: { type: "TEXT", description: "verified_ctc, compound_split, stipend_only, unpaid, undisclosed" }
+        offer_date: { type: "TEXT", description: "ISO date YYYY-MM-DD" }
+        offer_mode: { type: "TEXT", description: "On-campus, Off-campus" }
+        profile: { type: "TEXT", description: "Job title / role e.g. Software Engineer, GET" }
+        source_file: { type: "TEXT" }
+        source_sheet: { type: "TEXT" }
+        source_row: { type: "INTEGER" }
+
+    batch_branch_stats:
+      description: "Official summary statistics ingested directly from Count Wise Details sheets"
+      primary_key: "batch_id, branch_code"
+      columns:
+        batch_id: { type: "TEXT", description: "Cohort ID e.g. 2020-2024" }
+        branch_code: { type: "TEXT", description: "Canonical 3-digit branch code e.g. 103 or TOTAL" }
+        discipline_raw: { type: "TEXT", description: "Raw discipline name from header" }
+        degree: { type: "TEXT", description: "B.Tech, M.Tech, PG" }
+        total_students: { type: "INTEGER", description: "Total enrolled count" }
+        eligible_students: { type: "INTEGER", description: "Official eligible student count" }
+        placed_students: { type: "INTEGER", description: "Official placed student count" }
+        job_offers: { type: "INTEGER", description: "Total job offers secured" }
+        double_job_offers: { type: "INTEGER", description: "Double job offers secured" }
+        max_ctc: { type: "REAL", description: "Maximum CTC in LPA" }
+        top_recruiter: { type: "TEXT", description: "Recruiter offering highest CTC" }
+        avg_ctc: { type: "REAL", description: "Official average CTC in LPA" }
+        placement_pct: { type: "REAL", description: "Official placement percentage (placed/eligible * 100)" }
+        male_placed: { type: "INTEGER" }
+        female_placed: { type: "INTEGER" }
+        source_sheet: { type: "TEXT" }
+
+# Canonical Offer Type Categories
+offer_types:
+  fte_qualifying:
+    description: "Offers that qualify a student as placed in full-time employment"
+    values: ["FTE", "PPO", "Intern+PPO", "Intern+FTE"]
+  internship_only:
+    description: "Pure internship offers with stipend; not counted as full-time placement CTC"
+    values: ["Intern", "Long Intern", "Summer Intern"]
+
+# Metric Definitions & Ground-Truth SQL Formulations (Single Source of Truth)
+metrics:
+  placed_students:
+    description: "Distinct students with at least one full-time (FTE or PPO) offer"
+    keywords: ["placed", "selected", "got in", "hired", "recruited", "placement"]
+    aggregation: "COUNT(DISTINCT s.student_id)"
+    sql_template: >
+      SELECT COUNT(DISTINCT s.student_id)
+      FROM students s
+      JOIN offers o ON s.student_id = o.student_id
+      WHERE o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')
+    rules:
+      - "Strict Semantic Invariant: 'placed / selected / got in / hired' = DISTINCT students with at least one FTE or PPO offer."
+      - "Never count a student multiple times even if they hold multiple offers."
+      - "Internship offers are a separate metric. Pure internships DO NOT qualify a student as placed."
+
+  total_offers:
+    description: "Count of offer rows secured by students (a student can hold several offers)"
+    keywords: ["offers", "total offers", "number of offers", "offer count", "offeers"]
+    aggregation: "COUNT(o.offer_id)"
+    sql_template: >
+      SELECT COUNT(o.offer_id)
+      FROM offers o
+    rules:
+      - "Strict Semantic Invariant: 'offers' = count of offer rows (a student can have several). Always state which one you are reporting."
+      - "Differs from placed students: If 10 students hold 15 offers, placed_students = 10, total_offers = 15."
+
+  internship_offers:
+    description: "Internship offers secured by students. Strictly separate from full-time placement."
+    keywords: ["intern", "internship", "summer intern", "6 month intern", "stipend"]
+    aggregation: "COUNT(o.offer_id)"
+    sql_template: >
+      SELECT COUNT(o.offer_id)
+      FROM offers o
+      WHERE o.offer_type IN ('Intern', 'Long Intern', 'Summer Intern')
+         OR (o.stipend_monthly_inr IS NOT NULL AND o.ctc_lpa IS NULL)
+    rules:
+      - "INTERNSHIP SEPARATION INVARIANT: Internship offers are a separate metric. Whenever a company or batch answer involves both full-time and internships, ALWAYS return them as separate columns/lines (full-time hires vs interns). NEVER add them together."
+
+  ctc:
+    description: "Annual Cost-to-Company package in LPA"
+    unit: "LPA"
+    rules:
+      - "Strict Invariant: CTC is only for FTE/PPO. Never report internship stipends as CTC."
+      - "Never answer CTC questions with DISTINCT value lists alone; report offer counts per package, branch, and batch."
+
+  stipend:
+    description: "Monthly internship stipend in INR"
+    unit: "INR/month"
+    rules:
+      - "Strict Invariant: Stipend is shown separately and never added to annual CTC."
+
+  dual_hiring_breakdown:
+    description: "Combined reporting of full-time hires vs interns for a company or batch without merging"
+    sql_template: >
+      SELECT 
+        COUNT(DISTINCT CASE WHEN o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') THEN s.student_id END) AS full_time_hires,
+        COUNT(CASE WHEN o.offer_type IN ('Intern', 'Long Intern', 'Summer Intern') OR (o.stipend_monthly_inr IS NOT NULL AND o.ctc_lpa IS NULL) THEN o.offer_id END) AS intern_offers
+      FROM offers o
+      JOIN students s ON o.student_id = s.student_id
+
+  total_internships:
+    description: "Total internship selections secured by students"
+    aggregation: "COUNT(o.offer_id)"
+    sql_template: >
+      SELECT COUNT(o.offer_id)
+      FROM offers o
+      WHERE o.offer_type IN ('Intern', 'Long Intern', 'Summer Intern')
+
+  placement_percentage:
+    description: "Percentage of eligible students who secured at least one full-time/PPO offer (placed_students / eligible_students)"
+    unit: "%"
+    sql_template: >
+      SELECT 
+        placement_pct, eligible_students, placed_students
+      FROM batch_branch_stats
+      WHERE batch_id = :batch_id AND branch_code = :branch_code
+    rules:
+      - "Placement % = placed students / eligible students."
+      - "Eligible counts come only from the official Count Wise Details sheets; loaded into batch_branch_stats table and used for this metric only."
+      - "If eligible count is unavailable for a batch/branch, say so."
+
+  average_ctc:
+    description: "Arithmetic mean of highest annual CTC in LPA per placed student among FTE/PPO offers"
+    unit: "LPA"
+    sql_template: >
+      WITH student_highest AS (
+        SELECT s.student_id, MAX(o.ctc_lpa) AS highest_ctc
+        FROM students s
+        JOIN offers o ON s.student_id = o.student_id
+        WHERE o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')
+          AND o.ctc_lpa IS NOT NULL
+        GROUP BY s.student_id
+      )
+      SELECT ROUND(AVG(highest_ctc), 2) AS avg_ctc, COUNT(*) AS student_count
+      FROM student_highest
+    rules:
+      - "Average package definition: one value per placed student = highest FTE/PPO CTC."
+      - "Always return avg AND median together, plus count of students and number of rows excluded for missing/unparseable CTC."
+      - "Exclude stipends and intern-only rows."
+
+  median_ctc:
+    description: "Median package in LPA among highest FTE/PPO offers per placed student"
+    unit: "LPA"
+    sql_template: >
+      WITH student_highest AS (
+        SELECT s.student_id, MAX(o.ctc_lpa) AS highest_ctc
+        FROM students s
+        JOIN offers o ON s.student_id = o.student_id
+        WHERE o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')
+          AND o.ctc_lpa IS NOT NULL
+        GROUP BY s.student_id
+      ),
+      ordered AS (
+        SELECT highest_ctc,
+               ROW_NUMBER() OVER (ORDER BY highest_ctc) AS r,
+               COUNT(*) OVER () AS c
+        FROM student_highest
+      )
+      SELECT ROUND(AVG(highest_ctc), 2) AS median_ctc
+      FROM ordered
+      WHERE r IN ((c + 1) / 2, (c + 2) / 2)
+    rules:
+      - "Always return avg AND median together."
+
+  highest_ctc:
+    description: "Maximum CTC offer recorded for the given filter"
+    unit: "LPA"
+    sql_template: >
+      SELECT MAX(o.ctc_lpa)
+      FROM offers o
+      WHERE o.ctc_lpa IS NOT NULL 
+        AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')
+
+  lowest_ctc:
+    description: "Minimum CTC offer recorded for the given filter"
+    unit: "LPA"
+    sql_template: >
+      SELECT MIN(o.ctc_lpa)
+      FROM offers o
+      WHERE o.ctc_lpa IS NOT NULL 
+        AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')
+
+  share_of_offers_above_threshold:
+    description: "Percentage of job offers with CTC >= threshold (e.g. 15 LPA, 18 LPA, 20 LPA)"
+    unit: "%"
+    sql_template: >
+      SELECT 
+        ROUND((COUNT(CASE WHEN o.ctc_lpa >= :threshold THEN 1 END) * 100.0) 
+              / COUNT(CASE WHEN o.ctc_lpa IS NOT NULL THEN 1 END), 2)
+      FROM offers o
+      WHERE o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')
+
+  average_monthly_stipend:
+    description: "Average monthly stipend in INR for internships"
+    unit: "INR/month"
+    sql_template: >
+      SELECT ROUND(AVG(o.stipend_monthly_inr), 0)
+      FROM offers o
+      WHERE o.stipend_monthly_inr IS NOT NULL AND o.stipend_monthly_inr > 0
+
+# Canonical Department Codes and Aliases
+branches:
+  CSE:
+    code: "103"
+    canonical: "Computer Science and Engineering"
+    division: "Circuit"
+    degree: "B.Tech"
+    aliases: ["cse", "cs", "computer science", "comp sc", "computer engineering", "computer science and engineering", "computer science & engineering"]
+
+  IT:
+    code: "124"
+    canonical: "Information Technology"
+    division: "Circuit"
+    degree: "B.Tech"
+    aliases: ["it", "information technology", "info tech"]
+
+  ECE:
+    code: "104"
+    canonical: "Electronics and Communication Engineering"
+    division: "Circuit"
+    degree: "B.Tech"
+    aliases: ["ece", "ec", "electronics", "electronics and communication", "electronics & communication", "electronics and communication engineering", "electronics & communication engineering"]
+
+  EE:
+    code: "126"
+    canonical: "Electrical Engineering"
+    division: "Circuit"
+    degree: "B.Tech"
+    aliases: ["ee", "electrical", "electrical engineering", "elec"]
+
+  ICE:
+    code: "106"
+    canonical: "Instrumentation and Control Engineering"
+    division: "Circuit"
+    degree: "B.Tech"
+    aliases: ["ice", "instrumentation", "instrumentation & control", "instrumentation and control engineering", "instrumentation & control engineering"]
+
+  ME:
+    code: "109"
+    canonical: "Mechanical Engineering"
+    division: "Core"
+    degree: "B.Tech"
+    aliases: ["me", "mech", "mechanical", "mechanical engineering"]
+
+  CE:
+    code: "102"
+    canonical: "Civil Engineering"
+    division: "Core"
+    degree: "B.Tech"
+    aliases: ["ce", "civil", "civil engineering"]
+
+  CHE:
+    code: "112"
+    canonical: "Chemical Engineering"
+    division: "Core"
+    degree: "B.Tech"
+    aliases: ["che", "chem", "chemical", "chemical engineering"]
+
+  IPE:
+    code: "113"
+    canonical: "Industrial and Production Engineering"
+    division: "Core"
+    degree: "B.Tech"
+    aliases: ["ipe", "industrial", "industrial engineering", "industrial and production engineering", "production", "industrial & production"]
+
+  BT:
+    code: "111"
+    canonical: "Biotechnology"
+    division: "Core"
+    degree: "B.Tech"
+    aliases: ["bt", "biotech", "bio technology", "biotechnology", "bio-tech"]
+
+  TT:
+    code: "110"
+    canonical: "Textile Technology"
+    division: "Core"
+    degree: "B.Tech"
+    aliases: ["tt", "textile", "textile technology", "textiles"]
+
+  DSE:
+    code: "117"
+    canonical: "Data Science and Engineering"
+    division: "Circuit"
+    degree: "B.Tech"
+    aliases: ["dse", "data science", "data science and engineering"]
+
+  VLSI:
+    code: "118"
+    canonical: "Electronics and VLSI Engineering"
+    division: "Circuit"
+    degree: "B.Tech"
+    aliases: ["vlsi", "vlsi engineering", "electronics and vlsi"]
+
+  CY:
+    code: "311"
+    canonical: "Chemistry"
+    division: "Sciences"
+    degree: "M.Sc"
+    aliases: ["chemistry", "msc chemistry", "cy"]
+
+  MA:
+    code: "312"
+    canonical: "Mathematics"
+    division: "Sciences"
+    degree: "M.Sc"
+    aliases: ["mathematics", "maths", "msc maths", "ma"]
+
+  PH:
+    code: "313"
+    canonical: "Physics"
+    division: "Sciences"
+    degree: "M.Sc"
+    aliases: ["physics", "msc physics", "ph"]
+
+  MBA:
+    code: "701"
+    canonical: "Humanities and Management (MBA)"
+    division: "Management"
+    degree: "MBA"
+    aliases: ["mba", "management", "humanities and management", "business administration"]
+
+# Program Groupings
+divisions:
+  circuit_branches:
+    description: "Circuit and software branches"
+    branch_codes: ["103", "124", "104", "126", "106", "117", "118"]
+  core_branches:
+    description: "Core engineering branches"
+    branch_codes: ["109", "102", "112", "113", "111", "110"]
+  sciences:
+    description: "M.Sc Science departments"
+    branch_codes: ["311", "312", "313"]
+
+# Company Aliases (Top Recruiters and Known Variants)
+companies:
+  Microsoft:
+    canonical: "Microsoft"
+    aliases: ["microsoft", "msft", "microsoft india", "ms", "micro soft"]
+  Google:
+    canonical: "Google"
+    aliases: ["google", "google india", "goog", "googl"]
+  Amazon:
+    canonical: "Amazon"
+    aliases: ["amazon", "amazon india", "amzn", "aws"]
+  Nvidia:
+    canonical: "Nvidia"
+    aliases: ["nvidia", "nvida", "nvidia graphics"]
+  Intel:
+    canonical: "Intel"
+    aliases: ["intel", "intel india", "intel technology india pvt. ltd."]
+  PayPal:
+    canonical: "PayPal"
+    aliases: ["paypal", "paypal university team", "pay pal"]
+  Uber:
+    canonical: "Uber"
+    aliases: ["uber", "uber india"]
+  Oracle:
+    canonical: "Oracle"
+    aliases: ["oracle", "oracle india"]
+  Samsung:
+    canonical: "Samsung"
+    aliases: ["samsung", "samsung sri", "samsung r&d", "samsung semiconductor"]
+  Goldman_Sachs:
+    canonical: "Goldman Sachs"
+    aliases: ["goldman sachs", "goldman", "gs"]
+  Flipkart:
+    canonical: "Flipkart"
+    aliases: ["flipkart", "flipkart india"]
+  Accenture:
+    canonical: "Accenture"
+    aliases: ["accenture", "accenutre"]
+  L_and_T:
+    canonical: "L&T"
+    aliases: ["l&t", "l&t limited", "l&t ltd.", "l&t construction", "larsen & toubro"]
+  Reliance_Industries:
+    canonical: "Reliance Industries"
+    aliases: ["reliance", "reliance industries", "ril", "reliance industries limited", "reliance industries ltd."]
+  Tata_Consulting_Engineers:
+    canonical: "Tata Consulting Engineers"
+    aliases: ["tata consulting engineers", "tce", "tata consulting engineers limited", "tata consulting engineers ltd."]
+  TCS:
+    canonical: "TCS"
+    aliases: ["tcs", "tata consultancy services", "tata consultancy"]
+  Optum:
+    canonical: "Optum"
+    aliases: ["optum", "optum india", "unitedhealth"]
+  Deloitte:
+    canonical: "Deloitte"
+    aliases: ["deloitte", "deloitte usi"]
+  American_Express:
+    canonical: "American Express"
+    aliases: ["american express", "amex"]
+  Cadence:
+    canonical: "Cadence"
+    aliases: ["cadence", "cadence design systems"]
+  Synopsys:
+    canonical: "Synopsys"
+    aliases: ["synopsys", "synopsys india"]
+  HCLTech:
+    canonical: "HCLTech"
+    aliases: ["hcl tech", "hcltech", "hcl"]
+  Hero_MotoCorp:
+    canonical: "Hero MotoCorp"
+    aliases: ["hero", "hero motorcorp", "hero motor corp", "heromotocorp"]
+  Delhivery:
+    canonical: "Delhivery"
+    aliases: ["delhivery", "delhivery limited"]
+  Technip_Energies:
+    canonical: "Technip Energies"
+    aliases: ["technip", "technip energies", "technipenergies", "technip energy"]
+  Zomato:
+    canonical: "Zomato"
+    aliases: ["zomato"]
+  ServiceNow:
+    canonical: "ServiceNow"
+    aliases: ["servicenow", "servicenow india"]
+  Bosch:
+    canonical: "Bosch"
+    aliases: ["bosch", "bosch global software", "bosch global software technologies pvt. ltd."]
+
+# Batch and Year Parsing Conventions
+batch_conventions:
+  graduation_years:
+    "2024":
+      btech_batch: "2020-2024"
+      pg_batch: "2022-2024"
+    "2025":
+      btech_batch: "2021-2025"
+      pg_batch: "2023-2025"
+    "2026":
+      btech_batch: "2022-2026"
+      pg_batch: "2024-2026"
+    "2027":
+      btech_batch: "2023-2027"
+
+# Strict SQL Verification & Privacy Rules
+safety_and_verification:
+  allowed_statements: ["SELECT"]
+  privacy_rules:
+    - "Never expose student_id, student names, phone numbers, or email addresses in final output."
+    - "Aggregate queries only: results with group size < 3 should be suppressed or flagged with low confidence."
+  sanity_checks:
+    - "Percentage values must always be between 0.0 and 100.0."
+    - "Branch total placed students must never exceed total registered students in that branch."
+    - "Branch offers count can exceed placed students count (due to multi-offers)."
+    - "Median package must be <= Highest package and >= Lowest package."
+    - "Stipend values (e.g. 45000 INR/mo) must never appear in ctc_lpa columns (which are in LPA)."
+

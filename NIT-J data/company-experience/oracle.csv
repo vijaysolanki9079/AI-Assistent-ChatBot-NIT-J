@@ -1,0 +1,546 @@
+"company_name","title","author","date","body","entry_id","scraped_at"
+"oracle","My Software Engineering Internship Experience at Fidelity International","ANANYA BHATIA","17 Sept 2026","My internship at Fidelity International was my first real exposure to how software engineering works beyond academics. The journey—from preparing for the selection process to working within an enterprise engineering team—taught me as much about communication and problem-solving as it did about technology.
+
+During the selection process, having strong fundamentals was important. My preparation focused on DSA, OOP, DBMS, SQL, Operating Systems, and Computer Networks, along with being thoroughly prepared to discuss my resume and projects. One thing I learned is that simply knowing definitions is not enough—you should be able to explain concepts in simple words, connect them to practical situations, and clearly describe the decisions you made in your own projects.
+
+During my internship, I worked on End User Computing (EUC) financial workflows and contributed to the reconciliation of fund data for mutual funds. My work gave me hands-on exposure to Java, Spring Boot, Angular, REST APIs, Oracle SQL, Liquibase, Jenkins, Kubernetes, Git and GitHub. I also used Jira and Confluence while working in an Agile environment.
+
+Initially, understanding a large existing codebase, financial terminology, and enterprise processes was challenging. Concepts such as SIT, UAT, deployment pipelines, stand-ups, sprints, retrospectives, and different application environments were very different when experienced practically compared with simply reading about them. Asking questions, documenting what I learned, taking feedback from my mentors, and understanding the business requirement before jumping into implementation helped me gradually become more comfortable.
+
+One of my biggest takeaways was realizing that software engineering is much more than writing code. I saw how a requirement moves through discussion, development, testing, reviews, and environments such as DEV → SIT → UAT → PROD before reaching users. Collaboration, documentation, version control, testing, ownership, and communication are all essential parts of building reliable software.
+
+For students preparing for similar internships, my advice would be to strengthen your CS fundamentals and DSA, know every project and skill mentioned on your resume, practice explaining your thought process rather than memorizing answers, and don't hesitate to ask questions once you join. You are not expected to know everything on your first day—the ability to learn, adapt, communicate, and take feedback matters enormously.
+
+Overall, my internship at Fidelity International gave me a much clearer understanding of professional software development and helped me grow both technically and professionally. It was an experience that changed my perspective from simply learning how to code to understanding how software is actually engineered in the real world.","7bd974c43b47a989de466562cf2d3979b304ed9b387ea956a9d179846081ae96","2026-10-21T07:10:35+00:00"
+"oracle","Oracle Interview Experience","SWETA","24 Nov 2025","My Interview Experience – (4 Rounds: OA + 3 Technical + HR)
+
+Round 1: Online Assessment (OA)
+
+The first round was an Online Assessment consisting of:
+
+MCQs on OS, DBMS, OOP, Networks
+2 DSA coding questions
+
+I cleared this round and moved to the interviews.
+
+Round 2: Technical Interview – 1 hour 30 minutes
+
+The interview started with a short introduction from my side. After that, the interviewer asked a wide range of questions covering Networking, OS, OOP, SQL, DSA, and my projects.
+
+Networking Questions
+
+Difference between Switch and Hub
+How packets are delivered using a switch (with diagram)
+How a router works
+About ARP protocol
+OSI model
+
+I explained the data forwarding process, MAC tables, routing tables, and also drew the network diagram as asked.
+
+OOPs Questions
+
+Difference between data hiding and binding
+Write abstraction code
+Difference between compile-time vs run-time polymorphism
+Write inheritance example code
+Use of static keyword
+Difference between overloading vs overriding
+
+I gave definitions with examples and wrote small snippets.
+
+OS Questions
+
+Types of deadlock , how to prevent it.
+Semaphore and mutex explanation
+A question on multithreading
+
+Project-Based Questions
+
+The interviewer then moved to my projects:
+
+Detailed discussion about API working
+Questions on LLM (Large Language Models) – how they work
+I explained tokenization, embeddings, training data, and inference with diagram.
+(He seemed quite happy with my explanation here.)
+
+Machine Learning Basics
+
+Difference between Supervised vs Unsupervised learning and labeled and unlabeled data.
+
+SQL Questions
+
+He asked 2–3 SQL queries.
+
+DSA Question
+
+He gave me a medium-level DSA question:
+
+“Find the length of the longest substring without repeating characters.” I explained my approach using sliding window and wrote the final solution.
+
+Personal / Background Questions
+
+Toward the end, he asked about my background and journey.
+
+Round 3: Technical Interview (45 mins)
+
+OOP questions
+
+Write abstraction code and inheritance code.
+Difference between compile-time vs run-time polymorphism.
+He also asked about constructors, static keyword.
+
+DSA
+
+He gave me a DSA question which I solved using comparator sort.
+He then asked in detail about the approach and how comparator sort works internally.
+
+STL
+
+Questions on STL.
+Differences between Java vs C++.
+Differences between dynamic vs static memory
+usage of new and delete.
+
+Puzzle Questions
+
+He asked 7–8 puzzles back-to-back, mostly the common ones found on GFG.
+
+Round 4: Technical Interview (35 -40 mins)
+
+DSA
+
+He gave me a medium-level DSA question, which I solved successfully.
+
+Project Discussion
+
+He asked about my project, its working, tech stack, and main features.
+
+Puzzle Questions
+
+He asked a puzzle, similar to the ones on GFG.
+
+Personal Questions
+
+He asked whether this was my first interview.
+He also asked why I didn’t do any internship.
+
+HR Round
+
+A smooth and straightforward discussion about the role, location, relocation, communication, and overall fit. Nothing technical was asked here.
+
+Result
+
+After a long day of interviews, the results were announced, I was selected and it felt really great. All my hard work finally paid off. The Oracle interview process was smooth, well-organized, and the interviewers were very polite and supportive.
+
+NOTE: If you’re preparing for Oracle:
+
+Focus on strong basics in OS, DBMS, OOP, Networks.
+Practice DSA regularly, especially medium to hard questions(Striver Sheet ).
+Know your projects end-to-end , they ask in depth.
+Prepare SQL queries and puzzles (GFG-level).
+Whatever is on your resume will be asked, so revise everything well.
+
+Final Words
+
+That was my overall experience.
+For more detailed information, feel free to reach out to me on LinkedIn.","bdf11ecac28317cd33eefefcd802f633ad68191a2578cab6b29efe46b0cb9a09","2026-10-21T07:16:00+00:00"
+"oracle","Oracle Interview","ARPIT GARG","23 Nov 2025","There were 3 Technical Rounds + HR discussion at end..
+First Round: 2 DSA Question (Recursion + Counting ocurrences of a word in document), some resume based Questions
+Second Round: 2 DSA Question (Burst Ballons + max heap based) ,1 Sql, 1 design pattern
+Third Round: Next perumtation of a number
+Finally HR discussion about Work , Team , Location preference Etc..","f6ca03cadf5936a997b80319ff0cd4f91ccf02618870169e88398e489b862ff3","2026-10-21T07:16:33+00:00"
+"oracle","My Oracle India Pvt. Ltd. Placement Experience (Associate Software Developer)","SUMIT SATI","23 Nov 2025","Round 1: Technical Interview (DSA & Problem Solving)
+
+This round focused heavily on DSA and logical problem-solving, with an initial focus on my resume.
+
+Introduction and Project Deep Dive: After a brief self-introduction, the interviewer immediately focused on my resume. The most challenging project-related question was: “Explain how you managed to improve the API time.” I explained that the major improvement came from identifying non-dependent API calls and restructuring them to execute in parallel instead of sequentially, which significantly reduced the overall response time.
+
+Core DSA Concepts:
+
+I was asked to name my favorite topic in DSA, to which I replied, ""Anything but Graph.""
+
+This led to a conceptual question: ""What is the difference between a Stack and a Queue, and where are they used?"" I used Tree Traversal as an application example.
+
+Advanced DSA/Coding:
+
+Following the mention of trees, he posed a coding challenge: ""Implement Zigzag Tree Traversal using Stacks (not Queues)."" This tested my understanding of using two stacks for alternating direction traversal.
+
+Dynamic Programming Challenge: I was given the ""Burst Balloons"" partition DP problem.
+
+Challenge: I was not able to solve it optimally but candidly explained a greedy approach (which I knew was wrong).
+
+Max-Heap Application: The final coding question was a simulation problem involving rock collision (taking the top two largest elements, colliding them, and inserting the difference back).
+
+Success: I correctly identified and explained the Max-Heap data structure as the optimal approach for maintaining and repeatedly accessing the two largest elements in O(log N) time for each collision.
+
+Database Query: The round concluded with a simple SQL query (easy-level SELECT with a WHERE and a GROUP BY clause) which I was able to write correctly.
+
+Challenges and How I Overcame Them
+
+The Burst Balloons DP problem was a significant challenge.
+
+The Struggle: I could only think of a greedy solution, which wouldn't work.
+
+The Overcoming Action: I was vocal about my thought process. I explained why the greedy approach would fail for certain test cases and articulated the need for a dynamic programming sub-problem, demonstrating a problem-solving mindset and honesty.
+
+Round 2: Technical & Behavioral Interview (Web Tech & Projects)
+
+This round was conducted by a very senior engineer (>15 years of experience) and focused on my project's technology stack and core Web Development/Infrastructure concepts.
+
+Web Technology & Fundamentals:
+
+API Requests: Difference between GET and POST requests, and their respective use cases and security considerations.
+
+CSS: Different types of CSS (inline, internal, external) and their priority.
+
+Browser Mechanics: Browser DOM (Document Object Model) and the role of the User Agent.
+
+JavaScript: Multi-threading in JavaScript (is it or isn't it, and the concept of the event loop/call stack).
+
+TypeScript: Its significance (type safety, scalability) and how a browser processes it (transpilation to JavaScript).
+
+Project and Tech Stack Review:
+
+I was asked to explain my project's complete tech stack and, critically, justify my choice of using it.
+
+Alternative Analysis: The interviewer then asked, ""What are the alternatives to your chosen stack, and why did you choose not to use them?""
+
+Non-Technical/Behavioral:
+
+Career Goals: ""Where do you see yourself 10 years down the line?"" (A standard question to gauge long-term commitment and ambition.)
+
+Another similar behavioral question (focusing on resilience or teamwork).
+
+Actionable Advice
+
+Master the ""Why"": For any technology on your resume, don't just know what it is, know ""why"" you chose it over alternatives. Be ready to discuss trade-offs, complexity, and scalability.
+
+Ask a Relevant Question: I asked, ""What kind of projects or technologies would a fresher like me be working on within the IGIU team if I get selected in Oracle?"" This shows genuine interest in the specific unit's work.
+
+Round 3: Technical Interview (CS Fundamentals & Optimization)
+
+This round was led by a problem-solver who tested my ability to map real-world infrastructure/data scenarios to core CS concepts, focusing on System Internals, Data Structures, and critical thinking about complexity.
+
+Conceptual Mapping (Tree Traversal/Data Serialization):
+
+The Problem: The interviewer presented a scenario: ""If you want to share a database table that stores a folder structure (id, type, parent_id) to a different computer while preserving the child-parent relationship and meeting a specific condition for transfer.""
+
+Solution: I correctly deduced that the complex data transfer condition boiled down to the Preorder Traversal of a tree to serialize the data efficiently while maintaining hierarchy.
+
+DBMS/System Internals:
+
+HashMaps Under the Hood: ""How do HashMaps work under the hood?"" This required an explanation of hash functions, array-of-linked-lists/trees, and collision resolution techniques.
+
+Hash Algorithm Design: I was then asked to design and explain a simple hashing algorithm, testing my grasp of distributing keys to minimize collisions.
+
+Process Scheduling: A conceptual question on Operating Systems was asked (e.g., context switching, different scheduling algorithms).
+
+Advanced Coding & Optimization:
+
+Large Number Arithmetic: ""Multiply two large numbers such that the result is stored in a string (since it won't fit in any standard variable)."" This tests array/string multiplication logic.
+
+Trick Question on Linked Lists: The final question was to ""optimise a linked list reversal,"" given both the head pointer and a middle pointer.
+
+My Answer: I took a moment and then explained that it is not possible to optimize the full reversal beyond O(N) because every single node's pointer must be accessed and flipped, which is fundamentally an N operation.
+
+Challenges and How I Overcame Them
+
+The Trick Question: The Linked List optimization question was a deliberate trick to test my conceptual understanding.
+
+The Overcoming Action: I stood my ground with strong logical reasoning. I explained the fundamental O(N) lower bound of the task, focusing on the definition of time complexity and the mandatory N operations required to touch all pointers. This showed conceptual clarity and confidence in my CS fundamentals.","ab2cace047d49dec8da5e2bdbe7e8f37b71814ece68d8c755ea3bc26cbd91722","2026-10-21T07:16:59+00:00"
+"oracle","My Interview Experience – Oracle (Associate Software Engineer)","SHIKHA GUPTA","21 Nov 2025","In early August, our campus hosted the recruitment drive for the role of Associate Software Engineer. Excited? Yes. Nervous? Of course.
+Like many students, this company had always been one of my dream workplaces. The entire experience — from the OA to the final HR round — tested my concepts, patience, consistency, and calmness.
+
+Here’s my complete journey 👇
+
+Round 1: Online Assessment
+
+The OA consisted of:
+
+2 DSA coding questions (medium–difficult)
+
+MCQs based on OOPS, OS, DBMS, CN, Aptitude
+
+The OA required strong concepts and fast thinking.
+After this, around 70 students were shortlisted for interviews.
+
+Round 2: Technical Interview 1 ( 60 mins around)
+
+This round started directly with problem-solving and fundamentals.
+
+🔹 DSA (Dynamic Programming)
+
+The interviewer first asked a DP-based coding question.
+After I solved it, he added extra constraints on top of the same problem and asked me to modify and optimize my solution accordingly.
+I explained the updated approach, complexity, and reasoning.
+
+🔹 System Design (OS-Oriented)
+
+Then he asked something like:
+“Design a basic system for an Operating System — how would you structure it?”
+
+I explained the high-level architecture, components, and how the system would manage processes, memory, and interactions.
+
+🔹 OOPS Concepts ---> Abstract Class , Interface , Virtual Functions etc.
+
+🔹 General Questions
+
+1–2 simple follow-up questions to wrap up the round.
+
+Round 3: Technical Interview 2 (Deep System Design + Hard DSA)
+
+This round was more detailed and tougher.
+
+🔹 Project System Design
+
+They asked:
+
+Functional requirements , Data flows , How you handled API calls , Architectural explanation.
+
+🔹 Hard DSA Problem
+
+Interviewer gave a problem that even he found tough.
+He said jokingly:
+“Yeh question tum GPT ko bhi de do, shayad solve na kare.”
+
+He gave me 15 minutes to think.
+
+I explained:
+
+Multiple approaches
+
+Why the first solution had high complexity
+
+How I optimized it
+
+Then wrote pseudo-code
+
+🔹 DBMS Questions
+
+Short but conceptual.
+
+🔹 General
+
+1–2 quick questions.
+
+Round 4: Technical Interview 3 (Short + DSA + Projects)
+
+A crisp but technical round.
+
+🔹 DSA
+
+Full Bit Manipulation problem
+
+One simple Linked List question
+
+1–2 general follow-up questions
+
+🔹 Projects
+
+They asked about:
+
+What I built
+
+Key design decisions
+
+Challenges & fixes
+
+I concluded the interview by asking about their engineering practices, and I strongly encourage others to ask insightful questions at the end.
+
+Final HR Round
+
+A smooth and simple conversation covering:
+
+Role
+
+Location
+
+Relocation
+
+Communication
+
+Fit
+
+Nothing technical here.
+
+Result
+
+After a long day of interviews, the results were announced —
+and I’m happy to share that I was selected 🎉
+
+It was a moment of huge relief, gratitude, and happiness.
+
+Key Takeaways
+
+If it’s on your resume, it will be asked.
+
+Practice DSA consistently — medium to hard questions.
+
+Know your projects + system design basics thoroughly.
+
+Prepare OOPS, DBMS, OS, CN, GEN-AI basics, and puzzles.
+
+Stay calm even during long waiting periods.
+
+Good communication leaves a strong impact.
+
+If anyone wants to know more about the process,
+feel free to connect with me on LinkedIn!
+
+LinkedIn","6791e7215078fb44c5197e2108b85ed8a686cdf9260c3dc524fbbc767d0cefc3","2026-10-21T07:18:34+00:00"
+"oracle","Ridham Mahajan – Oracle Associate Software Engineer Experience","RIDHAM MAHAJAN","21 Nov 2025","In early August, Oracle visited our campus to recruit for the role of Associate Software Engineer. Excited? Definitely. Nervous? Absolutely. Oracle has always been one of those dream companies for many of us, and walking into the process knowing it involved multiple technical rounds was both thrilling and intimidating. The entire journey tested not just my technical knowledge, but also my patience, confidence, and ability to stay calm under pressure.
+
+Here’s my complete experience — what happened, what I was asked, and what I learned.
+
+Round 1: Online Assessment
+
+The OA consisted of:
+
+2 DSA coding questions, medium to difficult level
+
+MCQs based on core CS fundamentals: OOPS, CN, OS, DBMS, and Aptitude
+
+The questions were manageable but required clarity of thought and speed.
+After this round, around 70 students were shortlisted for interviews.
+
+Tip: Having a strong grip on DSA (especially medium–hard problems on LeetCode) and core subjects is essential to clear this round comfortably.
+
+Round 2: Technical Interview 1 (50 minutes)
+
+This round began with the interviewer going through my resume. The first task he gave me was:
+
+“Explain and solve any hard LeetCode question you have done till now.”
+
+Since I regularly practice on LeetCode and had a strong profile, I confidently explained a hard DP problem based on Partition DP. I walked him through the intuition, transitions, and complexity.
+
+After this, he shifted toward my tech stack:
+
+Express.js
+
+Node.js
+
+Socket.io
+
+Since these were part of my major projects, I explained architecture, use cases, and implementation details.
+
+We then discussed:
+
+Why Oracle? (This turned into a detailed 15-minute conversation)
+
+Explain any ML algorithm with an example
+
+He also asked questions around:
+
+My project decisions
+
+System design at a basic level
+
+Some conceptual checks
+
+It was a smooth and interactive round.
+
+Round 3: Technical Interview 2 (55 minutes)
+
+This was the toughest round for me — not because of the questions, but because of the circumstances.
+
+I had to wait from 2 PM to 8 PM for my turn. Many were getting rejected or selected before me. I had cold, sneezing, and gradual body pain as the day went on. By 8 PM, I was both exhausted and stressed — but also mentally prepared to give my best.
+
+The interviewer for this round was extremely kind and supportive. This made a huge difference.
+
+He took a deep dive into all three of my projects:
+
+Architecture
+
+Tech stack
+
+APIs
+
+What exactly I built
+
+What was challenging
+
+How I solved issues
+
+Then came the technical questions:
+
+Loop in Linked List detection
+
+Diamond problem in OOP
+
+Dynamic casting
+
+SQL Trigger (situation-based)
+
+Puzzle:
+Four people on a shore, only two can cross at a time, one must return — minimum time?
+
+Data Structure scenario:
+Employees printing sheets but manager has priority → I answered Deque
+
+Despite being tired, I remained composed and confident. This round tested my fundamentals, logic, and calmness. I walked out satisfied.
+
+Round 4: Technical Interview 3 (15 minutes)
+
+This round was very short.
+
+The interviewer only asked:
+
+To walk through my resume
+
+If I had any questions for him
+
+I asked a thoughtful question about Oracle’s engineering practices — and I recommend everyone to definitely ask questions at the end.
+
+Final HR Round
+
+This round covered:
+
+Role explanation
+
+Locations
+
+Relocation
+
+Communication-related discussion
+
+General fit-check
+
+It was straightforward and relaxed.
+
+The Result
+
+At around 9:20 PM, after a long and intense day, the final results were announced.
+I was thrilled to see my name on the selection list — selected along with 18 others.
+
+It was a moment of pure happiness, relief, and gratitude.
+
+Key Takeaways
+
+Know your resume thoroughly. If it’s written, it will be asked.
+
+Practice DSA consistently — especially medium and hard-level problems, do CP like giving contests on leetcode ,codechef etc.
+
+Be confident while explaining your projects.
+
+Prepare for DP, OOPS, DBMS, OS ,GEN-AI and SYSTEM DESIGN basics, and puzzles on GFG .
+
+Stay calm during long waiting periods. Mental stability is a big part of campus placements.
+
+Ask questions to the interviewer. It makes a lasting impression.
+
+Communication matters as much as technical knowledge
+
+Lets connect if u want to know more:
+
+LinkedIn","7c08a9e042aa399a7340dd20707b55214737219081a05c68efb3531cdf304d20","2026-10-21T07:18:51+00:00"
+"oracle","Oracle","OMKAR VISHNOI","12 Nov 2025","My interview experience with Oracle was quite insightful and straightforward. The interviewers were very answer-oriented — they preferred concise and accurate responses rather than long explanations or stories. It’s important to give direct answers and, if you don’t know something, simply admit it instead of trying to make up an explanation.
+
+One key observation was that the interviewers thoroughly go through your resume, so make sure you only include the skills and projects you genuinely know well. Be ready to discuss every line mentioned, and prepare well for common HR-style questions like “Why should we hire you?” or “What makes you better than other candidates?”
+
+In the technical rounds, they asked medium to difficult-level DSA questions, but all were standard and conceptual — nothing out of the box. Apart from DSA, they also included puzzles to test logical thinking, so it’s worth preparing for those as well.
+
+Another important point is that they might ask you to write code related to your own project, so be well-versed with its implementation details and logic. Also, don’t ignore System Design fundamentals — several candidates were asked questions on this topic.
+
+Lastly, Computer Science fundamentals were covered in good depth, so brushing up on core subjects like OS, DBMS, and OOPs is highly recommended.
+
+Overall, Oracle’s interview process is a great test of both clarity and depth of understanding, so focus on conceptual strength and honest, precise communication.","fa9434c903f6e5523acca645f630fb3c5ec697a60b6443255cfe939349fd5cd8","2026-10-21T07:19:01+00:00"

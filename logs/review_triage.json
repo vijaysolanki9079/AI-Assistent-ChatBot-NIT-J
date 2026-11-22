@@ -1,0 +1,981 @@
+[
+  {
+    "question": "what is the trend for random XYZ?",
+    "frequency": 1,
+    "min_confidence": 0.5,
+    "status": "clarification_required",
+    "reasons": [
+      "Low confidence (0.50 < 0.70)",
+      "Clarification required"
+    ],
+    "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+    "last_seen": "2026-11-17T17:56:21.907007+00:00",
+    "query_spec": {
+      "intent": "clarify",
+      "metric": null,
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": true,
+      "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+      "privacy_flag": false,
+      "confidence": 0.5
+    },
+    "sql": null
+  },
+  {
+    "question": "Top 5 companies by number of PPO offres",
+    "frequency": 1,
+    "min_confidence": 0.5,
+    "status": "clarification_required",
+    "reasons": [
+      "Low confidence (0.50 < 0.70)",
+      "Clarification required"
+    ],
+    "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+    "last_seen": "2026-11-17T17:57:25.990570+00:00",
+    "query_spec": {
+      "intent": "clarify",
+      "metric": null,
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": true,
+      "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+      "privacy_flag": false,
+      "confidence": 0.5
+    },
+    "sql": null
+  },
+  {
+    "question": "Top 5 companies hiring from ME",
+    "frequency": 1,
+    "min_confidence": 0.5,
+    "status": "clarification_required",
+    "reasons": [
+      "Low confidence (0.50 < 0.70)",
+      "Clarification required"
+    ],
+    "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+    "last_seen": "2026-11-17T17:57:26.472429+00:00",
+    "query_spec": {
+      "intent": "clarify",
+      "metric": null,
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": true,
+      "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+      "privacy_flag": false,
+      "confidence": 0.5
+    },
+    "sql": null
+  },
+  {
+    "question": "Which company visited yesterdy?",
+    "frequency": 1,
+    "min_confidence": 0.5,
+    "status": "clarification_required",
+    "reasons": [
+      "Low confidence (0.50 < 0.70)",
+      "Clarification required"
+    ],
+    "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+    "last_seen": "2026-11-17T17:57:47.557219+00:00",
+    "query_spec": {
+      "intent": "clarify",
+      "metric": null,
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": true,
+      "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+      "privacy_flag": false,
+      "confidence": 0.5
+    },
+    "sql": null
+  },
+  {
+    "question": "Tell me about placemets",
+    "frequency": 1,
+    "min_confidence": 0.5,
+    "status": "clarification_required",
+    "reasons": [
+      "Low confidence (0.50 < 0.70)",
+      "Clarification required"
+    ],
+    "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+    "last_seen": "2026-11-17T17:57:47.777493+00:00",
+    "query_spec": {
+      "intent": "clarify",
+      "metric": null,
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": true,
+      "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+      "privacy_flag": false,
+      "confidence": 0.5
+    },
+    "sql": null
+  },
+  {
+    "question": "Tell Me About Placements",
+    "frequency": 1,
+    "min_confidence": 0.5,
+    "status": "clarification_required",
+    "reasons": [
+      "Low confidence (0.50 < 0.70)",
+      "Clarification required"
+    ],
+    "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+    "last_seen": "2026-11-17T17:57:47.854418+00:00",
+    "query_spec": {
+      "intent": "clarify",
+      "metric": null,
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": true,
+      "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+      "privacy_flag": false,
+      "confidence": 0.5
+    },
+    "sql": null
+  },
+  {
+    "question": "arre sun na Tell me about placements yaar",
+    "frequency": 1,
+    "min_confidence": 0.5,
+    "status": "clarification_required",
+    "reasons": [
+      "Low confidence (0.50 < 0.70)",
+      "Clarification required"
+    ],
+    "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+    "last_seen": "2026-11-17T17:57:47.889951+00:00",
+    "query_spec": {
+      "intent": "clarify",
+      "metric": null,
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": true,
+      "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+      "privacy_flag": false,
+      "confidence": 0.5
+    },
+    "sql": null
+  },
+  {
+    "question": "WHICH BRANCH IS THE BEST?",
+    "frequency": 1,
+    "min_confidence": 0.5,
+    "status": "clarification_required",
+    "reasons": [
+      "Low confidence (0.50 < 0.70)",
+      "Clarification required"
+    ],
+    "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+    "last_seen": "2026-11-17T17:57:48.805622+00:00",
+    "query_spec": {
+      "intent": "clarify",
+      "metric": null,
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": true,
+      "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+      "privacy_flag": false,
+      "confidence": 0.5
+    },
+    "sql": null
+  },
+  {
+    "question": "arre sun na Which branch is the best? batao na",
+    "frequency": 1,
+    "min_confidence": 0.5,
+    "status": "clarification_required",
+    "reasons": [
+      "Low confidence (0.50 < 0.70)",
+      "Clarification required"
+    ],
+    "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+    "last_seen": "2026-11-17T17:57:48.847788+00:00",
+    "query_spec": {
+      "intent": "clarify",
+      "metric": null,
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": true,
+      "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+      "privacy_flag": false,
+      "confidence": 0.5
+    },
+    "sql": null
+  },
+  {
+    "question": "branch best",
+    "frequency": 1,
+    "min_confidence": 0.5,
+    "status": "clarification_required",
+    "reasons": [
+      "Low confidence (0.50 < 0.70)",
+      "Clarification required"
+    ],
+    "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+    "last_seen": "2026-11-17T17:57:48.875882+00:00",
+    "query_spec": {
+      "intent": "clarify",
+      "metric": null,
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": true,
+      "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+      "privacy_flag": false,
+      "confidence": 0.5
+    },
+    "sql": null
+  },
+  {
+    "question": "And which branch is the best?",
+    "frequency": 1,
+    "min_confidence": 0.5,
+    "status": "clarification_required",
+    "reasons": [
+      "Low confidence (0.50 < 0.70)",
+      "Clarification required"
+    ],
+    "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+    "last_seen": "2026-11-17T17:57:48.907351+00:00",
+    "query_spec": {
+      "intent": "clarify",
+      "metric": null,
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": true,
+      "clarification_question": "Could you please specify the recruiter (e.g., Google, Microsoft), department (e.g., CSE, IT, ECE), or placement metric (e.g., package, student count, batch comparison) you'd like to inspect?",
+      "privacy_flag": false,
+      "confidence": 0.5
+    },
+    "sql": null
+  },
+  {
+    "question": "Which branhc is the best?",
+    "frequency": 1,
+    "min_confidence": 0.75,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": "Did you mean Brance?",
+    "last_seen": "2026-11-17T17:57:48.797907+00:00",
+    "query_spec": {
+      "intent": "clarify",
+      "metric": null,
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": true,
+      "clarification_question": "Did you mean Brance?",
+      "privacy_flag": false,
+      "confidence": 0.75
+    },
+    "sql": null
+  },
+  {
+    "question": "What is the CTC of Microsfot for CSE?",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:16.382170+00:00",
+    "query_spec": {
+      "intent": "lookup",
+      "metric": "ctc",
+      "companies": [],
+      "branches": [
+        "CSE"
+      ],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "How many total offers were given to ME students?",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:20.572656+00:00",
+    "query_spec": {
+      "intent": "count",
+      "metric": "offers",
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "How many students got placed ofcampuss?",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:20.809337+00:00",
+    "query_spec": {
+      "intent": "count",
+      "metric": "placed_students",
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {
+        "offer_mode": "Off-campus"
+      },
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "Gendewisee placement count in 2020-2024 batch",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:23.513128+00:00",
+    "query_spec": {
+      "intent": "breakdown",
+      "metric": null,
+      "companies": [],
+      "branches": [],
+      "batches": [
+        "2020-2024"
+      ],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "Top 5 compaies by highest package",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:24.435379+00:00",
+    "query_spec": {
+      "intent": "ranking",
+      "metric": "max_ctc",
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "Top 5 branches by aevrage CTC in 2020-2024 batch",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:25.197671+00:00",
+    "query_spec": {
+      "intent": "ranking",
+      "metric": "ctc",
+      "companies": [],
+      "branches": [],
+      "batches": [
+        "2020-2024"
+      ],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "Top 5 branches average CTC 2020-2024 batch",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:25.418350+00:00",
+    "query_spec": {
+      "intent": "ranking",
+      "metric": "avg_ctc",
+      "companies": [],
+      "branches": [],
+      "batches": [
+        "2020-2024"
+      ],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "Average package of feale students in 2020-2024 batch",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:27.426713+00:00",
+    "query_spec": {
+      "intent": "lookup",
+      "metric": "avg_ctc",
+      "companies": [],
+      "branches": [],
+      "batches": [
+        "2020-2024"
+      ],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "Averaeg CTC of circuit branches in 2020-2024 batch",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:27.706399+00:00",
+    "query_spec": {
+      "intent": "lookup",
+      "metric": "ctc",
+      "companies": [],
+      "branches": [],
+      "batches": [
+        "2020-2024"
+      ],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "Overall averge package of NIT Jalandhar in 2020-2024 batch",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:27.923364+00:00",
+    "query_spec": {
+      "intent": "lookup",
+      "metric": "ctc",
+      "companies": [],
+      "branches": [],
+      "batches": [
+        "2020-2024"
+      ],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "Average monthly stiped for summer internships in 2023-2027 batch",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:28.573464+00:00",
+    "query_spec": {
+      "intent": "lookup",
+      "metric": "avg_ctc",
+      "companies": [],
+      "branches": [],
+      "batches": [
+        "2023-2027"
+      ],
+      "offer_types": [
+        "Internship"
+      ],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "Averaeg CTC of off-campus placements in 2021-2025 batch",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:29.108404+00:00",
+    "query_spec": {
+      "intent": "lookup",
+      "metric": "ctc",
+      "companies": [],
+      "branches": [],
+      "batches": [
+        "2021-2025"
+      ],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {
+        "offer_mode": "Off-campus"
+      },
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "Placement percentage of ME in 2020-2024 batch",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:31.024146+00:00",
+    "query_spec": {
+      "intent": "lookup",
+      "metric": "placement_percentage",
+      "companies": [],
+      "branches": [],
+      "batches": [
+        "2020-2024"
+      ],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "Commpare placement percentage between 2020-2024 and 2021-2025 batches",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:33.648633+00:00",
+    "query_spec": {
+      "intent": "lookup",
+      "metric": "placement_percentage",
+      "companies": [],
+      "branches": [],
+      "batches": [
+        "2020-2024",
+        "2021-2025"
+      ],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "How did average CTC in ME trend over the years?",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:34.068063+00:00",
+    "query_spec": {
+      "intent": "trend",
+      "metric": "avg_ctc",
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "Companies that hired from both IT and ME",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:36.970422+00:00",
+    "query_spec": {
+      "intent": "compare",
+      "metric": "placed_students",
+      "companies": [],
+      "branches": [
+        "IT"
+      ],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "Companies that hired 2021-2025 batch package >= 15 LPA made least 3 offers",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:38.352984+00:00",
+    "query_spec": {
+      "intent": "ranking",
+      "metric": "offers",
+      "companies": [],
+      "branches": [],
+      "batches": [
+        "2021-2025"
+      ],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {
+        "ctc_threshold": 15.0,
+        "threshold_op": ">="
+      },
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "companies hired both BTech MTech",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:38.588943+00:00",
+    "query_spec": {
+      "intent": "count",
+      "metric": "placed_students",
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "Which B.Tech branches had zero femael placements in 2020-2024 batch?",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:39.223980+00:00",
+    "query_spec": {
+      "intent": "out_of_scope",
+      "metric": null,
+      "companies": [],
+      "branches": [],
+      "batches": [
+        "2020-2024"
+      ],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "companies hired zero Information Technology",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:40.884390+00:00",
+    "query_spec": {
+      "intent": "out_of_scope",
+      "metric": "placed_students",
+      "companies": [],
+      "branches": [
+        "IT"
+      ],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "Which companies never hired in 2020-2024 batch but hired in 201220255 batch?",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:41.369093+00:00",
+    "query_spec": {
+      "intent": "out_of_scope",
+      "metric": "placed_students",
+      "companies": [],
+      "branches": [],
+      "batches": [
+        "2020-2024"
+      ],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "companies never hired 2020-2024 batch but hired 2021-2025 batch",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:41.642872+00:00",
+    "query_spec": {
+      "intent": "out_of_scope",
+      "metric": "placed_students",
+      "companies": [],
+      "branches": [],
+      "batches": [
+        "2020-2024",
+        "2021-2025"
+      ],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "What is the CTC of Appe?",
+    "frequency": 1,
+    "min_confidence": 0.95,
+    "status": "clarification_required",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T17:57:47.085524+00:00",
+    "query_spec": {
+      "intent": "lookup",
+      "metric": "ctc",
+      "companies": [],
+      "branches": [],
+      "batches": [],
+      "offer_types": [],
+      "group_by": [],
+      "filters": {},
+      "needs_clarification": false,
+      "clarification_question": null,
+      "privacy_flag": false,
+      "confidence": 0.95
+    },
+    "sql": null
+  },
+  {
+    "question": "how much of then r from 21-25 batch?",
+    "frequency": 1,
+    "min_confidence": 1.0,
+    "status": "success",
+    "reasons": [
+      "Clarification required"
+    ],
+    "clarification_question": null,
+    "last_seen": "2026-11-17T12:06:42.321Z",
+    "query_spec": {},
+    "sql": null
+  }
+]

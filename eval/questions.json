@@ -1,0 +1,3756 @@
+[
+  {
+    "id": "LOOKUP_01",
+    "type_id": 1,
+    "type_name": "Lookup",
+    "question": "What is the CTC of Microsoft for CSE?",
+    "entities": {
+      "companies": [
+        "Microsoft"
+      ],
+      "branches": [
+        "CSE"
+      ],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Microsoft' AND b.short_name = 'CSE' AND o.ctc_lpa IS NOT NULL ORDER BY o.ctc_lpa DESC;",
+    "answer_type": "number_list",
+    "notes": "Verified FTE CTC is 52.0 LPA. Excludes summer intern stipend.",
+    "gold_answer": [
+      52.0
+    ]
+  },
+  {
+    "id": "LOOKUP_02",
+    "type_id": 1,
+    "type_name": "Lookup",
+    "question": "What package did Google offer?",
+    "entities": {
+      "companies": [
+        "Google"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Google' AND o.ctc_lpa IS NOT NULL ORDER BY o.ctc_lpa DESC;",
+    "answer_type": "number_list",
+    "notes": "Google offers in dataset: 62.0 LPA and 30.5 LPA.",
+    "gold_answer": [
+      62.0,
+      52.0
+    ]
+  },
+  {
+    "id": "LOOKUP_03",
+    "type_id": 1,
+    "type_name": "Lookup",
+    "question": "What was the package offered by PayPal?",
+    "entities": {
+      "companies": [
+        "PayPal"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'PayPal' AND o.ctc_lpa IS NOT NULL;",
+    "answer_type": "number_list",
+    "notes": "PayPal offered 34.4 LPA.",
+    "gold_answer": [
+      34.4
+    ]
+  },
+  {
+    "id": "LOOKUP_04",
+    "type_id": 1,
+    "type_name": "Lookup",
+    "question": "CTC of Micorsoft for CSE",
+    "entities": {
+      "companies": [
+        "Microsoft"
+      ],
+      "branches": [
+        "CSE"
+      ],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Microsoft' AND b.short_name = 'CSE' AND o.ctc_lpa IS NOT NULL;",
+    "answer_type": "number_list",
+    "notes": "Spelling variant 'Micorsoft' resolved to Microsoft.",
+    "gold_answer": [
+      52.0
+    ]
+  },
+  {
+    "id": "LOOKUP_05",
+    "type_id": 1,
+    "type_name": "Lookup",
+    "question": "What package did Nvida offer to Electronics engineering?",
+    "entities": {
+      "companies": [
+        "Nvidia"
+      ],
+      "branches": [
+        "ECE"
+      ],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Nvidia' AND b.short_name = 'ECE' AND o.ctc_lpa IS NOT NULL;",
+    "answer_type": "number_list",
+    "notes": "Typo Nvida resolved to Nvidia. Offer at 25.0 LPA.",
+    "gold_answer": [
+      25.0
+    ]
+  },
+  {
+    "id": "LOOKUP_06",
+    "type_id": 1,
+    "type_name": "Lookup",
+    "question": "What is the CTC offered by Uber?",
+    "entities": {
+      "companies": [
+        "Uber"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Uber' AND o.ctc_lpa IS NOT NULL;",
+    "answer_type": "number_list",
+    "notes": "Uber offer CTC is 59.0 LPA.",
+    "gold_answer": [
+      59.0
+    ]
+  },
+  {
+    "id": "LOOKUP_07",
+    "type_id": 1,
+    "type_name": "Lookup",
+    "question": "What package was given by Cred?",
+    "entities": {
+      "companies": [
+        "Cred"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Cred' AND o.ctc_lpa IS NOT NULL;",
+    "answer_type": "number_list",
+    "notes": "Cred package is 52.0 LPA.",
+    "gold_answer": [
+      52.0
+    ]
+  },
+  {
+    "id": "LOOKUP_08",
+    "type_id": 1,
+    "type_name": "Lookup",
+    "question": "What package does Zomato offer for Chemical Engineering?",
+    "entities": {
+      "companies": [
+        "Zomato"
+      ],
+      "branches": [
+        "CHE"
+      ],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Zomato' AND b.short_name = 'CHE' AND o.ctc_lpa IS NOT NULL;",
+    "answer_type": "number_list",
+    "notes": "Zomato offered 6.0 LPA to Chemical Engg.",
+    "gold_answer": [
+      6.0,
+      9.0
+    ]
+  },
+  {
+    "id": "LOOKUP_09",
+    "type_id": 1,
+    "type_name": "Lookup",
+    "question": "Package of Oracle India for Information Technology",
+    "entities": {
+      "companies": [
+        "Oracle"
+      ],
+      "branches": [
+        "IT"
+      ],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Oracle' AND b.short_name = 'IT' AND o.ctc_lpa IS NOT NULL ORDER BY o.ctc_lpa DESC;",
+    "answer_type": "number_list",
+    "notes": "Oracle offers in IT.",
+    "gold_answer": [
+      21.89,
+      19.8,
+      19.0
+    ]
+  },
+  {
+    "id": "LOOKUP_10",
+    "type_id": 1,
+    "type_name": "Lookup",
+    "question": "What is the CTC of Goldman Sachs?",
+    "entities": {
+      "companies": [
+        "Goldman Sachs"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Goldman Sachs' AND o.ctc_lpa IS NOT NULL;",
+    "answer_type": "number_list",
+    "notes": "Goldman Sachs package: 24.0 LPA.",
+    "gold_answer": [
+      24.0,
+      30.0
+    ]
+  },
+  {
+    "id": "COUNT_01",
+    "type_id": 2,
+    "type_name": "Count by condition",
+    "question": "How many students from IT got placed in Amazon?",
+    "entities": {
+      "companies": [
+        "Amazon"
+      ],
+      "branches": [
+        "IT"
+      ],
+      "years": []
+    },
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Amazon' AND b.short_name = 'IT' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "Distinct IT students placed at Amazon.",
+    "gold_answer": 3
+  },
+  {
+    "id": "COUNT_02",
+    "type_id": 2,
+    "type_name": "Count by condition",
+    "question": "How many students were placed in Microsoft from CSE?",
+    "entities": {
+      "companies": [
+        "Microsoft"
+      ],
+      "branches": [
+        "CSE"
+      ],
+      "years": []
+    },
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Microsoft' AND b.short_name = 'CSE' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "Distinct CSE students placed in Microsoft with FTE/PPO.",
+    "gold_answer": 10
+  },
+  {
+    "id": "COUNT_03",
+    "type_id": 2,
+    "type_name": "Count by condition",
+    "question": "How many students received offers above 20 LPA in 2020-2024 batch?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers o JOIN students s ON o.student_id = s.student_id WHERE s.batch_id = '2020-2024' AND o.ctc_lpa > 20.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "Distinct students with package > 20 LPA in batch 2020-2024.",
+    "gold_answer": 48
+  },
+  {
+    "id": "COUNT_04",
+    "type_id": 2,
+    "type_name": "Count by condition",
+    "question": "How many total offers were made by Infosys?",
+    "entities": {
+      "companies": [
+        "Infosys"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT COUNT(o.offer_id) FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Infosys';",
+    "answer_type": "scalar",
+    "notes": "Total offers made by Infosys.",
+    "gold_answer": 55
+  },
+  {
+    "id": "COUNT_05",
+    "type_id": 2,
+    "type_name": "Count by condition",
+    "question": "How many female students got placed in 2020-2024 batch?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers o JOIN students s ON o.student_id = s.student_id WHERE s.batch_id = '2020-2024' AND s.gender = 'F' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "Female placed students in 2020-2024 batch.",
+    "gold_answer": 180
+  },
+  {
+    "id": "COUNT_06",
+    "type_id": 2,
+    "type_name": "Count by condition",
+    "question": "How many total offers were given to Mechanical Engineering students?",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "ME"
+      ],
+      "years": []
+    },
+    "sql": "SELECT COUNT(o.offer_id) FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE b.short_name = 'ME' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "Total FTE/PPO job offers in Mechanical.",
+    "gold_answer": 246
+  },
+  {
+    "id": "COUNT_07",
+    "type_id": 2,
+    "type_name": "Count by condition",
+    "question": "How many students got placed off-campus?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers o JOIN students s ON o.student_id = s.student_id WHERE o.offer_mode = 'Off-campus';",
+    "answer_type": "scalar",
+    "notes": "Distinct students with off-campus offers.",
+    "gold_answer": 85
+  },
+  {
+    "id": "COUNT_08",
+    "type_id": 2,
+    "type_name": "Count by condition",
+    "question": "How many offers were made with CTC greater than or equal to 50 LPA?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT COUNT(o.offer_id) FROM offers o WHERE o.ctc_lpa >= 50.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "Total super-dream offers >= 50 LPA.",
+    "gold_answer": 52
+  },
+  {
+    "id": "COUNT_09",
+    "type_id": 2,
+    "type_name": "Count by condition",
+    "question": "How many students from Chemical Engineering were placed in Reliance Industries?",
+    "entities": {
+      "companies": [
+        "Reliance Industries"
+      ],
+      "branches": [
+        "CHE"
+      ],
+      "years": []
+    },
+    "sql": "SELECT COUNT(DISTINCT s.student_id) FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Reliance Industries' AND b.short_name = 'CHE' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "Distinct Chemical students at Reliance.",
+    "gold_answer": 14
+  },
+  {
+    "id": "COUNT_10",
+    "type_id": 2,
+    "type_name": "Count by condition",
+    "question": "How many students have double job offers in 2020-2024 batch?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT COUNT(*) FROM (SELECT s.student_id FROM offers o JOIN students s ON o.student_id = s.student_id WHERE s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY s.student_id HAVING COUNT(o.offer_id) >= 2);",
+    "answer_type": "scalar",
+    "notes": "Students holding >= 2 FTE/PPO offers in 2020-2024 batch.",
+    "gold_answer": 154
+  },
+  {
+    "id": "BREAKDOWN_01",
+    "type_id": 3,
+    "type_name": "Branch-wise / year-wise breakdowns",
+    "question": "Company-wise offers for ECE in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "ECE"
+      ],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT c.canonical_name, COUNT(o.offer_id) AS offers_count FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE b.short_name = 'ECE' AND s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY c.canonical_name ORDER BY offers_count DESC, c.canonical_name ASC;",
+    "answer_type": "table",
+    "notes": "Breakdown of ECE offers per company in 2020-2024.",
+    "gold_columns": [
+      "canonical_name",
+      "offers_count"
+    ],
+    "gold_answer": [
+      [
+        "Genpact next Gen",
+        20
+      ],
+      [
+        "Accenture",
+        4
+      ],
+      [
+        "Airtel Bharti",
+        4
+      ],
+      [
+        "Intel",
+        4
+      ],
+      [
+        "Neev Flipkart",
+        4
+      ],
+      [
+        "Betalectic",
+        3
+      ],
+      [
+        "TCS",
+        3
+      ],
+      [
+        "Trianz Digital",
+        3
+      ],
+      [
+        "CLOUDSUFI",
+        2
+      ],
+      [
+        "Cdot",
+        2
+      ],
+      [
+        "Future First",
+        2
+      ],
+      [
+        "Incedo",
+        2
+      ],
+      [
+        "Infosys",
+        2
+      ],
+      [
+        "Mphasis",
+        2
+      ],
+      [
+        "Shorthills AI",
+        2
+      ],
+      [
+        "Cubastion Consulting",
+        1
+      ],
+      [
+        "Decathlon",
+        1
+      ],
+      [
+        "EXL Services",
+        1
+      ],
+      [
+        "Fastenal India Sourcing, IT & Procurement",
+        1
+      ],
+      [
+        "GoDigit",
+        1
+      ],
+      [
+        "HCLTech",
+        1
+      ],
+      [
+        "Hexaware Technologies",
+        1
+      ],
+      [
+        "IBM",
+        1
+      ],
+      [
+        "Minimalist",
+        1
+      ],
+      [
+        "Moody's",
+        1
+      ],
+      [
+        "Nvidia",
+        1
+      ],
+      [
+        "RoundGlass",
+        1
+      ],
+      [
+        "Sagacious Research IP",
+        1
+      ],
+      [
+        "Samsung Research Noida",
+        1
+      ],
+      [
+        "Spyne Ai",
+        1
+      ],
+      [
+        "Teachnook",
+        1
+      ],
+      [
+        "Tech Mahindra",
+        1
+      ],
+      [
+        "Xeno",
+        1
+      ],
+      [
+        "Xenonstack",
+        1
+      ],
+      [
+        "Zscaler",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "BREAKDOWN_02",
+    "type_id": 3,
+    "type_name": "Branch-wise / year-wise breakdowns",
+    "question": "Branch-wise placed students count in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT b.short_name, COUNT(DISTINCT s.student_id) AS placed_count FROM branches b JOIN students s ON b.branch_code = s.branch_code JOIN offers o ON s.student_id = o.student_id WHERE s.batch_id = '2020-2024' AND b.degree = 'B.Tech' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY b.short_name ORDER BY placed_count DESC;",
+    "answer_type": "table",
+    "notes": "Placed students count across B.Tech branches.",
+    "gold_columns": [
+      "short_name",
+      "placed_count"
+    ],
+    "gold_answer": [
+      [
+        "CSE",
+        124
+      ],
+      [
+        "IT",
+        95
+      ],
+      [
+        "ME",
+        85
+      ],
+      [
+        "ICE",
+        75
+      ],
+      [
+        "IPE",
+        67
+      ],
+      [
+        "ECE",
+        65
+      ],
+      [
+        "CHE",
+        55
+      ],
+      [
+        "CE",
+        52
+      ],
+      [
+        "EE",
+        44
+      ],
+      [
+        "TT",
+        38
+      ],
+      [
+        "BT",
+        16
+      ]
+    ]
+  },
+  {
+    "id": "BREAKDOWN_03",
+    "type_id": 3,
+    "type_name": "Branch-wise / year-wise breakdowns",
+    "question": "Batch-wise offers count for Amazon",
+    "entities": {
+      "companies": [
+        "Amazon"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT s.batch_id, COUNT(o.offer_id) AS amazon_offers FROM offers o JOIN students s ON o.student_id = s.student_id JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Amazon' GROUP BY s.batch_id ORDER BY s.batch_id ASC;",
+    "answer_type": "table",
+    "notes": "Amazon offers per batch.",
+    "gold_columns": [
+      "batch_id",
+      "amazon_offers"
+    ],
+    "gold_answer": [
+      [
+        "2020-2024",
+        69
+      ],
+      [
+        "2021-2025",
+        16
+      ],
+      [
+        "2022-2026",
+        10
+      ]
+    ]
+  },
+  {
+    "id": "BREAKDOWN_04",
+    "type_id": 3,
+    "type_name": "Branch-wise / year-wise breakdowns",
+    "question": "Category-wise placement count in CSE for 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "CSE"
+      ],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT s.category, COUNT(DISTINCT s.student_id) AS placed_students FROM students s JOIN branches b ON s.branch_code = b.branch_code JOIN offers o ON s.student_id = o.student_id WHERE b.short_name = 'CSE' AND s.batch_id = '2020-2024' AND s.category IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY s.category ORDER BY placed_students DESC;",
+    "answer_type": "table",
+    "notes": "Category distribution of placed students in CSE.",
+    "gold_columns": [
+      "category",
+      "placed_students"
+    ],
+    "gold_answer": [
+      [
+        "General",
+        55
+      ],
+      [
+        "OBC-NCL",
+        36
+      ],
+      [
+        "GEN-EWS",
+        18
+      ],
+      [
+        "SC",
+        12
+      ],
+      [
+        "ST",
+        3
+      ]
+    ]
+  },
+  {
+    "id": "BREAKDOWN_05",
+    "type_id": 3,
+    "type_name": "Branch-wise / year-wise breakdowns",
+    "question": "Company-wise hiring breakdown for Biotechnology in 2020-2024",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "BT"
+      ],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT c.canonical_name, COUNT(o.offer_id) AS offers_count FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE b.short_name = 'BT' AND s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY c.canonical_name ORDER BY offers_count DESC;",
+    "answer_type": "table",
+    "notes": "BT hiring company breakdown.",
+    "gold_columns": [
+      "canonical_name",
+      "offers_count"
+    ],
+    "gold_answer": [
+      [
+        "Sukhjit Corn Products",
+        2
+      ],
+      [
+        "Hike Education",
+        2
+      ],
+      [
+        "Bakliwal Tutorials",
+        2
+      ],
+      [
+        "Urban Company",
+        1
+      ],
+      [
+        "Technip Energies",
+        1
+      ],
+      [
+        "Samsung Engineering",
+        1
+      ],
+      [
+        "Mitsogo",
+        1
+      ],
+      [
+        "L&T",
+        1
+      ],
+      [
+        "Directioneducare",
+        1
+      ],
+      [
+        "Bajaj Finserv",
+        1
+      ],
+      [
+        "Ashok Leyland",
+        1
+      ],
+      [
+        "Allen Career Institute",
+        1
+      ],
+      [
+        "Aakash Educational Services",
+        1
+      ]
+    ]
+  },
+  {
+    "id": "BREAKDOWN_06",
+    "type_id": 3,
+    "type_name": "Branch-wise / year-wise breakdowns",
+    "question": "Year-wise average package for Computer Science and Engineering",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "CSE"
+      ],
+      "years": []
+    },
+    "sql": "SELECT s.batch_id, ROUND(AVG(o.ctc_lpa), 2) AS avg_ctc FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE b.short_name = 'CSE' AND o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY s.batch_id ORDER BY s.batch_id ASC;",
+    "answer_type": "table",
+    "notes": "CSE average CTC by batch.",
+    "gold_columns": [
+      "batch_id",
+      "avg_ctc"
+    ],
+    "gold_answer": [
+      [
+        "2020-2024",
+        14.44
+      ],
+      [
+        "2021-2025",
+        14.59
+      ],
+      [
+        "2022-2026",
+        18.6
+      ]
+    ]
+  },
+  {
+    "id": "BREAKDOWN_07",
+    "type_id": 3,
+    "type_name": "Branch-wise / year-wise breakdowns",
+    "question": "Branch-wise offers for Oracle across all years",
+    "entities": {
+      "companies": [
+        "Oracle"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT b.short_name, COUNT(o.offer_id) AS offers_count FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Oracle' GROUP BY b.short_name ORDER BY offers_count DESC;",
+    "answer_type": "table",
+    "notes": "Oracle offers distributed by branch.",
+    "gold_columns": [
+      "short_name",
+      "offers_count"
+    ],
+    "gold_answer": [
+      [
+        "CSE",
+        20
+      ],
+      [
+        "IT",
+        6
+      ],
+      [
+        "EE",
+        6
+      ],
+      [
+        "ICE",
+        3
+      ],
+      [
+        "ECE",
+        3
+      ]
+    ]
+  },
+  {
+    "id": "BREAKDOWN_08",
+    "type_id": 3,
+    "type_name": "Branch-wise / year-wise breakdowns",
+    "question": "Gender-wise placement count in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT s.gender, COUNT(DISTINCT s.student_id) AS placed_students FROM students s JOIN offers o ON s.student_id = o.student_id WHERE s.batch_id = '2020-2024' AND s.gender IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY s.gender ORDER BY placed_students DESC;",
+    "answer_type": "table",
+    "notes": "Gender distribution of placed students.",
+    "gold_columns": [
+      "gender",
+      "placed_students"
+    ],
+    "gold_answer": [
+      [
+        "M",
+        536
+      ],
+      [
+        "F",
+        180
+      ]
+    ]
+  },
+  {
+    "id": "BREAKDOWN_09",
+    "type_id": 3,
+    "type_name": "Branch-wise / year-wise breakdowns",
+    "question": "Branch-wise count of double job offers in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT b.short_name, COUNT(*) AS double_offer_students FROM (SELECT s.student_id, s.branch_code FROM offers o JOIN students s ON o.student_id = s.student_id WHERE s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY s.student_id, s.branch_code HAVING COUNT(o.offer_id) >= 2) t JOIN branches b ON t.branch_code = b.branch_code GROUP BY b.short_name ORDER BY double_offer_students DESC;",
+    "answer_type": "table",
+    "notes": "Double offer holders per branch in 2020-2024.",
+    "gold_columns": [
+      "short_name",
+      "double_offer_students"
+    ],
+    "gold_answer": [
+      [
+        "CSE",
+        33
+      ],
+      [
+        "IT",
+        30
+      ],
+      [
+        "ICE",
+        23
+      ],
+      [
+        "ME",
+        14
+      ],
+      [
+        "IPE",
+        14
+      ],
+      [
+        "ECE",
+        14
+      ],
+      [
+        "CHE",
+        9
+      ],
+      [
+        "CE",
+        9
+      ],
+      [
+        "EE",
+        6
+      ],
+      [
+        "TT",
+        2
+      ]
+    ]
+  },
+  {
+    "id": "BREAKDOWN_10",
+    "type_id": 3,
+    "type_name": "Branch-wise / year-wise breakdowns",
+    "question": "Sector-wise offers breakdown for 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT c.sector, COUNT(o.offer_id) AS offers_count FROM offers o JOIN students s ON o.student_id = s.student_id JOIN companies c ON o.company_id = c.company_id WHERE s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY c.sector ORDER BY offers_count DESC;",
+    "answer_type": "table",
+    "notes": "Offers by company sector.",
+    "gold_columns": [
+      "sector",
+      "offers_count"
+    ],
+    "gold_answer": [
+      [
+        "Other",
+        876
+      ]
+    ]
+  },
+  {
+    "id": "RANKING_01",
+    "type_id": 4,
+    "type_name": "Ranking / top-N",
+    "question": "Top 5 companies by highest package",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT c.canonical_name, MAX(o.ctc_lpa) AS max_ctc FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY c.canonical_name ORDER BY max_ctc DESC LIMIT 5;",
+    "answer_type": "table",
+    "notes": "Top 5 highest CTC recruiters.",
+    "gold_columns": [
+      "canonical_name",
+      "max_ctc"
+    ],
+    "gold_answer": [
+      [
+        "Flow Trades Hong Kong Services",
+        116.0
+      ],
+      [
+        "Google",
+        62.0
+      ],
+      [
+        "Uber",
+        59.0
+      ],
+      [
+        "Microsoft",
+        52.0
+      ],
+      [
+        "Cred",
+        52.0
+      ]
+    ]
+  },
+  {
+    "id": "RANKING_02",
+    "type_id": 4,
+    "type_name": "Ranking / top-N",
+    "question": "Which branch had the most offers above 20 LPA in 2020-2024 batch?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT b.short_name, COUNT(o.offer_id) AS high_offers FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE s.batch_id = '2020-2024' AND o.ctc_lpa > 20.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY b.short_name ORDER BY high_offers DESC LIMIT 1;",
+    "answer_type": "table",
+    "notes": "Branch with most > 20 LPA offers.",
+    "gold_columns": [
+      "short_name",
+      "high_offers"
+    ],
+    "gold_answer": [
+      [
+        "CSE",
+        21
+      ]
+    ]
+  },
+  {
+    "id": "RANKING_03",
+    "type_id": 4,
+    "type_name": "Ranking / top-N",
+    "question": "Top 3 recruiting companies by number of offers in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT c.canonical_name, COUNT(o.offer_id) AS offers_count FROM offers o JOIN students s ON o.student_id = s.student_id JOIN companies c ON o.company_id = c.company_id WHERE s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY c.canonical_name ORDER BY offers_count DESC LIMIT 3;",
+    "answer_type": "table",
+    "notes": "Top 3 recruiters by volume.",
+    "gold_columns": [
+      "canonical_name",
+      "offers_count"
+    ],
+    "gold_answer": [
+      [
+        "Genpact next Gen",
+        52
+      ],
+      [
+        "Reliance Industries",
+        31
+      ],
+      [
+        "Aarti Industries",
+        31
+      ]
+    ]
+  },
+  {
+    "id": "RANKING_04",
+    "type_id": 4,
+    "type_name": "Ranking / top-N",
+    "question": "Top 5 branches by average CTC in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT b.short_name, ROUND(AVG(o.ctc_lpa), 2) AS avg_ctc FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE s.batch_id = '2020-2024' AND b.degree = 'B.Tech' AND o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY b.short_name ORDER BY avg_ctc DESC LIMIT 5;",
+    "answer_type": "table",
+    "notes": "Top 5 B.Tech branches by average CTC.",
+    "gold_columns": [
+      "short_name",
+      "avg_ctc"
+    ],
+    "gold_answer": [
+      [
+        "CSE",
+        14.44
+      ],
+      [
+        "IT",
+        13.03
+      ],
+      [
+        "EE",
+        12.28
+      ],
+      [
+        "ICE",
+        10.21
+      ],
+      [
+        "ECE",
+        9.87
+      ]
+    ]
+  },
+  {
+    "id": "RANKING_05",
+    "type_id": 4,
+    "type_name": "Ranking / top-N",
+    "question": "Top 3 companies that hired the most students from CSE",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "CSE"
+      ],
+      "years": []
+    },
+    "sql": "SELECT c.canonical_name, COUNT(DISTINCT s.student_id) AS hired_students FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE b.short_name = 'CSE' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY c.canonical_name ORDER BY hired_students DESC LIMIT 3;",
+    "answer_type": "table",
+    "notes": "Top CSE recruiters.",
+    "gold_columns": [
+      "canonical_name",
+      "hired_students"
+    ],
+    "gold_answer": [
+      [
+        "MAQ Software",
+        28
+      ],
+      [
+        "Optum",
+        22
+      ],
+      [
+        "Oracle",
+        20
+      ]
+    ]
+  },
+  {
+    "id": "RANKING_06",
+    "type_id": 4,
+    "type_name": "Ranking / top-N",
+    "question": "Which company made the highest package offer in ECE?",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "ECE"
+      ],
+      "years": []
+    },
+    "sql": "SELECT c.canonical_name, MAX(o.ctc_lpa) AS max_ctc FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE b.short_name = 'ECE' AND o.ctc_lpa IS NOT NULL GROUP BY c.canonical_name ORDER BY max_ctc DESC LIMIT 1;",
+    "answer_type": "table",
+    "notes": "Highest paying recruiter in ECE.",
+    "gold_columns": [
+      "canonical_name",
+      "max_ctc"
+    ],
+    "gold_answer": [
+      [
+        "Microsoft",
+        52.0
+      ]
+    ]
+  },
+  {
+    "id": "RANKING_07",
+    "type_id": 4,
+    "type_name": "Ranking / top-N",
+    "question": "Top 5 companies by number of PPO offers",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT c.canonical_name, COUNT(o.offer_id) AS ppo_count FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE o.offer_type IN ('PPO', 'Intern+PPO') GROUP BY c.canonical_name ORDER BY ppo_count DESC LIMIT 5;",
+    "answer_type": "table",
+    "notes": "Top PPO providers.",
+    "gold_columns": [
+      "canonical_name",
+      "ppo_count"
+    ],
+    "gold_answer": [
+      [
+        "Intel",
+        30
+      ],
+      [
+        "Sunpharma",
+        14
+      ],
+      [
+        "Blackrock",
+        11
+      ],
+      [
+        "Amazon",
+        10
+      ],
+      [
+        "Reliance Industries",
+        8
+      ]
+    ]
+  },
+  {
+    "id": "RANKING_08",
+    "type_id": 4,
+    "type_name": "Ranking / top-N",
+    "question": "Bottom 3 branches by placement percentage in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT branch_short, placement_pct FROM v_branch_year_stats WHERE batch_id = '2020-2024' ORDER BY placement_pct ASC LIMIT 3;",
+    "answer_type": "table",
+    "notes": "Lowest placement % branches in 2020-2024.",
+    "gold_columns": [
+      "branch_short",
+      "placement_pct"
+    ],
+    "gold_answer": [
+      [
+        "BT",
+        28.57
+      ],
+      [
+        "TT",
+        46.34
+      ],
+      [
+        "ECE",
+        54.62
+      ]
+    ]
+  },
+  {
+    "id": "RANKING_09",
+    "type_id": 4,
+    "type_name": "Ranking / top-N",
+    "question": "Top 5 companies hiring from Mechanical Engineering",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "ME"
+      ],
+      "years": []
+    },
+    "sql": "SELECT c.canonical_name, COUNT(o.offer_id) AS offers_count FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE b.short_name = 'ME' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY c.canonical_name ORDER BY offers_count DESC LIMIT 5;",
+    "answer_type": "table",
+    "notes": "Top ME recruiters.",
+    "gold_columns": [
+      "canonical_name",
+      "offers_count"
+    ],
+    "gold_answer": [
+      [
+        "Maruti Suzuki",
+        21
+      ],
+      [
+        "Reliance Industries",
+        11
+      ],
+      [
+        "L&T",
+        11
+      ],
+      [
+        "Aarti Industries",
+        9
+      ],
+      [
+        "Technip Energies",
+        7
+      ]
+    ]
+  },
+  {
+    "id": "RANKING_10",
+    "type_id": 4,
+    "type_name": "Ranking / top-N",
+    "question": "Top 3 highest paying companies in core branches",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT c.canonical_name, MAX(o.ctc_lpa) AS max_ctc FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE b.division = 'Core' AND o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY c.canonical_name ORDER BY max_ctc DESC LIMIT 3;",
+    "answer_type": "table",
+    "notes": "Top payers in Core engineering.",
+    "gold_columns": [
+      "canonical_name",
+      "max_ctc"
+    ],
+    "gold_answer": [
+      [
+        "Flow Trades Hong Kong Services",
+        116.0
+      ],
+      [
+        "Uber",
+        59.0
+      ],
+      [
+        "Microsoft",
+        52.0
+      ]
+    ]
+  },
+  {
+    "id": "AGG_01",
+    "type_id": 5,
+    "type_name": "Aggregates with filters",
+    "question": "Average CTC of CSE vs IT in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "CSE",
+        "IT"
+      ],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT b.short_name, ROUND(AVG(o.ctc_lpa), 2) AS avg_ctc FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE b.short_name IN ('CSE', 'IT') AND s.batch_id = '2020-2024' AND o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY b.short_name;",
+    "answer_type": "table",
+    "notes": "Comparison of average CTC between CSE and IT.",
+    "gold_columns": [
+      "short_name",
+      "avg_ctc"
+    ],
+    "gold_answer": [
+      [
+        "CSE",
+        14.44
+      ],
+      [
+        "IT",
+        13.03
+      ]
+    ]
+  },
+  {
+    "id": "AGG_02",
+    "type_id": 5,
+    "type_name": "Aggregates with filters",
+    "question": "Median package of core companies in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "WITH ordered AS (SELECT o.ctc_lpa, ROW_NUMBER() OVER (ORDER BY o.ctc_lpa) AS r, COUNT(*) OVER () AS c FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE b.division = 'Core' AND s.batch_id = '2020-2024' AND o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')) SELECT ROUND(AVG(ctc_lpa), 2) AS median_ctc FROM ordered WHERE r IN ((c + 1) / 2, (c + 2) / 2);",
+    "answer_type": "scalar",
+    "notes": "Median CTC of Core branch offers.",
+    "gold_answer": 7.5
+  },
+  {
+    "id": "AGG_03",
+    "type_id": 5,
+    "type_name": "Aggregates with filters",
+    "question": "Average package of female students in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT ROUND(AVG(o.ctc_lpa), 2) AS avg_female_ctc FROM offers o JOIN students s ON o.student_id = s.student_id WHERE s.gender = 'F' AND s.batch_id = '2020-2024' AND o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "Female average CTC.",
+    "gold_answer": 12.01
+  },
+  {
+    "id": "AGG_04",
+    "type_id": 5,
+    "type_name": "Aggregates with filters",
+    "question": "Average CTC of circuit branches in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT ROUND(AVG(o.ctc_lpa), 2) AS avg_circuit_ctc FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE b.division = 'Circuit' AND s.batch_id = '2020-2024' AND o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "Circuit division average CTC.",
+    "gold_answer": 12.37
+  },
+  {
+    "id": "AGG_05",
+    "type_id": 5,
+    "type_name": "Aggregates with filters",
+    "question": "Overall average package of NIT Jalandhar in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT ROUND(AVG(o.ctc_lpa), 2) AS overall_avg_ctc FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE s.batch_id = '2020-2024' AND b.degree = 'B.Tech' AND o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "College-wide B.Tech average CTC.",
+    "gold_answer": 10.5
+  },
+  {
+    "id": "AGG_06",
+    "type_id": 5,
+    "type_name": "Aggregates with filters",
+    "question": "Average package offered by Amazon across all students",
+    "entities": {
+      "companies": [
+        "Amazon"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT ROUND(AVG(o.ctc_lpa), 2) AS avg_amazon_ctc FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Amazon' AND o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "Amazon average CTC.",
+    "gold_answer": 30.6
+  },
+  {
+    "id": "AGG_07",
+    "type_id": 5,
+    "type_name": "Aggregates with filters",
+    "question": "Average monthly stipend for summer internships in 2023-2027 batch",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2023-2027"
+      ]
+    },
+    "sql": "SELECT ROUND(AVG(o.stipend_monthly_inr), 0) AS avg_stipend FROM offers o JOIN students s ON o.student_id = s.student_id WHERE s.batch_id = '2023-2027' AND o.stipend_monthly_inr IS NOT NULL AND o.stipend_monthly_inr > 0;",
+    "answer_type": "scalar",
+    "notes": "Average summer intern stipend in INR.",
+    "gold_answer": 69219.0
+  },
+  {
+    "id": "AGG_08",
+    "type_id": 5,
+    "type_name": "Aggregates with filters",
+    "question": "Lowest package offered in Computer Science in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "CSE"
+      ],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT MIN(o.ctc_lpa) AS min_cse_ctc FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE b.short_name = 'CSE' AND s.batch_id = '2020-2024' AND o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "Minimum package in CSE.",
+    "gold_answer": 3.6
+  },
+  {
+    "id": "AGG_09",
+    "type_id": 5,
+    "type_name": "Aggregates with filters",
+    "question": "Average CTC of off-campus placements in 2021-2025 batch",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2021-2025"
+      ]
+    },
+    "sql": "SELECT ROUND(AVG(o.ctc_lpa), 2) AS avg_offcampus_ctc FROM offers o JOIN students s ON o.student_id = s.student_id WHERE s.batch_id = '2021-2025' AND o.offer_mode = 'Off-campus' AND o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "Off-campus average CTC.",
+    "gold_answer": 15.08
+  },
+  {
+    "id": "AGG_10",
+    "type_id": 5,
+    "type_name": "Aggregates with filters",
+    "question": "Median package of Electronics and Communication in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "ECE"
+      ],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "WITH ordered AS (SELECT o.ctc_lpa, ROW_NUMBER() OVER (ORDER BY o.ctc_lpa) AS r, COUNT(*) OVER () AS c FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE b.short_name = 'ECE' AND s.batch_id = '2020-2024' AND o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')) SELECT ROUND(AVG(ctc_lpa), 2) AS median_ece_ctc FROM ordered WHERE r IN ((c + 1) / 2, (c + 2) / 2);",
+    "answer_type": "scalar",
+    "notes": "Median CTC in ECE.",
+    "gold_answer": 7.55
+  },
+  {
+    "id": "PERCENT_01",
+    "type_id": 6,
+    "type_name": "Percentages / ratios",
+    "question": "What percentage of CSE students got placed in 2020-2024 batch?",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "CSE"
+      ],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT ROUND((COUNT(DISTINCT CASE WHEN o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') THEN s.student_id END) * 100.0) / COUNT(DISTINCT s.student_id), 2) AS cse_placement_pct FROM students s JOIN branches b ON s.branch_code = b.branch_code LEFT JOIN offers o ON s.student_id = o.student_id WHERE b.short_name = 'CSE' AND s.batch_id = '2020-2024';",
+    "answer_type": "scalar",
+    "notes": "CSE placement percentage in 2020-2024 (74.7%).",
+    "gold_answer": 74.7
+  },
+  {
+    "id": "PERCENT_02",
+    "type_id": 6,
+    "type_name": "Percentages / ratios",
+    "question": "What percentage of IT students got placed in 2020-2024 batch?",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "IT"
+      ],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT ROUND((COUNT(DISTINCT CASE WHEN o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') THEN s.student_id END) * 100.0) / COUNT(DISTINCT s.student_id), 2) AS it_placement_pct FROM students s JOIN branches b ON s.branch_code = b.branch_code LEFT JOIN offers o ON s.student_id = o.student_id WHERE b.short_name = 'IT' AND s.batch_id = '2020-2024';",
+    "answer_type": "scalar",
+    "notes": "IT placement percentage in 2020-2024 (81.2%).",
+    "gold_answer": 81.2
+  },
+  {
+    "id": "PERCENT_03",
+    "type_id": 6,
+    "type_name": "Percentages / ratios",
+    "question": "Share of offers above 18 LPA per branch in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT b.short_name, ROUND((COUNT(CASE WHEN o.ctc_lpa >= 18.0 THEN 1 END) * 100.0) / COUNT(CASE WHEN o.ctc_lpa IS NOT NULL THEN 1 END), 2) AS share_above_18 FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE s.batch_id = '2020-2024' AND b.degree = 'B.Tech' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY b.short_name HAVING COUNT(CASE WHEN o.ctc_lpa IS NOT NULL THEN 1 END) > 0 ORDER BY share_above_18 DESC;",
+    "answer_type": "table",
+    "notes": "Share of offers >= 18 LPA.",
+    "gold_columns": [
+      "short_name",
+      "share_above_18"
+    ],
+    "gold_answer": [
+      [
+        "IT",
+        26.4
+      ],
+      [
+        "CSE",
+        25.83
+      ],
+      [
+        "EE",
+        16.0
+      ],
+      [
+        "ICE",
+        15.96
+      ],
+      [
+        "ECE",
+        10.67
+      ],
+      [
+        "BT",
+        6.25
+      ],
+      [
+        "IPE",
+        2.56
+      ],
+      [
+        "ME",
+        1.01
+      ],
+      [
+        "TT",
+        0.0
+      ],
+      [
+        "CHE",
+        0.0
+      ],
+      [
+        "CE",
+        0.0
+      ]
+    ]
+  },
+  {
+    "id": "PERCENT_04",
+    "type_id": 6,
+    "type_name": "Percentages / ratios",
+    "question": "What percentage of offers in 2020-2024 batch were PPOs?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT ROUND((COUNT(CASE WHEN o.offer_type IN ('PPO', 'Intern+PPO') THEN 1 END) * 100.0) / COUNT(o.offer_id), 2) AS ppo_percentage FROM offers o JOIN students s ON o.student_id = s.student_id WHERE s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "PPO conversion percentage.",
+    "gold_answer": 1.26
+  },
+  {
+    "id": "PERCENT_05",
+    "type_id": 6,
+    "type_name": "Percentages / ratios",
+    "question": "Placement percentage of Mechanical Engineering in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "ME"
+      ],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT ROUND((COUNT(DISTINCT CASE WHEN o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') THEN s.student_id END) * 100.0) / COUNT(DISTINCT s.student_id), 2) AS me_placement_pct FROM students s JOIN branches b ON s.branch_code = b.branch_code LEFT JOIN offers o ON s.student_id = o.student_id WHERE b.short_name = 'ME' AND s.batch_id = '2020-2024';",
+    "answer_type": "scalar",
+    "notes": "Mechanical placement percentage.",
+    "gold_answer": 73.28
+  },
+  {
+    "id": "PERCENT_06",
+    "type_id": 6,
+    "type_name": "Percentages / ratios",
+    "question": "What percentage of female students got placed in CSE in 2020-2024?",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "CSE"
+      ],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT ROUND((COUNT(DISTINCT CASE WHEN o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') THEN s.student_id END) * 100.0) / COUNT(DISTINCT s.student_id), 2) AS female_cse_pct FROM students s JOIN branches b ON s.branch_code = b.branch_code LEFT JOIN offers o ON s.student_id = o.student_id WHERE b.short_name = 'CSE' AND s.batch_id = '2020-2024' AND s.gender = 'F';",
+    "answer_type": "scalar",
+    "notes": "Female CSE placement percentage.",
+    "gold_answer": 82.86
+  },
+  {
+    "id": "PERCENT_07",
+    "type_id": 6,
+    "type_name": "Percentages / ratios",
+    "question": "What fraction of total B.Tech offers came from IT companies in 2020-2024 batch?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT ROUND((COUNT(CASE WHEN c.sector = 'IT' THEN 1 END) * 100.0) / COUNT(o.offer_id), 2) AS it_sector_share FROM offers o JOIN students s ON o.student_id = s.student_id JOIN companies c ON o.company_id = c.company_id WHERE s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "IT sector offer percentage.",
+    "gold_answer": 0.0
+  },
+  {
+    "id": "PERCENT_08",
+    "type_id": 6,
+    "type_name": "Percentages / ratios",
+    "question": "Placement percentage of Civil Engineering in 2020-2024",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "CE"
+      ],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT ROUND((COUNT(DISTINCT CASE WHEN o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') THEN s.student_id END) * 100.0) / COUNT(DISTINCT s.student_id), 2) AS ce_placement_pct FROM students s JOIN branches b ON s.branch_code = b.branch_code LEFT JOIN offers o ON s.student_id = o.student_id WHERE b.short_name = 'CE' AND s.batch_id = '2020-2024';",
+    "answer_type": "scalar",
+    "notes": "Civil placement percentage.",
+    "gold_answer": 57.14
+  },
+  {
+    "id": "PERCENT_09",
+    "type_id": 6,
+    "type_name": "Percentages / ratios",
+    "question": "What percentage of placed students hold double offers in 2020-2024 batch?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT ROUND((COUNT(CASE WHEN offer_count >= 2 THEN 1 END) * 100.0) / COUNT(*), 2) AS double_offer_ratio FROM (SELECT s.student_id, COUNT(o.offer_id) AS offer_count FROM students s JOIN offers o ON s.student_id = o.student_id WHERE s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY s.student_id);",
+    "answer_type": "scalar",
+    "notes": "Ratio of double offers among placed students.",
+    "gold_answer": 21.51
+  },
+  {
+    "id": "PERCENT_10",
+    "type_id": 6,
+    "type_name": "Percentages / ratios",
+    "question": "Share of offers with CTC >= 10 LPA in Mechanical Engineering in 2020-2024",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "ME"
+      ],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT ROUND((COUNT(CASE WHEN o.ctc_lpa >= 10.0 THEN 1 END) * 100.0) / COUNT(CASE WHEN o.ctc_lpa IS NOT NULL THEN 1 END), 2) AS me_above_10_share FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE b.short_name = 'ME' AND s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "Share of offers >= 10 LPA in Mechanical.",
+    "gold_answer": 15.15
+  },
+  {
+    "id": "TREND_01",
+    "type_id": 7,
+    "type_name": "Trends / comparisons",
+    "question": "How did Microsoft package change over the batches?",
+    "entities": {
+      "companies": [
+        "Microsoft"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT s.batch_id, MAX(o.ctc_lpa) AS max_ctc, COUNT(o.offer_id) AS fte_offers FROM offers o JOIN students s ON o.student_id = s.student_id JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Microsoft' AND o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY s.batch_id ORDER BY s.batch_id ASC;",
+    "answer_type": "table",
+    "notes": "Microsoft packages across batches.",
+    "gold_columns": [
+      "batch_id",
+      "max_ctc",
+      "fte_offers"
+    ],
+    "gold_answer": [
+      [
+        "2021-2025",
+        52.0,
+        12
+      ],
+      [
+        "2022-2026",
+        52.0,
+        10
+      ],
+      [
+        "2024-2026",
+        52.0,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "TREND_02",
+    "type_id": 7,
+    "type_name": "Trends / comparisons",
+    "question": "Compare Amazon and Google hiring",
+    "entities": {
+      "companies": [
+        "Amazon",
+        "Google"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT c.canonical_name, COUNT(DISTINCT s.student_id) AS placed_students, COUNT(o.offer_id) AS total_offers, ROUND(AVG(o.ctc_lpa), 2) AS avg_ctc, MAX(o.ctc_lpa) AS max_ctc FROM offers o JOIN students s ON o.student_id = s.student_id JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name IN ('Amazon', 'Google') AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY c.canonical_name;",
+    "answer_type": "table",
+    "notes": "Amazon vs Google comparison.",
+    "gold_columns": [
+      "canonical_name",
+      "placed_students",
+      "total_offers",
+      "avg_ctc",
+      "max_ctc"
+    ],
+    "gold_answer": [
+      [
+        "Amazon",
+        43,
+        43,
+        30.6,
+        52.0
+      ],
+      [
+        "Google",
+        8,
+        8,
+        53.25,
+        62.0
+      ]
+    ]
+  },
+  {
+    "id": "TREND_03",
+    "type_id": 7,
+    "type_name": "Trends / comparisons",
+    "question": "Compare average package of CSE vs ECE in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "CSE",
+        "ECE"
+      ],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT b.short_name, ROUND(AVG(o.ctc_lpa), 2) AS avg_ctc, MAX(o.ctc_lpa) AS max_ctc FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE b.short_name IN ('CSE', 'ECE') AND s.batch_id = '2020-2024' AND o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY b.short_name;",
+    "answer_type": "table",
+    "notes": "CSE vs ECE comparison.",
+    "gold_columns": [
+      "short_name",
+      "avg_ctc",
+      "max_ctc"
+    ],
+    "gold_answer": [
+      [
+        "CSE",
+        14.44,
+        62.0
+      ],
+      [
+        "ECE",
+        9.87,
+        25.0
+      ]
+    ]
+  },
+  {
+    "id": "TREND_04",
+    "type_id": 7,
+    "type_name": "Trends / comparisons",
+    "question": "Compare placement percentage between 2020-2024 and 2021-2025 batches",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024",
+        "2021-2025"
+      ]
+    },
+    "sql": "SELECT s.batch_id, COUNT(DISTINCT s.student_id) AS total_students, COUNT(DISTINCT CASE WHEN o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') THEN s.student_id END) AS placed_students, ROUND((COUNT(DISTINCT CASE WHEN o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') THEN s.student_id END) * 100.0) / COUNT(DISTINCT s.student_id), 2) AS placement_pct FROM students s LEFT JOIN offers o ON s.student_id = o.student_id WHERE s.batch_id IN ('2020-2024', '2021-2025') GROUP BY s.batch_id ORDER BY s.batch_id ASC;",
+    "answer_type": "table",
+    "notes": "Batch-to-batch placement percentage comparison.",
+    "gold_columns": [
+      "batch_id",
+      "total_students",
+      "placed_students",
+      "placement_pct"
+    ],
+    "gold_answer": [
+      [
+        "2020-2024",
+        1094,
+        716,
+        65.45
+      ],
+      [
+        "2021-2025",
+        1114,
+        783,
+        70.29
+      ]
+    ]
+  },
+  {
+    "id": "TREND_05",
+    "type_id": 7,
+    "type_name": "Trends / comparisons",
+    "question": "How did average CTC in Mechanical Engineering trend over the years?",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "ME"
+      ],
+      "years": []
+    },
+    "sql": "SELECT s.batch_id, ROUND(AVG(o.ctc_lpa), 2) AS avg_ctc FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE b.short_name = 'ME' AND o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY s.batch_id ORDER BY s.batch_id ASC;",
+    "answer_type": "table",
+    "notes": "ME average package trend.",
+    "gold_columns": [
+      "batch_id",
+      "avg_ctc"
+    ],
+    "gold_answer": [
+      [
+        "2020-2024",
+        8.27
+      ],
+      [
+        "2021-2025",
+        7.8
+      ],
+      [
+        "2022-2026",
+        9.01
+      ]
+    ]
+  },
+  {
+    "id": "TREND_06",
+    "type_id": 7,
+    "type_name": "Trends / comparisons",
+    "question": "Compare Circuit vs Core branches average CTC in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT b.division, ROUND(AVG(o.ctc_lpa), 2) AS avg_ctc, MAX(o.ctc_lpa) AS max_ctc FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE s.batch_id = '2020-2024' AND b.degree = 'B.Tech' AND o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY b.division ORDER BY avg_ctc DESC;",
+    "answer_type": "table",
+    "notes": "Circuit vs Core division comparison.",
+    "gold_columns": [
+      "division",
+      "avg_ctc",
+      "max_ctc"
+    ],
+    "gold_answer": [
+      [
+        "Circuit",
+        12.37,
+        62.0
+      ],
+      [
+        "Core",
+        7.89,
+        52.0
+      ]
+    ]
+  },
+  {
+    "id": "TREND_07",
+    "type_id": 7,
+    "type_name": "Trends / comparisons",
+    "question": "Compare male vs female average package in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT s.gender, ROUND(AVG(o.ctc_lpa), 2) AS avg_ctc, COUNT(DISTINCT s.student_id) AS placed_count FROM offers o JOIN students s ON o.student_id = s.student_id WHERE s.batch_id = '2020-2024' AND s.gender IN ('M', 'F') AND o.ctc_lpa IS NOT NULL AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY s.gender;",
+    "answer_type": "table",
+    "notes": "Gender CTC comparison.",
+    "gold_columns": [
+      "gender",
+      "avg_ctc",
+      "placed_count"
+    ],
+    "gold_answer": [
+      [
+        "F",
+        12.01,
+        172
+      ],
+      [
+        "M",
+        9.97,
+        527
+      ]
+    ]
+  },
+  {
+    "id": "TREND_08",
+    "type_id": 7,
+    "type_name": "Trends / comparisons",
+    "question": "Compare Infosys and TCS hiring across all batches",
+    "entities": {
+      "companies": [
+        "Infosys",
+        "TCS"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT c.canonical_name, COUNT(DISTINCT s.student_id) AS students_placed, COUNT(o.offer_id) AS total_offers, ROUND(AVG(o.ctc_lpa), 2) AS avg_ctc FROM offers o JOIN students s ON o.student_id = s.student_id JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name IN ('Infosys', 'TCS') AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY c.canonical_name;",
+    "answer_type": "table",
+    "notes": "Infosys vs TCS hiring numbers.",
+    "gold_columns": [
+      "canonical_name",
+      "students_placed",
+      "total_offers",
+      "avg_ctc"
+    ],
+    "gold_answer": [
+      [
+        "Infosys",
+        54,
+        55,
+        5.53
+      ],
+      [
+        "TCS",
+        5,
+        5,
+        9.0
+      ]
+    ]
+  },
+  {
+    "id": "TREND_09",
+    "type_id": 7,
+    "type_name": "Trends / comparisons",
+    "question": "How did highest package change between 2020-2024 and 2021-2025 batches?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024",
+        "2021-2025"
+      ]
+    },
+    "sql": "SELECT s.batch_id, MAX(o.ctc_lpa) AS highest_package FROM offers o JOIN students s ON o.student_id = s.student_id WHERE s.batch_id IN ('2020-2024', '2021-2025') AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY s.batch_id ORDER BY s.batch_id ASC;",
+    "answer_type": "table",
+    "notes": "Highest package trend.",
+    "gold_columns": [
+      "batch_id",
+      "highest_package"
+    ],
+    "gold_answer": [
+      [
+        "2020-2024",
+        62.0
+      ],
+      [
+        "2021-2025",
+        59.0
+      ]
+    ]
+  },
+  {
+    "id": "TREND_10",
+    "type_id": 7,
+    "type_name": "Trends / comparisons",
+    "question": "Compare number of offers in Chemical vs Civil in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "CHE",
+        "CE"
+      ],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT b.short_name, COUNT(o.offer_id) AS total_offers, COUNT(DISTINCT s.student_id) AS placed_students FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE b.short_name IN ('CHE', 'CE') AND s.batch_id = '2020-2024' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY b.short_name;",
+    "answer_type": "table",
+    "notes": "CHE vs CE comparison.",
+    "gold_columns": [
+      "short_name",
+      "total_offers",
+      "placed_students"
+    ],
+    "gold_answer": [
+      [
+        "CE",
+        61,
+        52
+      ],
+      [
+        "CHE",
+        64,
+        55
+      ]
+    ]
+  },
+  {
+    "id": "MULTI_01",
+    "type_id": 8,
+    "type_name": "Multi-condition",
+    "question": "Companies that hired both CSE and ECE with CTC > 15 LPA",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "CSE",
+        "ECE"
+      ],
+      "years": []
+    },
+    "sql": "SELECT c.canonical_name FROM companies c JOIN offers o ON c.company_id = o.company_id JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE o.ctc_lpa > 15.0 AND b.short_name IN ('CSE', 'ECE') AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY c.canonical_name HAVING COUNT(DISTINCT b.short_name) = 2 ORDER BY c.canonical_name ASC;",
+    "answer_type": "list",
+    "notes": "Companies hiring from both CSE and ECE at > 15 LPA.",
+    "gold_answer": [
+      "Amazon",
+      "Blackrock",
+      "Cdot",
+      "Citi Bank",
+      "Clear",
+      "Cvent",
+      "Fastenal India Sourcing, IT & Procurement",
+      "Goldman Sachs",
+      "Google",
+      "HSBC Technology",
+      "Increff",
+      "Juspay",
+      "Microsoft",
+      "Nvidia",
+      "Optum",
+      "Oracle",
+      "Zscaler"
+    ]
+  },
+  {
+    "id": "MULTI_02",
+    "type_id": 8,
+    "type_name": "Multi-condition",
+    "question": "Companies that gave offers above 20 LPA in 2020-2024 batch to female students",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT DISTINCT c.canonical_name FROM offers o JOIN students s ON o.student_id = s.student_id JOIN companies c ON o.company_id = c.company_id WHERE s.batch_id = '2020-2024' AND s.gender = 'F' AND o.ctc_lpa > 20.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') ORDER BY c.canonical_name ASC;",
+    "answer_type": "list",
+    "notes": "Companies with >20 LPA female offers in 2020-2024.",
+    "gold_answer": [
+      "Amazon",
+      "Atlassian",
+      "Google",
+      "Nvidia",
+      "ServiceNow",
+      "UGK"
+    ]
+  },
+  {
+    "id": "MULTI_03",
+    "type_id": 8,
+    "type_name": "Multi-condition",
+    "question": "Students from Core branches who received packages >= 15 LPA in 2020-2024 batch",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT COUNT(DISTINCT s.student_id) AS core_super_students FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE b.division = 'Core' AND s.batch_id = '2020-2024' AND o.ctc_lpa >= 15.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "Core students achieving >= 15 LPA.",
+    "gold_answer": 15
+  },
+  {
+    "id": "MULTI_04",
+    "type_id": 8,
+    "type_name": "Multi-condition",
+    "question": "Companies that hired from both IT and Mechanical Engineering",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "IT",
+        "ME"
+      ],
+      "years": []
+    },
+    "sql": "SELECT c.canonical_name FROM companies c JOIN offers o ON c.company_id = o.company_id JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE b.short_name IN ('IT', 'ME') AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY c.canonical_name HAVING COUNT(DISTINCT b.short_name) = 2 ORDER BY c.canonical_name ASC;",
+    "answer_type": "list",
+    "notes": "Companies hiring from both IT and ME.",
+    "gold_answer": [
+      "Amazon",
+      "Cabra Bags",
+      "Future First",
+      "HCLTech",
+      "ICICI Bank",
+      "Incedo",
+      "Infosys",
+      "Maruti Suzuki",
+      "Moody's",
+      "Teachnook"
+    ]
+  },
+  {
+    "id": "MULTI_05",
+    "type_id": 8,
+    "type_name": "Multi-condition",
+    "question": "How many offers were made to SC/ST students with package >= 10 LPA in 2020-2024 batch?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT COUNT(o.offer_id) AS sc_st_offers_above_10 FROM offers o JOIN students s ON o.student_id = s.student_id WHERE s.batch_id = '2020-2024' AND s.category IN ('SC', 'ST') AND o.ctc_lpa >= 10.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "SC/ST offers >= 10 LPA.",
+    "gold_answer": 35
+  },
+  {
+    "id": "MULTI_06",
+    "type_id": 8,
+    "type_name": "Multi-condition",
+    "question": "Companies that hired more than 5 students in CSE with package >= 10 LPA",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "CSE"
+      ],
+      "years": []
+    },
+    "sql": "SELECT c.canonical_name, COUNT(DISTINCT s.student_id) AS cse_hires FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE b.short_name = 'CSE' AND o.ctc_lpa >= 10.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY c.canonical_name HAVING cse_hires > 5 ORDER BY cse_hires DESC;",
+    "answer_type": "table",
+    "notes": "Companies hiring >5 CSE students at >= 10 LPA.",
+    "gold_columns": [
+      "canonical_name",
+      "cse_hires"
+    ],
+    "gold_answer": [
+      [
+        "Optum",
+        22
+      ],
+      [
+        "Oracle",
+        20
+      ],
+      [
+        "MAQ Software",
+        17
+      ],
+      [
+        "Bharat Electronics",
+        14
+      ],
+      [
+        "Accenture",
+        13
+      ],
+      [
+        "Cvent",
+        12
+      ],
+      [
+        "Microsoft",
+        10
+      ],
+      [
+        "HCLTech",
+        10
+      ],
+      [
+        "Bharat Petroleum Corporation",
+        9
+      ],
+      [
+        "Amazon",
+        9
+      ],
+      [
+        "Samsung",
+        8
+      ],
+      [
+        "Paytm",
+        7
+      ],
+      [
+        "Insurance Dekho",
+        7
+      ],
+      [
+        "Blackrock",
+        7
+      ],
+      [
+        "UGK",
+        6
+      ],
+      [
+        "TA Digital",
+        6
+      ],
+      [
+        "Ensuredit",
+        6
+      ]
+    ]
+  },
+  {
+    "id": "MULTI_07",
+    "type_id": 8,
+    "type_name": "Multi-condition",
+    "question": "Which companies hired through PPO with package > 30 LPA?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT c.canonical_name, MAX(o.ctc_lpa) AS max_ppo_ctc FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE o.offer_type IN ('PPO', 'Intern+PPO') AND o.ctc_lpa > 30.0 GROUP BY c.canonical_name ORDER BY max_ppo_ctc DESC;",
+    "answer_type": "table",
+    "notes": "Companies offering >30 LPA via PPO.",
+    "gold_columns": [
+      "canonical_name",
+      "max_ppo_ctc"
+    ],
+    "gold_answer": [
+      [
+        "Cred",
+        52.0
+      ],
+      [
+        "Amazon",
+        52.0
+      ],
+      [
+        "School Hack FZ-LLC",
+        44.0
+      ],
+      [
+        "School Hack FZLLC",
+        38.0
+      ],
+      [
+        "PayPal",
+        34.4
+      ]
+    ]
+  },
+  {
+    "id": "MULTI_08",
+    "type_id": 8,
+    "type_name": "Multi-condition",
+    "question": "Count of offers above 12 LPA in Textile Technology across all batches",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "TT"
+      ],
+      "years": []
+    },
+    "sql": "SELECT COUNT(o.offer_id) AS tt_above_12 FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE b.short_name = 'TT' AND o.ctc_lpa >= 12.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE');",
+    "answer_type": "scalar",
+    "notes": "Offers >= 12 LPA in Textile Tech.",
+    "gold_answer": 15
+  },
+  {
+    "id": "MULTI_09",
+    "type_id": 8,
+    "type_name": "Multi-condition",
+    "question": "Companies that hired in 2021-2025 batch with package >= 15 LPA and made at least 3 offers",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2021-2025"
+      ]
+    },
+    "sql": "SELECT c.canonical_name, COUNT(o.offer_id) AS offers_count FROM offers o JOIN students s ON o.student_id = s.student_id JOIN companies c ON o.company_id = c.company_id WHERE s.batch_id = '2021-2025' AND o.ctc_lpa >= 15.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY c.canonical_name HAVING offers_count >= 3 ORDER BY offers_count DESC;",
+    "answer_type": "table",
+    "notes": "Companies with >= 3 offers at >= 15 LPA in 2021-2025.",
+    "gold_columns": [
+      "canonical_name",
+      "offers_count"
+    ],
+    "gold_answer": [
+      [
+        "Bharat Petroleum Corporation",
+        29
+      ],
+      [
+        "Optum",
+        19
+      ],
+      [
+        "Cvent",
+        14
+      ],
+      [
+        "Microsoft",
+        12
+      ],
+      [
+        "Juspay",
+        10
+      ],
+      [
+        "Amazon",
+        9
+      ],
+      [
+        "Oracle",
+        8
+      ],
+      [
+        "Trident",
+        7
+      ],
+      [
+        "Google",
+        6
+      ],
+      [
+        "Pocketfm",
+        5
+      ],
+      [
+        "Increff",
+        5
+      ],
+      [
+        "Flipkart",
+        5
+      ],
+      [
+        "Citi Bank",
+        5
+      ],
+      [
+        "Fastenal",
+        4
+      ],
+      [
+        "Cisco",
+        4
+      ],
+      [
+        "Samsung",
+        3
+      ],
+      [
+        "Infineon",
+        3
+      ],
+      [
+        "HPCL",
+        3
+      ],
+      [
+        "Clear",
+        3
+      ]
+    ]
+  },
+  {
+    "id": "MULTI_10",
+    "type_id": 8,
+    "type_name": "Multi-condition",
+    "question": "Which companies hired both B.Tech and M.Tech students?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT c.canonical_name FROM companies c JOIN offers o ON c.company_id = o.company_id JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') GROUP BY c.canonical_name HAVING COUNT(DISTINCT CASE WHEN b.degree = 'B.Tech' THEN 1 END) > 0 AND COUNT(DISTINCT CASE WHEN b.degree = 'M.Tech' THEN 1 END) > 0 ORDER BY c.canonical_name ASC;",
+    "answer_type": "list",
+    "notes": "Companies hiring both UG and PG.",
+    "gold_answer": [
+      "Academor",
+      "BEL",
+      "HCLTech",
+      "Hindustan Petroleum Corporation",
+      "IBM Software",
+      "Infineon",
+      "Intel",
+      "Juniper Energy",
+      "Kuantum Paper",
+      "L&T",
+      "Microsoft",
+      "NXP Semiconductor",
+      "Proxima Steel Forge",
+      "Sagacious Reserch",
+      "Tata Consulting Engineers",
+      "Teachnook",
+      "Trutzschler"
+    ]
+  },
+  {
+    "id": "NEGATIVE_01",
+    "type_id": 9,
+    "type_name": "Negative / existence",
+    "question": "Which branches were never hired by PayPal?",
+    "entities": {
+      "companies": [
+        "PayPal"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT b.short_name FROM branches b WHERE b.degree = 'B.Tech' AND b.branch_code NOT IN (SELECT DISTINCT s.branch_code FROM offers o JOIN students s ON o.student_id = s.student_id JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'PayPal' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')) ORDER BY b.short_name ASC;",
+    "answer_type": "list",
+    "notes": "Branches never hired by PayPal (all except CSE).",
+    "gold_answer": [
+      "BT",
+      "CE",
+      "CHE",
+      "DSE",
+      "ECE",
+      "EE",
+      "ICE",
+      "IPE",
+      "IT",
+      "ME",
+      "TT",
+      "VLSI"
+    ]
+  },
+  {
+    "id": "NEGATIVE_02",
+    "type_id": 9,
+    "type_name": "Negative / existence",
+    "question": "Which branches had zero offers above 20 LPA in 2020-2024 batch?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT b.short_name FROM branches b WHERE b.degree = 'B.Tech' AND b.branch_code NOT IN (SELECT DISTINCT s.branch_code FROM offers o JOIN students s ON o.student_id = s.student_id WHERE s.batch_id = '2020-2024' AND o.ctc_lpa > 20.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')) ORDER BY b.short_name ASC;",
+    "answer_type": "list",
+    "notes": "Branches with zero offers > 20 LPA in 2020-2024.",
+    "gold_answer": [
+      "BT",
+      "CE",
+      "CHE",
+      "DSE",
+      "IPE",
+      "TT",
+      "VLSI"
+    ]
+  },
+  {
+    "id": "NEGATIVE_03",
+    "type_id": 9,
+    "type_name": "Negative / existence",
+    "question": "Which B.Tech branches had zero female placements in 2020-2024 batch?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT b.short_name FROM branches b WHERE b.degree = 'B.Tech' AND b.branch_code NOT IN (SELECT DISTINCT s.branch_code FROM offers o JOIN students s ON o.student_id = s.student_id WHERE s.batch_id = '2020-2024' AND s.gender = 'F' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')) ORDER BY b.short_name ASC;",
+    "answer_type": "list",
+    "notes": "Branches with zero female placements.",
+    "gold_answer": [
+      "DSE",
+      "VLSI"
+    ]
+  },
+  {
+    "id": "NEGATIVE_04",
+    "type_id": 9,
+    "type_name": "Negative / existence",
+    "question": "Which companies gave offers to CSE but never to IT?",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "CSE",
+        "IT"
+      ],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT c.canonical_name FROM companies c JOIN offers o ON c.company_id = o.company_id JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE b.short_name = 'CSE' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') AND c.company_id NOT IN (SELECT DISTINCT o2.company_id FROM offers o2 JOIN students s2 ON o2.student_id = s2.student_id JOIN branches b2 ON s2.branch_code = b2.branch_code WHERE b2.short_name = 'IT' AND o2.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')) ORDER BY c.canonical_name ASC;",
+    "answer_type": "list",
+    "notes": "Companies hiring CSE but not IT.",
+    "gold_answer": [
+      "Adobe",
+      "Algoquant",
+      "Betalectic",
+      "Bharat Electronics",
+      "Bharat Petroleum Corporation",
+      "Brance",
+      "CISCO Systems",
+      "Capgemini Solutions",
+      "Cdot",
+      "Cisco",
+      "Clear",
+      "Cloudwick",
+      "Copperpod IP",
+      "Cubastion Consulting",
+      "Cure.fit",
+      "Denso International",
+      "E2open",
+      "ENTNT",
+      "Expedia Group",
+      "Fabhotels",
+      "Fidelity International",
+      "Fiserv",
+      "Fratelli Singh",
+      "FurtureFirst",
+      "Goldman Sachs",
+      "Grazitti",
+      "Hero MotoCorp",
+      "Hevells",
+      "Hexaware Technologies",
+      "IDS Infotech",
+      "Jayaswal Neco Industries",
+      "Jungleworks",
+      "Kashmiri Lal Tarun Khanna",
+      "L&T",
+      "Mahalaxmi Malt Productions",
+      "Mahindra & Mahindra",
+      "MakeMyTrip",
+      "Meesho",
+      "Midas IT Solutions",
+      "Movidu Technology",
+      "NAB Innovation Centre",
+      "Nvidia",
+      "Nykaa",
+      "Online24x7",
+      "PayPal",
+      "Pipeshub Tech",
+      "Quark Software",
+      "Raik Solutions",
+      "Raptorx. Ai",
+      "RoundGlass",
+      "Salesforce",
+      "Schlumberger (SLB)",
+      "ServiceNow",
+      "Shorthills AI",
+      "Sigmoid",
+      "Spectramedix",
+      "Sprih Innovations",
+      "Tredance",
+      "Triptivo Techologies Pvt. Ltd. (Taxi Bazar)",
+      "Veritas Technologies",
+      "Wiingy",
+      "ZS Associates"
+    ]
+  },
+  {
+    "id": "NEGATIVE_05",
+    "type_id": 9,
+    "type_name": "Negative / existence",
+    "question": "Which branches were never hired by Uber?",
+    "entities": {
+      "companies": [
+        "Uber"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT b.short_name FROM branches b WHERE b.degree = 'B.Tech' AND b.branch_code NOT IN (SELECT DISTINCT s.branch_code FROM offers o JOIN students s ON o.student_id = s.student_id JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Uber') ORDER BY b.short_name ASC;",
+    "answer_type": "list",
+    "notes": "Branches never hired by Uber.",
+    "gold_answer": [
+      "BT",
+      "CHE",
+      "CSE",
+      "DSE",
+      "ECE",
+      "EE",
+      "ICE",
+      "IPE",
+      "IT",
+      "ME",
+      "TT",
+      "VLSI"
+    ]
+  },
+  {
+    "id": "NEGATIVE_06",
+    "type_id": 9,
+    "type_name": "Negative / existence",
+    "question": "Which core branches had no offers above 15 LPA in 2020-2024 batch?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT b.short_name FROM branches b WHERE b.division = 'Core' AND b.degree = 'B.Tech' AND b.branch_code NOT IN (SELECT DISTINCT s.branch_code FROM offers o JOIN students s ON o.student_id = s.student_id WHERE s.batch_id = '2020-2024' AND o.ctc_lpa >= 15.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')) ORDER BY b.short_name ASC;",
+    "answer_type": "list",
+    "notes": "Core branches lacking >= 15 LPA offers.",
+    "gold_answer": []
+  },
+  {
+    "id": "NEGATIVE_07",
+    "type_id": 9,
+    "type_name": "Negative / existence",
+    "question": "How many students in 2020-2024 batch remained unplaced?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT COUNT(DISTINCT s.student_id) AS unplaced_count FROM students s JOIN branches b ON s.branch_code = b.branch_code WHERE s.batch_id = '2020-2024' AND b.degree = 'B.Tech' AND s.student_id NOT IN (SELECT DISTINCT o.student_id FROM offers o WHERE o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE'));",
+    "answer_type": "scalar",
+    "notes": "Unplaced B.Tech students in 2020-2024.",
+    "gold_answer": 378
+  },
+  {
+    "id": "NEGATIVE_08",
+    "type_id": 9,
+    "type_name": "Negative / existence",
+    "question": "Which companies hired zero students from Information Technology?",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "IT"
+      ],
+      "years": []
+    },
+    "sql": "SELECT c.canonical_name FROM companies c WHERE c.company_id NOT IN (SELECT DISTINCT o.company_id FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code WHERE b.short_name = 'IT' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')) ORDER BY c.canonical_name ASC LIMIT 10;",
+    "answer_type": "list",
+    "notes": "Companies that did not hire from IT.",
+    "gold_answer": [
+      "ACME Generics",
+      "ACME Group",
+      "AMD",
+      "Aakash Educational Services",
+      "Aarti Industries",
+      "Abhi fire Safety Services",
+      "Adani Group",
+      "Aditya birla",
+      "Adobe",
+      "AdvaRisk"
+    ]
+  },
+  {
+    "id": "NEGATIVE_09",
+    "type_id": 9,
+    "type_name": "Negative / existence",
+    "question": "Which branches had zero off-campus offers in 2020-2024 batch?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT b.short_name FROM branches b WHERE b.degree = 'B.Tech' AND b.branch_code NOT IN (SELECT DISTINCT s.branch_code FROM offers o JOIN students s ON o.student_id = s.student_id WHERE s.batch_id = '2020-2024' AND o.offer_mode = 'Off-campus') ORDER BY b.short_name ASC;",
+    "answer_type": "list",
+    "notes": "Branches with zero off-campus offers.",
+    "gold_answer": [
+      "BT",
+      "CE",
+      "CHE",
+      "CSE",
+      "DSE",
+      "ECE",
+      "EE",
+      "ICE",
+      "IPE",
+      "IT",
+      "ME",
+      "TT",
+      "VLSI"
+    ]
+  },
+  {
+    "id": "NEGATIVE_10",
+    "type_id": 9,
+    "type_name": "Negative / existence",
+    "question": "Which companies never hired in 2020-2024 batch but hired in 2021-2025 batch?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024",
+        "2021-2025"
+      ]
+    },
+    "sql": "SELECT DISTINCT c.canonical_name FROM offers o JOIN students s ON o.student_id = s.student_id JOIN companies c ON o.company_id = c.company_id WHERE s.batch_id = '2021-2025' AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') AND c.company_id NOT IN (SELECT DISTINCT o2.company_id FROM offers o2 JOIN students s2 ON o2.student_id = s2.student_id WHERE s2.batch_id = '2020-2024' AND o2.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE')) ORDER BY c.canonical_name ASC LIMIT 10;",
+    "answer_type": "list",
+    "notes": "New companies in 2021-2025 batch.",
+    "gold_answer": [
+      "ACME Generics",
+      "Academor",
+      "Aditya birla",
+      "Afcons",
+      "Air liquide",
+      "Algoquant",
+      "Amantya Tech",
+      "Ashriwad Pipes",
+      "Astrotalk",
+      "Atlas Consolidated"
+    ]
+  },
+  {
+    "id": "OFFERTYPE_01",
+    "type_id": 10,
+    "type_name": "Offer-type aware",
+    "question": "How many PPOs were given by Amazon?",
+    "entities": {
+      "companies": [
+        "Amazon"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT COUNT(o.offer_id) AS amazon_ppos FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Amazon' AND o.offer_type IN ('PPO', 'Intern+PPO');",
+    "answer_type": "scalar",
+    "notes": "Amazon PPOs.",
+    "gold_answer": 10
+  },
+  {
+    "id": "OFFERTYPE_02",
+    "type_id": 10,
+    "type_name": "Offer-type aware",
+    "question": "What is the internship stipend of Microsoft?",
+    "entities": {
+      "companies": [
+        "Microsoft"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.stipend_monthly_inr FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Microsoft' AND o.stipend_monthly_inr IS NOT NULL;",
+    "answer_type": "number_list",
+    "notes": "Microsoft internship stipend (125,000 INR/month).",
+    "gold_answer": [
+      125000.0
+    ]
+  },
+  {
+    "id": "OFFERTYPE_03",
+    "type_id": 10,
+    "type_name": "Offer-type aware",
+    "question": "How many internship offers were made in 2023-2027 batch?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2023-2027"
+      ]
+    },
+    "sql": "SELECT COUNT(o.offer_id) AS intern_offers FROM offers o JOIN students s ON o.student_id = s.student_id WHERE s.batch_id = '2023-2027' AND o.offer_type IN ('Intern', 'Summer Intern');",
+    "answer_type": "scalar",
+    "notes": "2023-2027 summer internship count.",
+    "gold_answer": 32
+  },
+  {
+    "id": "OFFERTYPE_04",
+    "type_id": 10,
+    "type_name": "Offer-type aware",
+    "question": "What is the difference between FTE offers and PPO offers in 2020-2024 batch?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2020-2024"
+      ]
+    },
+    "sql": "SELECT COUNT(CASE WHEN o.offer_type IN ('FTE', 'Intern+FTE') THEN 1 END) AS fte_count, COUNT(CASE WHEN o.offer_type IN ('PPO', 'Intern+PPO') THEN 1 END) AS ppo_count FROM offers o JOIN students s ON o.student_id = s.student_id WHERE s.batch_id = '2020-2024';",
+    "answer_type": "table",
+    "notes": "FTE vs PPO offers breakdown.",
+    "gold_columns": [
+      "fte_count",
+      "ppo_count"
+    ],
+    "gold_answer": [
+      [
+        865,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "OFFERTYPE_05",
+    "type_id": 10,
+    "type_name": "Offer-type aware",
+    "question": "How many long intern offers were converted with full-time confirmation?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT COUNT(o.offer_id) AS confirmed_long_interns FROM offers o WHERE o.offer_type = 'Intern+FTE';",
+    "answer_type": "scalar",
+    "notes": "Intern+FTE count.",
+    "gold_answer": 127
+  },
+  {
+    "id": "OFFERTYPE_06",
+    "type_id": 10,
+    "type_name": "Offer-type aware",
+    "question": "What stipend was offered by American Express for summer internship?",
+    "entities": {
+      "companies": [
+        "American Express"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.stipend_monthly_inr FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'American Express' AND o.stipend_monthly_inr IS NOT NULL;",
+    "answer_type": "number_list",
+    "notes": "American Express monthly stipend: 125,000 INR.",
+    "gold_answer": [
+      125000.0
+    ]
+  },
+  {
+    "id": "OFFERTYPE_07",
+    "type_id": 10,
+    "type_name": "Offer-type aware",
+    "question": "Which companies offered unpaid internships?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT c.canonical_name FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE o.package_reason = 'unpaid' ORDER BY c.canonical_name ASC;",
+    "answer_type": "list",
+    "notes": "Companies with unpaid internships.",
+    "gold_answer": [
+      "Bureau of Indian Standards"
+    ]
+  },
+  {
+    "id": "OFFERTYPE_08",
+    "type_id": 10,
+    "type_name": "Offer-type aware",
+    "question": "How many offers had compound packages with both stipend and CTC?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT COUNT(o.offer_id) AS compound_offers FROM offers o WHERE o.package_reason = 'compound_split';",
+    "answer_type": "scalar",
+    "notes": "Compound packages split.",
+    "gold_answer": 18
+  },
+  {
+    "id": "OFFERTYPE_09",
+    "type_id": 10,
+    "type_name": "Offer-type aware",
+    "question": "How many PPOs did Reliance Industries give in Chemical Engineering?",
+    "entities": {
+      "companies": [
+        "Reliance Industries"
+      ],
+      "branches": [
+        "CHE"
+      ],
+      "years": []
+    },
+    "sql": "SELECT COUNT(o.offer_id) AS reliance_che_ppos FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Reliance Industries' AND b.short_name = 'CHE' AND o.offer_type IN ('PPO', 'Intern+PPO');",
+    "answer_type": "scalar",
+    "notes": "Reliance PPOs in CHE.",
+    "gold_answer": 3
+  },
+  {
+    "id": "OFFERTYPE_10",
+    "type_id": 10,
+    "type_name": "Offer-type aware",
+    "question": "Top 3 companies by highest monthly internship stipend",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT c.canonical_name, MAX(o.stipend_monthly_inr) AS max_monthly_stipend FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE o.stipend_monthly_inr IS NOT NULL GROUP BY c.canonical_name ORDER BY max_monthly_stipend DESC LIMIT 3;",
+    "answer_type": "table",
+    "notes": "Highest paying internship companies.",
+    "gold_columns": [
+      "canonical_name",
+      "max_monthly_stipend"
+    ],
+    "gold_answer": [
+      [
+        "Trutzschler",
+        400000.0
+      ],
+      [
+        "Microsoft",
+        125000.0
+      ],
+      [
+        "Goldman sach",
+        125000.0
+      ]
+    ]
+  },
+  {
+    "id": "HYBRID_01",
+    "type_id": 11,
+    "type_name": "Hybrid",
+    "question": "Which companies gave > 18 LPA and what did they ask in interviews?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT c.canonical_name FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE o.ctc_lpa > 18.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') ORDER BY c.canonical_name ASC;",
+    "answer_type": "hybrid",
+    "notes": "SQL extracts companies with CTC > 18 LPA; RAG retrieves alumni interview topics.",
+    "gold_columns": [
+      "canonical_name"
+    ],
+    "gold_answer": [
+      [
+        "Amazon"
+      ],
+      [
+        "Atlassian"
+      ],
+      [
+        "Avalara"
+      ],
+      [
+        "Bharat Petroleum Corporation"
+      ],
+      [
+        "Browserstack"
+      ],
+      [
+        "CISCO"
+      ],
+      [
+        "CISCO Systems"
+      ],
+      [
+        "CISCO Systmes"
+      ],
+      [
+        "Cdot"
+      ],
+      [
+        "CiSCO"
+      ],
+      [
+        "Cisco"
+      ],
+      [
+        "Cred"
+      ],
+      [
+        "Engineer"
+      ],
+      [
+        "Engineering"
+      ],
+      [
+        "Engineers"
+      ],
+      [
+        "Ensuredit"
+      ],
+      [
+        "Expedia Group"
+      ],
+      [
+        "Flow Trades Hong Kong Services"
+      ],
+      [
+        "Goldman Sachs"
+      ],
+      [
+        "Google"
+      ],
+      [
+        "Increff"
+      ],
+      [
+        "Intel"
+      ],
+      [
+        "Juspay"
+      ],
+      [
+        "MakeMyTrip"
+      ],
+      [
+        "Microsoft"
+      ],
+      [
+        "NXP"
+      ],
+      [
+        "NXP Semiconductor"
+      ],
+      [
+        "Nvidia"
+      ],
+      [
+        "Omneky"
+      ],
+      [
+        "Optum"
+      ],
+      [
+        "Oracle"
+      ],
+      [
+        "PayPal"
+      ],
+      [
+        "Pocketfm"
+      ],
+      [
+        "Rapidfort"
+      ],
+      [
+        "School Hack FZ-LLC"
+      ],
+      [
+        "School Hack FZLLC"
+      ],
+      [
+        "ServiceNow"
+      ],
+      [
+        "Silicon Labs"
+      ],
+      [
+        "Synopsys"
+      ],
+      [
+        "Tesco"
+      ],
+      [
+        "UGK"
+      ],
+      [
+        "UKG"
+      ],
+      [
+        "Uber"
+      ],
+      [
+        "Writesonic"
+      ],
+      [
+        "ZScaller"
+      ],
+      [
+        "Zscaler"
+      ],
+      [
+        "Zscaller"
+      ]
+    ]
+  },
+  {
+    "id": "HYBRID_02",
+    "type_id": 11,
+    "type_name": "Hybrid",
+    "question": "What is the CTC of Microsoft for CSE and how was the technical round?",
+    "entities": {
+      "companies": [
+        "Microsoft"
+      ],
+      "branches": [
+        "CSE"
+      ],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Microsoft' AND b.short_name = 'CSE' AND o.ctc_lpa IS NOT NULL;",
+    "answer_type": "hybrid",
+    "notes": "SQL retrieves 52.0 LPA; RAG retrieves Microsoft technical round experience.",
+    "gold_columns": [
+      "ctc_lpa"
+    ],
+    "gold_answer": [
+      [
+        52.0
+      ]
+    ]
+  },
+  {
+    "id": "HYBRID_03",
+    "type_id": 11,
+    "type_name": "Hybrid",
+    "question": "Which companies hired CSE with CTC >= 20 LPA and what projects did students discuss?",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "CSE"
+      ],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT c.canonical_name FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE b.short_name = 'CSE' AND o.ctc_lpa >= 20.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') ORDER BY c.canonical_name ASC;",
+    "answer_type": "hybrid",
+    "notes": "SQL retrieves list of companies; RAG retrieves project details.",
+    "gold_columns": [
+      "canonical_name"
+    ],
+    "gold_answer": [
+      [
+        "Amazon"
+      ],
+      [
+        "Bharat Petroleum Corporation"
+      ],
+      [
+        "CISCO Systems"
+      ],
+      [
+        "Cisco"
+      ],
+      [
+        "Ensuredit"
+      ],
+      [
+        "Expedia Group"
+      ],
+      [
+        "Goldman Sachs"
+      ],
+      [
+        "Google"
+      ],
+      [
+        "Increff"
+      ],
+      [
+        "Juspay"
+      ],
+      [
+        "MakeMyTrip"
+      ],
+      [
+        "Microsoft"
+      ],
+      [
+        "Nvidia"
+      ],
+      [
+        "Oracle"
+      ],
+      [
+        "PayPal"
+      ],
+      [
+        "Pocketfm"
+      ],
+      [
+        "Rapidfort"
+      ],
+      [
+        "ServiceNow"
+      ],
+      [
+        "UGK"
+      ],
+      [
+        "UKG"
+      ],
+      [
+        "Zscaler"
+      ]
+    ]
+  },
+  {
+    "id": "HYBRID_04",
+    "type_id": 11,
+    "type_name": "Hybrid",
+    "question": "Package offered by Google and what coding topics were asked?",
+    "entities": {
+      "companies": [
+        "Google"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Google' AND o.ctc_lpa IS NOT NULL ORDER BY o.ctc_lpa DESC;",
+    "answer_type": "hybrid",
+    "notes": "SQL provides CTC; RAG retrieves coding topics.",
+    "gold_columns": [
+      "ctc_lpa"
+    ],
+    "gold_answer": [
+      [
+        62.0
+      ],
+      [
+        52.0
+      ]
+    ]
+  },
+  {
+    "id": "HYBRID_05",
+    "type_id": 11,
+    "type_name": "Hybrid",
+    "question": "How many offers did Amazon make and what was their online assessment like?",
+    "entities": {
+      "companies": [
+        "Amazon"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT COUNT(o.offer_id) AS amazon_offers FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Amazon';",
+    "answer_type": "hybrid",
+    "notes": "SQL provides offer counts; RAG provides OA details.",
+    "gold_columns": [
+      "amazon_offers"
+    ],
+    "gold_answer": [
+      [
+        95
+      ]
+    ]
+  },
+  {
+    "id": "HYBRID_06",
+    "type_id": 11,
+    "type_name": "Hybrid",
+    "question": "Package of Uber and how many interview rounds did they conduct?",
+    "entities": {
+      "companies": [
+        "Uber"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Uber' AND o.ctc_lpa IS NOT NULL;",
+    "answer_type": "hybrid",
+    "notes": "SQL provides CTC (59.0 LPA); RAG provides interview rounds.",
+    "gold_columns": [
+      "ctc_lpa"
+    ],
+    "gold_answer": [
+      [
+        59.0
+      ]
+    ]
+  },
+  {
+    "id": "HYBRID_07",
+    "type_id": 11,
+    "type_name": "Hybrid",
+    "question": "What package did Goldman Sachs offer and what questions were asked in HR round?",
+    "entities": {
+      "companies": [
+        "Goldman Sachs"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Goldman Sachs' AND o.ctc_lpa IS NOT NULL;",
+    "answer_type": "hybrid",
+    "notes": "SQL provides CTC (24.0 LPA); RAG provides HR round questions.",
+    "gold_columns": [
+      "ctc_lpa"
+    ],
+    "gold_answer": [
+      [
+        24.0
+      ],
+      [
+        30.0
+      ]
+    ]
+  },
+  {
+    "id": "HYBRID_08",
+    "type_id": 11,
+    "type_name": "Hybrid",
+    "question": "Which core companies hired with CTC > 10 LPA and what domain questions were asked?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT c.canonical_name FROM offers o JOIN students s ON o.student_id = s.student_id JOIN branches b ON s.branch_code = b.branch_code JOIN companies c ON o.company_id = c.company_id WHERE b.division = 'Core' AND o.ctc_lpa > 10.0 AND o.offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE') ORDER BY c.canonical_name ASC;",
+    "answer_type": "hybrid",
+    "notes": "SQL filters core recruiters >10 LPA; RAG retrieves technical domain questions.",
+    "gold_columns": [
+      "canonical_name"
+    ],
+    "gold_answer": [
+      [
+        "Aakash Educational Services"
+      ],
+      [
+        "Accenture"
+      ],
+      [
+        "Accolite"
+      ],
+      [
+        "Amazon"
+      ],
+      [
+        "BEL"
+      ],
+      [
+        "Bajaj Finserv"
+      ],
+      [
+        "Bharat Petroleum Corporation"
+      ],
+      [
+        "CISCO Systmes"
+      ],
+      [
+        "Cadence"
+      ],
+      [
+        "Cairn Oil"
+      ],
+      [
+        "CiSCO"
+      ],
+      [
+        "Cisco"
+      ],
+      [
+        "Cred"
+      ],
+      [
+        "Engineer"
+      ],
+      [
+        "Engineering"
+      ],
+      [
+        "Engineers"
+      ],
+      [
+        "Flipkart"
+      ],
+      [
+        "Flow Trades Hong Kong Services"
+      ],
+      [
+        "FnZ"
+      ],
+      [
+        "FurtureFirst"
+      ],
+      [
+        "Future First"
+      ],
+      [
+        "Guangdong Academy Of Agricultural Sciences"
+      ],
+      [
+        "HPCL"
+      ],
+      [
+        "HRRL"
+      ],
+      [
+        "Hindustan Petroleum Corporation"
+      ],
+      [
+        "ICICI"
+      ],
+      [
+        "ICICI Bank"
+      ],
+      [
+        "Infineon"
+      ],
+      [
+        "Juspay"
+      ],
+      [
+        "Kfintech"
+      ],
+      [
+        "Mecon"
+      ],
+      [
+        "Meesho"
+      ],
+      [
+        "Microsoft"
+      ],
+      [
+        "Mondelez"
+      ],
+      [
+        "Mondelez International"
+      ],
+      [
+        "Moody's"
+      ],
+      [
+        "Neev Flipkart"
+      ],
+      [
+        "Optum"
+      ],
+      [
+        "Pocketfm"
+      ],
+      [
+        "School Hack FZLLC"
+      ],
+      [
+        "TRIDENT"
+      ],
+      [
+        "Taipei Medical University, Taiwan"
+      ],
+      [
+        "Terobots Enterprises"
+      ],
+      [
+        "Trident"
+      ],
+      [
+        "Trident Group"
+      ],
+      [
+        "UPL"
+      ],
+      [
+        "Uber"
+      ],
+      [
+        "ZS"
+      ],
+      [
+        "ZScaller"
+      ]
+    ]
+  },
+  {
+    "id": "HYBRID_09",
+    "type_id": 11,
+    "type_name": "Hybrid",
+    "question": "Package of Oracle and what SQL questions did they ask?",
+    "entities": {
+      "companies": [
+        "Oracle"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.ctc_lpa FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Oracle' AND o.ctc_lpa IS NOT NULL ORDER BY o.ctc_lpa DESC;",
+    "answer_type": "hybrid",
+    "notes": "SQL provides Oracle CTC; RAG provides SQL interview questions.",
+    "gold_columns": [
+      "ctc_lpa"
+    ],
+    "gold_answer": [
+      [
+        21.89
+      ],
+      [
+        19.8
+      ],
+      [
+        19.0
+      ]
+    ]
+  },
+  {
+    "id": "HYBRID_10",
+    "type_id": 11,
+    "type_name": "Hybrid",
+    "question": "What was the package for Cadence VLSI intern and how was the interview process?",
+    "entities": {
+      "companies": [
+        "Cadence"
+      ],
+      "branches": [
+        "VLSI"
+      ],
+      "years": []
+    },
+    "sql": "SELECT DISTINCT o.stipend_monthly_inr FROM offers o JOIN companies c ON o.company_id = c.company_id WHERE c.canonical_name = 'Cadence' AND o.stipend_monthly_inr IS NOT NULL;",
+    "answer_type": "hybrid",
+    "notes": "SQL provides stipend; RAG provides VLSI interview process.",
+    "gold_columns": [
+      "stipend_monthly_inr"
+    ],
+    "gold_answer": [
+      [
+        45000.0
+      ]
+    ]
+  },
+  {
+    "id": "UNANSWERABLE_01",
+    "type_id": 12,
+    "type_name": "Unanswerable / ambiguous",
+    "question": "What is the CTC of Apple?",
+    "entities": {
+      "companies": [
+        "Apple"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": null,
+    "answer_type": "unanswerable",
+    "expected_behavior": "NO_DATA",
+    "notes": "Apple never visited NIT Jalandhar in the dataset. Must report no data available.",
+    "gold_answer": "NO_DATA"
+  },
+  {
+    "id": "UNANSWERABLE_02",
+    "type_id": 12,
+    "type_name": "Unanswerable / ambiguous",
+    "question": "What is the average CGPA of placed students in CSE?",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "CSE"
+      ],
+      "years": []
+    },
+    "sql": null,
+    "answer_type": "unanswerable",
+    "expected_behavior": "OUT_OF_SCOPE",
+    "notes": "CGPA is not tracked in the placement spreadsheet. Must state CGPA data is unavailable.",
+    "gold_answer": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "UNANSWERABLE_03",
+    "type_id": 12,
+    "type_name": "Unanswerable / ambiguous",
+    "question": "Which company visited yesterday?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": []
+    },
+    "sql": null,
+    "answer_type": "unanswerable",
+    "expected_behavior": "OUT_OF_SCOPE",
+    "notes": "Relative temporal references ('yesterday') without batch context cannot be answered.",
+    "gold_answer": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "UNANSWERABLE_04",
+    "type_id": 12,
+    "type_name": "Unanswerable / ambiguous",
+    "question": "Tell me about placements",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": []
+    },
+    "sql": null,
+    "answer_type": "ambiguous",
+    "expected_behavior": "CLARIFICATION_REQUIRED",
+    "notes": "Vague request without branch, year, or company. Must prompt for clarification.",
+    "gold_answer": "CLARIFICATION_REQUIRED"
+  },
+  {
+    "id": "UNANSWERABLE_05",
+    "type_id": 12,
+    "type_name": "Unanswerable / ambiguous",
+    "question": "What is the 10th and 12th board percentage requirement for Microsoft?",
+    "entities": {
+      "companies": [
+        "Microsoft"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": null,
+    "answer_type": "unanswerable",
+    "expected_behavior": "OUT_OF_SCOPE",
+    "notes": "School board percentages are not in the placement database.",
+    "gold_answer": "OUT_OF_SCOPE"
+  },
+  {
+    "id": "UNANSWERABLE_06",
+    "type_id": 12,
+    "type_name": "Unanswerable / ambiguous",
+    "question": "Show me student roll numbers and phone numbers placed in Google",
+    "entities": {
+      "companies": [
+        "Google"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": null,
+    "answer_type": "unanswerable",
+    "expected_behavior": "PRIVACY_BLOCKED",
+    "notes": "Privacy policy strictly forbids disclosing individual student roll numbers or contacts.",
+    "gold_answer": "PRIVACY_BLOCKED"
+  },
+  {
+    "id": "UNANSWERABLE_07",
+    "type_id": 12,
+    "type_name": "Unanswerable / ambiguous",
+    "question": "What was the placement package in 2018?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": [
+        "2018"
+      ]
+    },
+    "sql": null,
+    "answer_type": "unanswerable",
+    "expected_behavior": "NO_DATA",
+    "notes": "Data covers batches from 2020 onwards; 2018 is outside data scope.",
+    "gold_answer": "NO_DATA"
+  },
+  {
+    "id": "UNANSWERABLE_08",
+    "type_id": 12,
+    "type_name": "Unanswerable / ambiguous",
+    "question": "Who is the HR contact for Amazon?",
+    "entities": {
+      "companies": [
+        "Amazon"
+      ],
+      "branches": [],
+      "years": []
+    },
+    "sql": null,
+    "answer_type": "unanswerable",
+    "expected_behavior": "PRIVACY_BLOCKED",
+    "notes": "HR contact sheet is strictly excluded from chatbot data.",
+    "gold_answer": "PRIVACY_BLOCKED"
+  },
+  {
+    "id": "UNANSWERABLE_09",
+    "type_id": 12,
+    "type_name": "Unanswerable / ambiguous",
+    "question": "How many offers were made to Aeronautical Engineering?",
+    "entities": {
+      "companies": [],
+      "branches": [
+        "Aeronautical Engineering"
+      ],
+      "years": []
+    },
+    "sql": null,
+    "answer_type": "unanswerable",
+    "expected_behavior": "NO_DATA",
+    "notes": "Aeronautical Engineering does not exist at NIT Jalandhar.",
+    "gold_answer": "NO_DATA"
+  },
+  {
+    "id": "UNANSWERABLE_10",
+    "type_id": 12,
+    "type_name": "Unanswerable / ambiguous",
+    "question": "Which branch is the best?",
+    "entities": {
+      "companies": [],
+      "branches": [],
+      "years": []
+    },
+    "sql": null,
+    "answer_type": "ambiguous",
+    "expected_behavior": "CLARIFICATION_REQUIRED",
+    "notes": "Subjective opinion without metric. Must ask clarifying question (highest package vs placement %).",
+    "gold_answer": "CLARIFICATION_REQUIRED"
+  }
+]

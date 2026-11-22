@@ -1,0 +1,220 @@
+# Schema Notes for NIT Jalandhar Placement Database (data/nitj_placement.db)
+# Grounded on institutional Excel records from 2020-2026.
+
+database:
+  name: nitj_placement.db
+  dialect: sqlite3
+  read_only_enforcement: data/db_authorizer.py (SQLite authorizer denies writes and PII leaks)
+
+tables:
+  companies:
+    description: Master table of recruiting companies that visited campus or recruited off-campus.
+    primary_key: company_id
+    columns:
+      company_id:
+        type: INTEGER
+        description: Unique auto-incrementing company ID.
+        sample: 1
+      canonical_name:
+        type: TEXT
+        description: Standardized, deduplicated company name.
+        sample: "Microsoft"
+      sector:
+        type: TEXT
+        description: Industry domain (IT, Core, Finance, Consulting, Healthcare, etc.).
+        sample: "IT"
+    gotchas:
+      - Always use canonical_name for comparisons, grouping, or user responses.
+      - Never assume raw user string matches canonical_name directly; join with company_aliases.
+
+  company_aliases:
+    description: Mapping of raw recruiter strings, typos, legal names, and acronyms to canonical company_id.
+    primary_key: alias
+    columns:
+      alias:
+        type: TEXT
+        description: Normalized lower/trimmed raw name variant.
+        sample: "msft, microsoft india, amazon india, adobe systems"
+      company_id:
+        type: INTEGER
+        description: Foreign key to companies(company_id).
+    gotchas:
+      - 540+ raw variants map deterministically to canonical companies with zero ambiguity.
+
+  branches:
+    description: Official academic departments and degree programs at NIT Jalandhar.
+    primary_key: branch_code
+    columns:
+      branch_code:
+        type: TEXT
+        description: Institutional 3-digit department code.
+        sample: "103 (CSE), 124 (IT), 104 (ECE), 109 (ME)"
+      canonical_name:
+        type: TEXT
+        description: Full formal department title.
+        sample: "Computer Science and Engineering"
+      short_name:
+        type: TEXT
+        description: Standard branch acronym used across NITJ.
+        sample: "CSE, IT, ECE, ME, CE, CHE, IPE, ICE, BT, TT, EE"
+      degree:
+        type: TEXT
+        description: Program tier ('B.Tech', 'M.Tech', 'M.Sc', 'MBA').
+      division:
+        type: TEXT
+        description: Department classification ('Circuit', 'Core', 'Sciences', 'Management').
+
+  branch_aliases:
+    description: Branch shorthand, acronyms, and common query phrases mapped to branch_code.
+    primary_key: alias
+    columns:
+      alias:
+        type: TEXT
+        sample: "computer science, cs, cse, it, mech, electronics"
+      branch_code:
+        type: TEXT
+
+  batches:
+    description: Cohort definitions spanning admission year to graduation year.
+    primary_key: batch_id
+    columns:
+      batch_id:
+        type: TEXT
+        description: Standard 4-digit span format.
+        sample: "2020-2024, 2021-2025, 2022-2026, 2023-2027, 2022-2024, 2023-2025, 2024-2026"
+      admission_year:
+        type: INTEGER
+        sample: 2021
+      passout_year:
+        type: INTEGER
+        sample: 2025
+      degree:
+        type: TEXT
+        sample: "B.Tech, PG"
+
+  batch_aliases:
+    description: Resolves conversational cohort shorthands, graduating years, and apostrophe notations.
+    primary_key: alias
+    columns:
+      alias:
+        type: TEXT
+        description: Colloquial batch reference.
+        sample: "25', '25, 2025, 2025 batch, batch of 2025, 2021-25, 21-25, class of 25"
+      batch_id:
+        type: TEXT
+        description: Canonical batch identifier ('2021-2025').
+    gotchas:
+      - Essential for parsing questions like 'list companies for 25 batch' without falling back to clarification menus.
+
+  students:
+    description: Student records with anonymized academic and demographic attributes.
+    primary_key: student_id
+    columns:
+      student_id:
+        type: TEXT
+        description: Institutional roll number (e.g. '21103001').
+      batch_id:
+        type: TEXT
+      branch_code:
+        type: TEXT
+      gender:
+        type: TEXT
+        sample: "M, F"
+      category:
+        type: TEXT
+        sample: "General, OBC-NCL, SC, ST, GEN-EWS"
+      source_branch_raw:
+        type: TEXT
+      is_branch_conflict:
+        type: INTEGER
+        description: 1 if raw spreadsheet cell differed from roll-code derived department, 0 otherwise.
+
+  offers:
+    description: Granular placement and internship offer records.
+    primary_key: offer_id
+    columns:
+      offer_id:
+        type: INTEGER
+      student_id:
+        type: TEXT
+      company_id:
+        type: INTEGER
+      offer_type:
+        type: TEXT
+        sample: "FTE, PPO, Intern+PPO, Intern+FTE, Intern, Long Intern, Summer Intern"
+      ctc_lpa:
+        type: REAL
+        description: Cost to Company in Lakhs Per Annum (INR).
+        sample: "52.0, 15.12, 116.0"
+      stipend_monthly_inr:
+        type: REAL
+        description: Monthly internship stipend in INR.
+        sample: 125000.0
+      profile:
+        type: TEXT
+        description: Offered role / job designation.
+        sample: "Software Development Engineer"
+      offer_date:
+        type: TEXT
+        description: Offer timestamp in YYYY-MM-DD.
+      offer_mode:
+        type: TEXT
+        sample: "On-campus, Off-campus"
+    gotchas:
+      - Offers count != Placed students count. A single student may receive multiple offers.
+      - Always use COUNT(DISTINCT student_id) for 'how many students got placed'.
+      - Always use COUNT(offer_id) for 'how many offers'.
+
+  student_private_pii:
+    description: Restricted private personally identifiable information.
+    primary_key: student_id
+    columns:
+      student_id:
+        type: INTEGER
+      full_name:
+        type: TEXT
+      roll_number:
+        type: TEXT
+      personal_email:
+        type: TEXT
+      phone_number:
+        type: TEXT
+    gotchas:
+      - Direct access is strictly blocked by SQLite authorizer.
+      - Only accessed safely via v_selected_students_public view which omits roll number, email, phone, and CTC.
+
+views:
+  v_offers_flat:
+    description: Fully flattened analytical view joining offers, companies, branches, batches, and students.
+    columns:
+      - offer_id: INTEGER
+      - student_id: TEXT
+      - company: TEXT (canonical company name)
+      - sector: TEXT (IT, Core, Finance, etc.)
+      - branch_short_name: TEXT (CSE, IT, ECE, ME, etc.)
+      - branch_full_name: TEXT (Computer Science and Engineering)
+      - degree: TEXT (B.Tech, M.Tech, etc.)
+      - batch_id: TEXT (2020-2024, 2021-2025, 2022-2026)
+      - passout_year: INTEGER (2024, 2025, 2026)
+      - offer_type: TEXT (FTE, PPO, Intern+PPO, Intern+FTE, Intern, etc.)
+      - ctc_lpa: REAL (CTC in Lakhs Per Annum)
+      - stipend_monthly_inr: REAL
+      - profile: TEXT (Role designation)
+      - offer_date: TEXT (YYYY-MM-DD)
+    gotchas:
+      - For full-time placement questions, always filter offer_type IN ('FTE', 'PPO', 'Intern+PPO', 'Intern+FTE').
+      - Amazon 2021-25 has 4 intern offers with 52 LPA CTC; in v_offers_flat offer_type='Intern'.
+      - Flow Traders 2022-26 has 1 offer at 116.0 LPA.
+
+  v_selected_students_public:
+    description: Privacy-preserving view for questions asking who got selected or listing placed candidates.
+    columns:
+      - student_name: TEXT (Full student name)
+      - branch: TEXT (Short branch code, e.g. CSE)
+      - batch: TEXT (e.g. 2021-2025)
+      - company: TEXT (e.g. Google)
+      - role: TEXT (e.g. Software Engineer)
+      - offer_type: TEXT (e.g. FTE)
+    gotchas:
+      - Excludes roll numbers, phone numbers, email addresses, home addresses, parent details, and HR contacts.
+      - Excludes individual package amounts unless SHOW_STUDENT_PACKAGE=true.

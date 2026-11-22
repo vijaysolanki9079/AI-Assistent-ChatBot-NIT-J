@@ -1,0 +1,159 @@
+"company_name","title","author","date","body","entry_id","scraped_at"
+"samsung","Samsung Interview Experience – Embedded Software Role","RUDRA NARAYAN PANIGRAHI","13 Oct 2026","1. Introduction
+
+I would like to share my interview experience with Samsung for an Embedded Software role. The recruitment process consisted of three stages: an Online Assessment (OA), a Technical Interview, and an HR Interview.
+
+The interview process focused primarily on computer science fundamentals, data structures and algorithms (DSA), problem-solving ability, project knowledge, and an understanding of embedded systems. My experience taught me that having strong fundamentals is extremely important, and that candidates should be prepared to explain concepts in depth rather than just provide definitions.
+
+I am sharing my experience in detail so that future aspirants can understand the recruitment process, prepare in a structured manner, and identify the areas that deserve the most attention.
+
+2. Round 1: Online Assessment (OA)
+
+The first stage was an online assessment consisting of questions from various computer science subjects. The questions covered a broad range of topics similar to those encountered during GATE preparation.
+
+The assessment tested conceptual understanding across core CS subjects, along with problem-solving skills through a DSA question.
+
+What was covered?
+
+Computer science fundamentals across multiple subjects.
+
+Conceptual questions similar in nature to GATE-CS Subjects.
+
+One DSA coding question.
+
+My experience and preparation advice
+
+The OA required preparation across a broad range of CS subjects rather than concentrating on just one or two topics. Preparing for GATE or revising standard CS fundamentals can be helpful for this type of assessment.
+
+I would recommend revising the important concepts from core subjects and practising objective questions regularly. Alongside theoretical preparation, students should solve coding problems consistently, as the assessment also included a DSA question.
+
+It is important not to neglect any core subject while preparing only for coding rounds. A balanced preparation strategy covering both theory and problem-solving is more useful.
+
+3. Round 2: Technical Interview
+
+The technical interview was the most important and technically intensive stage of the process. The interviewer asked questions from core computer science subjects, discussed the project mentioned on my resume, explored concepts related to embedded systems, and asked a DSA question.
+
+A. Operating Systems (OS)
+
+Operating Systems was one of the most important areas discussed during the interview. The questions covered synchronization, deadlocks, and memory management in considerable depth.
+
+The discussion involved understanding these concepts rather than merely knowing their definitions.
+
+Topics to prepare from this experience include:
+
+Process synchronization: Critical sections, race conditions, mutexes, semaphores, and synchronization mechanisms.
+
+Deadlocks: The necessary conditions for deadlock, prevention, avoidance, detection, and recovery.
+
+Memory management: Virtual memory, paging, segmentation, page faults, and related memory-management concepts.
+
+These are suggested preparation topics based on the areas discussed, not an exhaustive list of the exact questions asked.
+
+My main takeaway was that OS concepts should be studied thoroughly. Students should be comfortable explaining how a concept works, why it is required, and how it differs from related concepts. Interviewers may explore a topic further through follow-up questions, so memorising definitions alone is unlikely to be sufficient.
+
+B. Computer Networks (CN)
+
+Computer Networks was another subject covered in the technical round. The discussion reinforced the importance of having a sound understanding of core networking concepts.
+
+Students preparing for similar roles should revise networking fundamentals and practise explaining the concepts clearly. In combination with OS, CN is an important subject to include in technical interview preparation.
+
+C. Project Discussion
+
+The interviewer also asked about the machine learning project mentioned on my resume.
+
+My advice is to understand every project mentioned on your resume thoroughly. If you have implemented something yourself, you should be able to explain the reasoning behind your choices and discuss its limitations honestly.
+
+D. Embedded Systems Concepts
+
+The interviewer also asked questions related to embedded systems. At that time, I did not have prior experience in this area, so I was not familiar with all the domain-specific concepts being discussed.
+
+I tried to approach the questions using concepts I already understood, particularly pointers. The interviewer acknowledged that my reasoning using pointers was correct, although he expected an answer framed specifically in the context of embedded systems.
+
+This was an important learning experience for me. It demonstrated the value of understanding the fundamentals and attempting to reason through an unfamiliar problem rather than giving up immediately.
+
+However, it also highlighted that general programming knowledge and domain-specific knowledge are not interchangeable. A candidate may understand the underlying programming concept but still need to explain how it applies to embedded software.
+
+Preparation advice: Students targeting embedded software roles should revise C/C++ fundamentals, pointers, memory concepts, bitwise operations, and basic embedded-systems concepts. They should also understand how these concepts are applied in resource-constrained systems.
+
+Candidates who do not have prior embedded experience should not assume that they cannot attempt such questions. They should explain their reasoning clearly, acknowledge what they do not know, and avoid presenting guesses as facts.
+
+E. Data Structures and Algorithms (DSA)
+
+The interviewer asked one DSA question related to detecting a cycle in a linked list.
+
+This is a standard problem that tests a candidate's understanding of linked lists and their ability to design an efficient solution
+
+Beyond obtaining the correct answer, it is useful to practise explaining the logic, discussing edge cases, and writing clean code.
+
+4. Round 3: HR Interview
+
+The final stage was an HR interview conducted over a call.
+
+In my experience, this round was relatively formal and was less technically intensive than the preceding round. All three candidates who received the HR interview call were selected.
+
+However, this was my experience with that particular recruitment process and should not be interpreted as a guarantee that every candidate who reaches the HR round will be selected in future recruitment cycles.
+
+My advice is to remain professional during the HR discussion, communicate clearly, and answer questions honestly. Candidates should be prepared to discuss their background, interests, motivation for joining the company, and career goals.
+
+5. Final Advice
+
+My overall experience with the Samsung recruitment process was a valuable learning opportunity. The process tested a combination of theoretical knowledge, coding ability, project understanding, and the ability to reason about unfamiliar technical concepts.
+
+If I were advising juniors, I would tell them to start preparing their core CS subjects early, practise DSA consistently, and avoid studying concepts only at a superficial level. It is equally important to understand the projects mentioned on the resume and to learn the fundamentals relevant to the role being targeted.
+
+For students interested in embedded software, I would particularly recommend building a strong foundation in C/C++, memory management, and low-level programming concepts alongside the standard CS subjects.
+
+Finally, do not be discouraged if you encounter a question you cannot answer immediately. Be honest about your limitations, explain your reasoning, and use the fundamentals you know to approach the problem logically. At the same time, treat unfamiliar questions as an opportunity to identify what you need to learn next.
+
+I hope this experience helps future students prepare more effectively, approach their interviews with confidence, and understand the importance of strong fundamentals in technical recruitment.","c14b041d79fdd9ef0af2d16ba27d7576d81821d799f7cd297f30d2c1a678e3e7","2026-10-21T06:46:42+00:00"
+"samsung","Interview Experience at Samsung","HARINDER PAL SINGH","23 Nov 2025","My Interview Experience at Samsung
+
+I recently appeared for the SSIR recruitment process, and here’s how my interview experience went.
+
+1. Online Assessment (OA)
+
+The process began with an online test that mainly focused on Data Structures and problem-solving. The questions were medium-level and tested understanding more than brute-force coding. They were divided into two sections, one for MCQ's and another for DS/Algo.
+
+Topics Asked:
+
+Trees – questions on height of a binary tree, and constructing a tree from given traversal orders.
+
+Linked Lists – reversing a linked list and identifying intersections.
+
+MCQs based on GATE concepts, and a couple required optimizing code (C/C++)
+
+The OA was fairly balanced
+
+2. Technical Interview (Online)
+
+The interview was conducted on a gmeet. Most of the questions revolved around GATE CSE-level Operating Systems concepts and DS/Algo fundamentals.
+
+Operating Systems (GATE-Type):
+Explain deadlock and its necessary conditions.
+
+Difference between preemptive and non-preemptive scheduling.
+
+How do paging and segmentation differ?
+
+What is thrashing and how can it be avoided?
+
+Explain context switching and what exactly gets stored during a switch.
+
+More about semaphores, types of semaphores, process sync (TSL etc)
+
+Describe process vs thread, and how multithreading improves performance.
+
+Some questions on Linked Lists and Trees involving recursion and then optimizing them.
+
+The interviewer asked follow-up questions to test conceptual clarity. They weren’t looking for textbook definitions but practical understanding.","3c50776068dbd074610e27150862642b975217d3d8840b0b706d48c822581ee6","2026-10-21T07:17:06+00:00"
+"samsung","Samsung R&D","GAURANG GARG","23 Nov 2025","Round 1- Online Test in labs- Prepare Questions from github search past year questions and practice DSA
+
+Round 2 - Written Test(Optional) - Prepare Hard DSA questions, they will make you to write code on paper
+
+Round 3- Technical Interview - DSA, Core concepts( DBMS, OOPS, OS, React) , some basics regarding system Design, basic DSA implementation.
+
+Round 4 - HR Interview- Basic questions related to family and future, some puzzles and just general talk.
+
+In my case in round 1 there is graph coloring problem , in round 2 it is LRU Cache implementation and in round 4 it is cake cutting problem.
+
+All the best to all who are or will be reading this, have patience, be compose and cool, everything will go well.","97b9a12f7c3e4dadb4a0fe45c6becba1823e2d3139b5d2807d1353e5a4a43116","2026-10-21T07:17:20+00:00"

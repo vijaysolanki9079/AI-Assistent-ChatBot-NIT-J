@@ -1,0 +1,13 @@
+{
+  "name": "nitj-placement-assistant-server",
+  "version": "1.0.0",
+  "description": "Express.js backend for NITJ Training & Placement Intelligent Assistant",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

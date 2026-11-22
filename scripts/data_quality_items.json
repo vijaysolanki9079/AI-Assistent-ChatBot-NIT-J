@@ -1,0 +1,3138 @@
+[
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Biotechnology",
+    "row": 4,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20110071 (code 110 -> Textile Technology) is in 'Bio Technology' sheet/row placed at 'Amazon'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 7,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 20112005 placed at 'Reliance Industries Limited' has status/mode '04.10.2023 PPO' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 29,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 20112025 placed at 'Reliance Industries Limited' has status/mode '04.10.2023 PPO' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 72,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 20112066 placed at 'Reliance Industries Limited' has status/mode '04.10.2023 PPO' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Civil Engg",
+    "row": 2,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20111011 (code 111 -> Biotechnology) is in 'Civil Engineering' sheet/row placed at 'L&T Limited'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 2,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20124060 (code 124 -> Information Technology) is in 'Computer Science and Engineering' sheet/row placed at 'Ensuredit'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 3,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20126003 (code 126 -> Electrical Engineering) is in 'Computer Science and Engineering' sheet/row placed at 'Oracle India'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 50,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 20103044 placed at 'Goldman Sachs' has status/mode '18.08.2023 PPO' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 199,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 20103164 placed at 'Adobe' has status/mode '01.09.2023 PPO' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 204,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 20103168 placed at 'PayPal University Team' has status/mode '17.08.2023 PPO' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 2,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20109110 (code 109 -> Mechanical Engineering) is in 'Electrical Engineering' sheet/row placed at 'Amazon'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 3,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20109110 (code 109 -> Mechanical Engineering) is in 'Electrical Engineering' sheet/row placed at 'Betalectic'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 4,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20109110 (code 109 -> Mechanical Engineering) is in 'Electrical Engineering' sheet/row placed at 'Surassa'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 5,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20113026 (code 113 -> Industrial and Production Engineering) is in 'Electrical Engineering' sheet/row placed at 'Betalectic'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 6,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20113026 (code 113 -> Industrial and Production Engineering) is in 'Electrical Engineering' sheet/row placed at 'Zomato'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 7,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20106081 (code 106 -> Instrumentation and Control Engineering) is in 'Electrical Engineering' sheet/row placed at 'Rapidfort'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 8,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20109015 (code 109 -> Mechanical Engineering) is in 'Electrical Engineering' sheet/row placed at 'Trident Group'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 9,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20112003 (code 112 -> Chemical Engineering) is in 'Electrical Engineering' sheet/row placed at 'Genpact next Gen'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 10,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20112003 (code 112 -> Chemical Engineering) is in 'Electrical Engineering' sheet/row placed at 'Balarpur Industries (BGPPL)'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 2,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20106056 (code 106 -> Instrumentation and Control Engineering) is in 'Electronics and Communication Engineering' sheet/row placed at 'Nvida'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 3,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20126043 (code 126 -> Electrical Engineering) is in 'Electronics and Communication Engineering' sheet/row placed at 'Nvida'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 4,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20126043 (code 126 -> Electrical Engineering) is in 'Electronics and Communication Engineering' sheet/row placed at 'Daimler Truck Innovation Center India'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 5,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20113025 (code 113 -> Industrial and Production Engineering) is in 'Electronics and Communication Engineering' sheet/row placed at 'Incedo'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 8,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20111004 (code 111 -> Biotechnology) is in 'Industrial and Production Engineering' sheet/row placed at 'Ashok Leyland'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 2,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20109103 (code 109 -> Mechanical Engineering) is in 'Instrumentation and Control Engineering' sheet/row placed at 'AdvaRisk'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 3,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20111021 (code 111 -> Biotechnology) is in 'Instrumentation and Control Engineering' sheet/row placed at 'Samsung Engineering'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 4,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20109060 (code 109 -> Mechanical Engineering) is in 'Instrumentation and Control Engineering' sheet/row placed at 'Moody's'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 5,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20112038 (code 112 -> Chemical Engineering) is in 'Instrumentation and Control Engineering' sheet/row placed at 'Technip Energy'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 6,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20112040 (code 112 -> Chemical Engineering) is in 'Instrumentation and Control Engineering' sheet/row placed at 'Trianz Digital'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 7,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20113079 (code 113 -> Industrial and Production Engineering) is in 'Instrumentation and Control Engineering' sheet/row placed at 'Accolite India'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 27,
+    "type": "MISSING_OFFER_STATUS",
+    "severity": "LOW",
+    "details": "Roll 20106014 placed at 'Vedanta' has no status/offer-type specified."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 2,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20110060 (code 110 -> Textile Technology) is in 'Mechanical Engineering' sheet/row placed at 'Incture'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 3,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20102041 (code 102 -> Civil Engineering) is in 'Mechanical Engineering' sheet/row placed at 'Hero MotorCorp'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 4,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20102067 (code 102 -> Civil Engineering) is in 'Mechanical Engineering' sheet/row placed at 'Maruti Suzuki India'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 5,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20110046 (code 110 -> Textile Technology) is in 'Mechanical Engineering' sheet/row placed at 'Maruti Suzuki India'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 6,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20110038 (code 110 -> Textile Technology) is in 'Mechanical Engineering' sheet/row placed at 'Maruti Suzuki India'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 7,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20102019 (code 102 -> Civil Engineering) is in 'Mechanical Engineering' sheet/row placed at 'Maruti Suzuki India'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 8,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20113038 (code 113 -> Industrial and Production Engineering) is in 'Mechanical Engineering' sheet/row placed at 'Maruti Suzuki India'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 9,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20113038 (code 113 -> Industrial and Production Engineering) is in 'Mechanical Engineering' sheet/row placed at 'Ashok Leyland'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 10,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20110068 (code 110 -> Textile Technology) is in 'Mechanical Engineering' sheet/row placed at 'Jubilant Food works'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 11,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20111012 (code 111 -> Biotechnology) is in 'Mechanical Engineering' sheet/row placed at 'Technip Energy'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 65,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 20109050 placed at 'Reliance Industries Limited' has status/mode '04.10.2023 PPO' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 138,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20113023 (code 113 -> Industrial and Production Engineering) is in 'Mechanical Engineering' sheet/row placed at 'Water Technologies & Solutions'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 3,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20113036 (code 113 -> Industrial and Production Engineering) is in 'Information Technology' sheet/row placed at 'Optum India'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 4,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20102059 (code 102 -> Civil Engineering) is in 'Information Technology' sheet/row placed at 'MAQ Software'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 5,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20102059 (code 102 -> Civil Engineering) is in 'Information Technology' sheet/row placed at 'Incedo'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 6,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20109003 (code 109 -> Mechanical Engineering) is in 'Information Technology' sheet/row placed at 'Incedo'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 2,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110077 placed at 'Amazon' has category value 'SC' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 3,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110084 placed at 'Amazon' has category value 'General' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 4,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110072 placed at 'Arvind Limited' has category value 'General' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 5,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110010 placed at 'Delhivery Limited' has category value 'GEN-EWS' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 6,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110086 placed at 'Directioneducare' has category value 'General' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 7,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110014 placed at 'EXL Services' has category value 'General' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 8,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110033 placed at 'Gainers India' has category value 'General' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 9,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110074 placed at 'Gainers India' has category value 'SC' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 10,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110042 placed at 'Hike Education' has category value 'General' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 11,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110025 placed at 'Himatsingka Seide Ltd.' has category value 'SC' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 12,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110041 placed at 'Himatsingka Seide Ltd.' has category value 'SC' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 13,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110078 placed at 'Himatsingka Seide Ltd.' has category value 'OBC-NCL' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 14,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110051 placed at 'Quantiphi' has category value 'GEN-EWS' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 15,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110001 placed at 'Reliance Industries Limited' has category value 'OBC-NCL' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 16,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110013 placed at 'Reliance Industries Limited' has category value 'General' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 17,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110016 placed at 'Reliance Industries Limited' has category value 'ST' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 18,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110022 placed at 'Reliance Industries Limited' has category value 'ST' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 19,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110030 placed at 'Reliance Industries Limited' has category value 'OBC-NCL' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 20,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110061 placed at 'Reliance Industries Limited' has category value 'General' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 21,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110066 placed at 'Reliance Industries Limited' has category value 'SC' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 22,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110051 placed at 'Teachnook' has category value 'GEN-EWS' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 23,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110079 placed at 'Tex Fasteners' has category value 'OBC-NCL' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 24,
+    "type": "DATE_IN_PACKAGE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110012 placed at 'Trident Group' has date string '2023-12-18 00:00:00' in package column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 24,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110012 placed at 'Trident Group' has category value 'General' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 25,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110036 placed at 'Trident Group' has category value 'GEN-EWS' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 26,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110045 placed at 'Trident Group' has category value 'General' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 27,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110065 placed at 'Trident Group' has category value 'OBC-NCL' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 28,
+    "type": "DATE_IN_PACKAGE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110067 placed at 'Trident Group' has date string '2023-12-18 00:00:00' in package column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 28,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110067 placed at 'Trident Group' has category value 'SC' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 29,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110006 placed at 'Trutzschler' has category value 'General' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 30,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110009 placed at 'Unacademy' has category value 'OBC-NCL' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 31,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110028 placed at 'Unacademy' has category value 'OBC-NCL' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 32,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110057 placed at 'Unacademy' has category value 'OBC-NCL' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 33,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110034 placed at 'Urban Company' has category value 'OBC-NCL' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 34,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110082 placed at 'Urban Company' has category value 'General' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 35,
+    "type": "CATEGORY_IN_DATE_COLUMN",
+    "severity": "HIGH",
+    "details": "Roll 20110034 placed at 'Zomato' has category value 'OBC-NCL' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 2,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701012 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'Bajaj Finance Limited'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 3,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701025 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'Bajaj Finance Limited'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 4,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701014 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'Berger Paints India Ltd.'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 5,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701019 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'Berger Paints India Ltd.'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 6,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701024 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'Blinkit'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 7,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701027 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'Blinkit'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 8,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701030 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'Blinkit'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 9,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701015 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'Crescendo Group'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 10,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701028 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'Crescendo Group'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 11,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701018 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'Gainers India'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 12,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701007 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'Hike Education'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 13,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701005 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'Om Careers'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 14,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701029 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'Om Careers'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 15,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701006 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'online247'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 16,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701013 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'Saintgobain'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 17,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701009 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'Subros Limited'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 18,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701020 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'Teachnook'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 19,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22701017 placed at 'Zomato' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 19,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22701017 (code 701 -> MBA) is in 'Humanities and Management' sheet/row placed at 'Zomato'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "3rd year 2020-24 Internship ",
+    "row": 199,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 20102057 placed at 'UAS International Group of Companies' has package='NA'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "3rd year 2020-24 Internship ",
+    "row": 489,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 20104030 placed at 'UAS INTERNATIONAL' has package='N.A'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "3rd year 2020-24 Internship ",
+    "row": 654,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20113079 (code 113 -> Industrial and Production Engineering) is in 'Instrumentation and Control Engineering' sheet/row placed at 'Reliance Industries Limited'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "3rd year 2020-24 Internship ",
+    "row": 683,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 20124016 placed at 'UAS International Group of Companies' has package='NA'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "3rd year 2020-24 Internship ",
+    "row": 752,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 20124087 placed at 'UAS International Group of Companies' has package='NA'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "3rd year 2020-24 Internship ",
+    "row": 1012,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 20113023 (code 113 -> Industrial and Production Engineering) is in 'Mechanical Engineering' sheet/row placed at 'SUEZ WATER TECHNOLOGY & SOLUTIONS'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "M.Tech 2023-25",
+    "row": 12,
+    "type": "MISSING_OFFER_STATUS",
+    "severity": "LOW",
+    "details": "Roll 23901327 placed at 'Intel' has no status/offer-type specified."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "M.Tech 2023-25",
+    "row": 18,
+    "type": "MISSING_OFFER_STATUS",
+    "severity": "LOW",
+    "details": "Roll 23203012 placed at 'Intel' has no status/offer-type specified."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "M.Tech 2023-25",
+    "row": 23,
+    "type": "MISSING_OFFER_STATUS",
+    "severity": "LOW",
+    "details": "Roll 23204118 placed at 'Intel' has no status/offer-type specified."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "M.Tech 2023-25",
+    "row": 30,
+    "type": "MISSING_OFFER_STATUS",
+    "severity": "LOW",
+    "details": "Roll 23204104 placed at 'Intel India' has no status/offer-type specified."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "M.Tech 2023-25",
+    "row": 44,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 23203001 placed at 'NVIDIA' has package='None'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Summer internship",
+    "row": 58,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21112011 placed at 'Bureau of Indian standards' has package='NA'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Summer internship",
+    "row": 134,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21102011 placed at 'Bureau of Indian standards' has package='NA'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Summer internship",
+    "row": 206,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21102028 (code 102 -> Civil Engineering) is in 'Computer Science and Engineering' sheet/row placed at 'Cisco System(India) Private Limited'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Summer internship",
+    "row": 207,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21102085 (code 102 -> Civil Engineering) is in 'Computer Science and Engineering' sheet/row placed at 'Cisco System(India) Private Limited'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Summer internship",
+    "row": 536,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21106004 (code 106 -> Instrumentation and Control Engineering) is in 'Electronics and Communication Engineering' sheet/row placed at 'Microsoft'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Summer internship",
+    "row": 538,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21106074 (code 106 -> Instrumentation and Control Engineering) is in 'Electronics and Communication Engineering' sheet/row placed at 'Microsoft'."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Summer internship",
+    "row": 688,
+    "type": "MISSING_OFFER_STATUS",
+    "severity": "LOW",
+    "details": "Roll 21124062 placed at 'Microsoft' has no status/offer-type specified."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Summer internship",
+    "row": 700,
+    "type": "MISSING_OFFER_STATUS",
+    "severity": "LOW",
+    "details": "Roll 21124074 placed at 'Microsoft' has no status/offer-type specified."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Summer internship",
+    "row": 730,
+    "type": "MISSING_OFFER_STATUS",
+    "severity": "LOW",
+    "details": "Roll 21124108 placed at 'Citi Bank' has no status/offer-type specified."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Summer internship",
+    "row": 732,
+    "type": "MISSING_OFFER_STATUS",
+    "severity": "LOW",
+    "details": "Roll 21124110 placed at 'Citi Bank' has no status/offer-type specified."
+  },
+  {
+    "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+    "sheet": "Summer internship",
+    "row": 907,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21109058 placed at 'Bureau of Indian standards' has package='NA'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Biotechnology",
+    "row": 2,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21111025 placed at 'Kisanwala Technology Pvt. ltd.' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Biotechnology",
+    "row": 3,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21111015 placed at 'Astrotalk' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Biotechnology",
+    "row": 4,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21111020 placed at 'Chainscore Finance Pvt. Ltd.' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Biotechnology",
+    "row": 5,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21111016 placed at 'School Hack FZLLC' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Biotechnology",
+    "row": 6,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21111031 placed at 'Primotech' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Biotechnology",
+    "row": 6,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21111031 placed at 'Primotech' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 2,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21112038 placed at 'Thrillophilla' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 2,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21112038 placed at 'Thrillophilla' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 5,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21112049 placed at 'Zomato' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 6,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21112055 placed at 'Juspay' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 7,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21112005 placed at 'Neutrawell Healthcare Pvt. Ltd.' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 7,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21112005 placed at 'Neutrawell Healthcare Pvt. Ltd.' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 8,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21112010 placed at 'Centrient Pharaceuticals India Pvt. Ltd.' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 8,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21112010 placed at 'Centrient Pharaceuticals India Pvt. Ltd.' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 9,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21112025 placed at 'Blinkt' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 10,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21112012 placed at 'ENTNT' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 11,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21112033 placed at 'Zomato' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 12,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21112027 placed at 'Cadence' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 13,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21112029 placed at 'OGGANS' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 13,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21112029 placed at 'OGGANS' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 14,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21112081 placed at 'NetQull Technologies' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 14,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21112081 placed at 'NetQull Technologies' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 38,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21112065 placed at 'TechnipEnergies' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Chemical Engg",
+    "row": 69,
+    "type": "DATE_TYPO",
+    "severity": "LOW",
+    "details": "Roll 21112040 placed at 'Flipkart' has typo date '10.012.2024'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Civil Engg",
+    "row": 14,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21111037 (code 111 -> Biotechnology) is in 'Civil Engineering' sheet/row placed at 'Greenko'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Civil Engg",
+    "row": 53,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21102090 placed at 'Cabra Bags' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Civil Engg",
+    "row": 53,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21102090 placed at 'Cabra Bags' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 8,
+    "type": "INVALID_ROLL_FORMAT",
+    "severity": "MEDIUM",
+    "details": "Roll number '2020 Batch' has length 10 (expected 8 digits)."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 26,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21104097 (code 104 -> Electronics and Communication Engineering) is in 'CSE' sheet/row placed at 'Globallogic'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 64,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21104097 (code 104 -> Electronics and Communication Engineering) is in 'CSE' sheet/row placed at 'HCL Tech'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 150,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21103007 placed at 'Kashmiri Lal Tarun Khanna Pvt. ltd.' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 150,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21103007 placed at 'Kashmiri Lal Tarun Khanna Pvt. ltd.' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 153,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21102028 (code 102 -> Civil Engineering) is in 'CSE' sheet/row placed at 'Pocketfm'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 156,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21102085 (code 102 -> Civil Engineering) is in 'CSE' sheet/row placed at 'Cisco'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 167,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21103014 placed at 'Nvida' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 168,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21103046 placed at 'Juspay' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 178,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21102028 (code 102 -> Civil Engineering) is in 'CSE' sheet/row placed at 'Uber'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 179,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21103107 placed at 'Algoquant' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 180,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21102028 placed at 'Cred' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 180,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21102028 (code 102 -> Civil Engineering) is in 'CSE' sheet/row placed at 'Cred'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 181,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21103139 placed at 'Cure.fit' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 181,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21103139 placed at 'Cure.fit' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 182,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21103040 placed at 'Fratelli Singh Pvt. ltd.' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 182,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21103040 placed at 'Fratelli Singh Pvt. ltd.' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 183,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21103128 placed at 'Pipeshub Tech Pvt. Ltd.' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 183,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21103128 placed at 'Pipeshub Tech Pvt. Ltd.' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 184,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21103112 placed at 'Raptorx. Ai' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 184,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21103112 placed at 'Raptorx. Ai' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 185,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21103163 placed at 'Mahalaxmi Malt Productions Pvt. Ltd' has package='None'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Computer Engg",
+    "row": 185,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21103163 placed at 'Mahalaxmi Malt Productions Pvt. Ltd' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 3,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21106040 (code 106 -> Instrumentation and Control Engineering) is in 'Electrical Engineering' sheet/row placed at 'Infosys'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 9,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21110047 (code 110 -> Textile Technology) is in 'Electrical Engineering' sheet/row placed at 'Jayaswal Neco Industries Ltd.'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 10,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21112048 (code 112 -> Chemical Engineering) is in 'Electrical Engineering' sheet/row placed at 'Jayaswal Neco Industries Ltd.'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 17,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21106040 (code 106 -> Instrumentation and Control Engineering) is in 'Electrical Engineering' sheet/row placed at 'Mphasis'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 18,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21110043 (code 110 -> Textile Technology) is in 'Electrical Engineering' sheet/row placed at 'Mphasis'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 27,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21112036 (code 112 -> Chemical Engineering) is in 'Electrical Engineering' sheet/row placed at 'Reliance'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 56,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21112036 (code 112 -> Chemical Engineering) is in 'Electrical Engineering' sheet/row placed at 'Infineon'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 58,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21110043 (code 110 -> Textile Technology) is in 'Electrical Engineering' sheet/row placed at 'Bharat Petroleum Corporation'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 62,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21126004 placed at 'Browserstack' has status/mode 'offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electrical Engg",
+    "row": 63,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21106044 (code 106 -> Instrumentation and Control Engineering) is in 'Electrical Engineering' sheet/row placed at 'Servicenow'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 8,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21104029 placed at 'Intellipaat' has status/mode 'offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 12,
+    "type": "DATE_TYPO",
+    "severity": "LOW",
+    "details": "Roll 21104001 placed at 'NXP' has typo date '22.011.2024'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 25,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21106047 (code 106 -> Instrumentation and Control Engineering) is in 'Electronics and Communication Engineering' sheet/row placed at 'Reliance'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 47,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21112077 (code 112 -> Chemical Engineering) is in 'Electronics and Communication Engineering' sheet/row placed at 'Honeywell'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 55,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21112079 (code 112 -> Chemical Engineering) is in 'Electronics and Communication Engineering' sheet/row placed at 'HCL Tech'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 57,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21104015 placed at 'Nxfin Technologies Pvt. ltd.' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 57,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21104015 placed at 'Nxfin Technologies Pvt. ltd.' has status/mode 'offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 58,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21104059 placed at 'Ricela' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 58,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21104059 placed at 'Ricela' has status/mode 'offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 63,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21112030 (code 112 -> Chemical Engineering) is in 'Electronics and Communication Engineering' sheet/row placed at 'Tredence'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 91,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21104082 placed at 'CDac Mohali' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 94,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21104106 placed at 'CDac Mohali' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 95,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21104069 placed at 'Namekart' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 96,
+    "type": "DATE_TYPO",
+    "severity": "LOW",
+    "details": "Roll 21104060 placed at 'Flipkart' has typo date '10.012.2024'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 103,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21106074 (code 106 -> Instrumentation and Control Engineering) is in 'Electronics and Communication Engineering' sheet/row placed at 'Fastenal'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 109,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21106108 (code 106 -> Instrumentation and Control Engineering) is in 'Electronics and Communication Engineering' sheet/row placed at 'AMD'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 121,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21106004 (code 106 -> Instrumentation and Control Engineering) is in 'Electronics and Communication Engineering' sheet/row placed at 'Microsoft'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 122,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21106087 (code 106 -> Instrumentation and Control Engineering) is in 'Electronics and Communication Engineering' sheet/row placed at 'NXP'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 123,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21106108 (code 106 -> Instrumentation and Control Engineering) is in 'Electronics and Communication Engineering' sheet/row placed at 'Synopsys'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 124,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21104081 placed at 'CoinSwitch' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 124,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21104081 placed at 'CoinSwitch' has status/mode 'offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 125,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21104062 placed at 'T&D Electronics Systems' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Electronics Engg",
+    "row": 125,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21104062 placed at 'T&D Electronics Systems' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 3,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21113057 placed at 'TATA 1MG Healthcare Solution' has status/mode 'offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 5,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21113021 placed at 'Comile IT as  a Credential Platform' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 5,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21113021 placed at 'Comile IT as  a Credential Platform' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 20,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21113078 placed at 'Enoylity' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 20,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21113078 placed at 'Enoylity' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 59,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21113051 placed at 'Zomato' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 60,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21113038 placed at 'Barco Electronics' has status/mode 'offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 67,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21110085 (code 110 -> Textile Technology) is in 'Industrial and Production Engineering' sheet/row placed at 'Jubilant'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 83,
+    "type": "DATE_TYPO",
+    "severity": "LOW",
+    "details": "Roll 21113002 placed at 'Flipkart' has typo date '10.012.2024'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 89,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21113087 placed at 'Bit to Byte robotics' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 89,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21113087 placed at 'Bit to Byte robotics' has status/mode 'offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 90,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21113047 placed at 'Bit TO Byte Robotics' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 90,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21113047 placed at 'Bit TO Byte Robotics' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 91,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21113026 placed at 'Cabalt Breakout Platforms Inc' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 91,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21113026 placed at 'Cabalt Breakout Platforms Inc' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 92,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21113037 placed at 'Lifelong online' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 92,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21113037 placed at 'Lifelong online' has status/mode 'offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 93,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21113016 placed at 'M/s Mahavir Ugyog' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 93,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21113016 placed at 'M/s Mahavir Ugyog' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 94,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21113001 placed at 'Nitin Enterprises' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 94,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21113001 placed at 'Nitin Enterprises' has status/mode 'offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 95,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21113067 placed at 'Royal -X Cycle Industires' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Industrial Engg",
+    "row": 95,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21113067 placed at 'Royal -X Cycle Industires' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 7,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21109055 (code 109 -> Mechanical Engineering) is in 'ICE' sheet/row placed at 'Infosys'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 15,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21102043 (code 102 -> Civil Engineering) is in 'ICE' sheet/row placed at 'Kuantum Paper'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 19,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21110078 (code 110 -> Textile Technology) is in 'ICE' sheet/row placed at 'L&T'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 30,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21110037 (code 110 -> Textile Technology) is in 'ICE' sheet/row placed at 'L&T'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 32,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21110075 (code 110 -> Textile Technology) is in 'ICE' sheet/row placed at 'Movidu Technology'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 33,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21106008 placed at 'Cloudprism Solution Pvt. ltd.' has status/mode 'offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 34,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21106082 placed at 'Zomato' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 35,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21112082 (code 112 -> Chemical Engineering) is in 'ICE' sheet/row placed at 'Siemens'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 36,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21102043 (code 102 -> Civil Engineering) is in 'ICE' sheet/row placed at 'TechnipEnergies'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 46,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21109085 (code 109 -> Mechanical Engineering) is in 'ICE' sheet/row placed at 'Delihivery'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 47,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21112072 (code 112 -> Chemical Engineering) is in 'ICE' sheet/row placed at 'Jungleworks'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 49,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21106113 placed at 'Powerplay' has status/mode 'offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 58,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21113035 (code 113 -> Industrial and Production Engineering) is in 'ICE' sheet/row placed at 'Reliance'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 59,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21113052 (code 113 -> Industrial and Production Engineering) is in 'ICE' sheet/row placed at 'Reliance'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 73,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21110022 (code 110 -> Textile Technology) is in 'ICE' sheet/row placed at 'Aditya birla'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 74,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21110078 (code 110 -> Textile Technology) is in 'ICE' sheet/row placed at 'Aditya birla'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 93,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21109061 (code 109 -> Mechanical Engineering) is in 'ICE' sheet/row placed at 'Tredance'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 96,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21109055 (code 109 -> Mechanical Engineering) is in 'ICE' sheet/row placed at 'Unthinkable'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 98,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21112082 (code 112 -> Chemical Engineering) is in 'ICE' sheet/row placed at 'FnZ'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 100,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21112072 (code 112 -> Chemical Engineering) is in 'ICE' sheet/row placed at 'ICICI Bank'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 105,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21113018 (code 113 -> Industrial and Production Engineering) is in 'ICE' sheet/row placed at 'FurtureFirst'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 111,
+    "type": "DATE_TYPO",
+    "severity": "LOW",
+    "details": "Roll 21106099 placed at 'Flipkart' has typo date '10.012.2024'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 124,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21110078 (code 110 -> Textile Technology) is in 'ICE' sheet/row placed at 'Bharat Petroleum Corporation Ltd'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 125,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21113035 (code 113 -> Industrial and Production Engineering) is in 'ICE' sheet/row placed at 'Bharat Petroleum Corporation Ltd'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 130,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21113018 (code 113 -> Industrial and Production Engineering) is in 'ICE' sheet/row placed at 'CiSCO'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 131,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21106077 placed at 'Juspay' has status/mode 'offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 133,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21106089 placed at 'Zscaller' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 135,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21106056 placed at 'Survon Solution' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 135,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21106056 placed at 'Survon Solution' has status/mode 'offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 136,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21109061 placed at 'Tagmango' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 136,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21109061 placed at 'Tagmango' has status/mode 'offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 136,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21109061 (code 109 -> Mechanical Engineering) is in 'ICE' sheet/row placed at 'Tagmango'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 137,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21106066 placed at 'Fiducia Accounting Services' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Instrumentation Engg",
+    "row": 137,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21106066 placed at 'Fiducia Accounting Services' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 14,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21110086 (code 110 -> Textile Technology) is in 'Mechanical Engineering' sheet/row placed at 'Vivo'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 28,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21111007 (code 111 -> Biotechnology) is in 'Mechanical Engineering' sheet/row placed at 'SSWL'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 39,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21113071 (code 113 -> Industrial and Production Engineering) is in 'Mechanical Engineering' sheet/row placed at 'IOLCP'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 45,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21102025 (code 102 -> Civil Engineering) is in 'Mechanical Engineering' sheet/row placed at 'Listenlights Pvt. Ltd.'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 52,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21110086 (code 110 -> Textile Technology) is in 'Mechanical Engineering' sheet/row placed at 'Tata Hitachi'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 77,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21111001 (code 111 -> Biotechnology) is in 'Mechanical Engineering' sheet/row placed at 'Maruti Suzuki India Pvt. Ltd.'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 88,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21111007 (code 111 -> Biotechnology) is in 'Mechanical Engineering' sheet/row placed at 'ICICI'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 91,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21113015 (code 113 -> Industrial and Production Engineering) is in 'Mechanical Engineering' sheet/row placed at 'Kfintech'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 92,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21113015 (code 113 -> Industrial and Production Engineering) is in 'Mechanical Engineering' sheet/row placed at 'Mondelez International'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 97,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21113049 (code 113 -> Industrial and Production Engineering) is in 'Mechanical Engineering' sheet/row placed at 'Bluno Technologies'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 108,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21109027 placed at 'Cabra Bags' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 108,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21109027 placed at 'Cabra Bags' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 109,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21109054 placed at 'KMBD Architects' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Mechanical Engg",
+    "row": 109,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21109054 placed at 'KMBD Architects' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 15,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21124066 placed at 'Orbit It Solution' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 21,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21106094 (code 106 -> Instrumentation and Control Engineering) is in 'Information Technology' sheet/row placed at 'UKG'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 31,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21106094 (code 106 -> Instrumentation and Control Engineering) is in 'Information Technology' sheet/row placed at 'MAQ Software'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 50,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21106057 (code 106 -> Instrumentation and Control Engineering) is in 'Information Technology' sheet/row placed at 'Spectramedix'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 53,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 21102041 (code 102 -> Civil Engineering) is in 'Information Technology' sheet/row placed at 'BEL'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 83,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21124013 placed at 'Hummingbird Web Solution' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 83,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21124013 placed at 'Hummingbird Web Solution' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 84,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21124005 placed at 'Swiggy India' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 85,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21124100 placed at 'HP Inc' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 86,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21124025 placed at 'Namekart' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 87,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21124108 placed at 'Increff' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 93,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21124044 placed at 'Writesonic' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 96,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21124062 placed at 'Juspay' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 97,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21124016 placed at 'Juspay' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 103,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21124053 placed at 'Juspay' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 104,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21124034 placed at 'Atlas Consolidated' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 104,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21124034 placed at 'Atlas Consolidated' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 105,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21124021 placed at 'Cabra Bags' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 105,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21124021 placed at 'Cabra Bags' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 106,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21124004 placed at 'Ivypods Pvt. Ltd.' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Information Technology",
+    "row": 106,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21124004 placed at 'Ivypods Pvt. Ltd.' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 8,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21110059 placed at 'RSR International' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 9,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21110055 placed at 'Manohar Filaments Pvt. ltd.' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 10,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21110007 placed at 'Summit Technology Group' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 13,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21110012 placed at 'Tynor' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 14,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21110062 placed at 'Tex Links' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 14,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21110062 placed at 'Tex Links' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 72,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21110092 placed at 'Tynor' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 77,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21110057 placed at 'Namekart' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 78,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21110021 placed at 'Codebugged Ai' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 78,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21110021 placed at 'Codebugged Ai' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 79,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21110024 placed at 'Quicksell & Doubletick' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 79,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21110024 placed at 'Quicksell & Doubletick' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 80,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21110020 placed at 'Woven and Knit' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 80,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21110020 placed at 'Woven and Knit' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 81,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 21110023 placed at 'Woven and Knit' has package='-'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "Textile Technology",
+    "row": 81,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 21110023 placed at 'Woven and Knit' has status/mode 'Offcampus' in date column."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 4,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 23701005 (code 701 -> MBA) is in 'MBA (Regular)' sheet/row placed at 'Jayaswal Neco Industries Ltd.'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 5,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 23701007 (code 701 -> MBA) is in 'MBA (Regular)' sheet/row placed at 'Magnik India'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 7,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 23701011 (code 701 -> MBA) is in 'MBA (Regular)' sheet/row placed at 'Premier Tissues India Ltd.'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 15,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 23701004 (code 701 -> MBA) is in 'MBA (Self-Sponsored)' sheet/row placed at 'Sangam Ventures Ltd.'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 19,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 23701012 (code 701 -> MBA) is in 'MBA (Self-Sponsored)' sheet/row placed at 'Sangam Ventures Ltd.'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "MBA",
+    "row": 21,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 23701014 (code 701 -> MBA) is in 'MBA (Self-Sponsored)' sheet/row placed at 'Magnik India'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "M.Tech 2023-25",
+    "row": 37,
+    "type": "MISSING_OFFER_STATUS",
+    "severity": "LOW",
+    "details": "Roll 23202108 placed at 'Engineers India Ltd.' has no status/offer-type specified."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "M.Tech 2023-25",
+    "row": 49,
+    "type": "MISSING_OFFER_STATUS",
+    "severity": "LOW",
+    "details": "Roll 23203012 placed at 'Intel' has no status/offer-type specified."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "M.Tech 2023-25",
+    "row": 80,
+    "type": "MISSING_OFFER_STATUS",
+    "severity": "LOW",
+    "details": "Roll 23206102 placed at 'L&T Ltd.' has no status/offer-type specified."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "M.Tech 2023-25",
+    "row": 113,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 23203001 placed at 'NVIDIA' has package='None'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 2,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22103027 placed at 'Accenture' has package='None'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 3,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22103091 placed at 'Accenture' has package='None'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 4,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22103142 placed at 'Accenture' has package='None'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 5,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22106085 placed at 'Accenture' has package='None'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 5,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22106085 (code 106 -> Instrumentation and Control Engineering) is in 'Computer Science and Engineering' sheet/row placed at 'Accenture'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 6,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22104037 placed at 'Accenture' has package='None'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 7,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22124019 placed at 'Accenture' has package='None'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 8,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22124073 placed at 'Accenture' has package='None'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 9,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22126003 placed at 'Bureau of Indian Standards' has package='Unpaid'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 10,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22126026 placed at 'Bureau of Indian Standards' has package='Unpaid'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 11,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22126027 placed at 'Bureau of Indian Standards' has package='Unpaid'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 12,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22126039 placed at 'Bureau of Indian Standards' has package='Unpaid'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 13,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22126061 placed at 'Bureau of Indian Standards' has package='Unpaid'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 14,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22109033 placed at 'Bureau of Indian Standards' has package='Unpaid'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 15,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22109059 placed at 'Bureau of Indian Standards' has package='Unpaid'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 16,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22109068 placed at 'Bureau of Indian Standards' has package='Unpaid'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 17,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22109076 placed at 'Bureau of Indian Standards' has package='Unpaid'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 18,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22109083 placed at 'Bureau of Indian Standards' has package='Unpaid'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 19,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22109112 placed at 'Bureau of Indian Standards' has package='Unpaid'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 20,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22110006 placed at 'Bureau of Indian Standards' has package='Unpaid'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 21,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22110021 placed at 'Bureau of Indian Standards' has package='Unpaid'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 22,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22110030 placed at 'Bureau of Indian Standards' has package='Unpaid'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 23,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22110034 placed at 'Bureau of Indian Standards' has package='Unpaid'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 24,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22110050 placed at 'Bureau of Indian Standards' has package='Unpaid'."
+  },
+  {
+    "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+    "sheet": "2022-26-Summer internship",
+    "row": 25,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 22110076 placed at 'Bureau of Indian Standards' has package='Unpaid'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "M.Tech 2024-26",
+    "row": 7,
+    "type": "MISSING_OR_UNPAID_PACKAGE",
+    "severity": "MEDIUM",
+    "details": "Roll 24901304 placed at 'IIT Delhi' has package='-'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 92,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22103008 placed at 'Optum' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 287,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22110024 (code 110 -> Textile Technology) is in 'Industrial and Production Engineering' sheet/row placed at 'Sunpharma'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 296,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22103046 placed at 'Optum' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 313,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22124031 placed at 'Microsoft' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 355,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22103056 placed at 'Optum' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 413,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22104045 placed at 'Microsoft' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 417,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22103075 placed at 'Microsoft' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 448,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22106050 placed at 'Optum' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 454,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22109046 (code 109 -> Mechanical Engineering) is in 'Instrumentation and Control Engineering' sheet/row placed at 'Hindustan Petroleum Corporation Ltd'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 512,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22103088 placed at 'Microsoft' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 548,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22103093 placed at 'Microsoft' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 573,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22103096 placed at 'Amazon' has status/mode '(Offcampus)' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 574,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22103096 placed at 'Optum' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 592,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22104065 placed at 'Microsoft' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 729,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22106082 placed at 'Microsoft' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 729,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22106082 (code 106 -> Instrumentation and Control Engineering) is in 'Computer Science and Engineering' sheet/row placed at 'Microsoft'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 767,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22106085 (code 106 -> Instrumentation and Control Engineering) is in 'Computer Science and Engineering' sheet/row placed at 'Accenture'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 775,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22126043 placed at 'Amazon' has status/mode 'PPO (27.10.2025)' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 798,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22112064 (code 112 -> Chemical Engineering) is in 'Instrumentation and Control Engineering' sheet/row placed at 'Hindustan Petroleum Corporation Ltd'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 799,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22112064 (code 112 -> Chemical Engineering) is in 'Instrumentation and Control Engineering' sheet/row placed at 'Reliance Industries Ltd.'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 823,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22106091 (code 106 -> Instrumentation and Control Engineering) is in 'Information Technology' sheet/row placed at 'Samsung R&D'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 871,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22103133 placed at 'Microsoft' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 874,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22106097 (code 106 -> Instrumentation and Control Engineering) is in 'Computer Science and Engineering' sheet/row placed at 'Amazon'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 907,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22111046 (code 111 -> Biotechnology) is in 'Instrumentation and Control Engineering' sheet/row placed at 'CISCO Systmes'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 908,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22111046 (code 111 -> Biotechnology) is in 'Instrumentation and Control Engineering' sheet/row placed at 'Flipkart'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 909,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22111046 (code 111 -> Biotechnology) is in 'Instrumentation and Control Engineering' sheet/row placed at 'Optum'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 919,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22113076 placed at 'ZScaller' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 919,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22113076 (code 113 -> Industrial and Production Engineering) is in 'Instrumentation and Control Engineering' sheet/row placed at 'ZScaller'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 939,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22110073 (code 110 -> Textile Technology) is in 'Industrial and Production Engineering' sheet/row placed at 'Meesho'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 940,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22110073 (code 110 -> Textile Technology) is in 'Industrial and Production Engineering' sheet/row placed at 'Mondelez India'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 955,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22113077 (code 113 -> Industrial and Production Engineering) is in 'Instrumentation and Control Engineering' sheet/row placed at 'CISCO Systmes'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 968,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22103144 placed at 'Microsoft' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 1026,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22124113 placed at 'Optum' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 1034,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22103157 placed at 'Optum' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 1040,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22124115 placed at 'Optum' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 1041,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22112082 placed at 'Microsoft' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 1041,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22112082 (code 112 -> Chemical Engineering) is in 'Electrical Engineering' sheet/row placed at 'Microsoft'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 1067,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22124119 placed at 'Optum' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 1075,
+    "type": "STATUS_IN_DATE_COLUMN",
+    "severity": "MEDIUM",
+    "details": "Roll 22104115 placed at 'Optum' has status/mode 'PPO' in date column."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2022-26",
+    "row": 1093,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 22111054 (code 111 -> Biotechnology) is in 'Industrial and Production Engineering' sheet/row placed at 'Yamaha Motors'."
+  },
+  {
+    "file": "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx",
+    "sheet": "B.Tech 2023-27",
+    "row": 7,
+    "type": "BRANCH_CODE_CONFLICT",
+    "severity": "MEDIUM",
+    "details": "Roll 23124079 (code 124 -> Information Technology) is in 'Computer Science and Engineering' sheet/row placed at 'American Express'."
+  }
+]

@@ -1,0 +1,648 @@
+"company_name","title","author","date","body","entry_id","scraped_at"
+"optum","Optum Placement Experience – NIT Jalandhar","EKAMJOT SINGH","12 Oct 2026","Company: Optum
+Selection Process: Online Assessment (OA), HR Interview, and Technical Interview
+
+My placement experience with Optum was a three-stage process that evaluated practical problem-solving skills, communication, personality, and technical knowledge. Here is a detailed overview of each round, along with some preparation tips for students aspiring to join Optum.
+
+1. Online Assessment (OA)
+
+The first stage was an AI-assisted online assessment designed to evaluate our ability to work on an existing project. We were provided with a VS Code-like development environment containing a project directory and an integrated AI assistant.
+
+The assessment involved approximately 4–5 tasks related to frontend and backend development. We had to modify the existing code and implement the required functionalities using the provided environment. The total score was 600 marks.
+
+My suggestions for this round:
+
+Aim to score as high as possible, ideally securing the full 600 marks.
+
+Make effective use of the internal AI assistant, as it can guide you through understanding the codebase, implementing features, and resolving errors.
+
+Read each task carefully and verify that the implemented functionality works as expected.
+
+Stay calm and manage your time effectively rather than getting stuck on a single task.
+
+The assessment was manageable with the right approach. The key was to understand the requirements and use the available AI assistance effectively.
+
+2. HR Interview
+
+After the online assessment, the next stage was the HR interview. This round focused primarily on understanding the candidate beyond their resume, including their personality, interests, motivations, and approach to different situations.
+
+Some of the areas discussed during my interview were:
+
+Personal Introduction and Time Management
+
+Tell me about yourself beyond what is mentioned in your resume.
+
+What do you do in your daily life?
+
+How do you manage your time when handling multiple responsibilities?
+
+I spoke about my curiosity and willingness to explore new things, along with my involvement in basketball, academics, and responsibilities as a placement representative and class representative.
+
+Understanding Optum and Motivation
+
+What do you know about Optum?
+
+Why do you want to join Optum?
+
+What interests you about the company and the role?
+
+These questions highlighted the importance of researching the company and understanding its work before the interview.
+
+Projects and Problem-Solving
+
+Explain a project you have worked on and the problem it solves.
+
+Was it an individual or a team project?
+
+How did you manage your team and handle disagreements or difficulties?
+
+What did you do when you got stuck while developing your project?
+
+There were also situational questions designed to assess decision-making, accountability, and the ability to handle unexpected challenges.
+
+My suggestions for this round:
+
+Prepare a clear and natural introduction that goes beyond your resume.
+
+Research Optum, its healthcare technology ecosystem, and the GDP role.
+
+Understand every project mentioned on your resume, including your specific contribution and the challenges you faced.
+
+Prepare real examples demonstrating leadership, teamwork, curiosity, and time management.
+
+Answer situational questions logically, explaining how you would approach the problem and communicate with the people involved.
+
+3. Technical Interview
+
+The final interview stage focused on technical fundamentals, projects, and situational problem-solving. The questions I encountered were not excessively difficult, but they required a clear understanding of the concepts and the ability to explain them confidently.
+
+Computer Science Fundamentals
+
+Some of the topics discussed included:
+
+Differences between C and C++, and their respective use cases.
+
+Differences between data structures such as vector and list.
+
+Error handling and how to manage errors in the absence of conventional try and except blocks.
+
+Core computer science concepts and programming fundamentals.
+
+Based on discussions with other candidates, the questions could also vary according to an individual's background and technical interests. Some candidates encountered questions related to AI/ML, machine learning, transformers, and the research paper Attention Is All You Need.
+
+Therefore, I would recommend preparing your core CS fundamentals thoroughly while also revising the subjects and technologies relevant to your resume.
+
+Project Discussion
+
+Projects were an important part of the technical interview. The interviewer asked about my major and minor projects, their objectives, the technologies used, and my individual contributions.
+
+Be prepared to explain:
+
+The problem statement and motivation behind the project.
+
+The architecture, technology stack, and implementation.
+
+Your specific role and the features you developed.
+
+Technical challenges encountered and how you resolved them.
+
+Possible improvements or alternative approaches.
+
+Avoid limiting your explanation to the project's features. Understanding why you chose a particular technology and how the different components work together is equally important.
+
+Situational Questions
+
+The technical round also included situational questions to evaluate professional judgment and responsibility.
+
+For example, I was asked how I would respond if a problem occurred in code I had worked on while I was on vacation, and my manager contacted me when I did not have access to my laptop.
+
+Such questions assess how you prioritize issues, communicate with your manager, take ownership, and identify practical solutions. The goal is not simply to give a technically correct answer but to demonstrate sound professional judgment.
+
+My suggestions for this round:
+
+Revise OOP, DBMS, operating systems, computer networks, and programming fundamentals.
+
+Practise explaining your projects in depth.
+
+Review the technologies and concepts mentioned on your resume.
+
+If you have an AI/ML background, revise the fundamentals of machine learning, neural networks, and transformers.
+
+For situational questions, focus on clear communication, accountability, collaboration, and a practical resolution.
+
+Selection Statistics
+
+The approximate candidate progression during the process was as follows:
+
+Stage Candidates
+Shortlisted after OA 40
+Progressed after HR Around 30
+Final selections 11
+
+Around 10–11 candidates were eliminated after the HR round, leaving approximately 30 candidates for the technical interview. Ultimately, 11 candidates were selected.
+
+These figures reflect my experience of the process and may vary across recruitment drives.
+
+Final Advice
+
+My biggest takeaway from the entire process is that you do not need to know everything; you need to understand what you know and communicate it clearly.
+
+For the online assessment, use the internal AI assistant effectively and focus on completing the tasks correctly. For the HR round, be genuine, confident, and well-informed about Optum. For the technical round, strengthen your fundamentals and prepare to discuss every project on your resume in detail.
+
+Most importantly, do not underestimate situational questions. They provide an opportunity to demonstrate how you think, take responsibility, and approach real-world challenges.
+
+All the best to everyone preparing for Optum. Stay consistent with your preparation, trust your fundamentals, and give your best!","0e2c18df67e6c5ed272f5eac6bee8a7e12d79759ee74bddc72bf3b1a3bad92f6","2026-10-21T06:48:18+00:00"
+"optum","OPTUM","VANSH GOYAL","4 Oct 2026","OA — AI-based coding round
+
+Bug sniping/fixing: identify and fix bugs in an existing codebase.
+Feature injection: add a new feature to an existing implementation.
+Likely tests:
+Understanding unfamiliar code quickly
+Debugging
+Edge cases
+OOP/code structure
+Ability to modify code without breaking existing behavior
+
+HR Round
+
+Introduction without repeating the resume
+They specifically wanted things that weren't already obvious from the resume.
+Questions about:
+Internship experience
+Personal projects
+Motivation/personality
+Possibly project-specific follow-ups
+
+Technical Round
+Main emphasis was OOP + Design Patterns + system design at class level.
+
+Topics mentioned:
+
+OOP concepts
+Encapsulation
+Abstraction
+Inheritance
+Polymorphism
+Composition vs inheritance
+SOLID principles
+Design Patterns
+Creational
+Structural
+Behavioral
+Why/when a pattern should actually be used
+AISDLC
+Likely questions around the AI/software development lifecycle and how AI fits into development.
+Scenario-based design
+Main Design Question
+
+""Construct a skeleton for a restaurant reservation system. Design all the classes, data structures, and all design patterns that could actually be used.""","c627c1addb99bbfc335f47e571ca2090857105697a64a104530b84486f523506","2026-10-21T06:50:35+00:00"
+"optum","Shailja","SHAILJA KHANDAL","2 Oct 2026","Optum Technology Development Associate — Experience
+
+I recently cleared the interview process for Optum – Technology Development Associate, and here’s my experience.
+
+Round 1: Technical Assessment
+
+The first round was a full-stack technical assessment. We were given an existing repository and had to understand the codebase and implement certain parts/tiers of the application.
+
+One interesting part was that AI assistance was also provided during the assessment, so it was important to understand the existing code and use AI effectively while implementing the required functionality.
+
+Round 2: HR Round
+
+The second round was an HR/leadership round.
+
+It started with my introduction, followed by questions around:
+
+Leadership experience
+
+Why Optum?
+
+What is your biggest goal?
+
+What drives you to join Optum?
+
+Towards the end, I also asked the interviewer about his experience at Optum, which made the conversation more interactive.
+
+Round 3: Technical Interview
+
+The final round was a technical interview.
+
+It started with my introduction and then moved into detailed discussions about my projects. The interviewer went deep into MongoDB, followed by a DSA problem and discussion around how the solution could be optimized for a very large scale/production environment.
+
+There was also a discussion around how LLMs work and RAG.
+
+One thing I noticed in this round was the strong focus on real-world implementation. The interviewer was interested in how I would actually implement the concepts I had learned in a real application rather than only knowing their theoretical definitions.
+
+Overall, the process covered full-stack development, leadership, projects, MongoDB, DSA, optimization, LLMs, RAG, and real-world engineering scenarios.
+
+I'm really happy to have cleared the process and grateful for the experience! 🚀","f106e6529419ed96825603016828b0e601dbb2f1aa65e507de8ab439104f4fde","2026-10-21T06:52:51+00:00"
+"optum","Tejindepal Singh | Optum Experience | CSE Batch 2027","TEJINDERPAL SINGH","2 Oct 2026","My Optum hiring process had three stages: an online assessment, an HR round, and a technical interview. I'm sharing my overall experience so that juniors know what to expect and can prepare in the right direction.
+
+1. Online Assessment
+
+The assessment was practical and project-based rather than a typical MCQ or DSA test. It involved working with an existing project that had multiple files across the frontend and backend, and there was an AI assistant available during the test. It gave me a good sense of how real-world projects are structured.
+
+Tip: Be comfortable reading and understanding an unfamiliar codebase. Knowing how the different parts of a full-stack project connect will help you much more than memorizing syntax.
+
+2. HR Round
+
+The HR round took place a few days after the assessment. It was a general conversation about my background, my motivation, and my personal experiences.
+
+Tip: Be genuine and prepare real examples from your own life. Know why you want to join the company and be clear about your goals.
+
+3. Technical Interview
+
+The technical interview was held the next day and was mostly project-focused. I introduced myself and walked the interviewer through my projects. The interviewer was friendly and made me feel comfortable, which helped me stay confident. The discussion also touched on modern topics like LLMs and AI agents.
+
+Interviews can vary a lot from person to person. Some of my friends were asked more coding and DSA-based questions, so it's best to be ready for both.
+
+How to Prepare
+
+Know your projects inside out: the architecture, your tech choices, the challenges you faced, and what you would improve.
+Practice working with multi-file projects (frontend, backend, APIs, databases).
+Learn the basics of LLMs and AI agents.
+Keep your DSA, SQL, and basic coding in Python or C ready, but focus mainly on your projects.
+Prepare clear, honest answers about yourself and your motivation.
+
+Overall, it was an enjoyable process and I learned a lot. Good luck to everyone preparing!","8eda2ed34b6e1fb0ef39de343e0ebecfa6b489275b152fa5e17592c99815d8e6","2026-10-21T06:52:57+00:00"
+"optum","Optum Placement Process Experience","KARAN SAINI","2 Oct 2026","There were three rounds in the placement process:
+
+1. Online Assessment (OA)
+
+It was an AI-assisted test where we were given a repository and access to an AI tool called Cosmos. We were strictly advised to use that AI, as it could generate code, find errors, and even correct the code. The only limitation was that it wasn’t an agent, so it couldn’t automatically paste the code into the repository. Honestly, the process was mostly about using the AI, copying the generated code, and pasting it into the repo.
+
+2. HR Round
+
+This was a basic HR round and lasted around 15 minutes. I was asked about the CEO of Optum and UHG, so it would be good to prepare basic information about the company and its leadership.
+
+3. Technical Round
+
+The technical round mainly focused on projects and CSE fundamentals, especially DBMS and OOPs. There were also some basic DSA questions, where they either asked for the approach or a simple implementation. For example, I was asked about finding duplicate numbers in an array. They also asked about GitHub commands, Linux commands, and why I chose the technologies in my tech stack.","f71fc7ebf9cd77803233fdbddc2ea3a68781fb6b6e7e8990c2276afc03c97afe","2026-10-21T06:53:03+00:00"
+"optum","Optum Interview Experience – Software Development Role","POOJA KUMARI","2 Oct 2026","by-pooja kumari
+
+The selection process consisted of 3 rounds:
+
+🔹 1. Online Assessment (OA)
+
+The first round was an online assessment designed to evaluate problem-solving and technical skills.
+
+The OA included coding and technical questions, with the main focus being on logical thinking, programming fundamentals, and solving problems efficiently.
+
+The key areas to prepare for were:
+
+Data Structures & Algorithms
+Problem-solving
+Programming fundamentals
+Time & Space Complexity
+Core Computer Science concepts
+
+The assessment required understanding the problem carefully and coming up with an efficient approach rather than simply writing code.
+
+After clearing the assessment, shortlisted candidates proceeded to the interview rounds.
+
+🔹 2. HR Interview
+
+The second round was the HR interview. It focused mainly on my background, communication, motivation, and situational questions.
+
+Some of the questions asked were:
+
+Tell me about yourself.
+Why did you choose Software Development despite being from Electrical Engineering?
+Why do you want to join Optum?
+Tell me about your internship experience.
+What was your major role in your team?
+How do you collaborate with your team members?
+How do you handle conflicts within a team?
+What would you do if a team member was underperforming?
+Questions related to my academic background and placement process.
+
+Since I come from an Electrical Engineering background and was interviewing for a Software Development role, the interviewer specifically asked about my transition into software development.
+
+The round was not just about giving prepared answers. The interviewer also wanted to understand how I communicate, approach different situations, and explain my decisions.
+
+One important tip is to listen carefully to the question and answer according to your actual experience rather than giving memorized answers.
+
+🔹 3. Technical Interview
+
+The technical round was the most detailed round and focused on a combination of DSA, projects, technical fundamentals, and practical problem-solving.
+
+Some of the questions discussed with me were:
+
+Find a duplicate element in an array.
+Explain your approach and time complexity.
+A puzzle involving balls where one ball had a different weight.
+Another logical puzzle.
+Suppose you are given a very large file, such as a 10 GB file. How would you process it efficiently?
+How would you read the relevant portions of a large file?
+What type of database would you suggest for storing large amounts of data and why?
+Questions related to databases and APIs.
+Explain your projects in detail.
+What was your major contribution to the project?
+How do you work with team members?
+How do you handle conflicts while working in a team?
+
+A significant part of the technical discussion was also based on my projects. I was asked about the technologies I used, project architecture, database choices, APIs, challenges I faced, and my individual contribution.
+
+The interviewer was interested not only in the final answer but also in how I approached the problem and explained my reasoning.
+
+The technical round was not limited to theoretical definitions. Being able to explain concepts clearly and apply them to real-world scenarios was important.
+
+Preparation Strategy
+
+For preparation, I focused mainly on:
+
+DSA and common coding problems
+OOP concepts
+DBMS and SQL
+Computer Networks
+Time & Space Complexity
+Backend and API concepts
+Project architecture
+Resume-based questions
+Logical puzzles
+HR and situational questions
+
+I would strongly recommend knowing your resume and projects thoroughly. Interviewers can easily move from a project to a technical concept, then to a coding problem or a real-world scenario.
+
+For DSA questions, practice explaining your approach before jumping directly into the code. Understanding the time and space complexity is equally important.
+
+Final Verdict
+
+Overall, the Optum interview process was challenging but a great learning experience. The questions covered a wide range of areas, including DSA, logical reasoning, projects, technical fundamentals, and real-world scenarios.
+
+After successfully completing all the rounds, I was finally selected and received an offer from Optum. 🎉❤️
+
+The entire journey taught me that consistent preparation, strong fundamentals, knowing your projects well, and staying calm during the interview can make a big difference.
+
+For anyone preparing for Optum, focus on DSA, core CS fundamentals, project knowledge, problem-solving, and communication. Most importantly, be confident about everything written on your resume and be ready to explain your thought process.
+
+And finally, all the preparation paid off — I got the offer! 🎉","0dfcbab6c3d859f863bfd45aba80e6adf02a05597aaeadae7a282ff76957d071","2026-10-21T06:53:18+00:00"
+"optum","OPTUM","ABHISHEK VAID","2 Oct 2026","Start sharing your experience...","4b373c9fe34895ec9be84b5a2a3e6e3db4fcc9d7ee9bcc565d164899ff1d2b61","2026-10-21T06:53:27+00:00"
+"optum","OPTUM","KHUSHAL GARG","2 Oct 2026","The selection process consisted of 3 rounds:
+
+🔹 1. Online Assessment (OA)
+The OA was a little different from a typical coding assessment. It involved an AI Assistant-based problem, where we were given an existing project/architecture and had to implement 4 tiers by making the required changes to the project files while following the given architecture.
+
+The key was to understand the existing codebase and architecture rather than just writing code from scratch.
+
+🔹 2. HR Interview
+The HR round was around 10–15 minutes and covered:
+• Basic HR questions
+• Introduction and background
+• Scenario-based questions
+• Questions related to the placement process
+
+One important tip: listen carefully during the pre-placement talk. Some candidates were asked questions based on information shared during the presentation, so paying attention can definitely help.
+
+🔹 3. Technical Interview
+The technical round focused on a mix of fundamentals and recent technologies.
+
+Some areas/questions discussed with me were:
+• RAG – complete workflow
+• LLMs and Generative AI
+• Prompt Engineering
+• OOPs concepts
+• Java basics
+• Time & Space Complexity
+• Scenario-based technical questions
+• System Design fundamentals
+
+The interview was not limited to theoretical definitions; being able to explain concepts clearly and apply them to real-world scenarios was important.
+
+🎯 Final Verdict:
+I cleared all three rounds and was eventually selected for the Optum FTE role.","c96c1ca9d464fa36366610d13e602ba9ddde4930da9a85acc87b82ad95549e20","2026-10-21T06:53:37+00:00"
+"optum","Optum Placement Process","MANAV SINGLA","2 Oct 2026","The Optum placement process consisted of three rounds: an Online Assessment, an HR round, and a Technical Interview.
+
+1. Online Assessment (OA)
+
+The first round was an AI-assisted coding assessment. We were provided with a repository containing the problem statement and project setup, along with access to Cosmos AI.
+
+We were specifically instructed to use Cosmos AI to solve the given problem, so the assessment focused not only on coding but also on how effectively we could understand the problem, interact with the AI, debug the solution, and integrate the solution into the given codebase.
+
+2. HR Round
+
+The second round was an HR interview. It mainly focused on behavioral and situational questions.
+
+Some questions were based on situations such as:
+
+How would you handle a disagreement with a teammate?
+
+How do you handle pressure or deadlines?
+
+How would you react if you made a mistake?
+
+Questions about teamwork, communication, and adaptability.
+
+Overall, this round focused more on understanding my behavior, communication skills, and approach toward different situations.
+
+3. Technical Interview
+
+The final round was a technical interview of around one hour.
+
+The interview started with a basic DSA problem, where I was asked how I would find a duplicate element in an array. I was not required to write the complete code; the interviewer mainly wanted to understand my approach and thought process.
+
+After that, the discussion covered several core CS and software engineering topics:
+
+OOPs: Classes, inheritance, polymorphism, abstraction, encapsulation, and applying OOP principles to real-world problems.
+
+Database Design: Designing a database using OOP principles and explaining the relationships between different entities.
+
+Operating Systems: Basic OS concepts such as processes, memory management, and related fundamentals.
+
+Linux: Basic Linux commands and their use.
+
+AI and ML Concepts: Basics of LLMs and how they work, Basics of Deep learning and real world AI applications(other then common ones).
+
+Prompt Engineering: How to write effective prompts and improve the quality of AI-generated responses.
+
+Git & GitHub: Learn important github commands and their work. How you can manage merge conflicts.","634f553f87efad15d0935dc6cf79267a83a5eb2f7a6496af2d077b451ae59baa","2026-10-21T06:53:44+00:00"
+"optum","Optum placement","ANOOP SAINI","1 Oct 2026","I am happy to share my placement experience for the Optum Technology Development Program role .The overall process was smooth, and the interviewers were very supportive and friendly throughout.
+
+Online Assessment — AI-Integrated Coding Assessment
+
+The first stage was an online coding assessment. Instead of traditional coding questions, we were given a pre-existing codebase along with a problem statement.
+
+The assessment was divided into 4 tiers, where we had to progressively modify and complete the given project. The codebase had multiple files, with some parts incomplete and some bugs that needed to be identified and fixed.
+
+One interesting part was that the platform had an integrated AI coding assistant. We could use the AI to understand the codebase, identify bugs and incomplete implementations, understand the requirements, and implement the required changes.
+
+The AI could also provide the steps and commands required to run and test the project. This made it possible to solve the tasks without manually writing every part of the code from scratch.
+
+After completing the assessment, I was shortlisted for the interview rounds.
+
+⸻
+
+Round 1 — HR Discussion
+
+The first interview round was the HR round. It was a short and friendly discussion mainly focused on getting to know me, my interest in Optum, and my flexibility regarding the role.
+
+The HR asked me:
+
+A short introduction about myself
+What do you know about Optum?
+How did you get to know about Optum?
+Are you comfortable working in night shifts or different shifts?
+Do you have any preferred work location?
+
+The conversation was very comfortable and felt more like a discussion than a stressful interview. The main focus was on communication, personality, interest in the company, and flexibility.
+
+After this round, I received an email informing me that I had been selected for the technical interview.
+
+⸻
+
+Round 2 — Technical Interview
+
+The second round was the main technical interview, and it lasted more than 60 minutes. The interviewer was very supportive and the discussion covered a wide range of topics.
+
+It started with my introduction, followed by questions about my internship and projects. They asked about my favourite project, why I built it, my technology choices, implementation details, and challenges I faced.
+
+I was also asked two puzzles, followed by questions on HTTP status codes, APIs, databases, traditional vs. vector databases, RAG, and cloud technologies like AWS, GCP, and Azure.
+
+Towards the end, we discussed different data structures and DSA concepts, followed by one relatively simple DSA coding question.
+
+Overall, the round focused on understanding my projects, technical fundamentals, problem-solving approach, and DSA knowledge, rather than simply testing memorised definitions.
+
+⸻
+
+Final Outcome — Offer Letter
+
+After the technical interview, I received my acceptance/offer letter from Optum, and it honestly felt great.
+
+I really appreciated how smooth and respectful the entire process was. The interviewers were supportive and made the conversations comfortable throughout.
+
+⸻
+
+Final Thoughts
+
+If you’re preparing for Optum, I would suggest:
+
+Be very confident about everything mentioned on your resume.
+Understand your projects and internship deeply.
+Be ready to explain why you chose a particular technology.
+Keep your technical fundamentals and DSA concepts clear.
+For the AI-integrated assessment, understand the codebase and use that Ai properly it will do everything for you.
+Practice explaining your thought process while solving puzzles and coding problems.
+Focus more on understanding concepts than memorising definitions.
+Stay calm and communicate clearly during the interview.
+
+The overall process was a great learning experience for me. The interviewers were genuinely supportive, and the discussions were more about understanding my knowledge and thought process than making the interview unnecessarily difficult.
+
+That was my overall Optum placement experience. I hope this helps anyone preparing for the same process.
+
+For more detailed information, you can contact me:
+
+Email: work.anoopsaini@gmail.com","561fb575719cc37625bb684de36995cc9d52ad3d5268634635c9276f5585c416","2026-10-21T06:54:09+00:00"
+"optum","Optum Interview","TARUSH GUPTA","26 Nov 2025","My interview experience at Optim was both engaging and insightful. The interviewers created a comfortable environment that allowed me to express my thoughts clearly while also challenging me with thoughtful, real-world questions. I appreciated how the conversation focused not only on my technical skills but also on my problem-solving approach and cultural fit. Overall, it was a positive experience that gave me a clear understanding of the company’s values and the kind of impact I could make there.","8f6288daeb2747099975fa71924109f14cef5fca92cfcb57fec66098f444b8b8","2026-10-21T07:15:22+00:00"
+"optum","Optum","SAMREET KAUR","24 Nov 2025","Interview 1 (HR): It was a straightforward HR round with general questions about my background, experiences, and a few discussions around my projects.
+
+Interview 2 (Technical): I received the interviewer’s name a day before, so I searched for him on LinkedIn. His background was in AI/ML and Cybersecurity, so I prepared myself according to that, and my interview started with a cybersecurity question about npm breach, and then went on with various in-depth questions about my domain, my project's tech stack, and architecture, some DSA-style discussions (focus was on approach, not coding) and some follow-ups to check how I reason through real scenarios.
+
+My Personal Takeaways:
+
+Researching your interviewer actually helps you prepare.
+
+Honesty is always appreciated; please refrain from guessing random answers.
+
+Know your projects inside out — that’s where they dig the most.","66ac4f939aafa35bf474f87ec4d9df993b5d2ce5f1c5a938daf3662c86fc5e48","2026-10-21T07:15:45+00:00"
+"optum","My Optum Interview Experience:","SURBHI TIWARI","23 Nov 2025","I recently went through the interview process at Optum, and I wanted to share my honest experience for anyone who might find it useful. The whole process was simple, well-structured, and much smoother than I expected.
+
+Round 1 — HR Discussion
+
+The first round was actually the HR round, which surprised me because most companies start with technical interviews. This round was mainly about understanding who I am and how I communicate.
+
+The HR asked me questions like:
+
+A short introduction about myself
+
+What projects I’ve worked on
+
+Why I’m interested in Optum
+
+My preferred location and some basic behavioural questions
+
+A few questions to check communication and clarity
+
+The conversation was very friendly and not stressful at all. It felt more like a casual discussion to check if I’d be a good fit for the company. After this round, I received an email stating that I was selected for a technical interview.
+
+Round 2 — Technical Interview
+
+The second round was the main technical interview. It lasted around 40–50 minutes, and the interviewer was supportive and straightforward.
+
+Here’s what they asked:
+
+1. Questions about my projects
+
+They wanted to know:
+
+What each project does, they were really interested in knowing why I only chose this particular tech stack
+
+Also, they were asking DSA questions based on trees and graphs and also limitations of some graph algorithms, eg, Dijkstra. So be prepared for that.
+
+What exactly do I implement
+
+Any challenges I faced and how I solved them
+
+They were mainly checking if I understood my work clearly.
+
+2. Technical fundamentals
+
+They asked basic questions:
+
+OOP concepts
+
+DBMS (joins, keys, normalisation)
+
+Operating systems (process vs thread, basic definitions)
+
+Some backend-related questions, like APIs and authentication
+
+Nothing was extremely difficult. They were more interested in how I think rather than memorised definitions.
+
+3. Practical scenario questions
+
+Examples:
+
+How I would debug an API issue
+
+What I’d do if code works locally but fails in production
+
+How I handle errors or exceptions
+
+These questions tested my practical understanding, not advanced DSA.
+
+Overall, the technical round felt very fair and comfortable. The interviewer gave me time to think and answer.
+
+Final Outcome — Offer Letter
+
+The next day after the technical interview, I received my acceptance letter from Optum, and it honestly felt great. I really appreciated how smooth and respectful the entire process was.
+
+Final Thoughts
+
+If you’re preparing for Optum:
+
+Be confident about your projects.
+
+Keep your fundamentals clear
+
+Focus more on understanding than memorising
+
+Stay calm, the interviewers are genuinely nice
+
+That was my overall experience. I hope it helps someone who is preparing for the same!.
+
+For more detailed information, you can contact me:
+
+Email: surbhit.ec.22@nitj.ac.in","671d5786143cb0afb049d432168e02a59c3a75a9df7fea17df47e0cbf9f6b72f","2026-10-21T07:17:03+00:00"
+"optum","Optum + BlackRock","JASMINE BAJWA","21 Nov 2025","I was selected for an internship at Optum and later got a PPO. The process started with an OA, which was based on aptitude, logical reasoning and technical mcqs based on Oops, DBMS, OS, DSA. After I cleared the OA, there were two rounds of interview. First round was HR round, and I was asked some general situation based questions. Second round was entirely based on my resume and projects along with some fundamental questions on the skills mentioned in my resume. I cleared both rounds. In my internship my primary stack was Next.js, Typescript, material UI along with Java + Spring Boot. Based on my performance, I was given PPO.
+
+I was also selected for 6m intern at BlackRock. The OA consisted of mcqs. There were three sections of logical reasoning, mathematical aptitude and programming section. After I cleared the OA, there were two rounds. First round was technical, they asked me about the project I worked on in my internship, the skills I have mentioned in my resume and fundamental questions on Oops and DBMS. Second round was technical+HR. The interviewer asked me about my internship project and later moved to HR questions.","76a0b044243a28775c45897ea80ad8cd4e9acd4eaac5860d237bed377e7d0b54","2026-10-21T07:18:10+00:00"
+"optum","OPTUM","OMKAR VISHNOI","13 Nov 2025","My interview process with Optum started with an HR + behavioral round, which lasted for about 15–20 minutes. This round mainly focused on my communication, attitude, and responses to situational questions. The interviewers carefully read everything written in the resume, so it’s very important not to include anything you aren’t confident about.
+
+The behavioral questions were quite practical — they presented different situations to see how I would respond or make decisions. Hence, preparing well for such questions is crucial.
+
+My projects played a significant role in the technical discussions. The interviewers were more interested in projects that had real-world utility rather than simple website clones. They asked questions like “What problem does your project solve?” and “Why did you build this project?” During my online interview, they even checked my project’s codebase and asked me to make modifications and implement additional functionality, so being hands-on with your own project is a must.
+
+The DSA questions were of easy to medium difficulty, and most were standard problems that tested fundamental concepts. Apart from that, they also asked questions from core CS subjects like OOPs, DBMS, Computer Networks, and Operating Systems — so having a good grasp of these topics is essential.
+
+Throughout the process, communication played a key role. Being clear, confident, and precise with answers left a positive impression. The interviewers value authenticity, so it’s better to stay honest and real rather than trying to fake knowledge or experience.
+
+Overall, Optum’s interview experience was balanced — testing both technical understanding and behavioral competence. With the right preparation in projects, fundamentals, and communication, you can perform well in their process.","6d135b234556053e7657eeaf1c042620ec8ec56a69b085f142d5aa86616d380a","2026-10-21T07:18:58+00:00"

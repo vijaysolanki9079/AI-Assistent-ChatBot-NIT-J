@@ -1,0 +1,630 @@
+"company_name","title","author","date","body","entry_id","scraped_at"
+"cognizant","Cognizant ACE Frontier (FTE)","MANJUSHWAR KHAIRKAR","3 Oct 2026","Round 1: Communication and Aptitude
+
+Had some scenario-based autonomous questions that I had to answer in the context of my interview. This was a really simple round, and almost everyone got past this.
+
+Round 2: Technical OA
+
+It had 5 sections, namely:
+
+- DSA Coding
+
+- React Coding
+
+- RAG Coding
+
+- Prompt Engineering
+
+- Technical MCQs
+
+This was the toughest section from my POV, as I was able to do 4 of the sections correctly except the React coding one.
+
+From approximately 110 candidates, 38 got shortlisted for the next round, which was the Technical Interview.
+
+Round 3: Technical Interview
+
+There were two interviewers who were really friendly. They asked me coding questions related to DSA, C++ pointers, stack memory, and OOPs. The tech stack in the job description also mentioned skills like RAG, Cloud Services, and React. The first round began almost one month after registration, so I had enough time to upskill myself in the relevant tech stack.
+
+I had worked on a RAG project, and two of my projects were also deployed on AWS servers, which resulted in a good overall impact during the interview.
+
+They also asked me conceptual questions on LLMs and AI frameworks, along with a few keywords from my résumé. Out of 38, 15 got shortlisted for this job role including me (which made me really contented)
+
+Actionable Advice
+
+- Study the job description
+
+- Prepare DSA + OOPs fundamentals
+
+- Learn RAG and LLM basics
+
+- Revise resume keywords
+
+- Build relevant projects
+
+- Know your project architecture
+
+- Learn basic cloud deployment
+
+- Practice explaining why you used each technology
+
+- Prepare for scenario-based questions
+
+- Upskill according to the role
+
+My Work That Got Me Here: Resume link
+My LinkedIn: Profile link
+
+Best of luck!","9b0aa976d5c79c6042009d6a56c94036d1a306c67c3598d57a6b84fad2272311","2026-10-21T06:52:44+00:00"
+"cognizant","Cognizant – ACE Frontier Role – Interview Experience","PRIYANSHU DWIVEDI","29 Sept 2026","Process & Panel
+The interview was conducted online via the Superset platform, which included a built-in IDE panel for writing and running code. Two interviewers were on the panel, and both were friendly, which made the overall experience comfortable.
+
+Introduction
+The interview began with a standard self-introduction, followed by a walkthrough of my academic and professional background. Since I come from a Biotechnology background, the panel was curious about my shift toward this role and asked what motivated me to pursue ACE Frontier despite my core branch being different.
+
+Technical Round
+This was largely resume-driven and covered a mix of areas:
+
+DSA: A couple of medium-level problems, solved and coded live in the platform's IDE.
+Python: Basic to intermediate OOP concepts.
+SQL: A few query-based questions.
+Cloud: Since AWS was mentioned in my resume, I was asked specifically about S3 and EC2 — their use cases and core concepts.
+RAG (Retrieval-Augmented Generation): A few conceptual questions, given it was listed as a skill/project area on my resume.
+
+HR Round
+This round was more conversational and covered:
+
+Hobbies and interests outside academics/work.
+Relocation preferences.
+A few situational, workplace-based scenario questions to gauge problem-solving and team fit.","5eff1b1417b5fb9228362ac5bb3472525fd83f61acac22cfb4fb2a8a06b54205","2026-10-21T06:56:04+00:00"
+"cognizant","Cognizant Placement Experience","OM TRIPATHI","27 Sept 2026","Om Tripathi | Roll No. 23102055
+26 September 2026
+
+I’m happy to share my experience of the Cognizant campus placement process, which consisted of three rounds and tested a good mix of aptitude, communication, programming, technical knowledge, and practical understanding.
+
+🔹 Round 1 — Communication & Aptitude Assessment
+
+The first round was an online Communication and Aptitude Assessment.
+
+The aptitude section included questions based on:
+
+Logical reasoning
+
+Quantitative aptitude
+
+Problem-solving
+
+The communication section focused on areas such as:
+
+Reading comprehension
+
+Grammar
+
+Sentence formation
+
+Communication and speaking skills
+
+After clearing this round, I was shortlisted for the technical assessment.
+
+🔹 Round 2 — Technical Assessment
+
+The second round was a technical assessment covering multiple domains rather than focusing on a single technology.
+
+The assessment included:
+
+DSA: One programming problem based on Data Structures and Algorithms
+
+Frontend: Questions related to React and JavaScript
+
+RAG: An implementation-based question on Retrieval-Augmented Generation
+
+Prompt Engineering: Designing and improving prompts for LLMs
+
+AI Fundamentals: MCQs covering core Artificial Intelligence concepts
+
+Cloud Fundamentals: Questions covering basic cloud concepts and services
+
+This round was interesting because it tested both traditional programming fundamentals and newer areas such as Generative AI, RAG, Prompt Engineering, and Cloud Computing.
+
+🔹 Round 3 — Technical Interview
+
+The final round was a technical interview.
+
+It started with my introduction, followed by a detailed discussion about my projects, technical experience, and the technologies I have worked with.
+
+Since I had chosen Python for DSA, I was also asked to implement a programming problem during the interview. The focus was not just on writing the code but also on explaining the approach, logic, complexity, and reasoning behind the solution.
+
+The discussion then moved across several technical areas, including:
+
+Retrieval-Augmented Generation (RAG)
+
+Machine Learning
+
+Databases
+
+Python
+
+Projects and implementation details
+
+HR-related questions
+
+The interviewer asked questions ranging from fundamentals to implementation-level concepts, which made the discussion quite engaging and practical.
+
+.","91f47958ddf15066c9b0acc3ec428544803ac3b1b4b0c4c565a3e7a325c2da8b","2026-10-21T06:56:53+00:00"
+"cognizant","Cognizant (Ace Frontier Engineer Program)","RAMANJOT SINGH","27 Sept 2026","I participated in the Cognizant ACE Team recruitment process, which consisted of three rounds. The overall process was technically oriented and evaluated candidates on problem-solving ability, programming fundamentals, technical knowledge, practical development skills, and project understanding. There was no separate HR interview.
+
+Round 1 – Online Assessment (~1hr)
+
+The first round was an online assessment designed to evaluate aptitude, logical reasoning, verbal ability, programming fundamentals, and basic technical knowledge.
+
+The assessment was time-bound, making effective time management an important aspect of the round. The questions tested both conceptual understanding and the ability to analyse problems within a limited time.
+
+For preparation, it is useful to revise basic programming concepts, aptitude, logical reasoning, and fundamental computer science subjects.
+
+Round 2 – Technical Online Assessment (~3hr)
+
+The second round was a more technically focused online assessment consisting of 24 questions:
+
+20 Multiple Choice Questions
+
+1 DSA coding problem
+
+1 React.js coding problem
+
+1 RAG coding problem
+
+1 Prompt Engineering question
+
+20 MCQs - Gen Ai fundamentals, Cloud fundamentals and AI/ML concepts.
+
+DSA -
+
+The DSA section involved a programming problem that required developing an efficient solution while considering the given constraints and test cases. Preparation for this section should include arrays, strings, hashing, two pointers, sliding window, sorting, binary search, stacks, queues, linked lists, trees, recursion, and complexity analysis.
+
+React.js -
+
+The React.js question was a practical implementation task based on a dataset of people. The task involved providing options to sort the data based on name or age using radio buttons and displaying the resulting information appropriately.
+
+The question required familiarity with functional components, useState, event handling, array sorting, conditional logic, and rendering data in React.
+
+RAG -
+
+The RAG section tested practical understanding of Retrieval-Augmented Generation.
+
+One task involved developing a question-answering system using information provided in a handbook extract. The system was required to answer only when the information was explicitly available in the given content; otherwise, it had to return NOT_STATED.
+
+Another task involved processing retrieved results using a ResultGrouper, where results were ranked according to their scores and grouped while respecting the maximum number of results permitted for each hotel.
+
+These questions tested concepts such as retrieval results, ranking, filtering, grouping, and reliable information extraction.
+
+Prompt Engineering -
+
+The assessment also included a question on Prompt Engineering, testing the ability to construct effective prompts with clear instructions, constraints, and expected outputs.
+
+Overall, this round required preparation across both conventional software-development concepts and emerging areas such as Generative AI, RAG, and prompt engineering.
+
+Round 3 – Technical Interview (~1.5hr)
+
+The final round was a technical interview. There was no separate HR round. The discussion covered a wide range of technical subjects as well as the projects mentioned on my resume.
+
+Data Structures and Algorithms
+
+Questions focused on programming logic, problem-solving approaches, DSA concepts, and the efficiency of solutions. Understanding the reasoning behind a solution was important rather than simply knowing the final code.
+
+Object-Oriented Programming
+
+The interviewer discussed OOP concepts and their practical application in programming, including the fundamental principles of object-oriented design.
+
+DBMS and SQL
+
+The interview covered several database concepts, including:
+
+SQL queries
+
+Joins
+
+Normalization
+
+ACID properties
+
+Transactions
+
+Window functions
+
+Ranking functions such as DENSE_RANK
+
+Database fundamentals
+
+Operating Systems
+
+Questions were also asked from Operating Systems, covering fundamental concepts related to processes, threads, memory management, and other core OS concepts.
+
+Computer Networks and APIs
+
+The discussion included networking fundamentals, HTTP/HTTPS, REST APIs, API communication, and the interaction between frontend and backend systems.
+
+React.js and Web Development
+
+React-related questions included the purpose of React, useState, API calls, callbacks, and frontend interaction with backend services.
+
+Backend Development
+
+The interviewer also discussed backend development and technologies used in projects, including Node.js, REST APIs, Flask, and frontend-backend integration.
+
+MongoDB and Databases
+
+Questions were asked regarding MongoDB and database integration, particularly in the context of full-stack applications.
+
+AI/ML and Generative AI
+
+The interview also included modern AI-related concepts, particularly those connected to the projects and technologies mentioned in the resume. Topics included:
+
+Machine Learning
+
+RAG
+
+Embeddings
+
+Vector databases
+
+ChromaDB
+
+LangChain
+
+AI application architecture
+
+Prompt Engineering
+
+Data leakage
+
+ETL and Performance
+
+The interviewer also discussed ETL concepts and application performance, including identifying potential performance bottlenecks and understanding where delays can occur within a system.
+
+Projects
+
+A substantial part of the interview revolved around the projects mentioned on the resume. Questions focused on the architecture, technologies, implementation details, APIs, databases, challenges, and individual contributions to the projects.
+
+This highlighted the importance of having a thorough understanding of every project and technology mentioned on the resume.
+
+Overall Experience
+
+Overall, the Cognizant ACE Team recruitment process was a comprehensive and technically demanding experience. The three rounds evaluated different aspects of a candidate's technical capabilities, ranging from aptitude and fundamental concepts to practical coding and technical discussions.
+
+The process was particularly valuable because it combined core computer science fundamentals with modern software-development and Generative AI concepts. Candidates preparing for a similar recruitment process should focus on DSA, OOP, DBMS/SQL, OS, Computer Networks, React.js, backend development, APIs, and AI/ML fundamentals, while also developing a strong understanding of their projects.
+
+Most importantly, candidates should be prepared to explain the implementation and technical decisions behind every project listed on their resume, as project-based questions can form an important part of the technical interview.","dc4073555bfdc4b574617e4473fabf49e22f2d8efe78a827cce0d3817a6b80bd","2026-10-21T06:56:56+00:00"
+"cognizant","Cognizant ACE Team Selection Experience","SURAJ KUMAR CHAUDHARY","27 Sept 2026","I participated in the Cognizant ACE Team recruitment process, which consisted of three rounds. The overall process was technically oriented and evaluated candidates on problem-solving ability, programming fundamentals, technical knowledge, practical development skills, and project understanding. There was no separate HR interview.
+
+Round 1 – Online Assessment
+
+The first round was an online assessment designed to evaluate aptitude, logical reasoning, verbal ability, programming fundamentals, and basic technical knowledge.
+
+The assessment was time-bound, making effective time management an important aspect of the round. The questions tested both conceptual understanding and the ability to analyse problems within a limited time.
+
+For preparation, it is useful to revise basic programming concepts, aptitude, logical reasoning, and fundamental computer science subjects.
+
+Round 2 – Technical Online Assessment
+
+The second round was a more technically focused online assessment consisting of 24 questions:
+
+20 Multiple Choice Questions
+
+1 DSA coding problem
+
+1 React.js coding problem
+
+1 RAG coding problem
+
+1 Prompt Engineering question
+
+The 20 MCQs covered a broad range of technical areas, including programming fundamentals, Data Structures and Algorithms, Object-Oriented Programming, DBMS and SQL, Operating Systems, Computer Networks, web development, and AI/ML concepts.
+
+DSA
+
+The DSA section involved a programming problem that required developing an efficient solution while considering the given constraints and test cases. Preparation for this section should include arrays, strings, hashing, two pointers, sliding window, sorting, binary search, stacks, queues, linked lists, trees, recursion, and complexity analysis.
+
+React.js
+
+The React.js question was a practical implementation task based on a dataset of people. The task involved providing options to sort the data based on name or age using radio buttons and displaying the resulting information appropriately.
+
+The question required familiarity with functional components, useState, event handling, array sorting, conditional logic, and rendering data in React.
+
+RAG
+
+The RAG section tested practical understanding of Retrieval-Augmented Generation.
+
+One task involved developing a question-answering system using information provided in a handbook extract. The system was required to answer only when the information was explicitly available in the given content; otherwise, it had to return NOT_STATED.
+
+Another task involved processing retrieved results using a ResultGrouper, where results were ranked according to their scores and grouped while respecting the maximum number of results permitted for each hotel.
+
+These questions tested concepts such as retrieval results, ranking, filtering, grouping, and reliable information extraction.
+
+Prompt Engineering
+
+The assessment also included a question on Prompt Engineering, testing the ability to construct effective prompts with clear instructions, constraints, and expected outputs.
+
+Overall, this round required preparation across both conventional software-development concepts and emerging areas such as Generative AI, RAG, and prompt engineering.
+
+Round 3 – Technical Interview
+
+The final round was a technical interview. There was no separate HR round. The discussion covered a wide range of technical subjects as well as the projects mentioned on my resume.
+
+Data Structures and Algorithms
+
+Questions focused on programming logic, problem-solving approaches, DSA concepts, and the efficiency of solutions. Understanding the reasoning behind a solution was important rather than simply knowing the final code.
+
+Object-Oriented Programming
+
+The interviewer discussed OOP concepts and their practical application in programming, including the fundamental principles of object-oriented design.
+
+DBMS and SQL
+
+The interview covered several database concepts, including:
+
+SQL queries
+
+Joins
+
+Normalization
+
+ACID properties
+
+Transactions
+
+Window functions
+
+Ranking functions such as DENSE_RANK
+
+Database fundamentals
+
+Operating Systems
+
+Questions were also asked from Operating Systems, covering fundamental concepts related to processes, threads, memory management, and other core OS concepts.
+
+Computer Networks and APIs
+
+The discussion included networking fundamentals, HTTP/HTTPS, REST APIs, API communication, and the interaction between frontend and backend systems.
+
+React.js and Web Development
+
+React-related questions included the purpose of React, useState, API calls, callbacks, and frontend interaction with backend services.
+
+Backend Development
+
+The interviewer also discussed backend development and technologies used in projects, including Node.js, REST APIs, Flask, and frontend-backend integration.
+
+MongoDB and Databases
+
+Questions were asked regarding MongoDB and database integration, particularly in the context of full-stack applications.
+
+AI/ML and Generative AI
+
+The interview also included modern AI-related concepts, particularly those connected to the projects and technologies mentioned in the resume. Topics included:
+
+Machine Learning
+
+RAG
+
+Embeddings
+
+Vector databases
+
+ChromaDB
+
+LangChain
+
+AI application architecture
+
+Prompt Engineering
+
+Data leakage
+
+ETL and Performance
+
+The interviewer also discussed ETL concepts and application performance, including identifying potential performance bottlenecks and understanding where delays can occur within a system.
+
+Projects
+
+A substantial part of the interview revolved around the projects mentioned on the resume. Questions focused on the architecture, technologies, implementation details, APIs, databases, challenges, and individual contributions to the projects.
+
+This highlighted the importance of having a thorough understanding of every project and technology mentioned on the resume.
+
+Overall Experience
+
+Overall, the Cognizant ACE Team recruitment process was a comprehensive and technically demanding experience. The three rounds evaluated different aspects of a candidate's technical capabilities, ranging from aptitude and fundamental concepts to practical coding and technical discussions.
+
+The process was particularly valuable because it combined core computer science fundamentals with modern software-development and Generative AI concepts. Candidates preparing for a similar recruitment process should focus on DSA, OOP, DBMS/SQL, OS, Computer Networks, React.js, backend development, APIs, and AI/ML fundamentals, while also developing a strong understanding of their projects.
+
+Most importantly, candidates should be prepared to explain the implementation and technical decisions behind every project listed on their resume, as project-based questions can form an important part of the technical interview.","a48ccce46d98faf00218197080cf9deb48e8415b1f8aa1a4aefcdb41ce96d71a","2026-10-21T06:57:00+00:00"
+"cognizant","Untitled","G PRANAV","27 Sept 2026","Cognizant hiring process
+
+Round 1 – Aptitude and communication round
+The first round consisted of questions based on aptitude (MCQs) and communication skills. The apti consisted of the standard stuff like reading charts, quant questions (profit loss, percentages etc.), logical reasoning etc. In the communication part you had to listen to an audio and answer questions based on that audio. The overall difficulty was easy.
+
+Round 2 – Technical assessment
+This was the most challenging step of the process; we had to solve 5 questions, each requiring a different skillset.
+Q1 → DSA problem – An easy-medium LeetCode problem. I got a problem similar to Subsets on LeetCode, which was to be solved using recursion.
+Q2 → React – A React codebase was given along with a readme and a few tests; we had to navigate the codebase to trace out why the test cases actually failed.
+Q3 → Prompt engineering – This was fairly simple. We had to write a prompt such that the constraints in the question are satisfied. Going over basic prompt engineering principles like zero-shot, few-shot, CoT etc. is sufficient.
+Q4 → RAG implementation – A part of the RAG pipeline had to be built; it could be anything like implementing chunking, embedding etc.
+Q5 → 20 MCQs based on general AI concepts.
+
+Round 3 – Interview
+The interview was a mixture of technical + HR questions, with the weightage being approximately 75:25 respectively (at least in my case). The interview started with the implementation of a few SQL queries and showing an example of function overloading. After that, a large part of the discussion revolved around AI (LLM) concepts. Most of the questions were focused on RAG and explaining the components of the RAG pipeline (what it does and why it exists). Questions around cloud were also asked. The conversation then shifted to my resume and questions about my projects in depth. The main thing here is not to explain the architecture of the project, but why the architecture of the project is the way it is. I was constantly cross-questioned regarding why I made particular design choices or why I used a particular library. After this, behavioral questions were asked and the HR phase of the interview began. Certain situational questions were given which could be answered using the STAR method.
+
+Overall, one should avoid giving half-baked answers.
+
+To conclude, the whole process was a great learning experience and allowed me to test my mettle.","4bdc63c0f76e27368122f170aa42ba3cb434c2e75b231910519902a3f5f982bf","2026-10-21T06:57:03+00:00"
+"cognizant","Cognizant Full Process","SHASHANK SINGH","27 Sept 2026","Round 1 – Communication & Aptitude Assessment
+
+The first round was an online Communication and Aptitude Assessment.
+
+The aptitude section consisted of standard questions covering areas such as logical reasoning, quantitative aptitude, and basic problem solving.
+
+The communication section mainly evaluated my ability to read, understand, and communicate effectively. It included areas such as reading comprehension, grammar, sentence formation, and speaking/communication skills.
+
+After clearing this round, I was shortlisted for the technical assessment.
+
+Round 2 – Technical Assessment
+
+The second round was an online technical assessment. This round covered multiple areas rather than focusing on only one technology.
+
+The assessment included:
+
+1 DSA problem – I had to solve a programming problem using data structures and algorithms.
+
+1 Frontend question – related to frontend development, particularly concepts around React and JavaScript.
+
+1 RAG implementation question – I had to demonstrate my understanding of Retrieval Augmented Generation and its implementation.
+
+1 Prompt Engineering question – based on designing and improving prompts for an LLM.
+
+AI fundamentals MCQs – questions covering fundamental concepts of Artificial Intelligence.
+
+Cloud fundamentals MCQs – questions covering basic cloud computing concepts and services.
+
+This round tested both my programming fundamentals and my understanding of newer technologies such as Generative AI, RAG, and cloud computing.
+
+After clearing the technical assessment, I was called for the final technical interview.
+
+Round 3 – Technical Interview
+
+The third round was technical interview.
+
+The interview started with my self-introduction, after which the interviewer moved into a detailed discussion about my projects and technical experience. Some questions focusing on RAG pipelines and all.
+
+Since I had selected Python as my programming language for DSA, I was also asked to implement a Python-based programming logic during the interview. The interviewer focused not only on the final code but also on my approach, logic, and explanation of the solution.
+
+After that some basic OOPS principle explanations with examples and then questions related to Cognizant like:
+
+Who is the CEO of cognizant ?
+
+And then some normal conversation.","be391c8ef11908aa40e6dc7e54439474d651a4c7afaad12ea96c8013ddc1a578","2026-10-21T06:57:06+00:00"
+"cognizant","Cognizant","GURKIRAT SINGH","26 Sept 2026","I went through three rounds during my campus placement process.
+
+Round 1 – Communication & Aptitude Assessment
+
+The first round was an online Communication and Aptitude Assessment.
+
+The aptitude section consisted of standard questions covering areas such as logical reasoning, quantitative aptitude, and basic problem solving.
+
+The communication section mainly evaluated my ability to read, understand, and communicate effectively. It included areas such as reading comprehension, grammar, sentence formation, and speaking/communication skills.
+
+After clearing this round, I was shortlisted for the technical assessment.
+
+Round 2 – Technical Assessment
+
+The second round was an online technical assessment. This round covered multiple areas rather than focusing on only one technology.
+
+The assessment included:
+
+1 DSA problem – I had to solve a programming problem using data structures and algorithms.
+
+1 Frontend question – related to frontend development, particularly concepts around React and JavaScript.
+
+1 RAG implementation question – I had to demonstrate my understanding of Retrieval Augmented Generation and its implementation.
+
+1 Prompt Engineering question – based on designing and improving prompts for an LLM.
+
+AI fundamentals MCQs – questions covering fundamental concepts of Artificial Intelligence.
+
+Cloud fundamentals MCQs – questions covering basic cloud computing concepts and services.
+
+This round tested both my programming fundamentals and my understanding of newer technologies such as Generative AI, RAG, and cloud computing.
+
+After clearing the technical assessment, I was called for the final technical interview.
+
+Round 3 – Technical Interview
+
+The third round was technical interview.
+
+The interview started with my self-introduction, after which the interviewer moved into a detailed discussion about my projects and technical experience.
+
+Since I had selected Python as my programming language for DSA, I was also asked to implement a Python-based programming logic during the interview. The interviewer focused not only on the final code but also on my approach, logic, and explanation of the solution.
+
+The interview then went into a deeper technical discussion covering several areas:
+
+RAG – Retrieval Augmented Generation
+
+Machine Learning
+
+Databases
+
+Several HR questions
+
+The interviewer asked questions ranging from basic concepts to implementation level understanding. I had to explain how different technologies work, why they are used, and how they can be connected together in a real-world application.
+
+Final Verdict
+
+After completing all three rounds, I received the final result:
+
+Selected ✅
+
+Overall, the placement process tested me progressively:
+
+Communication & Aptitude → Programming & Technical Assessment → In-depth Technical Interview → Selection
+
+What I liked about the process was that it wasn't limited to just DSA. It tested a combination of problem-solving, communication, software development, AI/Generative AI, and practical project knowledge","1cb7350c3f8cab1a9c467d3d6cab69edc60884b3833e6e82e2fb99c545acf526","2026-10-21T06:57:19+00:00"
+"cognizant","Cognizant (Ace Frontier Engineer Program)","KALLOL KHATUA","26 Sept 2026","I went through three rounds during my campus placement process.
+
+Round 1 – Communication & Aptitude Assessment
+
+The first round was an online Communication and Aptitude Assessment.
+
+The aptitude section consisted of standard questions covering areas such as logical reasoning, quantitative aptitude, and basic problem solving.
+
+The communication section mainly evaluated my ability to read, understand, and communicate effectively. It included areas such as reading comprehension, grammar, sentence formation, and speaking/communication skills.
+
+After clearing this round, I was shortlisted for the technical assessment.
+
+Round 2 – Technical Assessment
+
+The second round was an online technical assessment. This round covered multiple areas rather than focusing on only one technology.
+
+The assessment included:
+
+1 DSA problem – I had to solve a programming problem using data structures and algorithms.
+1 Frontend question – related to frontend development, particularly concepts around React and JavaScript.
+1 RAG implementation question – I had to demonstrate my understanding of Retrieval Augmented Generation and its implementation.
+1 Prompt Engineering question – based on designing and improving prompts for an LLM.
+AI fundamentals MCQs – questions covering fundamental concepts of Artificial Intelligence.
+Cloud fundamentals MCQs – questions covering basic cloud computing concepts and services.
+
+This round tested both my programming fundamentals and my understanding of newer technologies such as Generative AI, RAG, and cloud computing.
+
+After clearing the technical assessment, I was called for the final technical interview.
+
+Round 3 – Technical Interview
+
+The third round was technical interview.
+
+The interview started with my self-introduction, after which the interviewer moved into a detailed discussion about my projects and technical experience.
+
+Since I had selected Java as my programming language for DSA, I was also asked to implement a Java-based programming logic during the interview. The interviewer focused not only on the final code but also on my approach, logic, and explanation of the solution.
+
+The interview then went into a deeper technical discussion covering several areas:
+
+Artificial Intelligence fundamentals
+LLMs – Large Language Models
+RAG – Retrieval Augmented Generation
+Agentic AI
+Prompt Engineering
+React and frontend development
+Backend development
+APIs and their working
+Cloud computing
+AWS and cloud services
+
+The interviewer asked questions ranging from basic concepts to implementation level understanding. I had to explain how different technologies work, why they are used, and how they can be connected together in a real-world application.
+
+Final Verdict
+
+After completing all three rounds, I received the final result:
+
+Selected ✅
+
+Overall, the placement process tested me progressively:
+
+Communication & Aptitude → Programming & Technical Assessment → In-depth Technical Interview → Selection
+
+What I liked about the process was that it wasn't limited to just DSA. It tested a combination of problem-solving, communication, software development, AI/Generative AI, cloud, and practical project knowledge.","aee14e2d6a54b14ccb748d9145362df070a40b6ac7f898cd632cddf5423ca497","2026-10-21T06:57:25+00:00"

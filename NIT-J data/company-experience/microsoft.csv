@@ -1,0 +1,283 @@
+"company_name","title","author","date","body","entry_id","scraped_at"
+"microsoft","Hardware Intern to PPO at Microsoft","ROUNISH CHANDRA","1 Oct 2026","I'm excited to share that I interned as a Hardware Engineer at Microsoft this summer and received a Pre-Placement Offer (PPO) at the end of it. Here's how it went.
+
+The interview process (2 rounds)
+
+Round 1: Technical
+This round tested fundamentals more than anything else:
+
+C programming and C coding questions
+Computer Organization & Architecture (COA)
+Embedded systems basics
+Communication protocols
+Data structures: linked lists and arrays
+Memory allocation
+A deep dive into the projects on my resume
+
+My biggest takeaway: know your resume inside out. Every project I listed was fair game, and being able to explain why I made certain choices mattered more than reciting definitions.
+
+Round 2: Behavioural
+This round focused on how I work with people:
+
+Being a team player
+Helping teammates
+Situational questions about how I'd handle real workplace scenarios
+
+I answered with honest examples from my own experience instead of rehearsed lines.
+
+The internship
+
+I worked on hardware/firmware validation, which gave me hands-on exposure to how real systems get tested before they ship:
+
+Validating CXL sensor test cases
+Working on CPER (Common Platform Error Record) decoding
+Managing and organizing test cases in Azure DevOps
+Applying embedded systems fundamentals in a real validation workflow
+
+What stood out most was seeing how much rigor goes into making hardware reliable at scale. A single test case can catch an issue that would otherwise surface in production.
+
+What I learned
+
+Strong fundamentals (C, COA, embedded) matter more than fancy buzzwords.
+Ask questions early. The people around you want you to learn.
+Own your work, document it well, and be a good teammate.
+Curiosity gets noticed.
+Staying attentive: I paid close attention in meetings and discussions, so I understood the context behind my tasks and didn't need things repeated.
+Always eager to learn: I treated every unfamiliar concept as a chance to learn. I asked questions, read up on my own, and came back with better understanding.
+Being helpful: I offered help when teammates needed an extra hand, even on things outside my direct scope.
+Staying in touch with my team: I gave regular updates, flagged blockers early, and kept communication open instead of working in isolation.
+Asking for feedback: I asked for feedback regularly, not just at the end. It helped me correct course early and improve week over week.
+
+The PPO
+
+By the end of the internship, I received the PPO. I'm grateful and proud, but I also know it came from the support of my mentor and teammates, who were generous with their time and guidance.
+
+What I learned
+
+Strong fundamentals (C, COA, embedded) get you in the door.
+Attitude, communication, and willingness to learn help you stand out once you're in.
+Feedback is a gift. Ask for it early and often.
+Being a good teammate matters as much as being a good engineer.
+
+Tips if you're preparing
+
+Revise C deeply: pointers, memory allocation, linked lists.
+Know every line of your resume.
+Prepare real stories for behavioural questions.
+Think out loud. Interviewers care about your approach.
+In your internship, be curious, be helpful, and keep communicating.","abd91fd29908f267574b8df976fe8bb13629ed4056adc09d1fb3813169338ee4","2026-10-21T06:54:34+00:00"
+"microsoft","Untitled","POOJA SINGLA","30 Sept 2026","Microsoft
+
+I received a PPO for which I had to give an interview in the last week of my internship. There was one round (the number of rounds is decided based on the manager's reviews).
+
+Questions were mostly based on internship experience and the project I did","e383662e0c124c716a225a3b4667f8d2248d5f5945c5196b6f7143bbfab6471e","2026-10-21T06:55:04+00:00"
+"microsoft","Microsoft - Intern + PPO","NIDHI YADAV","21 Sept 2026","My Microsoft Internship & PPO Experience 💙✨
+
+Internship Selection Process:
+
+Generally, the process consists of one Online Assessment (OA) followed by two interview rounds.
+
+1. Online Assessment (OA)
+
+The OA usually consists of 2 DSA questions, generally ranging from easy to medium difficulty.
+
+So, having a strong foundation in DSA is extremely important. Practice consistently and focus on understanding patterns rather than just memorizing solutions.
+
+2. Interviews
+
+There are usually two interview rounds, but the exact structure can depend on the interviewer. Both rounds can be technical, or one can be technical while the other may include more HR/behavioral discussion.
+
+For preparation, I would strongly recommend:
+
+- Be thorough with CS fundamentals.
+
+- DSA is a must, interview questions are generally around the easy-to-medium level.
+
+- Know your projects inside out. Be prepared to explain what your project does, why you built it, the technologies you used, the challenges you faced, and how you solved those challenges.
+
+The Internship & PPO Journey:
+
+My biggest advice for getting a PPO would be, Stay cooperative with your manager and mentor and team.
+
+Be open to feedback, communicate properly, and don't hesitate to ask questions. Learn as much as you can. You don't have to know everything from day one. Be curious and genuinely eager to learn. Be confident, but stay humble. Believe in your abilities while being open to learning from everyone around you.
+
+Give your best.
+
+Take ownership of your work, put in sincere effort, and try to continuously improve.
+
+And most importantly. enjoy your internship! ✨
+
+Focus on learning, contributing, building good relationships with your team and friends, and making the most of the experience.
+
+If you do your work sincerely, keep learning, and give your best, you put yourself in a strong position for a PPO. ❤️✨","d538564299731160b9c6708f5bdb14d87eb89e259bcc13a468ca63956a2364e0","2026-10-21T07:00:46+00:00"
+"microsoft","Accenture AEH","SHIKHAR SHRIVASTAV","18 Sept 2026","Round 1: Cognitive & Technical MCQ
+
+Covered Aptitude, Logical Reasoning, Verbal, Pseudocode, Cloud fundamentals, and MS Office concepts.
+
+Round 2: Technical & Coding Assessment
+
+Included 1 SQL query on Joins and 1 JavaScript technical problem.
+
+Round 3: Communication Assessment
+
+Automated voice test evaluating fluency, grammar, pronunciation, and listening comprehension.
+
+Round 4: Technical & HR Interview (~30 mins)
+
+Technical: Solved 1 basic DSA problem based on HashMaps and discussed basic core concepts.
+
+Behavioral: Primarily focused on HR and situational questions (project handling, teamwork, and conflict resolution using the STAR method).","8e674f3ea5cf58d1844be7e01a043352ec6eecfa2e0350c91b2dc74eda33ed2b","2026-10-21T07:05:09+00:00"
+"microsoft","Untitled","ARYAN SHRIVASTAV","17 Sept 2026","Online Assessment
+Coding Round
+Communication Assessment
+Technical + HR Interview
+
+Online Assessment: Quantitative Aptitude, Verbal Reasoning, and Logical Reasoning to Pseudocode, Networking & Cloud, and MS Office.
+
+Coding Round: 1 DSA question (very easy), 1 SQL question, 1 frontend question (javascript)","911c2767afd064c781e59f5764e69d38e8ffa376fcbc9fe3e5d2f674156df2fe","2026-10-21T07:10:19+00:00"
+"microsoft","Flipkart NEEV — Managerial Role Interview Experience","HARNEET SINGH","17 Sept 2026","By: Harneet Singh
+
+Mode: Online
+
+Process: OA + 2 Interviews
+
+OA Round
+
+-MS Excel questions
+
+- 1 Supply Chain-based question
+
+- General MCQs from Physics, Maths, Aptitude, etc.
+
+- Conducted completely online.
+
+Interview 1 — Technical (~30 min)
+
+Mostly resume + supply chain based.
+
+- Internships: role, challenges faced, how did I help them (my actual contribution)
+
+- How Flipkart's supply chain works
+
+- what will be the metrics for checking last mile dilevery for a warehouse (like false dilevery, number of complete order...)
+
+- How will you improve the false dilevery like someone order phone and get something else..
+
+- How will you reduce the cost in last mile delivery
+
+Interview 2 — HR (~20 min)
+
+- Tell me about yourself
+
+- Any conflicts resolved
+
+- Any leadership qualities u have?
+
+- Few things from resume
+
+(Not in depth)
+
+- Any questions from my side (never ask about review, ask something else like about role pr something different)
+
+Key Points to remember -
+
+-Know ur resume well (line by line)
+
+-Study situation based supply chain ques (like i mentioned last mile..)
+
+- Have some data about their recent achievements (helps alot)","78309e7af9c7509ae2abaf519d550cdc52ef9198937d4d2f258f081d4f6166ec","2026-10-21T07:10:25+00:00"
+"microsoft","Honeywell UOP( Process control engineer)","ANSHU","26 Nov 2025","This experience is more relevant to mechanical engineering Students.
+
+The overall experience was very good both for Technical and HR round.Honeywell UOP was the first Company For Mechanical.My interview was on second number for the role of Process control engineer.Now i will tell about both the rounds one by one.
+
+TECHNICAL ROUND ( 30-35 Mins)
+
+Firstly the interviewer(only one person was there it was a one on one interview) was very good he was reading my resume line by line( So be confident on every line of your Resume) and asked me very basic questions followed by my Introduction and family background. It was more of a conversation than a technical round. To give Some reference very basic questions( like Bernoulli's Principle, Cavitation, difference between Malleability and ductility). I was also asked to draw the Iron Carbon Diagram on paper.
+
+Then he asked me about my internships what was my role there, What things i observed there, Have i done any project there or not.A After all this he also asked me some of the role specific questions like How will you Schedule an event, What is CPM(critical Path Method). Do you know about VLOOKUP( in reference of MS excel) which i didn't knew at that point of time so I simply denied.
+
+After all of the above conversation he asked me about the clubs which i mentioned on my resume and my role in these clubs and then the last question he asked was What motivates you to join this organisation?
+
+with all this the technical round ended......
+
+HR ROUND
+
+It was an online round of approx 35-40 minutes. The HR asked about my interests my background and all of the standard questions that are usually asked in any HR ( where do you see yourself after 5 years, why should i select you, how do you handle conflicts, what are your expectations from us, what motivates you to join UOP ) and other standard questions she also sked me about my projects and my role in these projects.
+
+Some pts that i consider important :
+
+Be clear about what you have written in your Resume
+
+Prepare your Internships well atleast you should be able to speak 90 seconds about those internhsips
+
+Try to prepare according to the job Role ( Specially if it demands any specific subjects)
+
+-------------------------- BEST OF LUCK --------------------------","cd3889b8ea01aad45545f15cd3b608d3774efc5f77432fecaf10156ad8c4ecff","2026-10-21T07:15:15+00:00"
+"microsoft","My Journey to Microsoft (Intern → PPO)","DHRUV KANDPAL","23 Nov 2025","Internship Rounds
+Round 1: Online Assessment
+
+This was a 90-minute online coding test focused on evaluating algorithmic thinking and implementation ability.
+
+• The first question was based on tree traversal and required identifying and applying the correct traversal method to arrive at the expected result.
+• The second was a string problem that involved using a greedy approach around swapping to achieve the required answer.
+
+Topics asked: tree traversal, greedy approach, strings.
+Key advice: Keep your fundamentals strong and maintain a CGPA of 8+ to stay on the safer side for shortlist criteria.
+
+Round 2: Technical Interview 1
+
+This was a one-on-one technical interview where the interviewer began with a short introduction and asked me to introduce myself before moving to problem-solving.
+
+• The first question was a medium-level linked list problem. We discussed two approaches and I coded one of them.
+• The second was a medium-level array and bit manipulation problem, similar to LeetCode. I completed both coding questions within 40–45 minutes.
+• After the coding segment, I was asked theory questions from Computer Networks, including TCP vs UDP, the network layer, and whether two processes can run on the same port and how that is handled.
+• This was followed by Operating Systems questions related to threads and the kernel.
+
+Topics asked: linked lists, arrays, bit manipulation, TCP vs UDP, network layer, port sharing, threads, kernel.
+Key advice: Stay calm, keep explaining your thoughts throughout, and avoid going silent so the interviewer can clearly understand your reasoning and code.
+
+Round 3: Technical Interview 2
+
+This round began similarly, with a short introduction from the interviewer followed by a brief self-introduction before transitioning into resume-focused discussion.
+
+• The interviewer asked about a project listed in my resume, and I explained the design decisions, how I applied SOLID principles, and how I efficiently used JavaScript promises during implementation.
+• The discussion then moved to OOP theory, where I was asked questions on core concepts and their application in real project scenarios.
+
+Topics asked: project explanation, SOLID principles, JavaScript promises, OOP concepts.
+Key advice: Have two strong projects instead of many weak ones, prepare them thoroughly, and maintain clear fundamentals around OOP principles.
+
+Internship Experience and PPO Evaluation
+
+During the internship, I worked with the Azure Firewall team on a project related to IDPS, contributing to feature enhancements and deliverables under the guidance of my mentor and manager.
+
+The internship feedback framework had three evaluation tiers:
+
+• If an intern does not meet the assigned task expectations: No Hire
+• If an intern meets task expectations and delivers reliably: Hire
+• If an intern meets expectations and additionally takes ownership by proposing and executing extra actionable work with the mentor and manager: Strong Hire
+
+The feedback category determined the PPO pathway:
+
+• No Hire: rejected
+• Hire: required to clear two PPO interviews
+• Strong Hire: required to clear only one PPO interview
+
+I received a Strong Hire feedback rating.
+
+Key advice: Focus on completing assigned tasks well, communicate proactively, take initiative beyond minimum expectations, and demonstrate ownership to move toward a Strong Hire outcome.
+
+PPO Interview
+
+This was a single PPO interview since I had received a Strong Hire rating. The interviewer was familiar with my internship work and began by asking questions related to the IDPS project I had worked on.
+
+• The DSA problem given was an ad-hoc question. I initially wrote the most time-optimized solution, but the interviewer asked to focus on memory optimization instead. We discussed multiple approaches, moved from a BST-based idea toward a bit manipulation approach, and I coded the most memory-efficient version.
+• In total, I coded two solutions(most time optimised and most memory optimised), and we verified them against sample and edge test cases successfully.
+• Between the coding discussions, I was asked questions related to Computer Architecture, including how memory allocation works, differences in 32-bit and 64-bit architectures, and related practical reasoning.
+• The interview lasted around 60–65 minutes.
+
+Topics asked: ad-hoc problem solving, memory-optimized coding, bit manipulation, BST reasoning, computer architecture, memory allocation, 32-bit vs 64-bit execution.
+Key advice: Be flexible with constraints, openly discuss alternative approaches, adapt your solution direction based on interviewer expectations, and maintain clarity on low-level memory and architecture fundamentals.
+
+Final Result
+
+The PPO interview concluded successfully, and I was selected :)","9c0eaadf0e22c7dcb59491675412415c1ac3653cdda20b5c40249ee5367e462d","2026-10-21T07:16:21+00:00"

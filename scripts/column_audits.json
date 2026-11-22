@@ -1,0 +1,2617 @@
+{
+  "2020-24 and 2022-24 Batch_Placement Database.xlsx :: Biotechnology": {
+    "header_row": 1,
+    "headers": {
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "2": [
+        "20111006.0",
+        "20111045.0",
+        "20110071.0"
+      ],
+      "3": [
+        "ANAND RAHUL",
+        "RAJNEESH BABU",
+        "SAUMYA CHATURVEDI"
+      ],
+      "4": [
+        "Bio Technology",
+        "Bio Technology",
+        "Bio Technology"
+      ],
+      "5": [
+        "M",
+        "M",
+        "F"
+      ],
+      "6": [
+        "GEN-EWS",
+        "OBC-NCL",
+        "General"
+      ],
+      "7": [
+        "20.04.2024",
+        "16.03.2024",
+        "05.09.2023"
+      ],
+      "8": [
+        "Faculty",
+        "Faculty",
+        "Operational Manager"
+      ],
+      "9": [
+        "Aakash Educational Services Ltd.",
+        "Allen Education",
+        "Amazon"
+      ],
+      "10": [
+        "11.85",
+        "6.0",
+        "15.12"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed /Intern"
+      ]
+    }
+  },
+  "2020-24 and 2022-24 Batch_Placement Database.xlsx :: Chemical Engg": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "57.0",
+        "57.0",
+        "58.0"
+      ],
+      "2": [
+        "20112001.0",
+        "20112001.0",
+        "20112002.0"
+      ],
+      "3": [
+        "AAKANSH ARORA",
+        "AAKANSH ARORA",
+        "AAKANSH KUMAR SINGH"
+      ],
+      "4": [
+        "Chemical Engineering",
+        "Chemical Engineering",
+        "Chemical Engineering"
+      ],
+      "5": [
+        "M",
+        "M",
+        "M"
+      ],
+      "6": [
+        "General",
+        "General",
+        "SC"
+      ],
+      "7": [
+        "13.12.2023",
+        "12.12.2023",
+        "8.11.2023"
+      ],
+      "8": [
+        "Sales",
+        "GET",
+        "GET"
+      ],
+      "9": [
+        "Zomato",
+        "Aarti Industires Limited",
+        "IOL Chemicals and Pharmaceuticals Ltd."
+      ],
+      "10": [
+        "6.0",
+        "5.5",
+        "6.0"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2020-24 and 2022-24 Batch_Placement Database.xlsx :: Civil Engg": {
+    "header_row": 1,
+    "headers": {
+      "1": "fnav",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "9.0",
+        "143.0",
+        "144.0"
+      ],
+      "2": [
+        "20111011.0",
+        "20102001.0",
+        "20102002.0"
+      ],
+      "3": [
+        "ASHISH VERMA",
+        "AADITYA MEENA",
+        "ABHINAV BABBAR"
+      ],
+      "4": [
+        "Civil Engineering",
+        "Civil Engineering",
+        "Civil Engineering"
+      ],
+      "5": [
+        "M",
+        "M",
+        "M"
+      ],
+      "6": [
+        "OBC-NCL",
+        "ST",
+        "OBC-NCL"
+      ],
+      "7": [
+        "25.10.2023",
+        "18.10.2023",
+        "05.09.2023"
+      ],
+      "8": [
+        "GET",
+        "Sales advisor",
+        "GET"
+      ],
+      "9": [
+        "L&T Limited",
+        "Hike Education",
+        "Technip Energy"
+      ],
+      "10": [
+        "6.0",
+        "5.15",
+        "6.5"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2020-24 and 2022-24 Batch_Placement Database.xlsx :: Computer Engg": {
+    "header_row": 1,
+    "headers": {
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "2": [
+        "20124060.0",
+        "20126003.0",
+        "20103001.0"
+      ],
+      "3": [
+        "MAURYA SHARMA",
+        "ADITI AGARWAL",
+        "ABHAY JAIN"
+      ],
+      "4": [
+        "Computer Science and Engineering",
+        "Computer Science and Engineering",
+        "Computer Science and Engineering"
+      ],
+      "5": [
+        "M",
+        "F",
+        "M"
+      ],
+      "6": [
+        "General",
+        "General",
+        "GEN-EWS"
+      ],
+      "7": [
+        "25.09.2023",
+        "04.08.2023",
+        "24.11.2023"
+      ],
+      "8": [
+        "Software Engineer",
+        "Associate Applicatins Developer",
+        "Software Engineer"
+      ],
+      "9": [
+        "Ensuredit",
+        "Oracle India",
+        "Dealermatix Technologies"
+      ],
+      "10": [
+        "20.0",
+        "19.0",
+        "7.5"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2020-24 and 2022-24 Batch_Placement Database.xlsx :: Electrical Engg": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "1004.0",
+        "1004.0",
+        "1004.0"
+      ],
+      "2": [
+        "20109110.0",
+        "20109110.0",
+        "20109110.0"
+      ],
+      "3": [
+        "VANSHIKA SHARMA",
+        "VANSHIKA SHARMA",
+        "VANSHIKA SHARMA"
+      ],
+      "4": [
+        "Electrical Engineering",
+        "Electrical Engineering",
+        "Electrical Engineering"
+      ],
+      "5": [
+        "F",
+        "F",
+        "F"
+      ],
+      "6": [
+        "General",
+        "General",
+        "General"
+      ],
+      "7": [
+        "27.06.2024",
+        "08.05.2024",
+        "14.12.2023"
+      ],
+      "8": [
+        "PPO",
+        "Software Engineer",
+        "Intern"
+      ],
+      "9": [
+        "Amazon",
+        "Betalectic",
+        "Surassa"
+      ],
+      "10": [
+        "52.0",
+        "7.2",
+        "7.0"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2020-24 and 2022-24 Batch_Placement Database.xlsx :: Electronics Engg": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "839.0",
+        "442.0",
+        "442.0"
+      ],
+      "2": [
+        "20106056.0",
+        "20126043.0",
+        "20126043.0"
+      ],
+      "3": [
+        "MADALA CHANGALA NAGA LAKSHMI NEHA",
+        "PRAGATI GUPTA",
+        "PRAGATI GUPTA"
+      ],
+      "4": [
+        "Electronics and Communication Engineering",
+        "Electronics and Communication Engineering",
+        "Electronics and Communication Engineering"
+      ],
+      "5": [
+        "F",
+        "F",
+        "F"
+      ],
+      "6": [
+        "General",
+        "General",
+        "General"
+      ],
+      "7": [
+        "8.12.2023",
+        "14.12.2023",
+        "16.11.2023"
+      ],
+      "8": [
+        "Software Engineer",
+        "SDE",
+        "GET"
+      ],
+      "9": [
+        "Nvida",
+        "Nvida",
+        "Daimler Truck Innovation Center India"
+      ],
+      "10": [
+        "75K",
+        "75K",
+        "14.0"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2020-24 and 2022-24 Batch_Placement Database.xlsx :: Industrial Engg": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "604.0",
+        "618.0",
+        "584.0"
+      ],
+      "2": [
+        "20113027.0",
+        "20113041.0",
+        "20113006.0"
+      ],
+      "3": [
+        "EKAMJOT SINGH",
+        "KESHAV SINGH",
+        "AKSHAT VERMA"
+      ],
+      "4": [
+        "Industrial and Production Engineering",
+        "Industrial and Production Engineering",
+        "Industrial and Production Engineering"
+      ],
+      "5": [
+        "M",
+        "M",
+        "M"
+      ],
+      "6": [
+        "General",
+        "GEN-EWS",
+        "General"
+      ],
+      "7": [
+        "28.05.2024",
+        "28.05.2024",
+        "11.12.2023"
+      ],
+      "8": [
+        "GET",
+        "GET",
+        "Advance Application Engineering Analyst"
+      ],
+      "9": [
+        "Aakash Institute",
+        "Aakash Institute",
+        "Accenutre"
+      ],
+      "10": [
+        "7.25",
+        "7.25",
+        "11.89"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2020-24 and 2022-24 Batch_Placement Database.xlsx :: Instrumentation Engg": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "997.0",
+        "19.0",
+        "954.0"
+      ],
+      "2": [
+        "20109103.0",
+        "20111021.0",
+        "20109060.0"
+      ],
+      "3": [
+        "TANYA",
+        "DIVANSHI",
+        "NAMAN GUPTA"
+      ],
+      "4": [
+        "Instrumentation and Control Engineering",
+        "Instrumentation and Control Engineering",
+        "Instrumentation and Control Engineering"
+      ],
+      "5": [
+        "F",
+        "F",
+        "M"
+      ],
+      "6": [
+        "General",
+        "General",
+        "General"
+      ],
+      "7": [
+        "21.06.2024",
+        "18.12.2023",
+        "13.09.2023"
+      ],
+      "8": [
+        "Business Analyst Role",
+        "GET",
+        "Assc. Programmer ananlyst"
+      ],
+      "9": [
+        "AdvaRisk",
+        "Samsung Engineering",
+        "Moody's"
+      ],
+      "10": [
+        "6.5",
+        "8.0",
+        "11.0"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2020-24 and 2022-24 Batch_Placement Database.xlsx :: Mechanical Engg": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "1071.0",
+        "183.0",
+        "208.0"
+      ],
+      "2": [
+        "20110060.0",
+        "20102041.0",
+        "20102067.0"
+      ],
+      "3": [
+        "RAHUL KUMAR",
+        "KANISHK RAJ MISHRA",
+        "SAHIL POKHRIYAL"
+      ],
+      "4": [
+        "Mechanical Engineering",
+        "Mechanical Engineering",
+        "Mechanical Engineering"
+      ],
+      "5": [
+        "M",
+        "M",
+        "M"
+      ],
+      "6": [
+        "OBC-NCL",
+        "General",
+        "General"
+      ],
+      "7": [
+        "25.09.2023",
+        "27.10.2023",
+        "20.10.2023"
+      ],
+      "8": [
+        "Associate Software Engineer",
+        "R&D",
+        "GET"
+      ],
+      "9": [
+        "Incture",
+        "Hero MotorCorp",
+        "Maruti Suzuki India"
+      ],
+      "10": [
+        "10.0",
+        "9.0",
+        "9.2"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2020-24 and 2022-24 Batch_Placement Database.xlsx :: Information Technology": {
+    "header_row": 1,
+    "headers": {
+      "1": "Sr.no",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "417.0",
+        "613.0",
+        "674.0"
+      ],
+      "2": [
+        "20126018.0",
+        "20113036.0",
+        "20102059.0"
+      ],
+      "3": [
+        "BHAVIKA",
+        "ISHA",
+        "PUNEET SINGH"
+      ],
+      "4": [
+        "Electrical Engineering",
+        "Information Technology",
+        "Information Technology"
+      ],
+      "5": [
+        "F",
+        "F",
+        "M"
+      ],
+      "6": [
+        "SC",
+        "General",
+        "General"
+      ],
+      "7": [
+        "27.06.2024",
+        "14.12.2023",
+        "27.10.2023"
+      ],
+      "8": [
+        "PPO",
+        "Full Stack Engineer",
+        "Software Engineer"
+      ],
+      "9": [
+        "Amazon",
+        "Optum India",
+        "MAQ Software"
+      ],
+      "10": [
+        "52.0",
+        "18.86",
+        "10.0"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2020-24 and 2022-24 Batch_Placement Database.xlsx :: Textile Technology": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Date Result",
+      "7": "Category",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "1086.0",
+        "1092.0",
+        "1083.0"
+      ],
+      "2": [
+        "20110077.0",
+        "20110084.0",
+        "20110072.0"
+      ],
+      "3": [
+        "SOURAV KUMAR",
+        "VRIDHI JINDAL",
+        "SHEKHAR"
+      ],
+      "4": [
+        "Textile Technology",
+        "Textile Technology",
+        "Textile Technology"
+      ],
+      "5": [
+        "M",
+        "F",
+        "M"
+      ],
+      "6": [
+        "SC",
+        "General",
+        "General"
+      ],
+      "7": [
+        "05.09.2023",
+        "05.09.2023",
+        "12.03.2024"
+      ],
+      "8": [
+        "Research Analyst",
+        "Research Analyst",
+        "GET"
+      ],
+      "9": [
+        "Amazon",
+        "Amazon",
+        "Arvind Limited"
+      ],
+      "10": [
+        "15.12",
+        "15.12",
+        "5.7"
+      ],
+      "11": [
+        "Placed /Intern",
+        "Placed /Intern",
+        "Placed"
+      ]
+    }
+  },
+  "2020-24 and 2022-24 Batch_Placement Database.xlsx :: M.Sc": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "12.0",
+        "18.0",
+        "20.0"
+      ],
+      "2": [
+        "22311114.0",
+        "22311120.0",
+        "22311122.0"
+      ],
+      "3": [
+        "LAVANYA SINGH MALIK",
+        "POOJA RAJPUT",
+        "RAHUL KUMAR SHARMA"
+      ],
+      "4": [
+        "Chemistry",
+        "Chemistry",
+        "Chemistry"
+      ],
+      "5": [
+        "Female",
+        "Female",
+        "Male"
+      ],
+      "6": [
+        "General",
+        "EWS",
+        "EWS"
+      ],
+      "7": [
+        "13.07.2024",
+        "13.07.2024",
+        "13.07.2024"
+      ],
+      "8": [
+        "Faculty",
+        "Faculty",
+        "Faculty"
+      ],
+      "9": [
+        "Aakash Education",
+        "Aakash Education",
+        "Aakash Education"
+      ],
+      "10": [
+        "7.25",
+        "7.25",
+        "7.25"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2020-24 and 2022-24 Batch_Placement Database.xlsx :: MBA": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Date Result",
+      "6": "Profile",
+      "7": "Company",
+      "8": "Package",
+      "9": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "12.0",
+        "25.0",
+        "14.0"
+      ],
+      "2": [
+        "22701012.0",
+        "22701025.0",
+        "22701014.0"
+      ],
+      "3": [
+        "KUMAR KAUSHIK",
+        "SK SAHIL BOKSH",
+        "NIRBHAY VERMA"
+      ],
+      "4": [
+        "Humanities and Management",
+        "Humanities and Management",
+        "Humanities and Management"
+      ],
+      "5": [
+        "08.08.2023",
+        "08.08.2023",
+        "8.04.2024"
+      ],
+      "6": [
+        "Assistant Manager",
+        "Assistant Manager",
+        "Sales Officer Trainee"
+      ],
+      "7": [
+        "Bajaj Finance Limited",
+        "Bajaj Finance Limited",
+        "Berger Paints India Ltd."
+      ],
+      "8": [
+        "4.9",
+        "4.9",
+        "7.08"
+      ],
+      "9": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2020-24 and 2022-24 Batch_Placement Database.xlsx :: 3rd year 2020-24 Internship ": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Stipend",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "1.0",
+        "2.0",
+        "3.0"
+      ],
+      "2": [
+        "20111001.0",
+        "20111003.0",
+        "20111004.0"
+      ],
+      "3": [
+        "ABHISHEK KUMAR",
+        "AKSHIT GUPTA",
+        "AMANPREET KAUR"
+      ],
+      "4": [
+        "Bio Technology",
+        "Bio Technology",
+        "Bio Technology"
+      ],
+      "5": [
+        "M",
+        "M",
+        "F"
+      ],
+      "6": [
+        "OBC-NCL",
+        "General",
+        "OBC-NCL"
+      ],
+      "7": [],
+      "8": [],
+      "9": [],
+      "10": [],
+      "11": []
+    }
+  },
+  "2020-24 and 2022-24 Batch_Placement Database.xlsx :: M.Tech 22-24": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Status",
+      "3": "Roll No.",
+      "4": "Name",
+      "5": "Branch",
+      "6": "Gender",
+      "7": "Category",
+      "8": "Date Result",
+      "9": "Profile",
+      "10": "Company",
+      "11": "Stipend",
+      "12": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "81.0",
+        "18.0",
+        "91.0"
+      ],
+      "2": [
+        "ACTIVE",
+        "ACTIVE",
+        "ACTIVE"
+      ],
+      "3": [
+        "22203005.0",
+        "22903024.0",
+        "22203015.0"
+      ],
+      "4": [
+        "ISHA KUMAR",
+        "TANAYA BISWAS",
+        "SIMRANDEEP KAUR"
+      ],
+      "5": [
+        "Computer Science & Engineering",
+        "Computer Science and Engineering",
+        "Computer Science & Engineering"
+      ],
+      "6": [
+        "Female",
+        "Female",
+        "Female"
+      ],
+      "7": [
+        "SC",
+        "SC",
+        "General"
+      ],
+      "8": [
+        "29.03.2023",
+        "9.03.2023",
+        "-"
+      ],
+      "9": [
+        "PGET",
+        "Intern",
+        "Hardware Engineer"
+      ],
+      "10": [
+        "Dell Technologies",
+        "Intel India",
+        "Intel Technology India Pvt. Ltd."
+      ],
+      "11": [
+        "35K",
+        "45.0",
+        "45K"
+      ],
+      "12": [
+        "One year",
+        "One year",
+        "11 Month Intern"
+      ]
+    }
+  },
+  "2020-24 and 2022-24 Batch_Placement Database.xlsx :: M.Tech 2023-25": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Result Date",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "239.0",
+        "54.0",
+        "33.0"
+      ],
+      "2": [
+        "23204132.0",
+        "23203029.0",
+        "23203008.0"
+      ],
+      "3": [
+        "THUMU MUNI PRANAV",
+        "SHASHI SHEKHAR AZAD",
+        "DWIZ DUA"
+      ],
+      "4": [
+        "VLSI DESIGN",
+        "Computer Science & Engineering",
+        "Computer Science & Engineering"
+      ],
+      "5": [
+        "Male",
+        "Male",
+        "Male"
+      ],
+      "6": [
+        "OBC-NCL",
+        "SC",
+        "General"
+      ],
+      "7": [
+        "27.02.2024",
+        "28.03.2024",
+        "28.02.2024"
+      ],
+      "8": [
+        "Intern",
+        "Intern",
+        "Graduate Intern"
+      ],
+      "9": [
+        "Cadence",
+        "Dell Technologies",
+        "Dell Technologies"
+      ],
+      "10": [
+        "40K",
+        "45K",
+        "45K"
+      ],
+      "11": [
+        "Long Intern",
+        "Long Intern",
+        "Long Intern"
+      ]
+    }
+  },
+  "2020-24 and 2022-24 Batch_Placement Database.xlsx :: Summer internship": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Result Date",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "1.0",
+        "2.0",
+        "3.0"
+      ],
+      "2": [
+        "21111002.0",
+        "21111003.0",
+        "21111004.0"
+      ],
+      "3": [
+        "ABHISHEK MISHRA",
+        "ADARSH KUMAR",
+        "AMAN KUMAR"
+      ],
+      "4": [
+        "Bio Technology",
+        "Bio Technology",
+        "Bio Technology"
+      ],
+      "5": [
+        "M",
+        "M",
+        "M"
+      ],
+      "6": [
+        "GEN-EWS",
+        "General",
+        "General"
+      ],
+      "7": [],
+      "8": [],
+      "9": [],
+      "10": [],
+      "11": []
+    }
+  },
+  "2021-25 and 2023-25 Batch_Placement Database.xlsx :: Biotechnology": {
+    "header_row": 1,
+    "headers": {
+      "1": "Sr.no",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "20.0",
+        "21.0",
+        "17.0"
+      ],
+      "2": [
+        "21111025.0",
+        "21111015.0",
+        "21111020.0"
+      ],
+      "3": [
+        "KETHAVATH SANDEEP NAIK",
+        "CHIRAG JAIN",
+        "FAIZ AHMAD"
+      ],
+      "4": [
+        "Bio Technology",
+        "Bio Technology",
+        "Bio Technology"
+      ],
+      "5": [
+        "M",
+        "M",
+        "M"
+      ],
+      "6": [
+        "ST",
+        "GEN-EWS",
+        "OBC-NCL"
+      ],
+      "7": [
+        "Offcampus",
+        "Offcampus",
+        "Offcampus"
+      ],
+      "8": [
+        "-",
+        "-",
+        "-"
+      ],
+      "9": [
+        "Kisanwala Technology Pvt. ltd.",
+        "Astrotalk",
+        "Chainscore Finance Pvt. Ltd."
+      ],
+      "10": [
+        "6.0",
+        "8.0",
+        "8.0"
+      ],
+      "11": [
+        "Intern+PPO",
+        "Intern+PPO",
+        "Intern+PPO"
+      ]
+    }
+  },
+  "2021-25 and 2023-25 Batch_Placement Database.xlsx :: Chemical Engg": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "67.0",
+        "58.0",
+        "59.0"
+      ],
+      "2": [
+        "21112038.0",
+        "21112058.0",
+        "21112075.0"
+      ],
+      "3": [
+        "KAVYA GUPTA",
+        "PALAK GUPTA",
+        "SEJAL KOUNDAL"
+      ],
+      "4": [
+        "Chemical Engineering",
+        "Chemical Engineering",
+        "Chemical Engineering"
+      ],
+      "5": [
+        "F",
+        "F",
+        "F"
+      ],
+      "6": [
+        "General",
+        "General",
+        "OBC-NCL"
+      ],
+      "7": [
+        "Offcampus",
+        "09.08.2024",
+        "09.08.2024"
+      ],
+      "8": [
+        "-",
+        "Manager I, Operations",
+        "Manager I, Operations"
+      ],
+      "9": [
+        "Thrillophilla",
+        "Amazon",
+        "Amazon"
+      ],
+      "10": [
+        "-",
+        "15.12",
+        "15.12"
+      ],
+      "11": [
+        "Inter+PPO",
+        "Intern + PPO",
+        "Intern + PPO"
+      ]
+    }
+  },
+  "2021-25 and 2023-25 Batch_Placement Database.xlsx :: Civil Engg": {
+    "header_row": 1,
+    "headers": {
+      "1": "Sr.no",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "1.0",
+        "2.0",
+        "3.0"
+      ],
+      "2": [
+        "21102020.0",
+        "21102051.0",
+        "21102044.0"
+      ],
+      "3": [
+        "BALWINDER SINGH",
+        "NAVEEN SHARMA",
+        "MANISH"
+      ],
+      "4": [
+        "Civil Engineering",
+        "Civil Engineering",
+        "Civil Engineering"
+      ],
+      "5": [
+        "M",
+        "M",
+        "M"
+      ],
+      "6": [
+        "OBC-NCL",
+        "General",
+        "SC"
+      ],
+      "7": [
+        "06.11.2024",
+        "06.11.2024",
+        "7.05.2025"
+      ],
+      "8": [
+        "System Engineer",
+        "System Engineer",
+        "GET"
+      ],
+      "9": [
+        "Infosys",
+        "Infosys",
+        "Midas IT Solutions Pvt. Ltd."
+      ],
+      "10": [
+        "3.6",
+        "3.6",
+        "3.6"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2021-25 and 2023-25 Batch_Placement Database.xlsx :: Computer Engg": {
+    "header_row": 1,
+    "headers": {
+      "1": "Sr.no",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "101.0",
+        "93.0",
+        "94.0"
+      ],
+      "2": [
+        "21103158.0",
+        "21103013.0",
+        "21103116.0"
+      ],
+      "3": [
+        "VAIBHAV GAUTAM",
+        "AMRENDRA KUMAR",
+        "PRERNA JAISWAL"
+      ],
+      "4": [
+        "CSE",
+        "CSE",
+        "CSE"
+      ],
+      "5": [
+        "M",
+        "M",
+        "F"
+      ],
+      "6": [
+        "General",
+        "OBC-NCL",
+        "SC"
+      ],
+      "7": [
+        "06.11.2024",
+        "06.11.2024",
+        "06.11.2024"
+      ],
+      "8": [
+        "System Engineer",
+        "System Engineer",
+        "System Engineer"
+      ],
+      "9": [
+        "Infosys",
+        "Infosys",
+        "Infosys"
+      ],
+      "10": [
+        "3.6",
+        "3.6",
+        "3.6"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2021-25 and 2023-25 Batch_Placement Database.xlsx :: Electrical Engg": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "3.0",
+        "1.0",
+        "2.0"
+      ],
+      "2": [
+        "21126038.0",
+        "21106040.0",
+        "21126010.0"
+      ],
+      "3": [
+        "PIYUSH KUMAR",
+        "HARPREET SINGH",
+        "AVNASH KUMAR"
+      ],
+      "4": [
+        "Electrical Engineering",
+        "Electrical Engineering",
+        "Electrical Engineering"
+      ],
+      "5": [
+        "M",
+        "M",
+        "M"
+      ],
+      "6": [
+        "OBC-NCL",
+        "OBC-NCL",
+        "SC"
+      ],
+      "7": [
+        "06.11.2024",
+        "06.11.2024",
+        "06.11.2024"
+      ],
+      "8": [
+        "System Engineer",
+        "System Engineer",
+        "System Engineer"
+      ],
+      "9": [
+        "Infosys",
+        "Infosys",
+        "Infosys"
+      ],
+      "10": [
+        "3.6",
+        "3.6",
+        "3.6"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2021-25 and 2023-25 Batch_Placement Database.xlsx :: Electronics Engg": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "64.0",
+        "66.0",
+        "65.0"
+      ],
+      "2": [
+        "21104006.0",
+        "21104091.0",
+        "21104061.0"
+      ],
+      "3": [
+        "ABHISHEK KUMAR",
+        "SAIYAM SOOD",
+        "NAVDEEP JAJORIA"
+      ],
+      "4": [
+        "Electronics and Communication Engineering",
+        "Electronics and Communication Engineering",
+        "Electronics and Communication Engineering"
+      ],
+      "5": [
+        "M",
+        "M",
+        "M"
+      ],
+      "6": [
+        "OBC-NCL",
+        "General",
+        "SC"
+      ],
+      "7": [
+        "06.11.2024",
+        "06.11.2024",
+        "06.11.2024"
+      ],
+      "8": [
+        "System Engineer",
+        "System Engineer",
+        "System Engineer"
+      ],
+      "9": [
+        "Infosys",
+        "Infosys",
+        "Infosys"
+      ],
+      "10": [
+        "3.6",
+        "3.6",
+        "3.6"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2021-25 and 2023-25 Batch_Placement Database.xlsx :: Industrial Engg": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "6.0",
+        "81.0",
+        "4.0"
+      ],
+      "2": [
+        "21113056.0",
+        "21113057.0",
+        "21113054.0"
+      ],
+      "3": [
+        "MUSKAN",
+        "NANDHINI R",
+        "MEENAL SAINI"
+      ],
+      "4": [
+        "Industrial and Production Engineering",
+        "Industrial and Production Engineering",
+        "Industrial and Production Engineering"
+      ],
+      "5": [
+        "F",
+        "F",
+        "F"
+      ],
+      "6": [
+        "OBC-NCL",
+        "OBC-NCL",
+        "OBC-NCL"
+      ],
+      "7": [
+        "21.11.2024",
+        "offcampus",
+        "09.08.2024"
+      ],
+      "8": [
+        "Intern",
+        "-",
+        "Manager I, Operations"
+      ],
+      "9": [
+        "Anatech consulting",
+        "TATA 1MG Healthcare Solution",
+        "Amazon"
+      ],
+      "10": [
+        "3.6",
+        "4.5",
+        "15.12"
+      ],
+      "11": [
+        "Intern",
+        "Intern+PPO",
+        "Placed/Intern"
+      ]
+    }
+  },
+  "2021-25 and 2023-25 Batch_Placement Database.xlsx :: Instrumentation Engg": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "52.0",
+        "53.0",
+        "54.0"
+      ],
+      "2": [
+        "21106032.0",
+        "21106055.0",
+        "21106071.0"
+      ],
+      "3": [
+        "DHRUV YADAV",
+        "KULDEEP SINGH",
+        "NIKHIL SINGH"
+      ],
+      "4": [
+        "ICE",
+        "ICE",
+        "ICE"
+      ],
+      "5": [
+        "M",
+        "M",
+        "M"
+      ],
+      "6": [
+        "OBC-NCL",
+        "GEN-EWS",
+        "OBC-NCL"
+      ],
+      "7": [
+        "06.11.2024",
+        "06.11.2024",
+        "06.11.2024"
+      ],
+      "8": [
+        "System Engineer",
+        "System Engineer",
+        "System Engineer"
+      ],
+      "9": [
+        "Infosys",
+        "Infosys",
+        "Infosys"
+      ],
+      "10": [
+        "3.6",
+        "3.6",
+        "3.6"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2021-25 and 2023-25 Batch_Placement Database.xlsx :: Mechanical Engg": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "76.0",
+        "35.0",
+        "36.0"
+      ],
+      "2": [
+        "21109009.0",
+        "21109057.0",
+        "21109059.0"
+      ],
+      "3": [
+        "AKANKSHA KUMARI",
+        "KARANVEER KUMAR",
+        "KAVYA S"
+      ],
+      "4": [
+        "Mechanical Engineering",
+        "Mechanical Engineering",
+        "Mechanical Engineering"
+      ],
+      "5": [
+        "F",
+        "M",
+        "F"
+      ],
+      "6": [
+        "OBC-NCL",
+        "GEN-EWS",
+        "OBC-NCL"
+      ],
+      "7": [
+        "22.10.2024",
+        "06.11.2024",
+        "06.11.2024"
+      ],
+      "8": [
+        "System Engineer",
+        "System Engineer",
+        "System Engineer"
+      ],
+      "9": [
+        "SLB-Pvt",
+        "Infosys",
+        "Infosys"
+      ],
+      "10": [
+        "17.0",
+        "3.6",
+        "3.6"
+      ],
+      "11": [
+        "Intern",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2021-25 and 2023-25 Batch_Placement Database.xlsx :: Information Technology": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "46.0",
+        "47.0",
+        "48.0"
+      ],
+      "2": [
+        "21124008.0",
+        "21124020.0",
+        "21124071.0"
+      ],
+      "3": [
+        "ALOK VERMA",
+        "ARYAN SINGLA",
+        "NIKHIL SINGH"
+      ],
+      "4": [
+        "Information Technology",
+        "Information Technology",
+        "Information Technology"
+      ],
+      "5": [
+        "M",
+        "M",
+        "M"
+      ],
+      "6": [
+        "OBC-NCL",
+        "GEN-EWS",
+        "SC"
+      ],
+      "7": [
+        "06.11.2024",
+        "06.11.2024",
+        "06.11.2024"
+      ],
+      "8": [
+        "System Engineer",
+        "System Engineer",
+        "System Engineer"
+      ],
+      "9": [
+        "Infosys",
+        "Infosys",
+        "Infosys"
+      ],
+      "10": [
+        "3.6",
+        "3.6",
+        "3.6"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2021-25 and 2023-25 Batch_Placement Database.xlsx :: Textile Technology": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "27.0",
+        "28.0",
+        "29.0"
+      ],
+      "2": [
+        "21110038.0",
+        "21110015.0",
+        "21110042.0"
+      ],
+      "3": [
+        "GUGULOTH HINDUJA",
+        "ANGAD PARSHAD",
+        "HEMANT KUMAR"
+      ],
+      "4": [
+        "Textile Technology",
+        "Textile Technology",
+        "Textile Technology"
+      ],
+      "5": [
+        "F",
+        "M",
+        "M"
+      ],
+      "6": [
+        "ST",
+        "OBC-NCL",
+        "SC"
+      ],
+      "7": [
+        "14.11.2024",
+        "14.11.2024",
+        "14.11.2024"
+      ],
+      "8": [
+        "GET",
+        "GET",
+        "GET"
+      ],
+      "9": [
+        "NS Textile",
+        "NS Textile",
+        "NS Textile"
+      ],
+      "10": [
+        "3.5",
+        "3.5",
+        "3.5"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2021-25 and 2023-25 Batch_Placement Database.xlsx :: M.Sc": {
+    "header_row": 1,
+    "headers": {
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Date Result",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "2": [
+        "23311106.0",
+        "23311103.0",
+        "23311116.0"
+      ],
+      "3": [
+        "ANOKHI",
+        "ANJU",
+        "HIMANI DABRAL"
+      ],
+      "4": [
+        "Chemistry",
+        "Chemistry",
+        "Chemistry"
+      ],
+      "5": [
+        "Female",
+        "Female",
+        "Female"
+      ],
+      "6": [
+        "SC",
+        "OBC-NCL",
+        "General"
+      ],
+      "7": [
+        "22.12.2024",
+        "18.11.2024",
+        "18.11.2024"
+      ],
+      "8": [
+        "GET",
+        "Technical Trainee",
+        "Technical Trainee"
+      ],
+      "9": [
+        "Academor",
+        "IOLCP",
+        "IOLCP"
+      ],
+      "10": [
+        "6.0",
+        "6.0",
+        "6.0"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2021-25 and 2023-25 Batch_Placement Database.xlsx :: MBA": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Date Result",
+      "6": "Category",
+      "7": "Date",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "1.0",
+        "2.0",
+        "3.0"
+      ],
+      "2": [
+        "23701001.0",
+        "23701003.0",
+        "23701005.0"
+      ],
+      "3": [
+        "AKHIL VERMA",
+        "ANSHIKA",
+        "AYUSHI"
+      ],
+      "4": [
+        "MBA (Regular)",
+        "MBA (Regular)",
+        "MBA (Regular)"
+      ],
+      "5": [
+        "Male",
+        "Female",
+        "Female"
+      ],
+      "6": [
+        "General",
+        "General",
+        "EWS"
+      ],
+      "7": [
+        "04.02.2025",
+        "22.03.2025",
+        "06.03.2025"
+      ],
+      "8": [
+        "GET",
+        "Sales",
+        "ASP"
+      ],
+      "9": [
+        "Jayaswal Neco Industries Ltd.",
+        "Magnik India",
+        "Premier Tissues India Ltd."
+      ],
+      "10": [
+        "6.0",
+        "5.0",
+        "10.35"
+      ],
+      "11": [
+        "Placed",
+        "Placed",
+        "Placed"
+      ]
+    }
+  },
+  "2021-25 and 2023-25 Batch_Placement Database.xlsx :: M.Tech 2023-25": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Result Date",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "85.0",
+        "29.0",
+        "30.0"
+      ],
+      "2": [
+        "23903114.0",
+        "23203018.0",
+        "23203021.0"
+      ],
+      "3": [
+        "ALISHA",
+        "MUDDAM PRIYANKA",
+        "PAKEEJA"
+      ],
+      "4": [
+        "Computer Science & Engineering (Information Security)",
+        "Computer Science & Engineering",
+        "Computer Science & Engineering"
+      ],
+      "5": [
+        "Female",
+        "Female",
+        "Female"
+      ],
+      "6": [
+        "General",
+        "General",
+        "OBC-NCL"
+      ],
+      "7": [
+        "22.12.2024",
+        "6.02.2025",
+        "23.08.2024"
+      ],
+      "8": [
+        "GET",
+        "FTE",
+        "intern"
+      ],
+      "9": [
+        "Academor",
+        "HCL Tech",
+        "Intel"
+      ],
+      "10": [
+        "6.0",
+        "18LPA",
+        "45K"
+      ],
+      "11": [
+        "Placed",
+        "Long Intern",
+        "Long Intern"
+      ]
+    }
+  },
+  "2021-25 and 2023-25 Batch_Placement Database.xlsx :: 2022-26-Summer internship": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Result Date",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "241.0",
+        "302.0",
+        "352.0"
+      ],
+      "2": [
+        "22103027.0",
+        "22103091.0",
+        "22103142.0"
+      ],
+      "3": [
+        "ARPIT GARG",
+        "KUSHAL VITHAL",
+        "SOMESH SISODIA"
+      ],
+      "4": [
+        "Computer Science and Engineering",
+        "Computer Science and Engineering",
+        "Computer Science and Engineering"
+      ],
+      "5": [
+        "M",
+        "M",
+        "M"
+      ],
+      "6": [
+        "GEN-EWS",
+        "General",
+        "General"
+      ],
+      "7": [
+        "09.09.2024",
+        "09.09.2024",
+        "09.09.2024"
+      ],
+      "8": [
+        "Intern",
+        "Intern",
+        "Intern"
+      ],
+      "9": [
+        "Accenture",
+        "Accenture",
+        "Accenture"
+      ],
+      "10": [
+        "Unpaid",
+        "Unpaid",
+        "Unpaid"
+      ],
+      "11": [
+        "Intern",
+        "Intern",
+        "Intern"
+      ]
+    }
+  },
+  "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx :: M.Tech 2024-26": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Status",
+      "3": "Roll No.",
+      "4": "Name",
+      "5": "Branch",
+      "6": "Gender",
+      "7": "Category",
+      "8": "Result Date",
+      "9": "Profile",
+      "10": "Company",
+      "11": "Package",
+      "12": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "25.",
+        "1.",
+        "1."
+      ],
+      "2": [
+        "ACTIVE",
+        "ACTIVE",
+        "ACTIVE"
+      ],
+      "3": [
+        "24901325.0",
+        "24901301.0",
+        "24901301.0"
+      ],
+      "4": [
+        "SHUCHIKA SHARMA",
+        "AARUSHI",
+        "AARUSHI"
+      ],
+      "5": [
+        "ARTIFICIAL INTELLIGENCE",
+        "ARTIFICIAL INTELLIGENCE",
+        "ARTIFICIAL INTELLIGENCE"
+      ],
+      "6": [
+        "F",
+        "F",
+        "F"
+      ],
+      "7": [
+        "General",
+        "General",
+        "General"
+      ],
+      "8": [
+        "03.02.2025",
+        "19.11.2025",
+        "25.07.2025"
+      ],
+      "9": [
+        "Intern",
+        "Software Engineer",
+        "Data Science Trainee"
+      ],
+      "10": [
+        "Intel India",
+        "IBM Software",
+        "Mahindra Integrated Business Solution"
+      ],
+      "11": [
+        "50K",
+        "12.0",
+        "5.0"
+      ],
+      "12": [
+        "Intern + PPO",
+        "Intern+FTE",
+        "Intern + PPO"
+      ]
+    }
+  },
+  "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx :: Msc 2024-26": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Result Date",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "1.0",
+        "2.0",
+        "3.0"
+      ],
+      "2": [
+        "24311101.0",
+        "24311103.0",
+        "24311104.0"
+      ],
+      "3": [
+        "ANIMESH PRAJAPATI",
+        "ARJUN BINU",
+        "AYUSHI SALOTA"
+      ],
+      "4": [
+        "Chemistry",
+        "Chemistry",
+        "Chemistry"
+      ],
+      "5": [
+        "M",
+        "M",
+        "F"
+      ],
+      "6": [
+        "OBC-NCL",
+        "OBC-NCL",
+        "OBC-NCL"
+      ],
+      "7": [],
+      "8": [],
+      "9": [],
+      "10": [],
+      "11": []
+    }
+  },
+  "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx :: MBA 2024-26": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Status",
+      "3": "Roll No.",
+      "4": "Name",
+      "5": "Branch",
+      "6": "Gender",
+      "7": "Category",
+      "8": "Result Date",
+      "9": "Profile",
+      "10": "Company",
+      "11": "Package",
+      "12": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "1.",
+        "2.",
+        "3."
+      ],
+      "2": [
+        "ACTIVE",
+        "ACTIVE",
+        "ACTIVE"
+      ],
+      "3": [
+        "24701002.0",
+        "24701007.0",
+        "24701010.0"
+      ],
+      "4": [
+        "ABHISHEK SHARMA",
+        "DHRUV",
+        "GOURAV GOYAL"
+      ],
+      "5": [
+        "MBA",
+        "MBA",
+        "MBA"
+      ],
+      "6": [
+        "M",
+        "M",
+        "M"
+      ],
+      "7": [
+        "EWS",
+        "SC",
+        "General"
+      ],
+      "8": [],
+      "9": [],
+      "10": [],
+      "11": [],
+      "12": []
+    }
+  },
+  "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx :: B.Tech 2022-26": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Roll No.",
+      "3": "Name",
+      "4": "Branch",
+      "5": "Gender",
+      "6": "Category",
+      "7": "Result Date",
+      "8": "Profile",
+      "9": "Company",
+      "10": "Package",
+      "11": "FTE, Intern+FTE,Intern+PPO"
+    },
+    "sample_vals": {
+      "1": [
+        "439.0",
+        "226.0",
+        "646.0"
+      ],
+      "2": [
+        "22104002.0",
+        "22103010.0",
+        "22124011.0"
+      ],
+      "3": [
+        "ABHINAV",
+        "ALOK KUMAR",
+        "AMAN SINGH"
+      ],
+      "4": [
+        "Electronics and Communication Engineering",
+        "Computer Science and Engineering",
+        "Information Technology"
+      ],
+      "5": [
+        "M",
+        "M",
+        "M"
+      ],
+      "6": [
+        "General",
+        "GEN-EWS",
+        "General"
+      ],
+      "7": [
+        "22.11.2025",
+        "21.11.2025",
+        "25.08.2025"
+      ],
+      "8": [
+        "GET",
+        "Software Engineer",
+        "Associate Software Engineer"
+      ],
+      "9": [
+        "Globallogic",
+        "Samsung SRI",
+        "Oracle"
+      ],
+      "10": [
+        "7.5",
+        "14.0",
+        "21.89"
+      ],
+      "11": [
+        "FTE",
+        "Intern+FTE",
+        "Intern + FTE"
+      ]
+    }
+  },
+  "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx :: B.Tech 2023-27": {
+    "header_row": 1,
+    "headers": {
+      "1": "S. No.",
+      "2": "Branch",
+      "3": "Roll No.",
+      "4": "Name",
+      "5": "Gender",
+      "6": "Category",
+      "7": "PwD",
+      "8": "Result Date",
+      "9": "Profile",
+      "10": "Company",
+      "11": "Stipend",
+      "12": "Student Status"
+    },
+    "sample_vals": {
+      "1": [
+        "214.0",
+        "238.0",
+        "247.0"
+      ],
+      "2": [
+        "Computer Science and Engineering",
+        "Computer Science and Engineering",
+        "Computer Science and Engineering"
+      ],
+      "3": [
+        "23103001.0",
+        "23103136.0",
+        "23106065.0"
+      ],
+      "4": [
+        "AASHNA SHARMA",
+        "SHRADDHA GUPTA",
+        "NIREKITA"
+      ],
+      "5": [
+        "F",
+        "F",
+        "F"
+      ],
+      "6": [
+        "General",
+        "GEN-EWS",
+        "SC"
+      ],
+      "7": [
+        "No",
+        "No",
+        "No"
+      ],
+      "8": [
+        "07.08.2025",
+        "07.08.2025",
+        "07.08.2025"
+      ],
+      "9": [
+        "Management Trainee",
+        "Management Trainee",
+        "Management Trainee"
+      ],
+      "10": [
+        "American Express",
+        "American Express",
+        "American Express"
+      ],
+      "11": [
+        "125K",
+        "125K",
+        "125K"
+      ],
+      "12": [
+        "Summer Intern",
+        "Summer Intern",
+        "Summer Intern"
+      ]
+    }
+  }
+}

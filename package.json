@@ -1,0 +1,27 @@
+{
+  "name": "nitj-placement-intelligent-assistant",
+  "version": "1.0.0",
+  "description": "An Intelligent Assistant for NITJ Training & Placement (Express.js + React + SQLite + RAG)",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "eval": "python eval/run_eval.py",
+    "eval:all": "python eval/run_eval.py --all",
+    "eval:fuzz": "python eval/fuzz.py --eval",
+    "eval:heldout": "python eval/fuzz.py --heldout",
+    "test:planner": "python -m scripts.test_planner_eval"
+  },
+  "keywords": [
+    "nitj",
+    "placement",
+    "chatbot",
+    "text-to-sql",
+    "rag",
+    "react",
+    "express"
+  ],
+  "author": "NITJ B.Tech Major Project",
+  "license": "ISC"
+}

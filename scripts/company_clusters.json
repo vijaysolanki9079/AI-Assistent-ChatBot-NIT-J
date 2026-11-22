@@ -1,0 +1,667 @@
+{
+  "total_distinct": 543,
+  "top_companies": [
+    [
+      "Amazon",
+      95
+    ],
+    [
+      "Intel India",
+      63
+    ],
+    [
+      "Infosys",
+      55
+    ],
+    [
+      "Genpact next Gen",
+      52
+    ],
+    [
+      "MAQ Software",
+      50
+    ],
+    [
+      "Reliance Industries Limited",
+      46
+    ],
+    [
+      "Optum",
+      46
+    ],
+    [
+      "Globallogic",
+      41
+    ],
+    [
+      "Microsoft",
+      40
+    ],
+    [
+      "Honeywell",
+      39
+    ],
+    [
+      "L&T",
+      37
+    ],
+    [
+      "Aarti Industires Limited",
+      31
+    ],
+    [
+      "NXP",
+      31
+    ],
+    [
+      "Intel",
+      30
+    ],
+    [
+      "Maruti Suzuki India",
+      28
+    ],
+    [
+      "BPCL",
+      28
+    ],
+    [
+      "Oracle",
+      27
+    ],
+    [
+      "Accenture",
+      26
+    ],
+    [
+      "HCL Tech",
+      25
+    ],
+    [
+      "Reliance",
+      25
+    ],
+    [
+      "Subros Limited",
+      22
+    ],
+    [
+      "Flipkart",
+      22
+    ],
+    [
+      "Mphasis",
+      21
+    ],
+    [
+      "Academor",
+      20
+    ],
+    [
+      "Bharat Petroleum Corporation Ltd",
+      20
+    ],
+    [
+      "Reliance Industries Ltd.",
+      20
+    ],
+    [
+      "Accenutre",
+      19
+    ],
+    [
+      "Zomato",
+      18
+    ],
+    [
+      "Teachnook",
+      18
+    ],
+    [
+      "Dell Technologies",
+      18
+    ]
+  ],
+  "clusters": {
+    "alleneducation": [
+      [
+        "Allen Education",
+        2
+      ],
+      [
+        "Allen  Education",
+        2
+      ]
+    ],
+    "relianceindustries": [
+      [
+        "Reliance Industries Limited",
+        46
+      ],
+      [
+        "Reliance Industries Ltd.",
+        20
+      ]
+    ],
+    "lt": [
+      [
+        "L&T Limited",
+        15
+      ],
+      [
+        "L&T",
+        37
+      ],
+      [
+        "L&T Ltd.",
+        2
+      ]
+    ],
+    "delhivery": [
+      [
+        "Delhivery Limited",
+        14
+      ],
+      [
+        "Delhivery",
+        9
+      ]
+    ],
+    "technipenergies": [
+      [
+        "Technip Energies",
+        3
+      ],
+      [
+        "TechnipEnergies",
+        14
+      ]
+    ],
+    "tataconsultingengineers": [
+      [
+        "TATA Consulting Engineers Limited",
+        5
+      ],
+      [
+        "Tata Consulting Engineers Ltd.",
+        1
+      ]
+    ],
+    "oracle": [
+      [
+        "Oracle India",
+        11
+      ],
+      [
+        "Oracle",
+        27
+      ]
+    ],
+    "careinsurance": [
+      [
+        "Care Insurance",
+        1
+      ],
+      [
+        "care insurance",
+        2
+      ]
+    ],
+    "optum": [
+      [
+        "Optum India",
+        8
+      ],
+      [
+        "Optum",
+        46
+      ]
+    ],
+    "hcltech": [
+      [
+        "HCL Tech",
+        25
+      ],
+      [
+        "HCL TECh",
+        3
+      ]
+    ],
+    "cvent": [
+      [
+        "Cvent India",
+        3
+      ],
+      [
+        "Cvent",
+        16
+      ]
+    ],
+    "cdac": [
+      [
+        "C-DAC",
+        7
+      ],
+      [
+        "CDAC",
+        1
+      ]
+    ],
+    "nvidia": [
+      [
+        "Nvidia",
+        3
+      ],
+      [
+        "NVIDIA",
+        2
+      ]
+    ],
+    "servicenow": [
+      [
+        "Servicenow India",
+        1
+      ],
+      [
+        "Servicenow",
+        1
+      ]
+    ],
+    "google": [
+      [
+        "Google India",
+        2
+      ],
+      [
+        "Google",
+        8
+      ]
+    ],
+    "cisco": [
+      [
+        "Cisco",
+        5
+      ],
+      [
+        "CISCO",
+        1
+      ],
+      [
+        "CiSCO",
+        1
+      ]
+    ],
+    "futurefirst": [
+      [
+        "Future First",
+        10
+      ],
+      [
+        "future first",
+        1
+      ],
+      [
+        "Future first",
+        1
+      ]
+    ],
+    "heromotorcorp": [
+      [
+        "Hero MotorCorp",
+        10
+      ],
+      [
+        "Hero Motor Corp",
+        1
+      ]
+    ],
+    "intel": [
+      [
+        "Intel",
+        30
+      ],
+      [
+        "Intel India",
+        63
+      ]
+    ],
+    "godigit": [
+      [
+        "GoDigit",
+        1
+      ],
+      [
+        "Godigit",
+        3
+      ]
+    ],
+    "jungleworks": [
+      [
+        "Jungle works",
+        3
+      ],
+      [
+        "Jungleworks",
+        6
+      ],
+      [
+        "Jungle Works",
+        1
+      ]
+    ],
+    "marutisuzuki": [
+      [
+        "Maruti Suzuki India",
+        28
+      ],
+      [
+        "Maruti Suzuki",
+        1
+      ],
+      [
+        "Maruti Suzuki India Pvt. Ltd.",
+        5
+      ]
+    ],
+    "vardhmantextile": [
+      [
+        "Vardhman Textile Limited",
+        1
+      ],
+      [
+        "Vardhman Textile",
+        4
+      ]
+    ],
+    "accolite": [
+      [
+        "Accolite India",
+        3
+      ],
+      [
+        "Accolite",
+        1
+      ]
+    ],
+    "bharatpetroleumcorporation": [
+      [
+        "Bharat Petroleum Corporation Limited",
+        10
+      ],
+      [
+        "Bharat Petroleum Corporation Ltd",
+        20
+      ],
+      [
+        "Bharat Petroleum Corporation",
+        8
+      ],
+      [
+        "Bharat Petroleum Corporation Ltd.",
+        1
+      ]
+    ],
+    "nayaraenergy": [
+      [
+        "Nayara Energy Limited",
+        8
+      ],
+      [
+        "Nayara Energy limited",
+        2
+      ]
+    ],
+    "hpclmittalenergy": [
+      [
+        "HPCL Mittal Energy Limited",
+        3
+      ],
+      [
+        "HPCL-Mittal Energy Limited",
+        18
+      ]
+    ],
+    "arvind": [
+      [
+        "Arvind Limited",
+        1
+      ],
+      [
+        "Arvind Pvt Ltd",
+        5
+      ],
+      [
+        "Arvind",
+        1
+      ]
+    ],
+    "texfasteners": [
+      [
+        "Tex Fasteners",
+        1
+      ],
+      [
+        "Texfasteners",
+        2
+      ]
+    ],
+    "philips": [
+      [
+        "Philips",
+        17
+      ],
+      [
+        "philips",
+        2
+      ]
+    ],
+    "tatamotors": [
+      [
+        "Tata Motors Limited",
+        9
+      ],
+      [
+        "Tata Motors",
+        16
+      ]
+    ],
+    "amd": [
+      [
+        "AMD India Pvt. ltd.",
+        1
+      ],
+      [
+        "AMD",
+        1
+      ]
+    ],
+    "equilibriumsolutions": [
+      [
+        "Equilibrium Solutions Pvt. Ltd",
+        2
+      ],
+      [
+        "Equilibrium Solutions",
+        2
+      ]
+    ],
+    "mediatek": [
+      [
+        "MediaTek",
+        3
+      ],
+      [
+        "Media Tek",
+        2
+      ],
+      [
+        "Mediatek",
+        1
+      ]
+    ],
+    "nxp": [
+      [
+        "NXP India Limited",
+        7
+      ],
+      [
+        "NXP",
+        31
+      ]
+    ],
+    "samsungsemiconductor": [
+      [
+        "Samsung Semiconductor India",
+        2
+      ],
+      [
+        "Samsung Semi Conductor",
+        3
+      ]
+    ],
+    "bureauofnstandards": [
+      [
+        "Bureau of Indian standards",
+        3
+      ],
+      [
+        "Bureau of Indian Standards",
+        17
+      ]
+    ],
+    "schoolhackfzllc": [
+      [
+        "School Hack FZLLC",
+        1
+      ],
+      [
+        "School Hack FZ-LLC",
+        1
+      ]
+    ],
+    "srf": [
+      [
+        "SRF Ltd",
+        2
+      ],
+      [
+        "SRF",
+        1
+      ],
+      [
+        "SRF Limited",
+        2
+      ]
+    ],
+    "samsungrd": [
+      [
+        "Samsung   R&D",
+        1
+      ],
+      [
+        "Samsung R&D",
+        6
+      ]
+    ],
+    "e2open": [
+      [
+        "E2open",
+        2
+      ],
+      [
+        "e2open",
+        2
+      ]
+    ],
+    "mondelez": [
+      [
+        "Mondelez",
+        4
+      ],
+      [
+        "Mondelez India",
+        1
+      ]
+    ],
+    "infineon": [
+      [
+        "Infineon",
+        3
+      ],
+      [
+        "Infineon India",
+        7
+      ]
+    ],
+    "proximasteelforge": [
+      [
+        "Proxima Steel Forge Pvt. Ltd.",
+        8
+      ],
+      [
+        "Proxima Steel Forge Pvt. ltd.",
+        1
+      ]
+    ],
+    "hondacars": [
+      [
+        "Honda Cars India Ltd",
+        2
+      ],
+      [
+        "Honda Cars",
+        7
+      ]
+    ],
+    "trident": [
+      [
+        "Trident",
+        7
+      ],
+      [
+        "TRIDENT",
+        1
+      ]
+    ],
+    "bittobyterobotics": [
+      [
+        "Bit to Byte robotics",
+        1
+      ],
+      [
+        "Bit TO Byte Robotics",
+        1
+      ]
+    ],
+    "zscaller": [
+      [
+        "Zscaller",
+        3
+      ],
+      [
+        "ZScaller",
+        1
+      ]
+    ],
+    "airliquide": [
+      [
+        "Air liquide",
+        1
+      ],
+      [
+        "Airliquide",
+        2
+      ]
+    ],
+    "larsentoubro": [
+      [
+        "Larsen & Toubro Ltd.",
+        16
+      ],
+      [
+        "Larsen & Toubro Ltd",
+        5
+      ]
+    ]
+  }
+}

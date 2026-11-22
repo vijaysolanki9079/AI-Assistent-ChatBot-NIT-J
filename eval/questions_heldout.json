@@ -1,0 +1,310 @@
+[
+  {
+    "id": "HELD_01",
+    "question": "Salary of Tesla",
+    "category": "unanswerable_never_visited",
+    "gold": {
+      "status": "no_data",
+      "keyword": "no records"
+    },
+    "notes": "Tesla has never visited NITJ"
+  },
+  {
+    "id": "HELD_02",
+    "question": "Placement of Civil in 2030",
+    "category": "unanswerable_future",
+    "gold": {
+      "status": "out_of_scope"
+    },
+    "notes": "Future cohort 2030 is out of scope"
+  },
+  {
+    "id": "HELD_03",
+    "question": "Will I get placed at Google?",
+    "category": "unanswerable_speculative",
+    "gold": {
+      "status": "out_of_scope"
+    },
+    "notes": "Speculative individual outcome"
+  },
+  {
+    "id": "HELD_04",
+    "question": "Placement stats of IIT Delhi",
+    "category": "unanswerable_external",
+    "gold": {
+      "status": "out_of_scope"
+    },
+    "notes": "External institution out of scope"
+  },
+  {
+    "id": "HELD_05",
+    "question": "Package for 2019 batch",
+    "category": "unanswerable_historical",
+    "gold": {
+      "status": "no_data"
+    },
+    "notes": "Cohort 2019 not in records"
+  },
+  {
+    "id": "HELD_06",
+    "question": "Companies that hired both CSE and ECE above 15 LPA",
+    "category": "multi_condition",
+    "gold": {
+      "companies": [
+        "Amazon",
+        "Microsoft",
+        "Google",
+        "Oracle",
+        "Nvidia",
+        "Texas Instruments"
+      ]
+    },
+    "notes": "Hired both CSE and ECE with CTC > 15 LPA"
+  },
+  {
+    "id": "HELD_07",
+    "question": "Which branches were never hired by PayPal?",
+    "category": "negative_existence",
+    "gold": {
+      "never_hired": [
+        "IT",
+        "ECE",
+        "EE",
+        "ME",
+        "CE",
+        "CHE",
+        "IPE",
+        "ICE",
+        "BT",
+        "TT"
+      ]
+    },
+    "notes": "PayPal hired only CSE"
+  },
+  {
+    "id": "HELD_08",
+    "question": "Nvidia package",
+    "category": "data_quality_stipend_vs_ctc",
+    "gold": {
+      "ctc": 25.0,
+      "stipend": 75000
+    },
+    "notes": "Distinguish 25 LPA CTC vs 75K/mo stipend"
+  },
+  {
+    "id": "HELD_09",
+    "question": "Average package including interns",
+    "category": "data_quality_ctc_refusal",
+    "gold": {
+      "note": "refuse to mix monthly stipend with annual CTC"
+    },
+    "notes": "FTE CTC only"
+  },
+  {
+    "id": "HELD_10",
+    "question": "Total placed students in 2020-24",
+    "category": "batch_aggregate",
+    "gold": {
+      "placed_students": 716
+    },
+    "notes": "Institute-wide placed count in 2020-24"
+  },
+  {
+    "id": "HELD_11",
+    "question": "micorsoft package cse",
+    "category": "typo_company",
+    "gold": {
+      "company": "Microsoft",
+      "branch": "CSE",
+      "package": 52.0
+    },
+    "notes": "Typo micorsoft -> Microsoft"
+  },
+  {
+    "id": "HELD_12",
+    "question": "amazn avg ctc",
+    "category": "typo_company",
+    "gold": {
+      "company": "Amazon"
+    },
+    "notes": "Typo amazn -> Amazon"
+  },
+  {
+    "id": "HELD_13",
+    "question": "goldman sach package",
+    "category": "typo_company",
+    "gold": {
+      "company": "Goldman Sachs",
+      "package": 24.0
+    },
+    "notes": "goldman sach -> Goldman Sachs"
+  },
+  {
+    "id": "HELD_14",
+    "question": "Accenture package",
+    "category": "alias_normalization",
+    "gold": {
+      "company": "Accenture",
+      "packages": [
+        4.5,
+        6.5
+      ]
+    },
+    "notes": "Accenture packages"
+  },
+  {
+    "id": "HELD_15",
+    "question": "Intel hires",
+    "category": "alias_normalization",
+    "gold": {
+      "company": "Intel",
+      "placed_students": 4
+    },
+    "notes": "Intel India / Intel Technology merged"
+  },
+  {
+    "id": "HELD_16",
+    "question": "what is avg pacakge of cse in 2020-2024",
+    "category": "fuzzed_typo",
+    "gold": {
+      "branch": "CSE",
+      "batch": "2020-2024",
+      "avg": 14.44
+    },
+    "notes": "Held-out test case: what is avg pacakge of cse in 2020-2024"
+  },
+  {
+    "id": "HELD_17",
+    "question": "how many offers wer made by oracle in ece",
+    "category": "fuzzed_typo",
+    "gold": {
+      "company": "Oracle",
+      "branch": "ECE"
+    },
+    "notes": "Held-out test case: how many offers wer made by oracle in ece"
+  },
+  {
+    "id": "HELD_18",
+    "question": "tell me median ctc of mechanical engg",
+    "category": "fuzzed_query",
+    "gold": {
+      "branch": "ME"
+    },
+    "notes": "Held-out test case: tell me median ctc of mechanical engg"
+  },
+  {
+    "id": "HELD_19",
+    "question": "which compny gave max offers in 2021-25",
+    "category": "fuzzed_typo",
+    "gold": {
+      "batch": "2021-2025"
+    },
+    "notes": "Held-out test case: which compny gave max offers in 2021-25"
+  },
+  {
+    "id": "HELD_20",
+    "question": "give all offers count in chemical",
+    "category": "fuzzed_query",
+    "gold": {
+      "branch": "CHE"
+    },
+    "notes": "Held-out test case: give all offers count in chemical"
+  },
+  {
+    "id": "HELD_21",
+    "question": "hwo many gurls placed in cse",
+    "category": "fuzzed_gender",
+    "gold": {
+      "branch": "CSE",
+      "gender": "F"
+    },
+    "notes": "Held-out test case: hwo many gurls placed in cse"
+  },
+  {
+    "id": "HELD_22",
+    "question": "highest ctc in instrumentation",
+    "category": "fuzzed_branch",
+    "gold": {
+      "branch": "ICE"
+    },
+    "notes": "Held-out test case: highest ctc in instrumentation"
+  },
+  {
+    "id": "HELD_23",
+    "question": "lowest ctc in civil engg",
+    "category": "fuzzed_query",
+    "gold": {
+      "branch": "CE"
+    },
+    "notes": "Held-out test case: lowest ctc in civil engg"
+  },
+  {
+    "id": "HELD_24",
+    "question": "total compnies that came in 2022-26",
+    "category": "fuzzed_typo",
+    "gold": {
+      "batch": "2022-2026"
+    },
+    "notes": "Held-out test case: total compnies that came in 2022-26"
+  },
+  {
+    "id": "HELD_25",
+    "question": "optum hires in it",
+    "category": "short_lookup",
+    "gold": {
+      "company": "Optum",
+      "branch": "IT"
+    },
+    "notes": "Held-out test case: optum hires in it"
+  },
+  {
+    "id": "HELD_26",
+    "question": "qualcomm package for ece",
+    "category": "short_lookup",
+    "gold": {
+      "company": "Qualcomm",
+      "branch": "ECE"
+    },
+    "notes": "Held-out test case: qualcomm package for ece"
+  },
+  {
+    "id": "HELD_27",
+    "question": "samsung ctc for cse",
+    "category": "short_lookup",
+    "gold": {
+      "company": "Samsung",
+      "branch": "CSE"
+    },
+    "notes": "Held-out test case: samsung ctc for cse"
+  },
+  {
+    "id": "HELD_28",
+    "question": "flipkart offers in it",
+    "category": "short_lookup",
+    "gold": {
+      "company": "Flipkart",
+      "branch": "IT"
+    },
+    "notes": "Held-out test case: flipkart offers in it"
+  },
+  {
+    "id": "HELD_29",
+    "question": "texas instruments hires in ee",
+    "category": "short_lookup",
+    "gold": {
+      "company": "Texas Instruments",
+      "branch": "EE"
+    },
+    "notes": "Held-out test case: texas instruments hires in ee"
+  },
+  {
+    "id": "HELD_30",
+    "question": "deloitte hiring in ipe",
+    "category": "short_lookup",
+    "gold": {
+      "company": "Deloitte",
+      "branch": "IPE"
+    },
+    "notes": "Held-out test case: deloitte hiring in ipe"
+  }
+]

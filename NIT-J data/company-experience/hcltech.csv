@@ -1,0 +1,307 @@
+"company_name","title","author","date","body","entry_id","scraped_at"
+"hcltech","Untitled","ARCHITA AGGARWAL","20 Oct 2026","HCL Tech
+
+By: Archita Aggarwal
+
+Berribot Interview: An AI-driven bot conducted an interview based on my resume, projects, and technical expertise. Candidates who cleared this round were shortlisted for the hackathon.
+
+Hackathon: Teams of 3–5 members were assigned a use case and given approximately 6 hours to build an MVP. The first hour was dedicated to preparing the design document, followed by the development phase. Evaluators visited the teams every 30–40 minutes to review progress and ask questions related to DBMS, Computer science fundamentals and individual contributions. The use of AI tools was permitted throughout the process.
+
+Technical Evaluation: A senior professional assessed the project implementation, overall solution, and our understanding of the technical concepts involved.
+
+HR Interview: The final round focused on communication skills, career aspirations, and motivation for joining HCLTech.","87c0e1273218fd7bf2781b0bab44d4fcb3d35112062263ff30c3f860ebc6141c","2026-10-21T06:43:46+00:00"
+"hcltech","Untitled","YOGESH GOYAL","17 Oct 2026","My HCLTech Placement Experience
+
+I am happy to share my placement experience with HCLTech. The selection process consisted of two rounds. The first round was an AI-based interview, which assessed my communication skills, technical knowledge, and problem-solving approach. It was important to understand the questions carefully and answer confidently and clearly.
+
+The second round was a hackathon, where we had the opportunity to work on a practical problem statement and demonstrate our technical and development skills. I worked on the backend implementation, which involved understanding the requirements, designing the functionality, and implementing features related to ticket management and admin operations. This round helped me apply my technical knowledge in a practical setting and understand the importance of teamwork, time management, and problem-solving.
+
+Overall, the selection process was a valuable learning experience. My advice to future candidates is to strengthen their fundamentals, practise explaining their projects, improve communication skills, and gain hands-on experience with real-world development tasks. Stay confident, be honest about your knowledge, and focus on learning throughout the process.","c4b35a93b07a47b73d655c6cc7d01b396d291a71a837e43221dd940c193b4785","2026-10-21T06:44:50+00:00"
+"hcltech","Untitled","ADE SIDDARTHA NAIK","16 Oct 2026","The HCLTech recruitment process consisted of four rounds:
+
+1. Berribot Interview: An AI-powered bot asked questions based on my resume, projects, and technical skills.
+
+2. Hackathon: Teams of 4 members were given a use case to develop an MVP within approximately 6 hours. The first hour was allocated to preparing the design document, followed by implementation. Evaluators visited every 30–40 minutes to assess project progress and ask questions about DSA, OS, computer science fundamentals, system design, and individual contributions. All AI tools were allowed.
+
+3. Technical Evaluation: A senior professional evaluated the project, its implementation, and our technical understanding.
+
+4. HR Interview: The final round focused on communication skills, career goals, and motivation to join HCLTech.It was non eliminatory","1f54198606c1ecdd9c7a30826469d30535bf9568f8b0a5339bee84a9f2c871a4","2026-10-21T06:45:28+00:00"
+"hcltech","HCL Tech","SHIVESH YADAV","16 Oct 2026","The HCLTech recruitment process consisted of four rounds:
+
+1. Berribot Interview: An AI-powered bot asked questions based on my resume, projects, and technical skills.
+
+2. Hackathon: Teams of 3–5 members were given a use case to develop an MVP within approximately 6 hours. The first hour was allocated to preparing the design document, followed by implementation. Evaluators visited every 30–40 minutes to assess project progress and ask questions about DSA, OS, computer science fundamentals, system design, and individual contributions. All AI tools were allowed.
+
+3. Technical Evaluation: A senior professional evaluated the project, its implementation, and our technical understanding.
+
+4. HR Interview: The final round focused on communication skills, career goals, and motivation to join HCLTech.It was non eliminatory","4f50672779917176e0178a7db8fc5b714beb0eb5805453b1646e7cdfc0ccc397","2026-10-21T06:45:33+00:00"
+"hcltech","HCL Tech","SHUBHAM RANJAN","13 Oct 2026","Berribot Interview: An AI-driven bot conducted an interview based on my resume, projects, and technical expertise. Candidates who cleared this round were shortlisted for the hackathon.
+
+Hackathon: Teams of 3–5 members were assigned a use case and given approximately 6 hours to build an MVP. The first hour was dedicated to preparing the design document, followed by the development phase. Evaluators visited the teams every 30–40 minutes to review progress and ask questions related to DSA, Operating Systems, computer science fundamentals, system design, and individual contributions. The use of AI tools was permitted throughout the process.
+
+Technical Evaluation: A senior professional assessed the project implementation, overall solution, and our understanding of the technical concepts involved.
+
+HR Interview: The final round focused on communication skills, career aspirations, and motivation for joining HCLTech.","324d30129c1b584ed322f4d9a111e145c6fbbfd17a2bbea8592e6809cff8dd3e","2026-10-21T06:47:07+00:00"
+"hcltech","HCL Tech","SUKHPREET SINGH","13 Oct 2026","HCL Tech
+
+It was a full day hackathon. The panelists were helpful. They assesed individual as well as team contributions to the final product.","9db32e9cf99dfde4e5041f38f4e3674ffdd95a44d6c6b34cae2f555830f85ee1","2026-10-21T06:47:10+00:00"
+"hcltech","HCLTech Hiring Process Experience – AI Engineer Role","ARNAV RAJVANSHI","13 Oct 2026","The HCLTech hiring process consisted of two rounds: an AI-based interview conducted through Berribot, followed by a hackathon.
+
+Round 1: AI Interview (Berribot)
+
+The first round was an AI-driven interview designed to assess core IT fundamentals, programming knowledge, and problem-solving abilities. The questions ranged from easy to intermediate difficulty and covered fundamental IT concepts, along with coding questions in Python and SQL. Overall, the round tested both theoretical understanding and practical programming skills.
+
+Round 2: Hackathon
+
+The second round was a hackathon that simulated a corporate product development environment. For the AI Engineer role, the hackathon featured three use cases centered on multi-agent architectures using LangGraph and Retrieval-Augmented Generation (RAG) pipelines. Participants were required to develop solutions while following a structured software development lifecycle.
+
+The process included three project presentations at different stages of development, during which participants had to explain their approach, demonstrate progress, and justify their implementation and design decisions.
+
+In addition to project development, participants were evaluated on their understanding of the fundamentals of RAG, agentic systems, and AI. This assessment focused on the underlying concepts behind the solutions, including how RAG pipelines work, how AI agents interact and coordinate tasks, and the principles guiding the design of AI-driven systems. Thus, the hackathon assessed both the ability to build functional solutions and the conceptual understanding required to design them effectively.
+
+Overall Experience
+
+The hiring process combined a fundamental technical assessment with practical AI solution development. While the Berribot interview focused on core IT knowledge and programming proficiency, the hackathon evaluated technical implementation, conceptual clarity in AI and agentic architectures, and the ability to follow a structured development lifecycle. Overall, it was a valuable experience that offered insight into how AI-driven products are developed, evaluated, and presented in a professional environment.","b0d756e4ee7e7ca94517210b8a669325a798281e8d1f02025562a4d10e1a99d9","2026-10-21T06:47:20+00:00"
+"hcltech","HCLTech Interview Experience","MOHIT RANJAN","12 Oct 2026","My HCLTech selection process was divided into three major stages: the AI Interview on BerryBot, the Hackathon Round, and the HR Round.
+
+1. AI Interview – BerryBot
+
+Before the hackathon, we had an AI-based interview on the BerryBot platform.
+
+The interview was mainly based on my resume, projects, technical skills, and previous experiences. The AI asked questions related to the technologies and projects mentioned in my resume and also asked follow-up questions based on my responses.
+
+So, my suggestion for this round is to prepare your resume properly. You should be able to explain every project, technology, internship, and skill that you have mentioned.
+
+After the BerryBot interview, shortlisted candidates were selected for the next stage, which was the HCLTech Hackathon.
+
+2. HCLTech Hackathon Experience
+
+The hackathon started at around 10:00 AM. At the beginning, we were given a problem statement and approximately one hour for design thinking and solution planning.
+
+During this one hour, our team discussed the complete approach, architecture, workflow, technologies, and models that we planned to use. We prepared a PPT explaining our proposed solution.
+
+The evaluators were continuously interacting with the teams during the hackathon. They would come to our table, check our progress, ask what we were working on, understand our approach, and also ask whether we required any help.
+
+After approximately one hour, we presented our design and PPT to the evaluators. They asked several questions regarding our solution. A major focus was on the technical choices.
+
+For example, they asked questions such as:
+
+- Why are you using this particular technology?
+
+- Why did you select this model?
+
+- Why this model instead of another model?
+
+- What would be the difference if you used another approach?
+
+- Why is your proposed tech stack suitable for this problem?
+
+They sometimes intentionally cross-questioned us to check whether we actually understood the technologies we were proposing or were simply mentioning them.
+
+After our design was approved, we were asked to start implementing the solution.
+
+During the implementation phase, another evaluator came and asked me several Machine Learning and AI fundamentals, including topics such as:
+
+- Bias and Variance
+
+- BM25
+
+- Embeddings
+
+- Chunking
+
+- RAG
+
+- Basic Machine Learning concepts
+
+These questions were also part of the evaluation and marks were given based on our answers.
+
+Later, another evaluator came for a progress review. He asked us to explain:
+
+- What we had implemented
+
+- How the solution was working
+
+- What technologies we had used
+
+- How different components were connected
+
+He also asked me a SQL question during the interaction.
+
+The hackathon continued with multiple reviews like this, where evaluators checked both our technical knowledge and our implementation progress.
+
+At around 4:00 PM, we were called for the final demonstration on the third floor of the library.
+
+During the final presentation, we demonstrated the complete working solution. We showed different test cases, explained the overall workflow, demonstrated the features we had implemented, and answered questions related to our solution.
+
+The evaluators also asked a few questions regarding our code and implementation.
+
+After the final demonstration, they told us that our evaluation was complete and we could leave.
+
+3. HR Round
+
+Approximately one hour after the hackathon, I received a call for the HR Round.
+
+The HR round was comparatively simple and conversational. They asked basic questions such as:
+
+- Tell me about yourself.
+
+- What is your name?
+
+- Where are you from?
+
+- Questions related to my background.
+
+- General HR and personality-related questions.
+
+My suggestion is to prepare at least one good question to ask the HR at the end of the interview. It creates a good impression and shows that you are genuinely interested in the organization and the role.
+
+My Suggestions for Future Candidates
+
+The most important thing during the hackathon and interview is to communicate confidently and clearly.
+
+Even if you do not know everything, do not become silent or nervous. Be open and explain whatever you understand. If you know something, present it properly and confidently.
+
+During a hackathon, technical knowledge is important, but your ability to present your solution, explain your decisions, communicate with evaluators, and handle cross-questions is equally important.
+
+You should be able to market your skills properly. The evaluators can only understand your capabilities if you explain what you have done and why you have done it.
+
+So, during the hackathon:
+
+- Be active and communicate with the evaluators.
+
+- Clearly explain your contribution.
+
+- Know the reason behind every technology and model you use.
+
+- Be prepared for cross-questioning.
+
+- Revise basic ML, AI, SQL, RAG, and project-related concepts.
+
+- Prepare your resume thoroughly for the AI interview.
+
+- Present your final solution with proper test cases.
+
+- Stay confident even if you do not know the answer to every question.
+
+- Prepare one meaningful question for the HR round.
+
+Overall, the HCLTech process was not only about building a solution. They were evaluating our technical fundamentals, problem-solving approach, communication skills, teamwork, implementation ability, and confidence throughout the process.","891c2d7b32a7cba36301b3b558b25ad76343c12fdb45db6fc8ab11548bbdf944","2026-10-21T06:47:27+00:00"
+"hcltech","Write Title Here...","AVINASH KUMAR","12 Oct 2026","My HCLTech AI Engineer Selection Experience | Interview & Hackathon
+
+I had a wonderful experience throughout the HCLTech selection process for the AI Engineer role. The interview was very good, and the interviewers were supportive and professional, making the overall experience comfortable and interactive.
+
+The hackathon was one of the most valuable parts of the process. It provided an excellent opportunity to apply my technical knowledge, think critically, solve real-world problems, and learn new approaches to AI-based solutions. It also helped me understand the importance of designing a proper project architecture, identifying use cases and edge cases, and presenting solutions effectively.
+
+Overall, the entire process was a great learning experience that boosted my confidence and strengthened my interest in AI and software development. I am grateful to HCLTech for providing this opportunity, and I am excited to begin my journey as an AI Engineer at HCLTech.","b01a7e2a873d783ea67efa4a2a798de6ba7dea59c9d7273285e1e2c8db6c1a4f","2026-10-21T06:47:41+00:00"
+"hcltech","HCLTech","SANDEEP SINGH","12 Oct 2026","Berribot Interview: An AI-powered bot asked questions based on my resume, projects, and technical skills.Shortlisted students moved to the hackathon part.
+
+Hackathon: Teams of 3–5 members were given a use case to develop an MVP within approximately 6 hours. The first hour was allocated to preparing the design document, followed by implementation. Evaluators visited every 30–40 minutes to assess project progress and ask questions about DSA, OS, computer science fundamentals, system design, and individual contributions. All AI tools were allowed.
+
+Technical Evaluation: A senior professional evaluated the project, its implementation, and our technical understanding.
+
+HR Interview: The final round focused on communication skills, career goals, and motivation to join HCLTech.","c16a152c123bcc4b2984dcb6237a11f9088615d621df7ffdee72350e95bece98","2026-10-21T06:47:47+00:00"
+"hcltech","HCLTech AI Engineer Interview Experience & Selection Process","AKASH CHOWDHURY","12 Oct 2026","I recently participated in the recruitment drive for the AI Engineer role at HCLTech and am thrilled to share that I was selected! The evaluation process was highly practical, focusing more on hands-on application rather than just theoretical knowledge. Here is a brief breakdown of my experience:
+
+Round 1: Berribot Interview The hiring process began with an automated Berribot interview. This served as the initial screening phase, where a conversational AI bot asked preliminary questions to assess my foundational technical knowledge, problem-solving abilities, and communication skills. It was a unique, fast-paced round that tested my ability to articulate answers clearly to an automated system.
+
+Round 2: Hackathon Round (Case Study) After clearing the initial screening, I advanced to the core technical phase: a single-day Hackathon. We were assigned a complex, real-world AI case study and given one day to develop a working solution. This round was intense and thoroughly tested my ability to rapidly understand a problem statement, clean data, select the right algorithms, and build a viable machine learning pipeline under strict time constraints.
+
+Round 3: Final Solution Demo The final stage was a live presentation of the project I built during the hackathon. I had to give a proper demo of my solution to the technical panel. The interviewers evaluated not just whether the code worked, but how I approached the problem. We had a detailed discussion about my technical choices, model architecture, edge cases, and potential optimizations.
+
+Final Tips for Aspirants If you are preparing for this role, focus heavily on your practical coding skills and building end-to-end projects. The panel cares deeply about your ability to deliver a working solution and confidently explain the ""why"" behind your technical decisions during the final demo. Best of luck!","2618106fd19a0f4abc86333756bec23bb51707619dd9ac69ace2bbf1c9063410","2026-10-21T06:47:51+00:00"
+"hcltech","Untitled","ISHIKA GAMBHIR","12 Oct 2026","HCLTech Placement Experience
+
+I recently got placed at HCLTech, and I wanted to share my overall interview experience to help others preparing for the recruitment process.
+
+The selection process consisted of three rounds.
+
+Round 1: AI Bot Interview (Technical + Communication)
+
+The first round was an AI-based interview conducted by a bot.
+
+It started with a basic self-introduction, followed by questions about my projects, including the technologies I used and my contributions.
+
+I was also asked to solve:
+
+1 DSA coding question
+1 SQL query
+
+Overall, this round mainly evaluated our communication skills, coding knowledge, and ability to explain our projects clearly.
+
+Round 2: Hackathon + Technical Interview
+
+The second round was a hackathon where we were given two case studies, and each team had to select one.
+
+Our team chose RetailPulse AI.
+
+Throughout the hackathon, mentors and evaluators visited our team at regular intervals, almost every hour, to monitor our progress.
+
+They asked questions such as:
+
+How did you approach the problem?
+How did you implement this functionality?
+Can you explain your code?
+Why did you choose this particular approach?
+
+Even though we were allowed to use AI tools for development, we were expected to understand the code, explain the implementation, and justify our technical decisions.
+
+After the development phase, we had a group evaluation, where our project was tested for its functionality and overall implementation. We were also given two additional use cases to evaluate how well our solution could handle new requirements.
+
+Following this, we had an individual technical interview.
+
+In my interview, I was mainly asked questions from:
+
+SQL
+Object-Oriented Programming (OOPs)
+Operating Systems (OS)
+
+The questions focused on fundamental concepts and understanding rather than just memorized definitions.
+
+Round 3: HR Interview
+
+The final round was an HR interview, which was a non-elimination round.
+
+It was mainly a general interaction to understand our communication skills, personality, and overall fit for the company.
+
+My Key Takeaways
+
+One thing I learned from this process is that communication matters just as much as technical knowledge.
+
+Especially during the hackathon, it wasn’t only about building a working project. It was equally important to understand what we were developing, explain our approach confidently, and demonstrate teamwork.
+
+Using AI tools was fine, but being able to explain the AI-generated code and the logic behind it was extremely important.
+
+My advice: Focus on your DSA and SQL basics, revise core CS subjects like OOPs and OS, be thorough with your projects, and most importantly, work on explaining your thought process clearly.
+
+All the best to everyone preparing for placements!","7dbbf2bc13fb3c16491ab09ebb76f7abe3af5d1b695dd2bf8d8e281a4ae3a213","2026-10-21T06:47:54+00:00"
+"hcltech","HCLTech","ADARSH RAJ VERMA","12 Oct 2026","The HCLTech AI Engineer Hackathon was a good learning experience. It gave me a chance to test my technical skills, problem-solving abilities, and performance under time pressure. I learned the importance of managing time and approaching problems logically.
+
+For future candidates, I would suggest practicing coding regularly, revising AI/ML basics, and working on hands-on projects. Understanding the problem clearly and staying calm during the hackathon can make a big difference.","f1ffa287d1fc7a2e8576d0f3e78578a4fec0a8480f613d9f34be00a20c420d73","2026-10-21T06:47:56+00:00"
+"hcltech","HCL Tech (Data Cloud Engineer)","PRANAV","12 Oct 2026","Round 1: AI-Based Virtual Interview
+The first round was conducted through BeriBot, an AI-based virtual interview platform. Questions focused on my resume, projects, and real-world case studies, followed by two coding questions—one in Python and one in SQL.
+
+Round 2: Hackathon
+The second round was a full-day hackathon in which we selected one of two problem statements and developed a solution as a team. AI-assisted coding tools were allowed. The evaluation focused on our implementation, planned features, technical decisions, and ability to make changes to the solution.
+
+Round 3: Technical Interview
+The final round involved a technical interview with four panelists. Questions covered my resume, projects, SQL, Python, cloud technologies, Excel, Power BI, and our hackathon solution.","1f810588078b84948b0fb0cbf148a5fbb0fa4086f5e167c82f389198cc925d7b","2026-10-21T06:48:00+00:00"
+"hcltech","HCLTech Placement Experience","BAIBHAV RAJ","12 Oct 2026","Round 1 - AI assessment prepare basic question from the given technology given, prepare questions from you resume, Mine was java spring boot, so know core functionalities of java and springboot popular core features and why it is used and where,
+
+Round 2 - The Hackathon Round : (AI was allowed )
+you will have to select a team build a prototype from the provided case studies, I suggest choosing the easiest one and building a proper working prototype, you should be able to present a MVP at any cost, know what you are building,
+
+there were supervisers so talk to them, in the design phase tell them what you are planning to do why are doing what you are doing,
+AI is writing the code shouldn't mean you are not aware of the core technolgies and packages that is being used, should be aware of all the moving parts of the code,
+
+They might ask you to implement a feature on top of it if they are interested in you, you will be allowed to use AI, as what are they expecting you to do, as questions about what can and what you can't use, then explain the feature,
+
+mainly know the things you are using, have strong fundamentals on CS subjects like DBMS, Networking etc..
+
+they didn't ask DSA to me personally but it honeslty depends upon your pannalist.","0d7be725a49d73ef0cdf9e3ea6995bda3f0a121939a0cadd5431baba0b187684","2026-10-21T06:48:21+00:00"
+"hcltech","My HCLTech Placement Experience","MOHMMAD ASLAM HUSSAINKHAN","12 Oct 2026","Getting placed at HCLTech through the campus hackathon at NIT Jalandhar has been a great learning experience. The hackathon taught me the importance of teamwork, time management, and keeping solutions simple and practical. My advice to juniors is to focus on fundamentals, build projects, and be confident while explaining your work. You don't need to know everything. just be clear about what you know and be willing to learn. There is a berrybot interview before hackathon which is an elimination round so be confident and fluent while answering questions","10bbb75f8779929502b5b2772915ac531a6999e90b64f366ce03bc4c08af4c96","2026-10-21T06:48:31+00:00"
+"hcltech","HCL Tech","AGAM BANSAL","12 Oct 2026","1st Round:
+OA through berribot, questions related to resume and some java ques easy.
+
+2nd Round:
+Hackathon: 2 problem statements, had to choose 1 and the team was allowed to use AI Coding tools, interiewers asked ques regarding features planned to implement and also at the end asked to implement some changes.","967a3a3225bdec47f36086c74e8156c66eedcedb0747ff26b834c8c5e0d8b38b","2026-10-21T06:48:34+00:00"

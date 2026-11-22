@@ -1,0 +1,64 @@
+"company_name","title","author","date","body","entry_id","scraped_at"
+"swiggy","American Express - Selection Process","AYUSH GUPTA","17 Sept 2026","I had a 3-stage selection process for the Product Developer role at American Express.
+
+1. Online Assessment (OA)
+
+The first round was an Online Assessment of around 1–1.5 hours. It consisted entirely of MCQ-based questions and was divided into multiple sections, including:
+
+Mathematics
+Logical Reasoning
+Machine Learning
+SQL
+
+Interestingly, there were no DSA questions, which made sense given that the role was for a Product Developer rather than a purely software/DSA-focused position.
+
+After the OA, around 30 students were shortlisted for the next round. There seemed to be a CGPA cutoff, possibly around 8 CGPA, although I am not completely sure about the exact cutoff. From my experience, CGPA appeared to carry significant weightage during the shortlisting process.
+
+2. Group Discussion (GD)
+
+The GD was conducted online, with the shortlisted students divided into two groups.
+
+There were two topics:
+
+Credit Card vs. Debit Card
+Artificial Intelligence (AI)
+
+Each participant got one opportunity to speak on each topic, so it was important to make your point clearly and concisely within the limited time.
+
+Following the GD, around 10–12 students were shortlisted for the interview rounds.
+
+3. Technical/Managerial Interview
+
+The first interview was quite comprehensive and lasted around 1–1.5 hours. They covered almost everything except DSA.
+
+The interview started with resume grilling. They asked detailed questions about my previous internships—what I worked on, my responsibilities, the technologies I used, and the challenges I faced. They also went through my projects in considerable depth.
+
+The interview then moved into several different areas:
+
+Guesstimates
+Mathematics
+SQL — mostly straightforward questions
+Business and company-related questions, including How does American Express make money?
+Puzzles
+Hypothetical and situational scenarios
+Business-model questions such as How does Swiggy Dineout make money?
+
+So, rather than focusing on one particular technical area, the interview tested overall problem-solving ability, business understanding, technical fundamentals, and the ability to think on your feet.
+
+I was selected for the final round after this interview.
+
+4. Final HR/Leadership Round
+
+The final round was more of an HR + leadership discussion and was conducted by a VP.
+
+The interviewer asked about my CGPA and JEE rank, followed by a fairly challenging puzzle. I wasn’t able to solve that particular puzzle, but many similar puzzles can be found in resources such as GFG’s Top 100 Puzzles.
+
+There was also a mathematics question along with some standard HR questions.
+
+Overall Experience
+
+One thing that stood out to me throughout the process was that American Express seemed to focus heavily on how candidates handle pressure and unfamiliar problems. The interviews weren’t restricted to DSA or conventional technical questions. Instead, they moved rapidly between resume-based questions, mathematics, SQL, guesstimates, puzzles, business cases, and situational questions.
+
+So my biggest takeaway would be: prepare beyond DSA. Know your resume inside out, revise your fundamentals, practice guesstimates and puzzles, understand basic business models, and be comfortable thinking aloud when you don’t immediately know the answer.
+
+The process can definitely feel intense, but staying calm, communicating your thought process, and showing how you approach a problem can be just as important as arriving at the final answer. 🚀","b28d39263208363abd387c48576ea5f1ecd649020fc212d27790fdc6cd46789f","2026-10-21T07:11:41+00:00"

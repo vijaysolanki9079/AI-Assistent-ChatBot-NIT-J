@@ -1,0 +1,693 @@
+"company_name","title","author","date","body","entry_id","scraped_at"
+"infosys","Infosys DSE","NIKHIL S P","14 Oct 2026","Easy questions were asked in the interview-
+
+what is JVM?
+what is AI/ML?
+difference between c and c++","ad02ada1f90f049546c02ba2246b5c32480f09542b43d5797db2f43db5cc78be","2026-10-21T06:46:09+00:00"
+"infosys","Infosys","DIPENDRA SINGH","13 Oct 2026","Career Growth and Professional Development
+
+Developed strong programming, problem-solving, and analytical skills through academic projects, focusing on software development, database management, debugging, and writing efficient, scalable code.
+
+Stay consistent, strengthen your coding skills, take ownership of challenging projects, and embrace continuous learning. With dedication and the right mindset.","48799297d6930e8a02a0ea6fff1074cf80d2b19f0f49515bc36679f35329014b","2026-10-21T06:47:03+00:00"
+"infosys","Infosys - L1 SP","PRATEEK SINGH RATHORE","1 Oct 2026","Online Assessment
+
+The Online Assessment was conducted on the HirePro platform in the CC Lab and consisted of 4 DSA questions.
+
+The difficulty progression was basically:
+
+Easy → Medium → Hard → Why am I even here?
+
+Question 1 — Easy: A basic array problem with some greedy logic and a little brain usage. Thankfully, my brain was functioning. I solved it in around 5 minutes.
+
+Question 2 — Medium: This one involved prefix sums, array manipulation and greedy thinking. The real problem wasn't coding — it was figuring out what the hell the question wanted. After a lot of struggle, I managed to pass 8/12 test cases.
+
+Question 3 — Hard: Then came the DP nightmare. I tried approaching it with 3 DP states, but at that point my brain was not training. Somehow, I still managed to pass 6/12 test cases.
+
+There was still a fourth question left, but after getting mentally destroyed by the first three, I decided I had seen enough. I switched off my PC and called it a day.
+
+Shortlisting
+
+Considering how my OA went, I was pretty sure my chances were gone.
+
+Then the next evening shortlisted
+
+And the interview was scheduled for the very next day at 4 PM. After waiting at TPO office till eternity I will got my chance around 8PM .
+
+Interview
+
+After that OA, I entered the interview room with just one thought:
+
+“After that OA, nothing can surprise me anymore.”
+
+The interviewer gave me a medium-level DSA problem and around 45 minutes to solve it.
+
+And somehow, with God's grace, I came up with the solution in around 5 minutes.
+
+The interviewer was surprised. So was I.
+
+After that, things became pretty chill. The interviewer went through my resume in detail and asked questions about my projects, technical background and basic CS fundamentals. I was able to answer around 90% of the questions confidently.
+
+I walked out feeling pretty good.
+
+At this point, my brain had already decided:
+
+“Maybe SP L2... ₹16 LPA... not bad.”
+
+Result
+
+Then came the result.
+
+Infosys Specialist Programmer L1 — ₹11 LPA
+
+After the emotional roller coaster of the OA, I was honestly just relieved and happy to finally get placed.
+
+Keep studying and have fun !","9979deeb66169e43da278fea7d4215a58c48ed2b0aa6e2b5dba525eeb203ce2a","2026-10-21T06:54:26+00:00"
+"infosys","HackWithInfy 2026...My Experience","VEEKY KUMAR","30 Sept 2026","Start sharing yo
+
+HackWithInfy is Infosys's hiring hackathon a good way to get noticed before regular placements begin.
+
+Process:
+
+Online Round: Timed DSA/problem-solving questions, easy-to-medium difficulty.
+Interview: simple from resume
+
+Tips:
+
+Practice DSA for speed, not just correctness.
+Keep 1-2 of your own projects ready to explain quickly ///interviewers.","ad10338c9f846520076fa4c4e7b9ffadb2e85d2cf2ecb776fa68acfaae9dc82d","2026-10-21T06:55:29+00:00"
+"infosys","Untitled","NISHU KUMAR SAINI","22 Sept 2026","Infosys Interview Experience
+Round 1: Online Assessment (Aptitude + Coding)
+
+Aptitude: Quantitative ability (arithmetic, permutations, probability), logical reasoning (puzzles, seating arrangements), and verbal ability.
+
+Coding: 2 easy to medium problems focusing on string manipulation, basic array operations, and standard logic implementation.
+
+Round 2: Advanced Technical Assessment (DSA)
+
+Duration: 3 hours
+
+Topics & Focus: Medium to hard competitive programming problems centered on Dynamic Programming, Graphs/Trees, two-pointer techniques, and sliding window.
+
+Round 3: Technical & HR Interview
+
+DSA: Medium to hard competitive programming problems centered on Dynamic Programming, Graphs/Trees, two-pointer techniques, and sliding window.
+
+OOP Concepts: Real-world examples of Abstraction, Encapsulation, Inheritance, and Polymorphism; method overriding vs. overloading; abstract classes vs. interfaces.
+
+Resume & Skills: Thorough walkthrough of projects, design decisions, and direct questions on the tools, databases, and frameworks listed on the resume.","ab1db753d6be11a2c2e96a600b832f12fe7d13d284667bf2181da6c567aee172","2026-10-21T07:00:03+00:00"
+"infosys","Infosys - DSE","LUSON BASUMATARY","20 Sept 2026","1. Solve 1-2 questions in the OA.(If you want L1 or higher, atleast 3 questions are recommended to be solved)
+
+2. Go the interview.
+
+3. For those who wanna get selected you just need to carry your genuine resume and answer the questions that you can. 95% chances are that you'll get selected.
+
+4. For those who wanna get rejected, you can carry a blank paper as resume and act dumb.","18caae5a3c7368489761a883ecfbf436c5de7ab00d728177051f8e48505d378f","2026-10-21T07:01:26+00:00"
+"infosys","Infosys","LAKSHITA GUPTA","18 Sept 2026","There were 2 online assessment rounds completely based on DSA.
+
+Next in the interview round basic coding questions was asked including the output of some codes, and it was asked to write pseudo code of a questions. They asked about my projects, CS fundamentals and behavioural questions.","d9a0e0cd94ab4b8133700264a453fb9892f7eeae583c0e2a6ecdb54a9f1c52c9","2026-10-21T07:04:38+00:00"
+"infosys","Infosys Interview Experience - Technical Interview","RITIKA","18 Sept 2026","By: RITIKA
+
+The interviewer mainly asked basic technical questions along with questions related to the projects mentioned on my resume. The questions were mostly straightforward, so having a clear understanding of your resume and projects is important.
+
+Overall, the experience was good. I would recommend preparing DSA/coding problems for the coding rounds and revising basic CS fundamentals and your resume projects for the interview.","5237fa5f0bd880bb9e3a20d10a47fa4b9526d91b9df8f8193a8cdfc029fc3815","2026-10-21T07:05:00+00:00"
+"infosys","Infosys Interview Experience – 2 Coding Rounds + Technical Interview","HAPPY KUMAR","18 Sept 2026","The coding rounds were quite tough and required good problem-solving and coding skills. After clearing them, the technical interview was comparatively easy.
+
+In the technical interview, the interviewer mainly asked basic technical questions along with questions related to the projects mentioned on my resume. The questions were mostly straightforward, so having a clear understanding of your resume and projects is important.
+
+Overall, the experience was good. I would recommend preparing DSA/coding problems for the coding rounds and revising basic CS fundamentals and your resume projects for the interview.","73a3de06916210c8b7b5b36bc22bf8665dd5dda7a09de5382dcc8188a0347501","2026-10-21T07:05:06+00:00"
+"infosys","Infosys","ANJALI","18 Sept 2026","Anjali (Mtech DA)
+Specialist Programmer L1,
+
+Thier are two round 1 online assessment,then interview (technical+HR)
+
+Start sharing your experience...","452ce18c6b7b5cd391625d54314bf158eefd58a86e86dc9fd0156b9ec61d5f31","2026-10-21T07:05:20+00:00"
+"infosys","INFOSYS (HackWithInfy)","GUTHULA VENKATA SRAVAN","18 Sept 2026","rounds - 3 (two OAs and one interview)
+
+In OA-1 , 3 questions were asked. each one on binary search , dp and heap.
+
+In OA-2 , 4 questions were asked and ranked from easy to complex. mostly binary search, greedy and dp(2D grid dp in particular).
+
+I solved 1st and 4th question and got selected for L3 role. try to solve hard(3rd) and complex(4th) questions to get selected for L2 and above roles.
+
+In the interview, one LeetCode question (partitions dp) needed to be solved in 10-15 mins on leetcode platform in front of the interviewer. Even if you are not able to solve the question, try to explain your idea and way of doing it to the interviewer. Finally there was an virtual interview and questions about your project, cs fundamentals (mostly DBMS and OS) and how do you scale your project (any) to millions of users ( system design question). At last gave offer DSE role (6.25lpa + 1lakh bonus)","8d12b75c07bf7bb085b67a0128affe5b96541a6baf30d7411fc90b7cde58cac7","2026-10-21T07:05:41+00:00"
+"infosys","INFOSYS","DEEPAK SINGH","18 Sept 2026","The process consisted of a online assesment followed by the interview (techical + HR). In online assesment there were two DSA questions - 1 mediun and 1 hard. For the interview, there was only single interviewer of techincal and HR interveiw. He asked me one easy DSA question then some basic questions about my projects, oops, software developement and AI/ML.","a602fabf04dea3222113e3460edc4dc4b7a38fe212c8937455aa46cfb6b8459f","2026-10-21T07:05:47+00:00"
+"infosys","Infosys HackWithInfy","MONIKA","18 Sept 2026","The process consisted of two online assessment rounds, followed by a technical interview.
+
+The technical interview covered DSA, OOPs, DBMS, SQL, Operating systems, Software Engineering, Git/Github, along with discussions about resume and projects.","68299ab4b6f284d70dde0664216362d7da87b0222eeef1f20861f4c1df3c9b2a","2026-10-21T07:05:50+00:00"
+"infosys","Infosys Interview","NAVROOP KAUR","18 Sept 2026","- Technical + HR Interview: There was a single combined interview covering technical and HR aspects. The technical discussion focused mainly on OOPs, DBMS, Operating Systems, programming fundamentals, and DSA. Questions were also asked about my projects and internship experience, with some problem-solving and scenario-based questions. The HR part included questions about my background, career goals, strengths, and general situational questions.","868a03c93df94174524dc442b82307c9061650f33e29c6445587701fe4d1ff96","2026-10-21T07:06:19+00:00"
+"infosys","Infosys","BODABALLA VARDHAN","18 Sept 2026","I got infosys 16 lpa as L2 programmer it is good but in infosys you won't have time at all everytime you need to work and I want to grow in my core field.","2e7cf56cc5da2dce6c74f865c0681958b977853053be5b898192698582408f51","2026-10-21T07:06:48+00:00"
+"infosys","Infosys SP Experience","PRABHJOT SINGH","17 Sept 2026","I recently had the opportunity to participate in the Infosys hiring process through my campus recruitment drive. The process consisted of Online Assessment (OA) followed by technical interviews.
+
+Online Assessment (OA) Round
+
+The Online Assessment was conducted physically on campus in the presence of representatives from Infosys and Hiropro. The assessment was conducted in a college computer lab, with cameras enabled to ensure a monitored and fair examination environment.
+
+The assessment consisted of four coding questions. I was able to successfully complete three out of the four questions third question being partial(9 out of 12 test cases), after which I was shortlisted for the Infosys L3 interview process.
+
+Technical Interview
+
+The interview was also conducted physically on campus. Candidates were not allowed to carry their personal laptops into the interview room. Instead, Infosys provided laptops for the coding assessment during the interview.
+
+The first part of the interview involved a coding problem. I was given a Dynamic Programming problem based on the Minimum Coin Change problem on Leetcode.
+
+Following the coding question, I was asked questions related to some of the projects mentioned on my resume.
+
+After that a separate technical discussion was conducted covering several core computer science topics. The major areas discussed were:
+
+Object-Oriented Programming (OOPs) – pillars of OOP and related questions
+
+Exception Handling
+
+Multithreading (how to create a thread and handle thread synchronization)
+
+DBMS concepts like indexing and its types
+
+SQL queries
+
+Projects mentioned on the resume(java spring,RAG python), with detailed technical questions","a3fe0c02799b27920b4013b0904a775e89ec0de138281729b3e33bc259a1a4da","2026-10-21T07:07:57+00:00"
+"infosys","Infosys DSE Role","NAMRATHA REDDY GANGADI","17 Sept 2026","Round 1: Online assessment was given from room. It was a combination of MCQs and 2 DSA questions.
+Round 2: OA was held in CC Lab where the test consisted of 4 DSA questions. Students got selected for roles(L1,L2,L3,DSE) based on the difficulty of questions that they were able to solve and also considering the number of test cases passed for the question.
+Interview: I got selected for DSE role and the questions that the interviewer aksed me are given below -
+
+Introduce yourself
+Elaborate about your recent project
+Opinion asked about Java and Python knowledge
+Write a psuedo code differentiating compile time and runtime polymorphism
+Another question on compile time polymorphism to check concept clarity
+What do you know Infosys and why do you want to join our company?
+
+Be thorough with whatever things you add in your resume. Basic knowledge about CS fundamentals is enough for DSE role. If interviewing for L3 role be sure to prepare on advanced DSA and system design concepts. Be confident with your answer and communicate your ideas properly.","443d4f842a8ad99bf80cf16adfaf5daa4fca060b8b405fafb74802359eb3e53d","2026-10-21T07:08:52+00:00"
+"infosys","Infosys DSE Role","VEDANT SANJAY SALVE","17 Sept 2026","Infosys came for on campus recruitment at my 3rd year ending.
+
+First Round: It was an online assessment which you can give from your room. I think there were 4 DSA questions asked in it but I cannot recall. Questions were easy to moderate.
+
+Second Round: This round was conducted in lab under supervision. There were again 4 DSA questions asked, they were easy, medium, medium, hard. But the difficulty might differ for everyone. I was able to fully solve first, brute force on second, Third i couldn't, and fourth i did but due to some bug it was not working properly (to be honest I didn't know they were here for hiring purpose, I thought it was just a hackathon like their name suggest ""HackWithInfy"". So I did not spend time on debugging and submitted the test with 1 hour remaining). The test was of 3 hours. I was sure I was not passing the second round, but I got selected for DSE Role Interview.
+
+Third Round: This was an interview round. I was the very first one to commence the interview. Heres what the interviewer asked me from what I remember:
+
+Introduce yourself.
+Which is your favourite course.
+Write a program on paper to simulate dice functionality. (output should be a randome no. from 1 to 6 everytime).
+Write a program to reverse a string.
+What is SDLC.
+What is JVM. (even though I said I din't know java previously)
+What is Polymorphism.
+
+Thats it. My interview lasted for 15 min. No questions on Resume were asked to me but to others they were asked. And all rounds were elimination rounds. All rounds had a 1 week gap. And results were anounced after one month.
+
+My suggestion to anyone preparing for DSE Role is: Basic knowlegde is enough","66ac83827156750d5fd02d76a80c258f5ace101d0dec6327f9ac23a0f160ba65","2026-10-21T07:08:59+00:00"
+"infosys","Infosys","VANGALA UDAY KIRAN REDDY","17 Sept 2026","Company:Infosys
+Role:L1
+
+Selection Process
+
+OA: 4 DSA Questions
+
+Technical Interview: 2 DSA Questions+ System Design+ Resume Discussion
+
+Result
+
+Selected
+
+Tips
+
+Be thorough with your resume.
+
+Be aware of the roles present(L3/L2/L1/DSE).","b9becaade3ddba7d8a498e3bf9943984282999268631ff57b90744f9300732c6","2026-10-21T07:09:36+00:00"
+"infosys","Untitled","AADITYA KUMAR","17 Sept 2026","Infosys Placement Experience
+
+I am sharing my Infosys placement experience for anyone preparing for the placement process.
+
+1. Online Hackathon
+
+The first round was an online hackathon consisting of easy, medium, and hard-level DSA questions. I solved two questions completely, while 2–3 test cases failed for the last, hard-level question.
+
+2. In-Person OA
+
+The next round was an in-person coding assessment with three questions covering topics like Arrays, Dynamic Programming, Greedy Algorithms, and Graphs. I solved two questions completely, while around 50% of the test cases passed for the last question.
+
+Based on my performance, I was selected for the DSE (Digital Specialist Engineer) role. Solving the questions correctly and within the given time may also help in qualifying for higher-level roles.
+
+3. Interview Experience
+
+The interview was mainly based on my resume. The interviewer asked questions about my projects, technical skills, and the things I had mentioned in my resume.
+
+My suggestion is to prepare your resume properly and be ready to explain everything you have written in it, especially your projects and the technologies you have used.
+
+Advice
+
+I appeared for this placement mainly to get some experience with the interview and placement process, without having particularly high expectations for the role. However, I got selected.
+
+So, just keep preparing, practice DSA, understand your resume, and give your best in every round. Don't take unnecessary pressure. Stay calm, do your hard work, and see how things go.
+
+All the best!","4838569c1d6cc4a2938a9e6b37f2193202463c5a14353db2a790898a0bc8bb82","2026-10-21T07:09:45+00:00"
+"infosys","Infosys","GURKARANBIR SINGH","17 Sept 2026","Infosys Interview Experience
+
+Online Assessment (2 coding rounds): Each round had 4 questions, all from DP and Graphs. Difficulty was medium to hard, and optimized solutions were needed to pass all test cases. I solved the ones I was confident about first, then attempted the harder ones.
+
+Technical Interview: Started with a DSA question [Rabin karp algorithm]. I explained a brute force approach, then optimized it while discussing complexity. This was followed by a detailed resume discussion covering my projects, tech stack choices and challenges faced.
+
+Result: Selected (DSE)
+
+Tips:
+
+Focus heavily on DP and Graphs.
+Practice under timed conditions.
+Know your resume and projects thoroughly.
+Think out loud during the interview.","ebe72f23a872bf705e0b68fc561aa142eafc6108cb4331d881d87d38f0f66d26","2026-10-21T07:09:49+00:00"
+"infosys","INFOSYS","RAJANPREET SINGH","17 Sept 2026","The hiring process consisted of 2 online assessments followed by a technical interview.
+
+The OAs mainly focused on DSA,problem Solving
+
+It started with a detailed discussion about my resume and projects, including questions about my contributions, technologies used, and implementation details.
+
+After the resume discussion, I was asked questions on basic OOPS concepts and CS fundamentals
+
+The interview then moved to DSA/problem-solving, where I was given 2 LeetCode-style problems — one Hard and one Medium.My interview took around 1 Hour.","067f61eb96c50415e142ccaf279a168b9ae1a0b7fb763193b706bd245d9aae7d","2026-10-21T07:09:51+00:00"
+"infosys","INFOSYS","PABBOJU SHIVATEJA","17 Sept 2026","INTRODUCTION
+
+Infosys conducts its recruitment through multiple channels, providing candidates with different opportunities to enter the hiring process. The major recruitment routes include:
+1. HackWithInfy
+2. On-Campus Hiring
+3. Off-Campus Hiring
+I appeared for the HACKWITHINFY process.
+
+ONLINE ASSESSMENT (OA)
+
+The Online Assessment consisted of 4 DSA problems. Candidates were expected to solve at least 1 out of the 4 problems to proceed to the next stage.
+
+However, I was able to solve only the 1 problems completely and other 2 problem passed the test cases 10/15 . Despite this, I was shortlisted for the next round. A total of 200 candidates, including B.Tech and M.Tech, appeared for the Online Assessment. Out of these, around 70 candidates were shortlisted for the Interview.
+
+The Problem Difficulty for the 4 questions was like this Easy,Medium,Hard,Complex.
+
+TECHNICAL INTERVIEW
+
+The interview process was divided based on the role we are selected for the DSE and SP-L1 their is only one interview and for the SP-L2 and SP-L3 their are two interview ,For My case i was selected for the DSE role so i have only one interview .
+
+In the Interview, the interviewer proceeded with a pen and paper coding question. He told me to write any easy to medium level Coding question of any kind he did not provide me the question i have to think about the question as well as the answer so i did that question .
+
+After the coding questions, the interviewer asked me some questions related to project , difference between c and c++ . The questions were mainly focused on understanding the fundamental concepts and Practical thinking of the candidate.
+
+Stay calm and confident throughout the process !
+
+FINAL RESULT
+
+Digital Specialist Engineer (Trainee)","d12313a6a1b163221980759eaf20c17aec96438d0d1a8765eb40e27c8be81d7a","2026-10-21T07:09:56+00:00"
+"infosys","INFOSYS DSE – HACKWITHINFY INTERVIEW EXPERIENCE","ANIKET KUMAR","17 Sept 2026","INTRODUCTION
+
+Infosys conducts recruitment through multiple channels, including HackWithInfy, On-Campus Hiring, and Off-Campus Hiring.
+
+I participated in the HackWithInfy recruitment process and was selected for the Digital Specialist Engineer (DSE) profile.
+
+The selection process consisted of 3 rounds:
+
+Round 1 – Online Coding Assessment
+
+Round 2 – In-Person Coding Assessment
+
+Round 3 – Technical Interview
+
+ROUND 1: HACKWITHINFY ONLINE CODING ASSESSMENT
+
+The first round was the HackWithInfy Online Coding Assessment.
+
+There were 3 coding questions, and the total time allotted was 3 hours.
+
+The questions were based on Data Structures and Algorithms and tested problem-solving and algorithmic thinking.
+
+I was able to solve all 3 questions successfully within the given time.
+
+After successfully completing the first round, I was shortlisted for the next stage of the recruitment process.
+
+ROUND 2: IN-PERSON CODING ASSESSMENT
+
+The second round was an in-person coding assessment conducted at the college.
+
+There were 4 coding questions in this round.
+
+My performance was:
+
+Question 1: Solved completely.
+
+Question 2: 6 out of 12 test cases passed.
+
+Question 3: 2 out of 12 test cases passed.
+
+Question 4: I was not able to solve it completely.
+
+I was shortlisted for the Technical Interview for the DSE profile.
+
+This round was conducted in person, so the interviewer was able to observe my problem-solving approach and how I approached the coding problems.
+
+ROUND 3: TECHNICAL INTERVIEW
+
+The technical interview was conducted in person.
+
+I was the first candidate to enter the interview room, so I was a little nervous initially. However, the interview proceeded in a friendly and conversational manner.
+
+1. Tell Me About Yourself
+
+The interviewer started by asking:
+
+""Tell me about yourself.""
+
+I introduced myself, talked about my academic background, technical skills, interests, and projects.
+
+2. Project Discussion
+
+After the introduction, the interviewer asked me to explain my project.
+
+I explained the project, including:
+
+Project idea
+
+Workflow
+
+Technologies used
+
+My contribution
+
+Implementation
+
+Backend/frontend interaction
+
+After that, the interviewer asked me several follow-up questions related to my project to check my understanding of the implementation and technologies I had used.
+
+3. Fibonacci Series – Coding Question
+
+The interviewer then asked me to write code for the Fibonacci series.
+
+I implemented the solution using Dynamic Programming (DP).
+
+After writing the code, he asked me to:
+
+Explain the code
+
+Explain the logic
+
+Explain how Dynamic Programming was being used
+
+Discuss the approach
+
+I explained the solution and its logic to the interviewer.
+
+4. Python Questions
+
+Since Python was my preferred programming language, the interviewer asked me several questions related to Python.
+
+The questions were mainly focused on my understanding of Python fundamentals and programming concepts.
+
+This was a good reminder that whatever programming language you mention as your preferred language, you should be prepared to answer questions about its fundamentals.
+
+5. Cloud Computing
+
+The interviewer noticed that I had mentioned a Cloud Computing certification on my resume.
+
+He therefore asked me some questions related to Cloud Computing and my understanding of the concepts covered by the certification.
+
+6. About Infosys
+
+Towards the end of the interview, the interviewer asked me:
+
+""Tell me about Infosys.""
+
+I answered by discussing my understanding of the company and its work.
+
+7. My Question to the Interviewer
+
+Finally, the interviewer told me:
+
+""Your interview is done. Do you have any questions?""
+
+I asked him:
+
+""What technology should I learn?""
+
+He suggested that I should pursue more certifications related to Cloud Computing.
+
+The interview then concluded.
+
+FINAL RESULT 🎉
+
+After completing the HackWithInfy recruitment process, I was selected for the:
+
+Infosys DSE – Digital Specialist Engineer
+Key Takeaways
+
+Prepare DSA properly for both coding rounds.
+
+Be ready to explain every project mentioned on your resume.
+
+Prepare your preferred programming language thoroughly.
+
+Certifications mentioned on your resume can become a topic of discussion.
+
+Revise the fundamentals of every technical skill mentioned in your resume.
+
+Don't panic if you cannot solve every coding question completely. Focus on your approach and keep trying.
+
+In the interview, communicate your thought process clearly.
+
+Overall, my Infosys HackWithInfy journey consisted of two coding rounds followed by an in-person technical interview, and I was fortunate to be selected for the DSE profile.","dcb70571b19d092191c01249bbe8083ca935d1383570ab2dac1543b6d505bd93","2026-10-21T07:10:29+00:00"
+"infosys","Infosys DSE Interview Experience","VANSH SARAF","17 Sept 2026","The hiring process consisted of 2 online assessments followed by a technical interview.
+The OAs mainly focused on DSA, problem-solving and coding ability.
+The technical interview lasted around 30 minutes.
+It started with questions about my projects and resume, including my contribution and technologies used.
+I was asked DSA/problem-solving questions, where explaining the approach and complexity was important.
+The interviewer also asked questions from CS fundamentals such as OOP, DBMS, OS and Computer Networks.
+Overall, the interview was interactive and focused more on conceptual clarity and problem-solving approach.
+My advice would be to prepare your projects thoroughly, practise DSA regularly and revise core CS subjects before the interview.","f296892048ff0bbf38c66240c6576a46afd93114798219665f857695fb17a34c","2026-10-21T07:11:00+00:00"
+"infosys","INFOSYS DSE/SP On-Campus Selection Experience","ABHISHEK KAUSHIK","17 Sept 2026","Round 1: Online Assessment – DSA Round
+
+The first round was an Online Assessment consisting of 4 coding questions.
+
+Difficulty: Medium
+Topics included:
+Dynamic Programming
+Prefix And Suffix Sum
+Greedy
+I solved 1 question completely and some test cases of another questions.
+Round 2: Technical Coding + Interview
+
+The second round started with 2 coding questions, out of which I had to solve one. I successfully solved one question completely.
+
+After the coding part, the interviewer discussed:
+
+DSA: Merge Sort, Quick Sort, and Binary Search in JavaScript.
+Projects: Workflow, authentication, authorization, frontend-backend flow, APIs, and database.
+DBMS & SQL: Several DBMS questions and 2 SQL questions.
+Database Design: ER diagram for a banking system.
+JavaScript: JWT components and Event Loop.
+Git/GitHub: Branches and collaborative development.
+
+Final Result
+
+After successfully completing the selection process, I was selected for the Digital Specialist Engineer (DSE) role at Infosys through the on-campus hiring drive.","8621618ff5f5f252eeec80011a7be35fc96ae9042d6087e3ca6a1ee45a8ed756","2026-10-21T07:11:49+00:00"
+"infosys","INFOSYS SP L1","DEEPAK KESHARWANI","16 Sept 2026","INTRODUCTION
+
+Infosys conducts its recruitment through multiple channels, providing candidates with different opportunities to enter the hiring process. Major recruitment routes include:
+1. HackWithInfy
+2. On-Campus Hiring
+3. Off-Campus Hiring
+I appeared for the On-Campus Hiring process.
+
+PRE PLACEMENT PRESENTATION (PPT)
+
+First step in the recruitment process was the Pre-Placement Presentation (PPT). During the PPT, Infosys representatives provided information about the company, job roles, eligibility criteria, recruitment process, and other important details.
+
+ONLINE ASSESSMENT (OA)
+
+Online Assessment consisted of 4 DSA problems. Candidates were expected to solve at least 3 out of the 4 problems to proceed to the next stage.
+
+However, I was able to solve only the first 2 problems. Despite this, I was shortlisted for the next round. A total of 148 candidates, including B.Tech and M.Tech, appeared for the Online Assessment. Out of these, 21 candidates were shortlisted for the Interview.
+
+First problem was a simple Array problem, while second was a medium Greedy problem.
+
+TECHNICAL INTERVIEW
+
+Interview process was divided into two parts. First part was another in-person coding assessment, which was similar to the initial Online Assessment. However, this time, interviewer stayed with me throughout assessment and observed my approach to solving the problems.
+
+I solved the first problem within first 10 minutes. I then spent the next 25 minutes working on the second problem. Although I was able to solve it partially, only 7 out of 12 test cases passed.
+
+After I submitted the coding assessment, Interviewer proceeded with a pen and paper coding question. He drew a spiral matrix on a sheet of paper and asked me to write the code to solve the problem. Fortunately, I was already familiar with this problem, so I was able to solve it and explain my approach clearly.
+
+After coding questions, Interviewer focused heavily on DBMS and SQL. He asked me several questions covering DBMS concepts in depth. Discussion went beyond basic definitions, and he tested my understanding of database concepts through detailed technical questions.
+
+Towards the end of the interview, he asked me some basic questions about Generative AI and Agentic AI. Questions were mainly focused on understanding fundamental concepts.
+
+Stay calm and confident throughout the process !
+
+FINAL RESULT
+
+Specialist Programmer L1 (Trainee)","6434534134dff93708cb0bdcd5f3aab46bb639679c9fe1454b3998770df43ca3","2026-10-21T07:12:27+00:00"
+"infosys","L3 interview experiences, Infosys","VIKAS KUSHWAHA","16 Sept 2026","My Placement Experience On Campus , HackwithInfy
+
+I want to share my complete placement experience, starting from the Online Assessments to the final selection.
+
+First Online Assessment — 21 March 2024
+
+My first Online Assessment was conducted from room.
+
+There were 4 coding questions, ranging from medium to hard/advanced level.
+
+I was able to solve 3 questions completely, and all 3 were fully accepted. The 4th question was partially accepted.
+
+Second Online Assessment — Late March 2024
+
+My second Online Assessment was conducted from the college library using the college system.
+
+There were again 4 questions:
+
+The first question was easy and basic.
+The second question was medium-level and based on Greedy.
+The third question was medium-level and involved Greedy with a simple pattern.
+The fourth question was a hard 3D Grid-based DP problem.
+
+I was able to get the 1st and 4th questions fully accepted, while the 2nd and 3rd were partially accepted.
+
+Shortlisting
+
+After around 20–25 days, the shortlisting list was released, and I was shortlisted for the L3 role.
+
+After around 10 days, I had both technical interviews on the same day.
+
+Technical Interview — 28 April 2024
+
+First Technical Round
+
+Generally, the first technical round focused on DSA. Depending on the interviewer and the difficulty of the questions, candidates could get 2–3 DSA questions along with questions from CS fundamentals such as DBMS, CN, Software Engineering, etc.
+
+However, the experience completely depends on the interviewer.
+
+In my case, the interviewer asked me to open my LeetCode profile and checked whether I had solved the question before.
+
+He then gave me a question that was tagged as Medium, but I found it much harder than a typical Medium problem. It was not from any standard DSA sheet.
+
+I first came up with an algorithm and explained my approach to him. Then he asked me to implement it.
+
+After implementing the solution, I got TLE.
+
+He gave me some additional time to optimize it. I came up with an optimization idea and explained it, but my solution was still failing on some test cases.
+
+Then he asked me to find the error myself.
+
+I went through my solution, found the issue, and fixed it.
+
+After that, he told me to wait for the result of the second round.
+
+Overall, I would say my performance in the first round was average from my side. I was able to approach the problem, I wasa able to comes up with optimization and debugging but that was not accepted for all leetcode tescases.
+
+Second Technical Round
+
+The second round started with a short introduction, and then the interviewer directly moved to my project.
+
+We had a detailed discussion about my project for around 8–10 minutes.
+
+He asked questions like:
+
+Why did you build this project?
+
+What problem were you trying to solve?
+
+What challenges did you face?
+
+What is the data flow?
+
+What is the overall pipeline?
+
+How do the different components work together?
+
+After that, he asked me a standard DSA question:
+
+Find the sum of two nodes in a BST equal to a given target.
+
+I explained my approach, and then he asked me how I could optimize the time complexity.
+
+He also asked me about the time and space complexity of some standard algorithms.
+
+There was no implementation in this round because the interview was conducted online.
+
+After DSA, he asked me about how I built a website using AI/prompting. He also asked some questions related to Gen AI and how I had used AI in my projects.
+
+Then he moved to System Design.
+
+He asked me to design a voting machine.
+
+I first explained the HLD and then he asked me to explain the LLD. I suggested two possible LLD approaches and explained them.
+
+Finally, he asked me about the SOLID principles, which I explained.
+
+There was no implementation required in the second round.
+
+Overall, I would consider my performance in the second round excellent from my side. I was comfortable discussing my project, DSA, AI, system design, LLD, and software engineering concepts.
+
+Final Result — 24 June 2024
+
+After around one month, the final result was released.
+
+I was selected for the L1 role.
+
+Overall Experience
+
+My overall journey was:
+
+2 Online Assessments → Shortlisting → 2 Technical Interviews → Final Selection
+
+The biggest thing I learned from this experience is that the interview can vary a lot depending on the interviewer.
+
+In my case, the first round focused more on problem-solving, optimization, and debugging, while the second round covered a much broader range of topics including DSA, CS fundamentals, projects, AI, prompting, HLD, LLD, and SOLID principles.
+
+From my side, the first round was average, while the second round went very well.
+
+Overall, it was a great learning experience and taught me that preparation should not be limited to DSA alone.
+
+LinkedIn","9334f6e892e75065b87b245a5caf8b40b19c4b0ca5caa5f34f4376e6774201a9","2026-10-21T07:13:41+00:00"
+"infosys","INFOSYS","SAARTHAK GUPTA","16 Sept 2026","My Infosys interview experience was a good learning opportunity. Being an ECE student, I was asked questions from my core subjects along with programming, OOP, DBMS, and basic DSA. I also discussed my projects and answered HR questions about my goals, strengths, and willingness to work in the IT industry.","fa58c6a0d0269155c97f849dca20f9144ef7fc9688c8f80c2383141457138069","2026-10-21T07:13:51+00:00"
+"infosys","Infosys On-Campus Placement Experience","MRITYUNJAY TIWARI","16 Sept 2026","My Infosys on-campus selection process consisted of two main rounds: a coding/online assessment followed by a technical interview.
+
+Round 1: Coding Assessment
+
+The first round consisted of 4 coding questions arranged in increasing order of difficulty. In my experience, the questions were based on standard and commonly practiced DSA concepts. They were not necessarily based on unusual or unfamiliar topics, but someone who has not practiced enough problems might find them difficult, especially when trying to understand the problem statement and identify the underlying pattern.
+
+I would recommend having a good amount of practice on platforms like LeetCode before the assessment. Rather than focusing only on solving a large number of questions, it is useful to understand common DSA patterns and recognize when to apply them.
+
+Round 2: Technical Interview
+
+After clearing the coding round, there was one technical interview. The interview started with two coding questions, out of which I was asked to solve one. Compared to the coding assessment, these questions were relatively easier, although the problem statement was somewhat lengthy or bit tricky.
+
+After the coding part, the interviewer asked questions about the projects mentioned on my resume, including the technology stack I used and the basic architecture of my projects. Since I had worked with React, I was also asked some basic React concepts such as props, hooks, and their usage.
+
+I was then given a small React-based coding task to write. The interview mainly focused on whether I understood the technologies and projects I had mentioned rather than just knowing definitions.
+
+Preparation Tips
+
+My main advice to future candidates would be:
+
+Practice DSA problems consistently, particularly on platforms such as LeetCode.
+
+Focus on understanding common problem-solving patterns rather than memorizing solutions.
+
+Be thorough with every project mentioned on your resume. Be prepared to explain the tech stack, architecture, your individual contribution, and important implementation decisions.
+
+If you mention a framework such as React, make sure you understand its fundamentals, including components, props, state, hooks, and basic implementation.
+
+During coding rounds, read the complete problem statement carefully and manage your time according to the difficulty of the questions.
+
+When practicing, try to read and understand the problem statement yourself before watching a solution or having someone explain it. If you are following a DSA playlist, it can be tempting to immediately listen to the explanation. However, practicing reading the question independently helps you develop the habit of quickly identifying what the problem is asking, even when the statement is lengthy or worded differently from what you are used to.
+
+Try to solve problems under a time limit occasionally. This helps you become comfortable with understanding the question, forming an approach, and coding within limited time.
+
+Overall, the process gave me a good opportunity to demonstrate both my problem-solving skills and my understanding of the projects and technologies I had worked with.","856d98aa382ac82e278e32632e6f38ea61c85cab951df6283f1e8dc1c90cb634","2026-10-21T07:14:13+00:00"
+"infosys","INFOSYS","RITESH SAINI","16 Sept 2026","Online Assessment (OA)
+
+The Infosys OA consisted of 4 DSA coding questions. The questions focused mainly on problem-solving, data structures, and algorithms.
+
+Technical Interview
+
+After clearing the OA, I appeared for the technical interview. The interview covered multiple areas:
+
+Resume-based questions — discussion about my projects, technical skills, and experience mentioned on my resume.
+OOPs — concepts such as inheritance, polymorphism, abstraction, encapsulation, and their practical applications.
+DBMS — database fundamentals, normalization, keys, transactions, and indexing.
+SQL — queries involving joins, aggregation, subqueries, GROUP BY, HAVING, and other basic SQL concepts.
+Basic System Design — fundamentals such as client-server architecture, APIs, databases, scalability, and basic design concepts.","3358a07794dd150f032494374be833d5ee3f50e2ce0a6b2265225c72edd2e39c","2026-10-21T07:14:16+00:00"

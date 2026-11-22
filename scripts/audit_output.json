@@ -1,0 +1,2132 @@
+{
+  "total_rows": 9385,
+  "total_offer_rows": 3009,
+  "total_unplaced_rows": 6376,
+  "total_duplicate_keys": 117,
+  "summary": {
+    "2020-24 and 2022-24 Batch_Placement Database.xlsx": {
+      "Biotechnology": {
+        "rows": 55,
+        "offers": 13,
+        "unplaced": 42
+      },
+      "Chemical Engg": {
+        "rows": 94,
+        "offers": 60,
+        "unplaced": 34
+      },
+      "Civil Engg": {
+        "rows": 98,
+        "offers": 57,
+        "unplaced": 41
+      },
+      "Computer Engg": {
+        "rows": 204,
+        "offers": 161,
+        "unplaced": 43
+      },
+      "Electrical Engg": {
+        "rows": 74,
+        "offers": 57,
+        "unplaced": 17
+      },
+      "Electronics Engg": {
+        "rows": 137,
+        "offers": 85,
+        "unplaced": 52
+      },
+      "Industrial Engg": {
+        "rows": 98,
+        "offers": 75,
+        "unplaced": 23
+      },
+      "Instrumentation Engg": {
+        "rows": 140,
+        "offers": 103,
+        "unplaced": 37
+      },
+      "Mechanical Engg": {
+        "rows": 138,
+        "offers": 104,
+        "unplaced": 34
+      },
+      "Information Technology": {
+        "rows": 153,
+        "offers": 131,
+        "unplaced": 22
+      },
+      "Textile Technology": {
+        "rows": 81,
+        "offers": 34,
+        "unplaced": 47
+      },
+      "M.Sc": {
+        "rows": 93,
+        "offers": 7,
+        "unplaced": 86
+      },
+      "MBA": {
+        "rows": 30,
+        "offers": 18,
+        "unplaced": 12
+      },
+      "3rd year 2020-24 Internship ": {
+        "rows": 1094,
+        "offers": 106,
+        "unplaced": 988
+      },
+      "M.Tech 22-24": {
+        "rows": 159,
+        "offers": 71,
+        "unplaced": 88
+      },
+      "M.Tech 2023-25": {
+        "rows": 240,
+        "offers": 80,
+        "unplaced": 160
+      },
+      "Summer internship": {
+        "rows": 1116,
+        "offers": 34,
+        "unplaced": 1082
+      }
+    },
+    "2021-25 and 2023-25 Batch_Placement Database.xlsx": {
+      "Biotechnology": {
+        "rows": 54,
+        "offers": 25,
+        "unplaced": 29
+      },
+      "Chemical Engg": {
+        "rows": 85,
+        "offers": 69,
+        "unplaced": 16
+      },
+      "Civil Engg": {
+        "rows": 84,
+        "offers": 52,
+        "unplaced": 32
+      },
+      "Computer Engg": {
+        "rows": 217,
+        "offers": 184,
+        "unplaced": 33
+      },
+      "Electrical Engg": {
+        "rows": 71,
+        "offers": 64,
+        "unplaced": 7
+      },
+      "Electronics Engg": {
+        "rows": 138,
+        "offers": 124,
+        "unplaced": 14
+      },
+      "Industrial Engg": {
+        "rows": 100,
+        "offers": 94,
+        "unplaced": 6
+      },
+      "Instrumentation Engg": {
+        "rows": 154,
+        "offers": 136,
+        "unplaced": 18
+      },
+      "Mechanical Engg": {
+        "rows": 132,
+        "offers": 108,
+        "unplaced": 24
+      },
+      "Information Technology": {
+        "rows": 139,
+        "offers": 105,
+        "unplaced": 34
+      },
+      "Textile Technology": {
+        "rows": 101,
+        "offers": 80,
+        "unplaced": 21
+      },
+      "M.Sc": {
+        "rows": 103,
+        "offers": 32,
+        "unplaced": 71
+      },
+      "MBA": {
+        "rows": 22,
+        "offers": 6,
+        "unplaced": 16
+      },
+      "M.Tech 2023-25": {
+        "rows": 245,
+        "offers": 134,
+        "unplaced": 111
+      },
+      "2022-26-Summer internship": {
+        "rows": 1045,
+        "offers": 34,
+        "unplaced": 1011
+      }
+    },
+    "2022-26 and 2024-26 Batch_Placement Database UG and PG.xlsx": {
+      "M.Tech 2024-26": {
+        "rows": 356,
+        "offers": 104,
+        "unplaced": 252
+      },
+      "Msc 2024-26": {
+        "rows": 100,
+        "offers": 0,
+        "unplaced": 100
+      },
+      "MBA 2024-26": {
+        "rows": 36,
+        "offers": 0,
+        "unplaced": 36
+      },
+      "B.Tech 2022-26": {
+        "rows": 1096,
+        "offers": 430,
+        "unplaced": 666
+      },
+      "B.Tech 2023-27": {
+        "rows": 1103,
+        "offers": 32,
+        "unplaced": 1071
+      }
+    }
+  },
+  "roll_no_formats": {
+    "8": 9384,
+    "10": 1
+  },
+  "branch_names_count": 61,
+  "branch_names": {
+    "Bio Technology": 357,
+    "Biotechnology": 13,
+    "Chemical Engineering": 598,
+    "Civil Engineering": 620,
+    "Computer Science and Engineering": 1061,
+    "Electrical Engineering": 450,
+    "Electronics and Communication Engineering": 848,
+    "Industrial and Production Engineering": 610,
+    "Instrumentation and Control Engineering": 713,
+    "Mechanical Engineering": 869,
+    "Information Technology": 899,
+    "Textile Technology": 558,
+    "Chemistry": 99,
+    "Mathematics": 103,
+    "Physics": 94,
+    "Humanities and Management": 30,
+    "Computer Science & Engineering": 126,
+    "VLSI Design": 74,
+    "Structural and Construction Engineering": 64,
+    "Computer Science and Engineering (Information Security)": 2,
+    "Design Engineering": 10,
+    "Artificial Intelligence": 6,
+    "Textile Engineering and Management": 27,
+    "Thermal Engineering": 5,
+    "Control and Instrumentation Engineering": 6,
+    "Geotechnical & Geo-environmental Engineering": 3,
+    "Renewable Energy": 10,
+    "Computer Science & Engineering (Information Security)": 25,
+    "Geotechnical and Geo Environmental Engineering": 5,
+    "VLSI DESIGN": 84,
+    "DATA ANALYTICS": 14,
+    "Data Science & Engineering": 35,
+    "DESIGN ENGINEERING": 15,
+    "ARTIFICIAL INTELLIGENCE": 80,
+    "Signal Processing and Machine Learning": 32,
+    "COMPUTER SCIENCE AND ENGINEERING (INFORMATION SECURITY)": 21,
+    "CONTROL AND INSTRUMENTATION ENGINEERING": 10,
+    "ELECTRIC VEHICLE DESIGN": 10,
+    "GEOTECHNICAL AND GEO ENVIRONMENTAL ENGINEERING": 24,
+    "INDUSTRIAL ENGINEERING AND DATA ANALYTICS": 6,
+    "RENEWABLE ENERGY": 22,
+    "STRUCTURAL AND CONSTRUCTION ENGINEERING": 53,
+    "TEXTILE ENGINEERING AND MANAGEMENT": 14,
+    "CSE": 217,
+    "ICE": 154,
+    "MBA (Regular)": 12,
+    "MBA (Self-Sponsored)": 23,
+    "BIOTECHNOLOGY": 16,
+    "CHEMICAL ENGINEERING": 5,
+    "COMPUTER SCIENCE AND ENGINEERING": 55,
+    "Data Analytics": 21,
+    "Data Science and Engineering": 63,
+    "Desing Engineering": 10,
+    "Electrical Vehicle Design": 14,
+    "Geotechnical and Geo-environmental Engineering": 7,
+    "Industrial Engineering and Data Analytics": 9,
+    "Machine Intelligence and Automation": 7,
+    "Mathematics and Computing": 12,
+    "Thermal & Energy Engineering": 3,
+    "MBA": 23,
+    "Electronics and VLSI Engineering": 29
+  },
+  "status_values_count": 53,
+  "status_values": {
+    "Placed": 1774,
+    "Placed /Intern": 18,
+    "Placed/Intern": 27,
+    "Intern": 156,
+    "MISSING_STATUS": 12,
+    "Summer Intern": 54,
+    "Interned summer": 1,
+    "summer intern": 3,
+    "summer internship": 2,
+    "Placed 2 Month intern": 1,
+    "One year": 6,
+    "11 Month Intern": 13,
+    "One Year": 16,
+    "11 Months": 1,
+    "Long intern": 5,
+    "Six Months": 1,
+    "one year": 7,
+    "FTE": 282,
+    "Long Intern": 157,
+    "long Intern": 3,
+    "Summer intern": 4,
+    "summer": 2,
+    "Intern+PPO": 166,
+    "Inter+PPO": 3,
+    "Intern + PPO": 47,
+    "placed": 38,
+    "PPO": 7,
+    "PPO/Placed": 7,
+    "Intern/Placed": 7,
+    "Plcaed": 1,
+    "Intern+Placed": 5,
+    "Intern + Placed": 2,
+    "Intern+FTE": 83,
+    "Palced": 1,
+    "Placed Off Campus": 2,
+    "Intern/Off Campus": 1,
+    "Intern Off Campus": 1,
+    "PLACED": 1,
+    "Short Intern": 1,
+    "Internship": 2,
+    "Long Intern (Full time confirmed)": 8,
+    "long Intern (Full time confirmed)": 1,
+    "Full Time": 1,
+    "Inten": 1,
+    "Long Term": 1,
+    "Intern +PPO": 1,
+    "Long Intern + PPO": 1,
+    "Interned": 32,
+    "Intern only": 1,
+    "Intern+ PPO": 5,
+    "Intern + FTE": 35,
+    "Inter+FTE": 1,
+    "Intern-FTE": 1
+  },
+  "company_raw_values_count": 543,
+  "branch_code_map": {
+    "111": {
+      "Bio Technology": 356,
+      "Biotechnology": 2,
+      "Civil Engineering": 5,
+      "Industrial and Production Engineering": 3,
+      "Instrumentation and Control Engineering": 6,
+      "Mechanical Engineering": 8,
+      "ICE": 1,
+      "Electrical Engineering": 1
+    },
+    "110": {
+      "Bio Technology": 1,
+      "Mechanical Engineering": 11,
+      "Textile Technology": 558,
+      "Electrical Engineering": 8,
+      "Industrial and Production Engineering": 7,
+      "Instrumentation and Control Engineering": 6,
+      "ICE": 6,
+      "Computer Science and Engineering": 3,
+      "Information Technology": 2,
+      "Chemical Engineering": 1
+    },
+    "112": {
+      "Chemical Engineering": 588,
+      "Electrical Engineering": 9,
+      "Instrumentation and Control Engineering": 8,
+      "Electronics and Communication Engineering": 6,
+      "ICE": 4,
+      "Computer Science and Engineering": 1,
+      "Mechanical Engineering": 1
+    },
+    "102": {
+      "Civil Engineering": 615,
+      "Mechanical Engineering": 7,
+      "Information Technology": 4,
+      "Computer Science and Engineering": 2,
+      "Instrumentation and Control Engineering": 1,
+      "CSE": 4,
+      "ICE": 2,
+      "Electrical Engineering": 1
+    },
+    "124": {
+      "Computer Science and Engineering": 2,
+      "Information Technology": 883
+    },
+    "126": {
+      "Computer Science and Engineering": 1,
+      "Electrical Engineering": 418,
+      "Electronics and Communication Engineering": 2,
+      "Data Science and Engineering": 1
+    },
+    "103": {
+      "Computer Science and Engineering": 1031,
+      "CSE": 210
+    },
+    "109": {
+      "Electrical Engineering": 4,
+      "Instrumentation and Control Engineering": 9,
+      "Mechanical Engineering": 827,
+      "Information Technology": 1,
+      "ICE": 6,
+      "Electronics and Communication Engineering": 1,
+      "Computer Science and Engineering": 1
+    },
+    "113": {
+      "Electrical Engineering": 3,
+      "Electronics and Communication Engineering": 1,
+      "Industrial and Production Engineering": 600,
+      "Instrumentation and Control Engineering": 9,
+      "Mechanical Engineering": 15,
+      "Information Technology": 1,
+      "ICE": 5,
+      "Chemical Engineering": 5
+    },
+    "106": {
+      "Electrical Engineering": 6,
+      "Electronics and Communication Engineering": 14,
+      "Instrumentation and Control Engineering": 674,
+      "Information Technology": 8,
+      "ICE": 130,
+      "Computer Science and Engineering": 7,
+      "Data Science and Engineering": 1
+    },
+    "104": {
+      "Electronics and Communication Engineering": 815,
+      "Computer Science and Engineering": 1,
+      "CSE": 2
+    },
+    "311": {
+      "Chemistry": 99
+    },
+    "312": {
+      "Mathematics": 103
+    },
+    "313": {
+      "Physics": 94
+    },
+    "701": {
+      "Humanities and Management": 30,
+      "MBA (Regular)": 12,
+      "MBA (Self-Sponsored)": 23,
+      "MBA": 23
+    },
+    "203": {
+      "Computer Science & Engineering": 84,
+      "Computer Science & Engineering (Information Security)": 21,
+      "COMPUTER SCIENCE AND ENGINEERING": 37,
+      "COMPUTER SCIENCE AND ENGINEERING (INFORMATION SECURITY)": 11
+    },
+    "903": {
+      "Computer Science and Engineering": 11,
+      "Computer Science and Engineering (Information Security)": 2,
+      "Computer Science & Engineering": 34,
+      "COMPUTER SCIENCE AND ENGINEERING (INFORMATION SECURITY)": 10,
+      "Computer Science & Engineering (Information Security)": 4,
+      "COMPUTER SCIENCE AND ENGINEERING": 18,
+      "Data Science and Engineering": 1
+    },
+    "204": {
+      "VLSI Design": 54,
+      "Electronics and Communication Engineering": 3,
+      "VLSI DESIGN": 66,
+      "Signal Processing and Machine Learning": 24,
+      "ELECTRIC VEHICLE DESIGN": 4,
+      "Electrical Vehicle Design": 9
+    },
+    "202": {
+      "Structural and Construction Engineering": 41,
+      "Geotechnical & Geo-environmental Engineering": 3,
+      "GEOTECHNICAL AND GEO ENVIRONMENTAL ENGINEERING": 4,
+      "STRUCTURAL AND CONSTRUCTION ENGINEERING": 23,
+      "Geotechnical and Geo-environmental Engineering": 3,
+      "Mathematics and Computing": 12
+    },
+    "909": {
+      "Design Engineering": 5,
+      "DESIGN ENGINEERING": 5,
+      "Desing Engineering": 7,
+      "Thermal & Energy Engineering": 3
+    },
+    "904": {
+      "Electronics and Communication Engineering": 6,
+      "VLSI Design": 20,
+      "VLSI DESIGN": 18,
+      "ELECTRIC VEHICLE DESIGN": 6,
+      "Electrical Vehicle Design": 5,
+      "Signal Processing and Machine Learning": 8
+    },
+    "901": {
+      "Artificial Intelligence": 6,
+      "Chemical Engineering": 3,
+      "Renewable Energy": 5,
+      "Biotechnology": 1,
+      "ARTIFICIAL INTELLIGENCE": 80,
+      "Data Science & Engineering": 11,
+      "Computer Science & Engineering": 8,
+      "DATA ANALYTICS": 4,
+      "RENEWABLE ENERGY": 14,
+      "BIOTECHNOLOGY": 4,
+      "CHEMICAL ENGINEERING": 4,
+      "Data Analytics": 4,
+      "Data Science and Engineering": 6
+    },
+    "210": {
+      "Textile Engineering and Management": 12,
+      "TEXTILE ENGINEERING AND MANAGEMENT": 6
+    },
+    "209": {
+      "Thermal Engineering": 5,
+      "Design Engineering": 4,
+      "DESIGN ENGINEERING": 10,
+      "Desing Engineering": 3
+    },
+    "201": {
+      "Biotechnology": 10,
+      "Chemical Engineering": 1,
+      "DATA ANALYTICS": 10,
+      "Data Science & Engineering": 24,
+      "RENEWABLE ENERGY": 8,
+      "BIOTECHNOLOGY": 12,
+      "CHEMICAL ENGINEERING": 1,
+      "Data Analytics": 17,
+      "Data Science and Engineering": 16,
+      "Renewable Energy": 5
+    },
+    "206": {
+      "Control and Instrumentation Engineering": 3,
+      "CONTROL AND INSTRUMENTATION ENGINEERING": 4,
+      "Machine Intelligence and Automation": 6
+    },
+    "902": {
+      "Structural and Construction Engineering": 23,
+      "Geotechnical and Geo Environmental Engineering": 5,
+      "GEOTECHNICAL AND GEO ENVIRONMENTAL ENGINEERING": 20,
+      "STRUCTURAL AND CONSTRUCTION ENGINEERING": 30,
+      "Geotechnical and Geo-environmental Engineering": 4
+    },
+    "910": {
+      "Textile Engineering and Management": 15,
+      "TEXTILE ENGINEERING AND MANAGEMENT": 8
+    },
+    "905": {
+      "Design Engineering": 1,
+      "INDUSTRIAL ENGINEERING AND DATA ANALYTICS": 2
+    },
+    "906": {
+      "Control and Instrumentation Engineering": 3,
+      "CONTROL AND INSTRUMENTATION ENGINEERING": 6,
+      "Machine Intelligence and Automation": 1
+    },
+    "205": {
+      "INDUSTRIAL ENGINEERING AND DATA ANALYTICS": 4,
+      "Industrial Engineering and Data Analytics": 9
+    },
+    "117": {
+      "Data Science and Engineering": 38,
+      "Computer Science and Engineering": 1
+    },
+    "118": {
+      "Electronics and VLSI Engineering": 29
+    }
+  },
+  "unusual_packages_count": 465,
+  "unusual_packages_sample": [
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Chemical Engg",
+      "row": 74,
+      "roll": "20112068",
+      "company": "Neev Flipkart India",
+      "pkg_raw": "50K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Computer Engg",
+      "row": 11,
+      "roll": "20103007",
+      "company": "Quark Software",
+      "pkg_raw": "10K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Computer Engg",
+      "row": 12,
+      "roll": "20103008",
+      "company": "ENTNT",
+      "pkg_raw": "25K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Computer Engg",
+      "row": 24,
+      "roll": "20103019",
+      "company": "ENTNT",
+      "pkg_raw": "25K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Computer Engg",
+      "row": 33,
+      "roll": "20103027",
+      "company": "ENTNT",
+      "pkg_raw": "25K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Computer Engg",
+      "row": 41,
+      "roll": "20103036",
+      "company": "ENTNT",
+      "pkg_raw": "25K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Computer Engg",
+      "row": 92,
+      "roll": "20103078",
+      "company": "Brance",
+      "pkg_raw": "25K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Computer Engg",
+      "row": 94,
+      "roll": "20103080",
+      "company": "Rapidfort",
+      "pkg_raw": "80K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Computer Engg",
+      "row": 180,
+      "roll": "20103149",
+      "company": "GE Digital Meridium Services and Labs Pvt. Ltd.",
+      "pkg_raw": "40K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Computer Engg",
+      "row": 205,
+      "roll": "20103168",
+      "company": "GE Digital Meridium Services and Labs Pvt. Ltd.",
+      "pkg_raw": "40K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Electrical Engg",
+      "row": 75,
+      "roll": "20126061",
+      "company": "Skylark Drones",
+      "pkg_raw": "25K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Electronics Engg",
+      "row": 2,
+      "roll": "20106056",
+      "company": "Nvida",
+      "pkg_raw": "75K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Electronics Engg",
+      "row": 3,
+      "roll": "20126043",
+      "company": "Nvida",
+      "pkg_raw": "75K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Electronics Engg",
+      "row": 7,
+      "roll": "20104002",
+      "company": "Infineon Technologies",
+      "pkg_raw": "41K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Electronics Engg",
+      "row": 20,
+      "roll": "20104014",
+      "company": "Infineon Technologies",
+      "pkg_raw": "41K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Electronics Engg",
+      "row": 40,
+      "roll": "20104032",
+      "company": "Neev Flipkart India",
+      "pkg_raw": "50K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Electronics Engg",
+      "row": 51,
+      "roll": "20104041",
+      "company": "Neev Flipkart India",
+      "pkg_raw": "50K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Electronics Engg",
+      "row": 84,
+      "roll": "20104070",
+      "company": "Neev Flipkart India",
+      "pkg_raw": "50K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Electronics Engg",
+      "row": 132,
+      "roll": "20104114",
+      "company": "Neev Flipkart India",
+      "pkg_raw": "50K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Industrial Engg",
+      "row": 38,
+      "roll": "20113001",
+      "company": "Neev Flipkart India",
+      "pkg_raw": "50K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Industrial Engg",
+      "row": 39,
+      "roll": "20113053",
+      "company": "Neev Flipkart India",
+      "pkg_raw": "50K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Industrial Engg",
+      "row": 40,
+      "roll": "20113081",
+      "company": "Neev Flipkart India",
+      "pkg_raw": "50K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Industrial Engg",
+      "row": 67,
+      "roll": "20113058",
+      "company": "Vardhman Textile Limited",
+      "pkg_raw": "8K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Instrumentation Engg",
+      "row": 40,
+      "roll": "20106025",
+      "company": "Nvida",
+      "pkg_raw": "75K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Instrumentation Engg",
+      "row": 60,
+      "roll": "20106042",
+      "company": "Flipkart",
+      "pkg_raw": "75K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Instrumentation Engg",
+      "row": 93,
+      "roll": "20106073",
+      "company": "Tesco",
+      "pkg_raw": "50K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Instrumentation Engg",
+      "row": 105,
+      "roll": "20106083",
+      "company": "Flipkart",
+      "pkg_raw": "75K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Mechanical Engg",
+      "row": 27,
+      "roll": "20109014",
+      "company": "Neev Flipkart India",
+      "pkg_raw": "50K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Information Technology",
+      "row": 135,
+      "roll": "20124105",
+      "company": "Tesco",
+      "pkg_raw": "50K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 24,
+      "roll": "20110012",
+      "company": "Trident Group",
+      "pkg_raw": "2023-12-18 00:00:00"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 28,
+      "roll": "20110067",
+      "company": "Trident Group",
+      "pkg_raw": "2023-12-18 00:00:00"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 62,
+      "roll": "20112005",
+      "company": "Reliance Industries Limited",
+      "pkg_raw": "30K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 82,
+      "roll": "20112025",
+      "company": "Reliance Industries Limited",
+      "pkg_raw": "30K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 121,
+      "roll": "20112066",
+      "company": "Reliance Industries Limited",
+      "pkg_raw": "30K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 199,
+      "roll": "20102057",
+      "company": "UAS International Group of Companies",
+      "pkg_raw": "NA"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 411,
+      "roll": "20126011",
+      "company": "Reliance Industries Limited",
+      "pkg_raw": "30K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 455,
+      "roll": "20126055",
+      "company": "Reliance Industries Limited",
+      "pkg_raw": "30K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 489,
+      "roll": "20104030",
+      "company": "UAS INTERNATIONAL",
+      "pkg_raw": "N.A"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 608,
+      "roll": "20113031",
+      "company": "Reliance Industries Limited",
+      "pkg_raw": "30K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 654,
+      "roll": "20113079",
+      "company": "Reliance Industries Limited",
+      "pkg_raw": "30K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 671,
+      "roll": "20124004",
+      "company": "Intuit India Product Development Pvt Ltd",
+      "pkg_raw": "80K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 683,
+      "roll": "20124016",
+      "company": "UAS International Group of Companies",
+      "pkg_raw": "NA"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 752,
+      "roll": "20124087",
+      "company": "UAS International Group of Companies",
+      "pkg_raw": "NA"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 807,
+      "roll": "20106024",
+      "company": "Reliance Industries Limited",
+      "pkg_raw": "30K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 845,
+      "roll": "20106063",
+      "company": "Reliance Industries Limited",
+      "pkg_raw": "30K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 944,
+      "roll": "20109050",
+      "company": "Reliance Industries Limited",
+      "pkg_raw": "30K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 948,
+      "roll": "20109054",
+      "company": "Reliance Industries Limited",
+      "pkg_raw": "30K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 1025,
+      "roll": "20110012",
+      "company": "Trident Group",
+      "pkg_raw": "50K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 1029,
+      "roll": "20110016",
+      "company": "Reliance Industries Limited",
+      "pkg_raw": "30K"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "3rd year 2020-24 Internship ",
+      "row": 1038,
+      "roll": "20110026",
+      "company": "Reliance Industries Limited",
+      "pkg_raw": "30K"
+    }
+  ],
+  "shifted_date_examples_count": 194,
+  "shifted_date_examples_sample": [
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Chemical Engg",
+      "row": 7,
+      "roll": "20112005",
+      "date_val": "04.10.2023 PPO",
+      "status_val": "Placed",
+      "company": "Reliance Industries Limited"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Chemical Engg",
+      "row": 29,
+      "roll": "20112025",
+      "date_val": "04.10.2023 PPO",
+      "status_val": "Placed",
+      "company": "Reliance Industries Limited"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Chemical Engg",
+      "row": 72,
+      "roll": "20112066",
+      "date_val": "04.10.2023 PPO",
+      "status_val": "Placed",
+      "company": "Reliance Industries Limited"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Computer Engg",
+      "row": 50,
+      "roll": "20103044",
+      "date_val": "18.08.2023 PPO",
+      "status_val": "Placed",
+      "company": "Goldman Sachs"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Computer Engg",
+      "row": 199,
+      "roll": "20103164",
+      "date_val": "01.09.2023 PPO",
+      "status_val": "Placed",
+      "company": "Adobe"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Computer Engg",
+      "row": 204,
+      "roll": "20103168",
+      "date_val": "17.08.2023 PPO",
+      "status_val": "Placed",
+      "company": "PayPal University Team"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Mechanical Engg",
+      "row": 65,
+      "roll": "20109050",
+      "date_val": "04.10.2023 PPO",
+      "status_val": "Placed",
+      "company": "Reliance Industries Limited"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 2,
+      "roll": "20110077",
+      "date_val": "SC",
+      "status_val": "Placed /Intern",
+      "company": "Amazon"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 3,
+      "roll": "20110084",
+      "date_val": "General",
+      "status_val": "Placed /Intern",
+      "company": "Amazon"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 4,
+      "roll": "20110072",
+      "date_val": "General",
+      "status_val": "Placed",
+      "company": "Arvind Limited"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 5,
+      "roll": "20110010",
+      "date_val": "GEN-EWS",
+      "status_val": "Placed",
+      "company": "Delhivery Limited"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 6,
+      "roll": "20110086",
+      "date_val": "General",
+      "status_val": "Placed",
+      "company": "Directioneducare"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 7,
+      "roll": "20110014",
+      "date_val": "General",
+      "status_val": "Placed",
+      "company": "EXL Services"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 8,
+      "roll": "20110033",
+      "date_val": "General",
+      "status_val": "Placed",
+      "company": "Gainers India"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 9,
+      "roll": "20110074",
+      "date_val": "SC",
+      "status_val": "Placed",
+      "company": "Gainers India"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 10,
+      "roll": "20110042",
+      "date_val": "General",
+      "status_val": "Placed",
+      "company": "Hike Education"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 11,
+      "roll": "20110025",
+      "date_val": "SC",
+      "status_val": "Placed",
+      "company": "Himatsingka Seide Ltd."
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 12,
+      "roll": "20110041",
+      "date_val": "SC",
+      "status_val": "Placed",
+      "company": "Himatsingka Seide Ltd."
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 13,
+      "roll": "20110078",
+      "date_val": "OBC-NCL",
+      "status_val": "Placed",
+      "company": "Himatsingka Seide Ltd."
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 14,
+      "roll": "20110051",
+      "date_val": "GEN-EWS",
+      "status_val": "Placed",
+      "company": "Quantiphi"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 15,
+      "roll": "20110001",
+      "date_val": "OBC-NCL",
+      "status_val": "Placed",
+      "company": "Reliance Industries Limited"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 16,
+      "roll": "20110013",
+      "date_val": "General",
+      "status_val": "Placed",
+      "company": "Reliance Industries Limited"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 17,
+      "roll": "20110016",
+      "date_val": "ST",
+      "status_val": "Placed",
+      "company": "Reliance Industries Limited"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 18,
+      "roll": "20110022",
+      "date_val": "ST",
+      "status_val": "Placed",
+      "company": "Reliance Industries Limited"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 19,
+      "roll": "20110030",
+      "date_val": "OBC-NCL",
+      "status_val": "Placed",
+      "company": "Reliance Industries Limited"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 20,
+      "roll": "20110061",
+      "date_val": "General",
+      "status_val": "Placed",
+      "company": "Reliance Industries Limited"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 21,
+      "roll": "20110066",
+      "date_val": "SC",
+      "status_val": "Placed",
+      "company": "Reliance Industries Limited"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 22,
+      "roll": "20110051",
+      "date_val": "GEN-EWS",
+      "status_val": "Placed",
+      "company": "Teachnook"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 23,
+      "roll": "20110079",
+      "date_val": "OBC-NCL",
+      "status_val": "Placed",
+      "company": "Tex Fasteners"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 24,
+      "roll": "20110012",
+      "date_val": "General",
+      "status_val": "Placed",
+      "company": "Trident Group"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 25,
+      "roll": "20110036",
+      "date_val": "GEN-EWS",
+      "status_val": "Placed",
+      "company": "Trident Group"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 26,
+      "roll": "20110045",
+      "date_val": "General",
+      "status_val": "Placed",
+      "company": "Trident Group"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 27,
+      "roll": "20110065",
+      "date_val": "OBC-NCL",
+      "status_val": "Placed",
+      "company": "Trident Group"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 28,
+      "roll": "20110067",
+      "date_val": "SC",
+      "status_val": "Placed",
+      "company": "Trident Group"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 29,
+      "roll": "20110006",
+      "date_val": "General",
+      "status_val": "Placed",
+      "company": "Trutzschler"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 30,
+      "roll": "20110009",
+      "date_val": "OBC-NCL",
+      "status_val": "Placed",
+      "company": "Unacademy"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 31,
+      "roll": "20110028",
+      "date_val": "OBC-NCL",
+      "status_val": "Placed",
+      "company": "Unacademy"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 32,
+      "roll": "20110057",
+      "date_val": "OBC-NCL",
+      "status_val": "Placed",
+      "company": "Unacademy"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 33,
+      "roll": "20110034",
+      "date_val": "OBC-NCL",
+      "status_val": "Placed",
+      "company": "Urban Company"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 34,
+      "roll": "20110082",
+      "date_val": "General",
+      "status_val": "Placed",
+      "company": "Urban Company"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 35,
+      "roll": "20110034",
+      "date_val": "OBC-NCL",
+      "status_val": "Placed",
+      "company": "Zomato"
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 36,
+      "roll": "20110002",
+      "date_val": "General",
+      "status_val": null,
+      "company": null
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 37,
+      "roll": "20110003",
+      "date_val": "OBC-NCL",
+      "status_val": null,
+      "company": null
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 38,
+      "roll": "20110004",
+      "date_val": "SC",
+      "status_val": null,
+      "company": null
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 39,
+      "roll": "20110005",
+      "date_val": "GEN-EWS",
+      "status_val": null,
+      "company": null
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 40,
+      "roll": "20110007",
+      "date_val": "OBC-NCL",
+      "status_val": null,
+      "company": null
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 41,
+      "roll": "20110008",
+      "date_val": "OBC-NCL",
+      "status_val": null,
+      "company": null
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 42,
+      "roll": "20110011",
+      "date_val": "SC",
+      "status_val": null,
+      "company": null
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 43,
+      "roll": "20110015",
+      "date_val": "GEN-EWS",
+      "status_val": null,
+      "company": null
+    },
+    {
+      "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+      "sheet": "Textile Technology",
+      "row": 44,
+      "roll": "20110017",
+      "date_val": "General",
+      "status_val": null,
+      "company": null
+    }
+  ],
+  "unparsable_rows_count": 0,
+  "unparsable_rows": [],
+  "duplicate_examples_sample": [
+    {
+      "key": [
+        "20112005",
+        "reliance industries limited"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Chemical Engg",
+          "row": 7,
+          "roll": "20112005",
+          "company": "Reliance Industries Limited",
+          "pkg": "7.5",
+          "status": "Placed",
+          "date": "04.10.2023 PPO"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 62,
+          "roll": "20112005",
+          "company": "Reliance Industries Limited",
+          "pkg": "30K",
+          "status": "Summer Intern",
+          "date": "21.03.2023"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20112025",
+        "reliance industries limited"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Chemical Engg",
+          "row": 29,
+          "roll": "20112025",
+          "company": "Reliance Industries Limited",
+          "pkg": "7.5",
+          "status": "Placed",
+          "date": "04.10.2023 PPO"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 82,
+          "roll": "20112025",
+          "company": "Reliance Industries Limited",
+          "pkg": "30K",
+          "status": "Summer Intern",
+          "date": "21.03.2023"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20112066",
+        "reliance industries limited"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Chemical Engg",
+          "row": 72,
+          "roll": "20112066",
+          "company": "Reliance Industries Limited",
+          "pkg": "7.5",
+          "status": "Placed",
+          "date": "04.10.2023 PPO"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 121,
+          "roll": "20112066",
+          "company": "Reliance Industries Limited",
+          "pkg": "30K",
+          "status": "Summer Intern",
+          "date": "21.03.2023"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20103017",
+        "amazon"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Computer Engg",
+          "row": 21,
+          "roll": "20103017",
+          "company": "Amazon",
+          "pkg": "52.0",
+          "status": "Placed",
+          "date": "28.06.2024"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 250,
+          "roll": "20103017",
+          "company": "Amazon",
+          "pkg": "80000.0",
+          "status": "Intern",
+          "date": "22.08.2022"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20103061",
+        "amazon"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Computer Engg",
+          "row": 68,
+          "roll": "20103061",
+          "company": "Amazon",
+          "pkg": "52.0",
+          "status": "Placed",
+          "date": "12.06.2024"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 293,
+          "roll": "20103061",
+          "company": "Amazon",
+          "pkg": "80000.0",
+          "status": "Intern",
+          "date": "22.08.2022"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20103074",
+        "amazon"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Computer Engg",
+          "row": 86,
+          "roll": "20103074",
+          "company": "Amazon",
+          "pkg": "52.0",
+          "status": "Placed",
+          "date": "27.06.2024"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 306,
+          "roll": "20103074",
+          "company": "Amazon",
+          "pkg": "80000.0",
+          "status": "Intern",
+          "date": "22.08.2022"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20103097",
+        "amazon"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Computer Engg",
+          "row": 113,
+          "roll": "20103097",
+          "company": "Amazon",
+          "pkg": "52.0",
+          "status": "Placed",
+          "date": "28.06.2024"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 329,
+          "roll": "20103097",
+          "company": "Amazon",
+          "pkg": "80000.0",
+          "status": "Intern",
+          "date": "22.08.2022"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20103108",
+        "amazon"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Computer Engg",
+          "row": 128,
+          "roll": "20103108",
+          "company": "Amazon",
+          "pkg": "52.0",
+          "status": "Placed",
+          "date": "28.06.2024"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 340,
+          "roll": "20103108",
+          "company": "Amazon",
+          "pkg": "80000.0",
+          "status": "Intern",
+          "date": "22.08.2022"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20103154",
+        "amazon"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Computer Engg",
+          "row": 186,
+          "roll": "20103154",
+          "company": "Amazon",
+          "pkg": "52.0",
+          "status": "Placed",
+          "date": "18.07.2024"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 386,
+          "roll": "20103154",
+          "company": "Amazon",
+          "pkg": "80000.0",
+          "status": "Intern",
+          "date": "22.08.2022"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20103166",
+        "amazon"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Computer Engg",
+          "row": 201,
+          "roll": "20103166",
+          "company": "Amazon",
+          "pkg": "52.0",
+          "status": "Placed",
+          "date": "27.06.2024"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 398,
+          "roll": "20103166",
+          "company": "Amazon",
+          "pkg": "80000.0",
+          "status": "Intern",
+          "date": "22.08.2022"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20109110",
+        "amazon"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Electrical Engg",
+          "row": 2,
+          "roll": "20109110",
+          "company": "Amazon",
+          "pkg": "52.0",
+          "status": "Placed",
+          "date": "27.06.2024"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 1004,
+          "roll": "20109110",
+          "company": "Amazon",
+          "pkg": "80000.0",
+          "status": "Intern",
+          "date": "22.08.2022"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20126040",
+        "amazon"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Electrical Engg",
+          "row": 53,
+          "roll": "20126040",
+          "company": "Amazon",
+          "pkg": "52.0",
+          "status": "Placed",
+          "date": "12.06.2024"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 440,
+          "roll": "20126040",
+          "company": "Amazon",
+          "pkg": "80000.0",
+          "status": "Intern",
+          "date": "22.08.2022"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20109050",
+        "reliance industries limited"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Mechanical Engg",
+          "row": 65,
+          "roll": "20109050",
+          "company": "Reliance Industries Limited",
+          "pkg": "7.5",
+          "status": "Placed",
+          "date": "04.10.2023 PPO"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 944,
+          "roll": "20109050",
+          "company": "Reliance Industries Limited",
+          "pkg": "30K",
+          "status": "Summer Intern",
+          "date": "21.03.2023"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20126018",
+        "amazon"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Information Technology",
+          "row": 2,
+          "roll": "20126018",
+          "company": "Amazon",
+          "pkg": "52.0",
+          "status": "Placed",
+          "date": "27.06.2024"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 418,
+          "roll": "20126018",
+          "company": "Amazon",
+          "pkg": "80000.0",
+          "status": "Intern",
+          "date": "22.08.2022"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20124009",
+        "amazon"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Information Technology",
+          "row": 16,
+          "roll": "20124009",
+          "company": "Amazon",
+          "pkg": "52.0",
+          "status": "Placed",
+          "date": "27.06.2024"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 676,
+          "roll": "20124009",
+          "company": "Amazon",
+          "pkg": "80000.0",
+          "status": "Intern",
+          "date": "22.08.2022"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20124028",
+        "amazon"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Information Technology",
+          "row": 40,
+          "roll": "20124028",
+          "company": "Amazon",
+          "pkg": "52.0",
+          "status": "Placed",
+          "date": "27.06.2024"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 695,
+          "roll": "20124028",
+          "company": "Amazon",
+          "pkg": "80000.0",
+          "status": "Intern",
+          "date": "22.08.2022"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20110016",
+        "reliance industries limited"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Textile Technology",
+          "row": 17,
+          "roll": "20110016",
+          "company": "Reliance Industries Limited",
+          "pkg": "7.5",
+          "status": "Placed",
+          "date": "ST"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 1029,
+          "roll": "20110016",
+          "company": "Reliance Industries Limited",
+          "pkg": "30K",
+          "status": "Summer Intern",
+          "date": "21.03.2023"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20110061",
+        "reliance industries limited"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Textile Technology",
+          "row": 20,
+          "roll": "20110061",
+          "company": "Reliance Industries Limited",
+          "pkg": "7.5",
+          "status": "Placed",
+          "date": "General"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 1073,
+          "roll": "20110061",
+          "company": "Reliance Industries Limited",
+          "pkg": "30K",
+          "status": "Summer Intern",
+          "date": "21.03.2023"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20110066",
+        "reliance industries limited"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Textile Technology",
+          "row": 21,
+          "roll": "20110066",
+          "company": "Reliance Industries Limited",
+          "pkg": "7.5",
+          "status": "Placed",
+          "date": "SC"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 1078,
+          "roll": "20110066",
+          "company": "Reliance Industries Limited",
+          "pkg": "30K",
+          "status": "Summer Intern",
+          "date": "21.03.2023"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20110012",
+        "trident group"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Textile Technology",
+          "row": 24,
+          "roll": "20110012",
+          "company": "Trident Group",
+          "pkg": "2023-12-18 00:00:00",
+          "status": "Placed",
+          "date": "General"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 1025,
+          "roll": "20110012",
+          "company": "Trident Group",
+          "pkg": "50K",
+          "status": "Placed",
+          "date": "14.09.2022"
+        }
+      ]
+    },
+    {
+      "key": [
+        "20110067",
+        "trident group"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "Textile Technology",
+          "row": 28,
+          "roll": "20110067",
+          "company": "Trident Group",
+          "pkg": "2023-12-18 00:00:00",
+          "status": "Placed",
+          "date": "SC"
+        },
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "3rd year 2020-24 Internship ",
+          "row": 1079,
+          "roll": "20110067",
+          "company": "Trident Group",
+          "pkg": "50K",
+          "status": "Placed",
+          "date": "14.09.2022"
+        }
+      ]
+    },
+    {
+      "key": [
+        "23204132",
+        "cadence"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "M.Tech 2023-25",
+          "row": 2,
+          "roll": "23204132",
+          "company": "Cadence",
+          "pkg": "40K",
+          "status": "Long Intern",
+          "date": "27.02.2024"
+        },
+        {
+          "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+          "sheet": "M.Tech 2023-25",
+          "row": 14,
+          "roll": "23204132",
+          "company": "Cadence",
+          "pkg": "45k",
+          "status": "Long Intern",
+          "date": "27.02.2024"
+        }
+      ]
+    },
+    {
+      "key": [
+        "23203029",
+        "dell technologies"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "M.Tech 2023-25",
+          "row": 3,
+          "roll": "23203029",
+          "company": "Dell Technologies",
+          "pkg": "45K",
+          "status": "Long Intern",
+          "date": "28.03.2024"
+        },
+        {
+          "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+          "sheet": "M.Tech 2023-25",
+          "row": 50,
+          "roll": "23203029",
+          "company": "Dell Technologies",
+          "pkg": "45K, 22 Lac",
+          "status": "Long Intern",
+          "date": "28.03.2024"
+        }
+      ]
+    },
+    {
+      "key": [
+        "23203008",
+        "dell technologies"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "M.Tech 2023-25",
+          "row": 4,
+          "roll": "23203008",
+          "company": "Dell Technologies",
+          "pkg": "45K",
+          "status": "Long Intern",
+          "date": "28.02.2024"
+        },
+        {
+          "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+          "sheet": "M.Tech 2023-25",
+          "row": 46,
+          "roll": "23203008",
+          "company": "Dell Technologies",
+          "pkg": "45K, 22 Lac",
+          "status": "Long Intern",
+          "date": "28.02.2024"
+        }
+      ]
+    },
+    {
+      "key": [
+        "23203015",
+        "dell technologies"
+      ],
+      "count": 2,
+      "occurrences": [
+        {
+          "file": "2020-24 and 2022-24 Batch_Placement Database.xlsx",
+          "sheet": "M.Tech 2023-25",
+          "row": 5,
+          "roll": "23203015",
+          "company": "Dell Technologies",
+          "pkg": "45K",
+          "status": "Long Intern",
+          "date": "28.02.2024"
+        },
+        {
+          "file": "2021-25 and 2023-25 Batch_Placement Database.xlsx",
+          "sheet": "M.Tech 2023-25",
+          "row": 47,
+          "roll": "23203015",
+          "company": "Dell Technologies",
+          "pkg": "45K, 22 Lac",
+          "status": "Long Intern",
+          "date": "28.02.2024"
+        }
+      ]
+    }
+  ]
+}
