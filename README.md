@@ -53,15 +53,15 @@ The project strictly adheres to the enterprise architectural mandate: **React 18
 
 ```mermaid
 flowchart TD
-    User(["👤 Student / Coordinator (Browser)"]) <-->|HTTP / REST JSON| UI["⚛️ React 18 Liquid UI (Vite + Tailwind CSS v4)"]
-    UI <-->|POST /api/chat| Express["🟢 Node.js Express Gateway (:5000)"]
+    User(["👤 Student / Coordinator (Browser)"]) -->|"HTTP / REST JSON"| UI["⚛️ React 18 Liquid UI (Vite + Tailwind CSS v4)"]
+    UI -->|"POST /api/chat"| Express["🟢 Node.js Express Gateway (:5000)"]
     
     subgraph Express_Tier["Gateway & Orchestration Tier"]
         Express <--> Cache["⚡ Memory Cache & Session Store"]
         Express --> AuditLog["📝 logs/query_audit.jsonl"]
     end
 
-    Express <-->|Subprocess Bridge (child_process.spawn)| Agent["🐍 PlacementAgent (src/agent/agent.py)"]
+    Express -->|"IPC Pipe: child_process.spawn"| Agent["🐍 PlacementAgent (src/agent/agent.py)"]
 
     subgraph Intelligence_Core["Intelligence & Verification Tier"]
         Agent --> AdvFilter["🛡️ Adversarial & PII Guard"]
@@ -88,8 +88,9 @@ flowchart TD
     end
 
     Verifier --> Agent
-    Agent --> Express
-    Express --> UI
+    Agent -->|"JSON Response"| Express
+    Express -->|"Verified Payload"| UI
+    UI -->|"Typewriter Streaming"| User
 ```
 
 ---
@@ -395,13 +396,11 @@ Dispatches a user query to the placement assistant.
 ## 🗺️ Next-Semester Production Roadmap
 
 ```mermaid
-timeline
-    title 5-Phase Production Expansion Roadmap
-    Phase 1 (Month 1-2) : Automated Multi-Format Ingestion : Drag-and-drop Excel/CSV portal : Levenshtein auto-alias pipeline
-    Phase 2 (Month 2-3) : Dense Vector Hybrid RAG : ChromaDB + BGE-large-en : Reciprocal Rank Fusion (RRF)
-    Phase 3 (Month 3-4) : Resume Radar Analyzer : PDF parser with spaCy & Mistral : Company skill gap reports
-    Phase 4 (Month 4-5) : Multi-Agent Autonomous Swarm : LangGraph decentralized agents : Analyst + Coach + Scout team
-    Phase 5 (Month 5-6) : Enterprise Cloud Deployment : Docker containerization : PostgreSQL + Redis + NITJ SSO
+flowchart LR
+    P1["Phase 1: Multi-Format Ingestion (Excel/CSV Portal)"] --> P2["Phase 2: Dense Vector Hybrid RAG (ChromaDB + BM25)"]
+    P2 --> P3["Phase 3: Resume Radar (PDF Skill Gap Analyzer)"]
+    P3 --> P4["Phase 4: Multi-Agent Autonomous Swarm (Analyst + Coach)"]
+    P4 --> P5["Phase 5: Cloud Deployment & Institute SSO (PostgreSQL + Docker)"]
 ```
 
 1. **Phase 1: Automated Data Ingestion Portal**: Web admin portal for T&P coordinators to drag-and-drop raw Excel workbooks with automated schema validation, duplicate detection, and live database updates.
